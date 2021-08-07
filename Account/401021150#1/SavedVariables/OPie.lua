@@ -332,8 +332,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuez8Sytd0",
 				}, -- [5]
 				["save"] = true,
-				["limit"] = "Dehlicia-Mazrigos",
 				["name"] = "Warlock Healing",
+				["limit"] = "Dehlicia-Mazrigos",
 			},
 			["riestBuffs"] = {
 				{

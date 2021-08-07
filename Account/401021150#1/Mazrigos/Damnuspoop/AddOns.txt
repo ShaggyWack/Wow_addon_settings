@@ -56,6 +56,6 @@ WeakAurasOptions: enabled
 WeakAurasTemplates: enabled
 WorldQuestsList: enabled
 AddOnSkins: enabled
-Narcissus: enabled
+Narcissus: disabled
 Narcissus_Database: enabled
-Narcissus_Barbershop: enabled
+Narcissus_Barbershop: disabled

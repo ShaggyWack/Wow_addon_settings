@@ -13,3 +13,5 @@ TidyPlates: disabled
 ElvUI_OptionsUI: enabled
 ElvUI: enabled
 ElvUI_AutoLog: enabled
+Narcissus: disabled
+Narcissus_Barbershop: disabled

@@ -3,6 +3,9 @@ MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
 			["scrollAreas"] = {
+				["Outgoing"] = {
+					["disabled"] = true,
+				},
 				["Incoming"] = {
 					["direction"] = "Up",
 					["critFontName"] = "2002 Bold",
@@ -11,13 +14,10 @@ MSBTProfiles_SavedVars = {
 					["offsetX"] = -174,
 					["normalFontName"] = "2002 Bold",
 				},
-				["Notification"] = {
-					["disabled"] = true,
-				},
 				["Static"] = {
 					["disabled"] = true,
 				},
-				["Outgoing"] = {
+				["Notification"] = {
 					["disabled"] = true,
 				},
 			},
@@ -37,7 +37,23 @@ MSBTProfiles_SavedVars = {
 			["creationVersion"] = "5.7.152",
 			["classColoringDisabled"] = true,
 			["scrollAreas"] = {
+				["Incoming"] = {
+					["critFontAlpha"] = 100,
+					["critFontName"] = "2002 Bold",
+					["critOutlineIndex"] = 1,
+					["stickyBehavior"] = "Normal",
+					["critFontSize"] = 26,
+					["offsetX"] = -175,
+					["normalOutlineIndex"] = 1,
+					["normalFontAlpha"] = 100,
+					["normalFontName"] = "2002 Bold",
+					["offsetY"] = -141,
+					["normalFontSize"] = 18,
+				},
 				["Notification"] = {
+					["disabled"] = true,
+				},
+				["Static"] = {
 					["disabled"] = true,
 				},
 				["Outgoing"] = {
@@ -52,22 +68,6 @@ MSBTProfiles_SavedVars = {
 					["normalFontAlpha"] = 100,
 					["normalFontName"] = "2002 Bold",
 					["normalOutlineIndex"] = 1,
-					["normalFontSize"] = 18,
-				},
-				["Static"] = {
-					["disabled"] = true,
-				},
-				["Incoming"] = {
-					["critFontAlpha"] = 100,
-					["critFontName"] = "2002 Bold",
-					["critOutlineIndex"] = 1,
-					["stickyBehavior"] = "Normal",
-					["critFontSize"] = 26,
-					["offsetX"] = -175,
-					["normalOutlineIndex"] = 1,
-					["normalFontAlpha"] = 100,
-					["normalFontName"] = "2002 Bold",
-					["offsetY"] = -141,
 					["normalFontSize"] = 18,
 				},
 			},

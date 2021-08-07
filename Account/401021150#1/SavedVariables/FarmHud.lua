@@ -92,7 +92,7 @@ FarmHudDB = {
 	["MinimapIcon"] = {
 		["minimapPos"] = 264.3119964616971,
 		["radius"] = 80,
-		["hide"] = false,
+		["hide"] = true,
 	},
 	["tracking^134153"] = "client",
 	["cardinalpoints_show"] = false,

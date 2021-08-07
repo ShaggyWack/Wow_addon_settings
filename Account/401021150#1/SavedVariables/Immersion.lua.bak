@@ -10,7 +10,7 @@ ImmersionSetup = {
 	["enablenumbers"] = false,
 	["hidetooltip"] = true,
 	["disableprogression"] = true,
-	["boxpoint"] = "Bottom",
+	["inspect"] = "SHIFT",
 	["hideui"] = true,
 	["titlelock"] = true,
 	["disableanisequence"] = false,
@@ -26,7 +26,7 @@ ImmersionSetup = {
 	["delaydivisor"] = 40,
 	["boxlock"] = true,
 	["anidivisor"] = 5,
-	["inspect"] = "SHIFT",
 	["titleoffsetY"] = -83.333740234375,
+	["boxpoint"] = "Bottom",
 	["reset"] = "BACKSPACE",
 }

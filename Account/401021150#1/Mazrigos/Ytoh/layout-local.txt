@@ -76,13 +76,6 @@ X: 166
 Y: 1
 W: 58
 H: 75
-Frame: DressUpFrame
-FrameLevel: 1
-Anchor: LEFT
-X: 16
-Y: 109
-W: 650
-H: 750
 Frame: StaticPopup1
 FrameLevel: 1
 Anchor: CENTER

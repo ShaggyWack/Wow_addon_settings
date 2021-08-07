@@ -1,27 +1,5 @@
 
 ElvCharacterDB = {
-	["ChatEditHistory"] = {
-		"/opie", -- [1]
-		"/s I need that mana", -- [2]
-		"/s just gimme a sec", -- [3]
-		"/s thanks", -- [4]
-		"/s ready", -- [5]
-		"/s eating", -- [6]
-		"/s one sec", -- [7]
-		"/i I am sad man", -- [8]
-		"/i you good there mr. tank man?", -- [9]
-		"/i DK is tank now?", -- [10]
-		"/i hhmkay", -- [11]
-		"/i We gon do this?", -- [12]
-		"/i aight home bois, lemme swap to dps this time", -- [13]
-		"/wa", -- [14]
-		"/reload", -- [15]
-		"/sleep", -- [16]
-		"/elvui", -- [17]
-		"/wave", -- [18]
-		"/silly", -- [19]
-		"/dance", -- [20]
-	},
 	["ChatHistoryLog"] = {
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:14371:Player-1388-06CF69AB:1:12:22:20:4294967295:4294967295:4294967295:4294967295|h[Mists of Tirna Scithe]|h|r!", -- [1]
@@ -2202,4 +2180,27 @@ ElvCharacterDB = {
 			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
+	["ChatEditHistory"] = {
+		"/opie", -- [1]
+		"/s I need that mana", -- [2]
+		"/s just gimme a sec", -- [3]
+		"/s thanks", -- [4]
+		"/s ready", -- [5]
+		"/s eating", -- [6]
+		"/s one sec", -- [7]
+		"/i I am sad man", -- [8]
+		"/i you good there mr. tank man?", -- [9]
+		"/i DK is tank now?", -- [10]
+		"/i hhmkay", -- [11]
+		"/i We gon do this?", -- [12]
+		"/i aight home bois, lemme swap to dps this time", -- [13]
+		"/wa", -- [14]
+		"/reload", -- [15]
+		"/sleep", -- [16]
+		"/elvui", -- [17]
+		"/wave", -- [18]
+		"/silly", -- [19]
+		"/dance", -- [20]
+	},
+	["ConvertKeybindings"] = true,
 }

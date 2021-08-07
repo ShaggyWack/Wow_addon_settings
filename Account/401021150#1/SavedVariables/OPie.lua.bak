@@ -199,23 +199,23 @@ OneRing_Config = {
 			},
 			["lockCurses"] = {
 				{
-					["sliceToken"] = "ABuez8SytdB",
 					["id"] = 334275,
+					["sliceToken"] = "ABuez8SytdB",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuez8Sytd/",
 					["id"] = 1714,
+					["sliceToken"] = "ABuez8Sytd/",
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuez8SytdC",
 					["id"] = 5782,
+					["sliceToken"] = "ABuez8SytdC",
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuez8SytdV",
 					["id"] = 702,
+					["sliceToken"] = "ABuez8SytdV",
 				}, -- [4]
-				["limit"] = "Dehlicia-Mazrigos",
 				["save"] = true,
+				["limit"] = "Dehlicia-Mazrigos",
 				["name"] = "Warlock Curses",
 			},
 			["PetUtility"] = {
@@ -245,94 +245,94 @@ OneRing_Config = {
 			},
 			["ockHealing"] = {
 				{
-					["sliceToken"] = "ABuez8SytdH",
 					["id"] = 234153,
+					["sliceToken"] = "ABuez8SytdH",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuez8SytdG",
 					["id"] = 755,
+					["sliceToken"] = "ABuez8SytdG",
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuez8SytdF",
 					["id"] = 6789,
+					["sliceToken"] = "ABuez8SytdF",
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuez8SytdD",
 					["id"] = 104773,
+					["sliceToken"] = "ABuez8SytdD",
 				}, -- [4]
 				{
 					"item", -- [1]
 					5512, -- [2]
 					["sliceToken"] = "ABuez8Sytd0",
 				}, -- [5]
-				["name"] = "Warlock Healing",
 				["save"] = true,
 				["limit"] = "Dehlicia-Mazrigos",
+				["name"] = "Warlock Healing",
 			},
 			["arlockUtil"] = {
 				{
-					["sliceToken"] = "ABuez8Sytdwu",
 					["id"] = 698,
+					["sliceToken"] = "ABuez8Sytdwu",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuez8Sytdwy",
 					["id"] = 342601,
+					["sliceToken"] = "ABuez8Sytdwy",
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuezIj/1hr",
 					["id"] = 1098,
+					["sliceToken"] = "ABuezIj/1hr",
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuez8Sytdw1",
 					["id"] = 5697,
+					["sliceToken"] = "ABuez8Sytdw1",
 				}, -- [4]
 				{
-					["sliceToken"] = "ABuez8Sytdwo",
 					["id"] = 20707,
+					["sliceToken"] = "ABuez8Sytdwo",
 				}, -- [5]
 				{
-					["sliceToken"] = "ABuez8Sytdwt",
 					["id"] = 6201,
+					["sliceToken"] = "ABuez8Sytdwt",
 				}, -- [6]
 				{
-					["sliceToken"] = "ABuezIj/1h1",
 					["id"] = 29893,
+					["sliceToken"] = "ABuezIj/1h1",
 				}, -- [7]
-				["limit"] = "Dehlicia-Mazrigos",
 				["save"] = true,
+				["limit"] = "Dehlicia-Mazrigos",
 				["name"] = "Warlock Util",
 			},
 			["rriorBuffs"] = {
 				{
-					["id"] = 6673,
 					["sliceToken"] = "ABuezvvlokP",
+					["id"] = 6673,
 				}, -- [1]
 				{
-					["id"] = 5246,
 					["sliceToken"] = "ABuezvvlokO",
+					["id"] = 5246,
 				}, -- [2]
 				{
-					["id"] = 18499,
 					["sliceToken"] = "ABuezvvlokI",
+					["id"] = 18499,
 				}, -- [3]
 				{
-					["id"] = 184364,
 					["sliceToken"] = "ABuezvvlokU",
+					["id"] = 184364,
 				}, -- [4]
 				{
-					["id"] = 12323,
 					["sliceToken"] = "ABuezvvlokY",
+					["id"] = 12323,
 				}, -- [5]
 				{
-					["id"] = 97462,
 					["sliceToken"] = "ABuezme=he1",
+					["id"] = 97462,
 				}, -- [6]
 				{
-					["id"] = 23920,
 					["sliceToken"] = "ABuezme=her",
+					["id"] = 23920,
 				}, -- [7]
-				["save"] = true,
 				["limit"] = "Shirang-Mazrigos",
+				["save"] = true,
 				["name"] = "Futy Warrior Buffs",
 			},
 			["riestBuffs"] = {

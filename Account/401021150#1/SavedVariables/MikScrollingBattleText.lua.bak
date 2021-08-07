@@ -6,15 +6,6 @@ MSBTProfiles_SavedVars = {
 			["soundsDisabled"] = true,
 			["enableBlizzardDamage"] = true,
 			["scrollAreas"] = {
-				["Notification"] = {
-					["disabled"] = true,
-				},
-				["Outgoing"] = {
-					["disabled"] = true,
-				},
-				["Static"] = {
-					["disabled"] = true,
-				},
 				["Incoming"] = {
 					["direction"] = "Up",
 					["critFontName"] = "2002 Bold",
@@ -22,6 +13,15 @@ MSBTProfiles_SavedVars = {
 					["offsetY"] = -158,
 					["normalFontName"] = "2002 Bold",
 					["offsetX"] = -174,
+				},
+				["Notification"] = {
+					["disabled"] = true,
+				},
+				["Static"] = {
+					["disabled"] = true,
+				},
+				["Outgoing"] = {
+					["disabled"] = true,
 				},
 			},
 			["textShadowingDisabled"] = true,
@@ -360,6 +360,9 @@ MSBTProfiles_SavedVars = {
 				},
 			},
 			["scrollAreas"] = {
+				["Notification"] = {
+					["disabled"] = true,
+				},
 				["Outgoing"] = {
 					["direction"] = "Up",
 					["critFontName"] = "2002 Bold",
@@ -374,6 +377,9 @@ MSBTProfiles_SavedVars = {
 					["offsetY"] = -141,
 					["normalFontSize"] = 18,
 				},
+				["Static"] = {
+					["disabled"] = true,
+				},
 				["Incoming"] = {
 					["critFontAlpha"] = 100,
 					["critFontName"] = "2002 Bold",
@@ -386,12 +392,6 @@ MSBTProfiles_SavedVars = {
 					["normalFontName"] = "2002 Bold",
 					["offsetY"] = -141,
 					["normalFontSize"] = 18,
-				},
-				["Static"] = {
-					["disabled"] = true,
-				},
-				["Notification"] = {
-					["disabled"] = true,
 				},
 			},
 			["shortenNumbers"] = true,

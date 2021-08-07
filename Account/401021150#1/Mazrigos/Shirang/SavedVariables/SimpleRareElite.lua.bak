@@ -1,3 +1,3 @@
 
-skin = "modern"
+skin = "tiny"
 fl = 12

@@ -2,116 +2,28 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/i I hate freehold so much", -- [1]
-		"/i This skip shit hurt me in the brain", -- [2]
-		"/i I do it", -- [3]
-		"/i I hate this so much", -- [4]
-		"/i dudes", -- [5]
-		"/i someones is gonna pull this shit", -- [6]
-		"/i Following is hard when you can fly my guy", -- [7]
-		"/s gmmmm", -- [8]
-		"/s dance", -- [9]
-		"/s over here lads", -- [10]
+		"/i someones is gonna pull this shit", -- [1]
+		"/s gmmmm", -- [2]
+		"/s over here lads", -- [3]
+		"/s over here", -- [4]
+		"/s play with us", -- [5]
+		"/s we have illigal things", -- [6]
+		"/wa", -- [7]
+		"/elvui", -- [8]
+		"/i I do it", -- [9]
+		"/i Following is hard when you can fly my guy", -- [10]
 		"/s folloq the poison fire", -- [11]
-		"/s over here", -- [12]
-		"/s come down", -- [13]
-		"/s play with us", -- [14]
-		"/s join the pary", -- [15]
-		"/s we have illigal things", -- [16]
+		"/s join the pary", -- [12]
+		"/reload", -- [13]
+		"/i dudes", -- [14]
+		"/s come down", -- [15]
+		"/i I hate freehold so much", -- [16]
 		"/opie", -- [17]
-		"/wa", -- [18]
-		"/reload", -- [19]
-		"/elvui", -- [20]
+		"/s dance", -- [18]
+		"/cw Demonchrist-Khadgar sure friend", -- [19]
+		"/cw Demonchrist-Khadgar throw it my way again", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"you pulled the mobs", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2332, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628289593,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [1]
-		{
-			"that idot", -- [1]
-			"Fatmou-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fatmou-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2333, -- [11]
-			"Player-1402-0A009594", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Fatmou-Turalyon|r",
-			[51] = 1628289598,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"get behind me lickmyhorse", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2334, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628289601,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [3]
-		{
-			"and follow me", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2335, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628289603,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [4]
 		{
 			"im tank now", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -133,7 +45,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628289676,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
+		}, -- [1]
 		{
 			"much batter", -- [1]
 			"Fatmou-Turalyon", -- [2]
@@ -155,7 +67,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Fatmou-Turalyon|r",
 			[51] = 1628289697,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
+		}, -- [2]
 		{
 			"ive been in this instance like 10 times today", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -177,7 +89,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628290275,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [7]
+		}, -- [3]
 		{
 			"somebody pulls that pack EVERY SINGLE TIME", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -199,7 +111,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628290282,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [8]
+		}, -- [4]
 		{
 			"sounds fun", -- [1]
 			"Delitvå-Alonsus", -- [2]
@@ -221,7 +133,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Delitvå-Alonsus|r",
 			[51] = 1628290285,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
+		}, -- [5]
 		{
 			"anyone got repair mount", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -243,7 +155,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628290380,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
+		}, -- [6]
 		{
 			"dont pull", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -265,7 +177,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628290383,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
+		}, -- [7]
 		{
 			"repair moumt?", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -287,7 +199,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628290392,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
+		}, -- [8]
 		{
 			"yes", -- [1]
 			"Guapajeje-Tyrande", -- [2]
@@ -309,7 +221,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGuapajeje-Tyrande|r",
 			[51] = 1628290409,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
+		}, -- [9]
 		{
 			"lel", -- [1]
 			"Guapajeje-Tyrande", -- [2]
@@ -331,7 +243,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGuapajeje-Tyrande|r",
 			[51] = 1628290416,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
+		}, -- [10]
 		{
 			"cant use it", -- [1]
 			"Guapajeje-Tyrande", -- [2]
@@ -353,7 +265,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGuapajeje-Tyrande|r",
 			[51] = 1628290417,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
+		}, -- [11]
 		{
 			"ready?", -- [1]
 			"Guapajeje-Tyrande", -- [2]
@@ -375,7 +287,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cGuapajeje-Tyrande|r",
 			[51] = 1628290444,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
+		}, -- [12]
 		{
 			"yes", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -397,7 +309,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628290448,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
+		}, -- [13]
 		{
 			"yeh", -- [1]
 			"Delitvå-Alonsus", -- [2]
@@ -419,7 +331,7 @@ ElvCharacterDB = {
 			[52] = "|cffa9d271Delitvå-Alonsus|r",
 			[51] = 1628290448,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
+		}, -- [14]
 		{
 			"go", -- [1]
 			"Çhristian-Ravencrest", -- [2]
@@ -441,7 +353,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Çhristian-Ravencrest|r",
 			[51] = 1628290450,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
+		}, -- [15]
 		{
 			"r", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -463,7 +375,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291127,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
+		}, -- [16]
 		{
 			"warrior?", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -485,7 +397,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291138,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [21]
+		}, -- [17]
 		{
 			"I hate freehold so much", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -507,7 +419,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291191,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
+		}, -- [18]
 		{
 			"This skip shit hurt me in the brain", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -529,7 +441,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291202,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
+		}, -- [19]
 		{
 			"sec", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -551,7 +463,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291212,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [24]
+		}, -- [20]
 		{
 			"can somebody else queue", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -573,7 +485,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291220,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [25]
+		}, -- [21]
 		{
 			"i wanted to queue as tank/healer/dps", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -595,7 +507,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291225,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [26]
+		}, -- [22]
 		{
 			"instead of just dps", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -617,7 +529,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291228,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [27]
+		}, -- [23]
 		{
 			"I do it", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -639,7 +551,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291229,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
+		}, -- [24]
 		{
 			"wont let me ", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -661,7 +573,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291244,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [29]
+		}, -- [25]
 		{
 			"weird", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -683,7 +595,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291244,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [30]
+		}, -- [26]
 		{
 			"stuck as the role i entered as", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -705,7 +617,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291250,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [31]
+		}, -- [27]
 		{
 			"reset", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -727,7 +639,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291427,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [32]
+		}, -- [28]
 		{
 			"bestleeworld", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -749,7 +661,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291431,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [33]
+		}, -- [29]
 		{
 			"watch your fucking step", -- [1]
 			"Velkx-ArgentDawn", -- [2]
@@ -771,7 +683,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
 			[51] = 1628291434,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
+		}, -- [30]
 		{
 			"please be carefulk", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -793,7 +705,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291437,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [35]
+		}, -- [31]
 		{
 			"I hate this so much", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -815,7 +727,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291443,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
+		}, -- [32]
 		{
 			"its so easy", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -837,7 +749,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291448,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [37]
+		}, -- [33]
 		{
 			"its just so many people walk around iwthout thinking", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -859,7 +771,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291456,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [38]
+		}, -- [34]
 		{
 			"he did it again", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -881,7 +793,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291458,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [39]
+		}, -- [35]
 		{
 			"holy shit", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -903,7 +815,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291459,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [40]
+		}, -- [36]
 		{
 			"this guy", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -925,7 +837,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291460,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [41]
+		}, -- [37]
 		{
 			"okay", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -947,7 +859,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291583,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
+		}, -- [38]
 		{
 			"watch where we step", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -969,7 +881,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291586,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
+		}, -- [39]
 		{
 			"and follow", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -991,7 +903,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291588,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
+		}, -- [40]
 		{
 			"you can skip this pack btw", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -1013,7 +925,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291608,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
+		}, -- [41]
 		{
 			"you just go right around the wheelbarrow", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -1035,7 +947,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291623,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
+		}, -- [42]
 		{
 			"dudes", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1057,7 +969,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291647,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [43]
 		{
 			"jump as you slide off the roof", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -1079,7 +991,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291653,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [48]
+		}, -- [44]
 		{
 			"someones is gonna pull this shit", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1101,7 +1013,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291654,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [45]
 		{
 			"how hard it is", -- [1]
 			"Velkx-ArgentDawn", -- [2]
@@ -1123,7 +1035,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
 			[51] = 1628291662,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [46]
 		{
 			"to follow", -- [1]
 			"Velkx-ArgentDawn", -- [2]
@@ -1145,7 +1057,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
 			[51] = 1628291663,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
+		}, -- [47]
 		{
 			"and watch where you go", -- [1]
 			"Velkx-ArgentDawn", -- [2]
@@ -1167,7 +1079,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
 			[51] = 1628291666,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [48]
 		{
 			"Following is hard when you can fly my guy", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1189,7 +1101,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291673,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
+		}, -- [49]
 		{
 			"i cant fly", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -1211,7 +1123,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291678,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [54]
+		}, -- [50]
 		{
 			"wow", -- [1]
 			"Velkx-ArgentDawn", -- [2]
@@ -1233,7 +1145,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
 			[51] = 1628291683,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [51]
 		{
 			"walking is hard", -- [1]
 			"Velkx-ArgentDawn", -- [2]
@@ -1255,7 +1167,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
 			[51] = 1628291686,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [52]
 		{
 			"gmmmm", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1277,7 +1189,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291724,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [53]
 		{
 			"no idea how i kept everyone alive there", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -1299,7 +1211,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291956,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [58]
+		}, -- [54]
 		{
 			"is waycrest manor any good?", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1321,7 +1233,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628293365,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [55]
 		{
 			"never done it", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1343,7 +1255,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628293367,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [56]
 		{
 			"hi", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1365,7 +1277,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628293367,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [57]
 		{
 			"yo", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1387,7 +1299,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628293372,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [58]
 		{
 			"gz", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1409,7 +1321,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628293881,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [59]
 		{
 			"You need to target the shrooms with Upheaval. :)", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1431,7 +1343,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628293951,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [60]
 		{
 			"sorry", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1453,7 +1365,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294052,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [61]
 		{
 			"yay ty", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1475,7 +1387,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294234,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [62]
 		{
 			"another? :)", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1497,7 +1409,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294237,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [63]
 		{
 			"dance", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1519,7 +1431,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628294326,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [64]
 		{
 			"yooo", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1541,7 +1453,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628294337,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [69]
+		}, -- [65]
 		{
 			"this looks sick", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1563,7 +1475,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628294338,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [70]
+		}, -- [66]
 		{
 			"clear trash", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1585,7 +1497,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294470,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [67]
 		{
 			"o my bad sry", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1607,7 +1519,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628294487,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [72]
+		}, -- [68]
 		{
 			"Unstable Runic Mark on Vínes", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1629,7 +1541,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294499,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [69]
 		{
 			"3", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1651,7 +1563,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294502,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [70]
 		{
 			"2", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1673,7 +1585,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294503,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [71]
 		{
 			"1", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1695,7 +1607,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294504,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [72]
 		{
 			"2", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1717,7 +1629,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294550,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [73]
 		{
 			"1", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1739,7 +1651,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294551,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [74]
 		{
 			"gg", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1761,7 +1673,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294557,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [75]
 		{
 			"here", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1783,7 +1695,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294671,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [80]
+		}, -- [76]
 		{
 			"over here lads", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1805,7 +1717,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628294672,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [77]
 		{
 			"or?", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1827,7 +1739,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294675,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [78]
 		{
 			"folloq the poison fire", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1849,7 +1761,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628294682,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [79]
 		{
 			"3", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1871,7 +1783,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294684,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [80]
 		{
 			"2", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1893,7 +1805,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294685,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [81]
 		{
 			"1", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1915,7 +1827,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294686,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [82]
 		{
 			"Runic Mark on Vínes", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1937,7 +1849,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294702,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [83]
 		{
 			"this place is sick", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1959,7 +1871,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628294783,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [88]
+		}, -- [84]
 		{
 			"Uproot on Vínes", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1981,7 +1893,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294838,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [85]
 		{
 			"Soul Thorns on Vínes", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -2003,7 +1915,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294942,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [86]
 		{
 			"just keep running here", -- [1]
 			"Wilgur-Mazrigos", -- [2]
@@ -2025,7 +1937,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWilgur|r",
 			[51] = 1628295467,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [87]
 		{
 			"these adds keep respawning", -- [1]
 			"Wilgur-Mazrigos", -- [2]
@@ -2047,7 +1959,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWilgur|r",
 			[51] = 1628295472,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [88]
 		{
 			"over here", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -2069,7 +1981,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628295553,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [89]
 		{
 			"come down", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -2091,7 +2003,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628295555,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [90]
 		{
 			"play with us", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -2113,7 +2025,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628295558,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [91]
 		{
 			"join the pary", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -2135,7 +2047,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628295564,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [92]
 		{
 			"we have illigal things", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -2157,7 +2069,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628295570,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [93]
 		{
 			"yay", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -2179,7 +2091,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628295641,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
+		}, -- [94]
 		{
 			"ty", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -2201,6 +2113,94 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628295642,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [95]
+		{
+			"Can you sign my charter, you can leave after if you wish, I am forming a new guild :)", -- [1]
+			"Demonchrist-Khadgar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Demonchrist-Khadgar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-1080-098FBA25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Demonchrist-Khadgar|r",
+			[51] = 1628336387,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [96]
+		{
+			"sure friend", -- [1]
+			"Demonchrist-Khadgar", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Demonchrist-Khadgar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			9, -- [11]
+			"Player-1080-098FBA25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Demonchrist-Khadgar|r",
+			[51] = 1628336402,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [97]
+		{
+			"throw it my way again", -- [1]
+			"Demonchrist-Khadgar", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Demonchrist-Khadgar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-1080-098FBA25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Demonchrist-Khadgar|r",
+			[51] = 1628336407,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [98]
+		{
+			"you should have a request :)", -- [1]
+			"Demonchrist-Khadgar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Demonchrist-Khadgar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-1080-098FBA25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Demonchrist-Khadgar|r",
+			[51] = 1628336457,
+			[50] = "CHAT_MSG_WHISPER",
 		}, -- [99]
 	},
 }

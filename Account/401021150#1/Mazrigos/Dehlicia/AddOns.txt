@@ -60,3 +60,4 @@ DBM-Party-Shadowlands: enabled
 DBM-SanctumOfDomination: enabled
 DBM-Shadowlands: enabled
 DBM-WorldEvents: enabled
+WowLua: disabled

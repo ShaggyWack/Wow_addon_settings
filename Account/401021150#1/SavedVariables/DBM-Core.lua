@@ -154,14 +154,14 @@ DBM_AllSavedOptions = {
 		["WarningY"] = 260,
 		["SpecialWarningFlashCount4"] = 2,
 		["WarningPoint"] = "CENTER",
-		["DontShowBossAnnounces"] = false,
+		["InfoFrameLines"] = 0,
 		["DontSetIcons"] = false,
 		["BigBrotherAnnounceToRaid"] = false,
-		["InfoFrameLines"] = 0,
+		["WarningX"] = 0,
 		["CountdownVoice"] = "SmoothR",
 		["DontRestoreIcons"] = false,
+		["CountdownVoice3"] = "Corsica",
 		["RecordOnlyBosses"] = false,
-		["DontShowUserTimers"] = false,
 		["SpecialWarningFlashCol1"] = {
 			1, -- [1]
 			1, -- [2]
@@ -189,9 +189,9 @@ DBM_AllSavedOptions = {
 		["SpecialWarningFontStyle"] = "THICKOUTLINE",
 		["DontShowSpecialWarningFlash"] = false,
 		["DisableStatusWhisper"] = false,
-		["CountdownVoice3"] = "Corsica",
+		["DontShowUserTimers"] = false,
 		["WorldBossNearAlert"] = false,
-		["WarningX"] = 0,
+		["DontShowBossAnnounces"] = false,
 		["BadIDAlert"] = false,
 		["SpecialWarningFlash4"] = true,
 		["AutoAcceptFriendInvite"] = false,
@@ -402,14 +402,14 @@ DBM_AllSavedOptions = {
 		["WarningY"] = 260,
 		["SpecialWarningFlashCount4"] = 2,
 		["WarningPoint"] = "CENTER",
-		["DontShowBossAnnounces"] = false,
+		["WarningX"] = 0,
 		["DontSetIcons"] = false,
 		["BigBrotherAnnounceToRaid"] = false,
-		["WarningX"] = 0,
+		["InfoFrameLines"] = 0,
 		["CountdownVoice"] = "SmoothR",
 		["DontRestoreIcons"] = false,
+		["CountdownVoice3"] = "Corsica",
 		["RecordOnlyBosses"] = false,
-		["DontShowUserTimers"] = false,
 		["SpecialWarningFlashCol1"] = {
 			1, -- [1]
 			1, -- [2]
@@ -437,9 +437,9 @@ DBM_AllSavedOptions = {
 		["SpecialWarningFontStyle"] = "THICKOUTLINE",
 		["DontShowSpecialWarningFlash"] = false,
 		["DisableStatusWhisper"] = false,
-		["CountdownVoice3"] = "Corsica",
+		["DontShowUserTimers"] = false,
 		["WorldBossNearAlert"] = false,
-		["InfoFrameLines"] = 0,
+		["DontShowBossAnnounces"] = false,
 		["BadIDAlert"] = false,
 		["SpecialWarningFlash4"] = true,
 		["AutoAcceptFriendInvite"] = false,
@@ -497,5 +497,5 @@ DBM_AllSavedOptions = {
 	},
 }
 DBM_MinimapIcon = {
-	["minimapPos"] = 276.1396737002033,
+	["minimapPos"] = 267.2497347656475,
 }

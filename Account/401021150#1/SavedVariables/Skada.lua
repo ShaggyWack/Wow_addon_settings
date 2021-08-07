@@ -18,9 +18,9 @@ SkadaDB = {
 	["profiles"] = {
 		["MASTER UI"] = {
 			["modeclicks"] = {
-				["Healing"] = 2,
-				["DPS"] = 16,
-				["Damage"] = 23,
+				["Healing"] = 3,
+				["DPS"] = 23,
+				["Damage"] = 25,
 			},
 			["windows"] = {
 				{
@@ -44,7 +44,13 @@ SkadaDB = {
 						["texture"] = "None",
 					},
 					["point"] = "BOTTOMRIGHT",
-					["barfontsize"] = 16,
+					["barbgcolor"] = {
+						["a"] = 1,
+						["b"] = 1,
+						["g"] = 1,
+						["r"] = 1,
+					},
+					["barfontsize"] = 20,
 					["roleicons"] = true,
 					["mode"] = "DPS",
 					["bartexture"] = "ElvUI Blank",

@@ -10,3 +10,5 @@ OPie_Classic: disabled
 WeakAurasCompanion: enabled
 WeakAurasArchive: enabled
 ElvUI_OptionsUI: enabled
+Narcissus: disabled
+Narcissus_Barbershop: disabled

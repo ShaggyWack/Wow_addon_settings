@@ -14,6 +14,7 @@ AutoLog_DB = {
 	["global"] = {
 		["mythicdungeons"] = true,
 		["allraids"] = true,
+		["curLogging"] = true,
 		["warned"] = true,
 	},
 }

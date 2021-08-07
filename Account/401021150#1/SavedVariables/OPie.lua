@@ -1,0 +1,377 @@
+
+OneRing_Config = {
+	["CharProfiles"] = {
+		["Mazrigos-Shirang-2"] = "MASTER UI",
+		["Mazrigos-Dannidan-2"] = "default",
+		["Mazrigos-Ytoh-3"] = "MASTER UI",
+		["Mazrigos-Dehlicia-2"] = "MASTER UI",
+		["Mazrigos-Merwarr-3"] = "MASTER UI",
+		["Mazrigos-Damnuspoop"] = "MASTER UI",
+	},
+	["_GameVersion"] = "9.1.0",
+	["_OPieVersion"] = "Xe 6 (3.106)",
+	["ProfileStorage"] = {
+		["default"] = {
+		},
+		["MASTER UI"] = {
+			["XTZoomTime"] = 0,
+			["ShowRecharge"] = true,
+			["RingScale"] = 0.9000000357627869,
+			["MISpinOnHide"] = false,
+			["XTPointerSnap"] = true,
+			["IndicationOffsetX"] = 100,
+			["ShowCooldowns"] = true,
+			["CenterAction"] = true,
+			["IndicationOffsetY"] = -50,
+			["ClickActivation"] = true,
+		},
+	},
+	["PersistentStorage"] = {
+		["RingKeeper"] = {
+			["gCooldowns"] = {
+				{
+					["id"] = 322118,
+					["sliceToken"] = "ABuekJ2R=ld",
+				}, -- [1]
+				{
+					["id"] = 115203,
+					["sliceToken"] = "ABuekJ2R=la",
+				}, -- [2]
+				{
+					["id"] = 122278,
+					["sliceToken"] = "ABuekJ2R=ls",
+				}, -- [3]
+				{
+					["id"] = 116849,
+					["sliceToken"] = "ABuekJ2R=lf",
+				}, -- [4]
+				{
+					["id"] = 115310,
+					["sliceToken"] = "ABuekJ2R=l3",
+				}, -- [5]
+				["save"] = true,
+				["limit"] = "Ytoh-Mazrigos",
+				["name"] = "Healing Cooldowns",
+			},
+			["Healing1"] = {
+				{
+					["id"] = 122470,
+					["sliceToken"] = "ABuekHhPhS1",
+				}, -- [1]
+				{
+					["id"] = 115203,
+					["sliceToken"] = "ABuekHhPhSr",
+				}, -- [2]
+				["save"] = true,
+				["limit"] = "Ytoh-Mazrigos",
+				["name"] = "Healing",
+			},
+			["OPieFlagStore"] = {
+				["StoreVersion"] = 2,
+			},
+			["Healing"] = {
+				{
+					["id"] = 109304,
+					["sliceToken"] = "ABuekTNaj92",
+				}, -- [1]
+				{
+					["id"] = 186265,
+					["sliceToken"] = "ABuekIn=L41",
+				}, -- [2]
+				{
+					["id"] = 272651,
+					["sliceToken"] = "ABuekTNaj9i",
+				}, -- [3]
+				{
+					"macro", -- [1]
+					"Spirit Mend", -- [2]
+					["show"] = "[spec:255/254] hide;[pet: Spirit Beast]",
+					["sliceToken"] = "ABuekTNaj9o",
+				}, -- [4]
+				{
+					["id"] = 59543,
+					["sliceToken"] = "ABuekTNaj9p",
+				}, -- [5]
+				{
+					"item", -- [1]
+					177278, -- [2]
+					["sliceToken"] = "ABuekOeXIj1",
+				}, -- [6]
+				{
+					["id"] = 982,
+					["sliceToken"] = "ABuekYZAXXe",
+				}, -- [7]
+				{
+					"item", -- [1]
+					5512, -- [2]
+					["sliceToken"] = "ABuekHiLR5e",
+				}, -- [8]
+				["save"] = true,
+				["limit"] = "Damnuspoop-Mazrigos",
+				["name"] = "Healing",
+			},
+			["HunterAspects"] = {
+				{
+					["id"] = 186257,
+					["sliceToken"] = "OPCHAc",
+				}, -- [1]
+				{
+					["id"] = 186265,
+					["sliceToken"] = "OPCHAt",
+				}, -- [2]
+				{
+					["id"] = 193530,
+					["sliceToken"] = "ABuekT/WuVe",
+				}, -- [3]
+				["name"] = "Aspects",
+				["save"] = true,
+				["hotkey"] = "BUTTON4",
+				["limit"] = "HUNTER",
+			},
+			["HunterTraps"] = {
+				{
+					["id"] = 191433,
+					["sliceToken"] = "OPCHTe",
+				}, -- [1]
+				{
+					["id"] = 187650,
+					["sliceToken"] = "OPCHTf",
+				}, -- [2]
+				{
+					["id"] = 187698,
+					["sliceToken"] = "OPCHTt",
+				}, -- [3]
+				{
+					["id"] = 236776,
+					["sliceToken"] = "ABuekIcenPe",
+				}, -- [4]
+				{
+					["id"] = 259495,
+					["sliceToken"] = "ABuekP1D8Pr",
+				}, -- [5]
+				["limit"] = "HUNTER",
+				["save"] = true,
+				["hotkey"] = "[spec:3] BUTTON5",
+				["name"] = "Traps",
+			},
+			["HunterPets"] = {
+				{
+					["show"] = "[known:883,havepet:1]",
+					["sliceToken"] = "OPCHP1",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:1] {{spell:883}};\n/cast [@pet,exists,nopet:1,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:883}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+				}, -- [1]
+				{
+					["show"] = "[known:83242,havepet:2]",
+					["sliceToken"] = "OPCHP2",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:2] {{spell:83242}};\n/cast [@pet,exists,nopet:2,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83242}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+				}, -- [2]
+				{
+					["show"] = "[known:83243,havepet:3]",
+					["sliceToken"] = "OPCHP3",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:3] {{spell:83243}};\n/cast [@pet,exists,nopet:3,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83243}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+				}, -- [3]
+				{
+					["show"] = "[known:83244,havepet:4]",
+					["sliceToken"] = "OPCHP4",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:4] {{spell:83244}};\n/cast [@pet,exists,nopet:4,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83244}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+				}, -- [4]
+				{
+					["show"] = "[known:83245,havepet:5]",
+					["sliceToken"] = "OPCHP5",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+				}, -- [5]
+				["save"] = true,
+				["limit"] = "HUNTER",
+				["name"] = "Pets",
+			},
+			["Buffs"] = {
+				{
+					["id"] = 19574,
+					["sliceToken"] = "ABuekYxdio1",
+				}, -- [1]
+				{
+					["id"] = 193530,
+					["sliceToken"] = "ABuekYxdior",
+				}, -- [2]
+				["save"] = true,
+				["name"] = "Buffs",
+				["limit"] = "Damnuspoop-Mazrigos",
+			},
+			["lockCurses"] = {
+				{
+					["id"] = 334275,
+					["sliceToken"] = "ABuez8SytdB",
+				}, -- [1]
+				{
+					["id"] = 1714,
+					["sliceToken"] = "ABuez8Sytd/",
+				}, -- [2]
+				{
+					["id"] = 5782,
+					["sliceToken"] = "ABuez8SytdC",
+				}, -- [3]
+				{
+					["id"] = 702,
+					["sliceToken"] = "ABuez8SytdV",
+				}, -- [4]
+				["save"] = true,
+				["name"] = "Warlock Curses",
+				["limit"] = "Dehlicia-Mazrigos",
+			},
+			["PetUtility"] = {
+				{
+					["id"] = 1515,
+					["sliceToken"] = "ABuekT/WuVg",
+				}, -- [1]
+				{
+					["id"] = 6991,
+					["sliceToken"] = "ABuekT/WuVd",
+				}, -- [2]
+				{
+					["id"] = 2641,
+					["sliceToken"] = "ABuekT/WuV3",
+				}, -- [3]
+				{
+					["id"] = 1462,
+					["sliceToken"] = "ABuekT/WuVs",
+				}, -- [4]
+				{
+					["id"] = 982,
+					["sliceToken"] = "ABuekT/WuVf",
+				}, -- [5]
+				["save"] = true,
+				["name"] = "Pet Utility",
+				["limit"] = "Damnuspoop-Mazrigos",
+			},
+			["rriorBuffs"] = {
+				{
+					["sliceToken"] = "ABuezvvlokP",
+					["id"] = 6673,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuezvvlokO",
+					["id"] = 5246,
+				}, -- [2]
+				{
+					["sliceToken"] = "ABuezvvlokI",
+					["id"] = 18499,
+				}, -- [3]
+				{
+					["sliceToken"] = "ABuezvvlokU",
+					["id"] = 184364,
+				}, -- [4]
+				{
+					["sliceToken"] = "ABuezvvlokY",
+					["id"] = 12323,
+				}, -- [5]
+				{
+					["sliceToken"] = "ABuezme=he1",
+					["id"] = 97462,
+				}, -- [6]
+				{
+					["sliceToken"] = "ABuezme=her",
+					["id"] = 23920,
+				}, -- [7]
+				["name"] = "Futy Warrior Buffs",
+				["save"] = true,
+				["limit"] = "Shirang-Mazrigos",
+			},
+			["arlockUtil"] = {
+				{
+					["id"] = 698,
+					["sliceToken"] = "ABuez8Sytdwu",
+				}, -- [1]
+				{
+					["id"] = 342601,
+					["sliceToken"] = "ABuez8Sytdwy",
+				}, -- [2]
+				{
+					["id"] = 1098,
+					["sliceToken"] = "ABuezIj/1hr",
+				}, -- [3]
+				{
+					["id"] = 5697,
+					["sliceToken"] = "ABuez8Sytdw1",
+				}, -- [4]
+				{
+					["id"] = 20707,
+					["sliceToken"] = "ABuez8Sytdwo",
+				}, -- [5]
+				{
+					["id"] = 6201,
+					["sliceToken"] = "ABuez8Sytdwt",
+				}, -- [6]
+				{
+					["id"] = 29893,
+					["sliceToken"] = "ABuezIj/1h1",
+				}, -- [7]
+				["save"] = true,
+				["name"] = "Warlock Util",
+				["limit"] = "Dehlicia-Mazrigos",
+			},
+			["ockHealing"] = {
+				{
+					["id"] = 234153,
+					["sliceToken"] = "ABuez8SytdH",
+				}, -- [1]
+				{
+					["id"] = 755,
+					["sliceToken"] = "ABuez8SytdG",
+				}, -- [2]
+				{
+					["id"] = 6789,
+					["sliceToken"] = "ABuez8SytdF",
+				}, -- [3]
+				{
+					["id"] = 104773,
+					["sliceToken"] = "ABuez8SytdD",
+				}, -- [4]
+				{
+					"item", -- [1]
+					5512, -- [2]
+					["sliceToken"] = "ABuez8Sytd0",
+				}, -- [5]
+				["save"] = true,
+				["limit"] = "Dehlicia-Mazrigos",
+				["name"] = "Warlock Healing",
+			},
+			["riestBuffs"] = {
+				{
+					["id"] = 19236,
+					["sliceToken"] = "ABuezc07QId",
+				}, -- [1]
+				{
+					["id"] = 213634,
+					["sliceToken"] = "ABuezc07QIa",
+				}, -- [2]
+				{
+					["id"] = 586,
+					["sliceToken"] = "ABuezc07QIs",
+				}, -- [3]
+				{
+					["id"] = 15286,
+					["sliceToken"] = "ABuezc07QIf",
+				}, -- [4]
+				{
+					["id"] = 47585,
+					["sliceToken"] = "ABuezc07QI3",
+				}, -- [5]
+				{
+					["show"] = "3",
+					["sliceToken"] = "ABuezc07QIl",
+					["id"] = 64044,
+				}, -- [6]
+				{
+					["id"] = 21562,
+					["sliceToken"] = "ABuezc07QIz",
+				}, -- [7]
+				["offset"] = 0,
+				["name"] = "Shadow Priest Buffs",
+				["save"] = true,
+				["limit"] = "PRIEST",
+			},
+		},
+	},
+	["_GameLocale"] = "enUS",
+}
+OPie_SavedData = nil

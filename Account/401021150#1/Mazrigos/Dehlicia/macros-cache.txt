@@ -1,0 +1,9 @@
+VER 3 0100000000000005 "Warlock Curses" "136183"
+/click ORLOpen lockCurses
+END
+VER 3 0100000000000004 "Warlock Healing" "538745"
+/click ORLOpen ockHealing
+END
+VER 3 0100000000000006 "Warlock Util" "136210"
+/click ORLOpen arlockUtil
+END

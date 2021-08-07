@@ -1,0 +1,2 @@
+
+LoggerHeadDB = nil

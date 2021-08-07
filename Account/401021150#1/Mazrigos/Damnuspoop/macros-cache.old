@@ -1,0 +1,25 @@
+VER 3 01000000000000A7 "BM Buffs" "132127"
+#showtooltip Bestial Wrath
+/cast Bestial Wrath
+/cast Aspect of the Wild
+END
+VER 3 01000000000000A6 "Healing" "461117"
+/click ORLOpen Healing
+END
+VER 3 01000000000000A9 "Misdirect Pet" "132180"
+/target pet
+/cast Misdirection
+END
+VER 3 01000000000000A4 "Pet Utility" "132179"
+/click ORLOpen PetUtility
+END
+VER 3 01000000000000A2 "Pets" "132311"
+/click ORLOpen HunterPets
+END
+VER 3 01000000000000A5 "Spirit Mend" "INV_MISC_QUESTIONMARK"
+#showtooltip Spirit Mend
+/cast [@mouseover,help,nodead][@player] Spirit Mend
+END
+VER 3 01000000000000A8 "Traps" "2065634"
+/click ORLOpen HunterTraps
+END

@@ -1,0 +1,138 @@
+
+VWQL = {
+	["Damnuspoop-Mazrigos"] = {
+		["FilterType"] = {
+		},
+		["VERSION"] = 101,
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["AnchorQCBTop"] = 846.6665649414062,
+	["Scale"] = 1.1,
+	["DisableIconsGeneralMap947"] = true,
+	["Sort"] = 5,
+	["VERSION"] = 101,
+	["Anchor"] = 1,
+	["Arrow_Point2"] = "TOPRIGHT",
+	["Dehlicia-Mazrigos"] = {
+		["Filter"] = 63,
+		["VERSION"] = 101,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Fartnipplebo-Lightbringer"] = {
+		["VERSION"] = 101,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Arthees-Mazrigos"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 101,
+	},
+	["DisableArrow"] = true,
+	["Arrow_Point1"] = "TOPRIGHT",
+	["Dannidan-Mazrigos"] = {
+		["VERSION"] = 101,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Arrow_PointX"] = -118.6675720214844,
+	["Arrow_PointY"] = -283.3333740234375,
+	["Ignore"] = {
+	},
+	["Merwarr-Mazrigos"] = {
+		["Filter"] = 63,
+		["VERSION"] = 101,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Shirang-Mazrigos"] = {
+		["Filter"] = 63,
+		["VERSION"] = 101,
+		["Quests"] = {
+			[60653] = true,
+			[61337] = true,
+			[61060] = true,
+			[57465] = true,
+			[61868] = true,
+			[61189] = true,
+			[61593] = true,
+			[59703] = true,
+			[61814] = true,
+			[61784] = true,
+			[61947] = true,
+			[59804] = true,
+			[59836] = true,
+			[59902] = true,
+			[58505] = true,
+			[57328] = true,
+			[60739] = true,
+			[60337] = true,
+			[61885] = true,
+			[58975] = true,
+			[59717] = true,
+			[60899] = true,
+			[59808] = true,
+			[60565] = true,
+		},
+		["FilterType"] = {
+		},
+	},
+	["Yato-Mazrigos"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 97,
+	},
+	["AzeriteFormat"] = 20,
+	["SortPrio"] = {
+	},
+	["AnchorQCBLeft"] = 139.4444274902344,
+	["Ytoh-Mazrigos"] = {
+		["VERSION"] = 101,
+		["Filter"] = 63,
+		["Quests"] = {
+			[62451] = true,
+			[60872] = true,
+			[61060] = true,
+			[61870] = true,
+			[61189] = true,
+			[59578] = true,
+			[59703] = true,
+			[59642] = true,
+			[59581] = true,
+			[57443] = true,
+			[61879] = true,
+			[61791] = true,
+			[60770] = true,
+			[59717] = true,
+			[59718] = true,
+			[59825] = true,
+			[61948] = true,
+			[57205] = true,
+			[60958] = true,
+		},
+		["FilterType"] = {
+		},
+	},
+	["HideLegion"] = true,
+}

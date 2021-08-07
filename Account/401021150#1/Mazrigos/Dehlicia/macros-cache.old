@@ -1,0 +1,12 @@
+VER 3 0100000000000002 " " "SPELL_WARLOCK_DEMONSOUL"
+#showtooltip
+/cast Dark Soul: Misery
+/cast Grimoire: Felhunter
+END
+VER 3 0100000000000003 " " "INV_SCROLL_11"
+/cast Felblast
+END
+VER 3 0100000000000001 " " "ABILITY_WARSTOMP"
+/cast Demonic leap
+/cast Metamorphosis
+END

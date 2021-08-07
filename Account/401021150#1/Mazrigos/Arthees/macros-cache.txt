@@ -1,0 +1,27 @@
+VER 3 0100000000000034 " " "SPELL_FIRE_FLAMESHOCK"
+#showtooltip Flame Shock
+/castsequence Unleash Elements, Flame Shock
+END
+VER 3 0100000000000035 " " "SPELL_SHAMAN_FIRENOVA"
+#showtooltip Fire Nova
+/cast Unleash Elements
+/cast Fire Nova
+END
+VER 3 0100000000000038 " " "ABILITY_SHAMAN_LAVALASH"
+#showtooltip Lava Lash
+/cast Ancestral Swiftness
+/cast Lava Lash
+END
+VER 3 0100000000000039 " " "SPELL_NATURE_LIGHTNING"
+#showtooltip Lighting Bolt
+/cast Ancestral Swiftness
+/cast Lighting bolt
+END
+VER 3 0100000000000036 " " "SPELL_FIRE_SEARINGTOTEM"
+#showtooltip Searing Totem
+/cast [nopet:Primal Fire Elemental] Searing Totem
+END
+VER 3 0100000000000037 " " "SPELL_FIRE_SELFDESTRUCT"
+#showtooltip Magma Totem
+/cast [nopet:Primal Fire Elemental] Magma Totem
+END

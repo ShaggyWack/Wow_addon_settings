@@ -1,0 +1,6 @@
+VER 3 010000000000000B "Healing Cooldown" "627485"
+/click ORLOpen gCooldowns
+END
+VER 3 010000000000000A "Utils" "574571"
+/click ORLOpen Healing1
+END

@@ -1,0 +1,28 @@
+VER 3 0100000000000001 " " "SPELL_SHADOW_UNHOLYFRENZY"
+/cast Die by the Sword
+/cast Mass Spell Reflection
+/cast Berserker Rage
+/cast Recklessness
+/cast Rallying Cry
+/cast Bloodbath
+/cast Avatar
+END
+VER 3 0100000000000035 " " "133437"
+#showtooltip
+/cast Bloodthirst
+/cast Berserker Rage
+END
+VER 3 010000000000000F " " "SPELL_NATURE_ANCESTRALGUARDIAN"
+/cast Berserker Rage
+/cast Recklessness
+END
+VER 3 0100000000000016 " " "ABILITY_WARRIOR_SAVAGEBLOW"
+/castsequence Mortal Strike, Hamstring
+END
+VER 3 0100000000000017 " " "ABILITY_WARRIOR_DECISIVESTRIKE"
+/castsequence Slam, Hamstring
+END
+VER 3 0100000000000037 "ZGVMacro1" "0"
+/target Auctioneer Fitch
+/run ZGV:MRM():CG(42,1)
+END

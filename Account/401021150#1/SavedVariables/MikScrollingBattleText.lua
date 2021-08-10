@@ -3,7 +3,13 @@ MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
 			["scrollAreas"] = {
+				["Notification"] = {
+					["disabled"] = true,
+				},
 				["Outgoing"] = {
+					["disabled"] = true,
+				},
+				["Static"] = {
 					["disabled"] = true,
 				},
 				["Incoming"] = {
@@ -13,12 +19,6 @@ MSBTProfiles_SavedVars = {
 					["offsetY"] = -158,
 					["offsetX"] = -174,
 					["normalFontName"] = "2002 Bold",
-				},
-				["Static"] = {
-					["disabled"] = true,
-				},
-				["Notification"] = {
-					["disabled"] = true,
 				},
 			},
 			["soundsDisabled"] = true,
@@ -37,25 +37,6 @@ MSBTProfiles_SavedVars = {
 			["creationVersion"] = "5.7.152",
 			["classColoringDisabled"] = true,
 			["scrollAreas"] = {
-				["Incoming"] = {
-					["critFontAlpha"] = 100,
-					["critFontName"] = "2002 Bold",
-					["critOutlineIndex"] = 1,
-					["stickyBehavior"] = "Normal",
-					["critFontSize"] = 26,
-					["offsetX"] = -175,
-					["normalOutlineIndex"] = 1,
-					["normalFontAlpha"] = 100,
-					["normalFontName"] = "2002 Bold",
-					["offsetY"] = -141,
-					["normalFontSize"] = 18,
-				},
-				["Notification"] = {
-					["disabled"] = true,
-				},
-				["Static"] = {
-					["disabled"] = true,
-				},
 				["Outgoing"] = {
 					["direction"] = "Up",
 					["critFontName"] = "2002 Bold",
@@ -69,6 +50,25 @@ MSBTProfiles_SavedVars = {
 					["normalFontName"] = "2002 Bold",
 					["normalOutlineIndex"] = 1,
 					["normalFontSize"] = 18,
+				},
+				["Incoming"] = {
+					["critFontAlpha"] = 100,
+					["critFontName"] = "2002 Bold",
+					["critOutlineIndex"] = 1,
+					["stickyBehavior"] = "Normal",
+					["critFontSize"] = 26,
+					["offsetX"] = -175,
+					["normalOutlineIndex"] = 1,
+					["normalFontAlpha"] = 100,
+					["normalFontName"] = "2002 Bold",
+					["offsetY"] = -141,
+					["normalFontSize"] = 18,
+				},
+				["Static"] = {
+					["disabled"] = true,
+				},
+				["Notification"] = {
+					["disabled"] = true,
 				},
 			},
 			["hideFullOverheals"] = true,

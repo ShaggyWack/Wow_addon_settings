@@ -2,1040 +2,28 @@
 ElvCharacterDB = {
 	["ConvertKeybindings"] = true,
 	["ChatEditHistory"] = {
-		"/i I hate freehold so much", -- [1]
-		"/i This skip shit hurt me in the brain", -- [2]
-		"/i I do it", -- [3]
-		"/i I hate this so much", -- [4]
-		"/i dudes", -- [5]
-		"/i someones is gonna pull this shit", -- [6]
-		"/i Following is hard when you can fly my guy", -- [7]
-		"/s gmmmm", -- [8]
-		"/s dance", -- [9]
-		"/s over here lads", -- [10]
-		"/s folloq the poison fire", -- [11]
-		"/s over here", -- [12]
-		"/s come down", -- [13]
-		"/s play with us", -- [14]
-		"/s join the pary", -- [15]
-		"/s we have illigal things", -- [16]
-		"/opie", -- [17]
-		"/wa", -- [18]
-		"/reload", -- [19]
-		"/elvui", -- [20]
+		"/s play with us", -- [1]
+		"/s we have illigal things", -- [2]
+		"/elvui", -- [3]
+		"/i I do it", -- [4]
+		"/i Following is hard when you can fly my guy", -- [5]
+		"/s folloq the poison fire", -- [6]
+		"/s join the pary", -- [7]
+		"/reload", -- [8]
+		"/i dudes", -- [9]
+		"/s come down", -- [10]
+		"/i I hate freehold so much", -- [11]
+		"/opie", -- [12]
+		"/s dance", -- [13]
+		"/cw Demonchrist-Khadgar sure friend", -- [14]
+		"/cw Demonchrist-Khadgar throw it my way again", -- [15]
+		"/wa", -- [16]
+		"/wave", -- [17]
+		"/s hoe defok kry ons mekaar die heeltyd", -- [18]
+		"/s ek love dit :D", -- [19]
+		"/s lol same XD", -- [20]
 	},
 	["ChatHistoryLog"] = {
-		{
-			"you pulled the mobs", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2332, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628289593,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [1]
-		{
-			"that idot", -- [1]
-			"Fatmou-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fatmou-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2333, -- [11]
-			"Player-1402-0A009594", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Fatmou-Turalyon|r",
-			[51] = 1628289598,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [2]
-		{
-			"get behind me lickmyhorse", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2334, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628289601,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [3]
-		{
-			"and follow me", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2335, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628289603,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [4]
-		{
-			"im tank now", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2336, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628289676,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"much batter", -- [1]
-			"Fatmou-Turalyon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Fatmou-Turalyon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2338, -- [11]
-			"Player-1402-0A009594", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Fatmou-Turalyon|r",
-			[51] = 1628289697,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [6]
-		{
-			"ive been in this instance like 10 times today", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2427, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628290275,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [7]
-		{
-			"somebody pulls that pack EVERY SINGLE TIME", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2428, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628290282,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [8]
-		{
-			"sounds fun", -- [1]
-			"Delitvå-Alonsus", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Delitvå-Alonsus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2429, -- [11]
-			"Player-1082-0A229C0C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Delitvå-Alonsus|r",
-			[51] = 1628290285,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [9]
-		{
-			"anyone got repair mount", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2443, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628290380,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"dont pull", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2448, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628290383,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"repair moumt?", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2450, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628290392,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"yes", -- [1]
-			"Guapajeje-Tyrande", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Guapajeje-Tyrande", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2451, -- [11]
-			"Player-1384-0AACBF3E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGuapajeje-Tyrande|r",
-			[51] = 1628290409,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"lel", -- [1]
-			"Guapajeje-Tyrande", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Guapajeje-Tyrande", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2452, -- [11]
-			"Player-1384-0AACBF3E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGuapajeje-Tyrande|r",
-			[51] = 1628290416,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"cant use it", -- [1]
-			"Guapajeje-Tyrande", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Guapajeje-Tyrande", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2453, -- [11]
-			"Player-1384-0AACBF3E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGuapajeje-Tyrande|r",
-			[51] = 1628290417,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
-		{
-			"ready?", -- [1]
-			"Guapajeje-Tyrande", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Guapajeje-Tyrande", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2454, -- [11]
-			"Player-1384-0AACBF3E", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cGuapajeje-Tyrande|r",
-			[51] = 1628290444,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
-			"yes", -- [1]
-			"Dehlicia-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dehlicia-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2455, -- [11]
-			"Player-1388-06D06D09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edDehlicia|r",
-			[51] = 1628290448,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [17]
-		{
-			"yeh", -- [1]
-			"Delitvå-Alonsus", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Delitvå-Alonsus", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2456, -- [11]
-			"Player-1082-0A229C0C", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Delitvå-Alonsus|r",
-			[51] = 1628290448,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
-		{
-			"go", -- [1]
-			"Çhristian-Ravencrest", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Çhristian-Ravencrest", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2457, -- [11]
-			"Player-1329-09B35AFF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Çhristian-Ravencrest|r",
-			[51] = 1628290450,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
-		{
-			"r", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2565, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291127,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
-		{
-			"warrior?", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2567, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291138,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [21]
-		{
-			"I hate freehold so much", -- [1]
-			"Dehlicia-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dehlicia-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2578, -- [11]
-			"Player-1388-06D06D09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edDehlicia|r",
-			[51] = 1628291191,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [22]
-		{
-			"This skip shit hurt me in the brain", -- [1]
-			"Dehlicia-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dehlicia-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2581, -- [11]
-			"Player-1388-06D06D09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edDehlicia|r",
-			[51] = 1628291202,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [23]
-		{
-			"sec", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2582, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291212,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [24]
-		{
-			"can somebody else queue", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2584, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291220,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [25]
-		{
-			"i wanted to queue as tank/healer/dps", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2585, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291225,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [26]
-		{
-			"instead of just dps", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2587, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291228,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [27]
-		{
-			"I do it", -- [1]
-			"Dehlicia-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dehlicia-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2588, -- [11]
-			"Player-1388-06D06D09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edDehlicia|r",
-			[51] = 1628291229,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [28]
-		{
-			"wont let me ", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2589, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291244,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [29]
-		{
-			"weird", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2590, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291244,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [30]
-		{
-			"stuck as the role i entered as", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2591, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291250,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [31]
-		{
-			"reset", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2604, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291427,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [32]
-		{
-			"bestleeworld", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2608, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291431,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [33]
-		{
-			"watch your fucking step", -- [1]
-			"Velkx-ArgentDawn", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Velkx-ArgentDawn", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2611, -- [11]
-			"Player-3702-0A4A053F", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
-			[51] = 1628291434,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [34]
-		{
-			"please be carefulk", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2612, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291437,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [35]
-		{
-			"I hate this so much", -- [1]
-			"Dehlicia-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Dehlicia-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2614, -- [11]
-			"Player-1388-06D06D09", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edDehlicia|r",
-			[51] = 1628291443,
-			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [36]
-		{
-			"its so easy", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2615, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291448,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [37]
-		{
-			"its just so many people walk around iwthout thinking", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2617, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291456,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [38]
-		{
-			"he did it again", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2618, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291458,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [39]
-		{
-			"holy shit", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2619, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291459,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [40]
-		{
-			"this guy", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2620, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291460,
-			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [41]
-		{
-			"okay", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2644, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291583,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
-		{
-			"watch where we step", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2647, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291586,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [43]
-		{
-			"and follow", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2648, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291588,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [44]
-		{
-			"you can skip this pack btw", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2651, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291608,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [45]
-		{
-			"you just go right around the wheelbarrow", -- [1]
-			"Helisho-Silvermoon", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Helisho-Silvermoon", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			2656, -- [11]
-			"Player-3391-0C022B41", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff00fe97Helisho-Silvermoon|r",
-			[51] = 1628291623,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
 		{
 			"dudes", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1057,7 +45,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291647,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [47]
+		}, -- [1]
 		{
 			"jump as you slide off the roof", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -1079,7 +67,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291653,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [48]
+		}, -- [2]
 		{
 			"someones is gonna pull this shit", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1101,7 +89,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291654,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [49]
+		}, -- [3]
 		{
 			"how hard it is", -- [1]
 			"Velkx-ArgentDawn", -- [2]
@@ -1123,7 +111,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
 			[51] = 1628291662,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [50]
+		}, -- [4]
 		{
 			"to follow", -- [1]
 			"Velkx-ArgentDawn", -- [2]
@@ -1145,7 +133,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
 			[51] = 1628291663,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [51]
+		}, -- [5]
 		{
 			"and watch where you go", -- [1]
 			"Velkx-ArgentDawn", -- [2]
@@ -1167,7 +155,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
 			[51] = 1628291666,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [52]
+		}, -- [6]
 		{
 			"Following is hard when you can fly my guy", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1189,7 +177,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291673,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [53]
+		}, -- [7]
 		{
 			"i cant fly", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -1211,7 +199,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291678,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [54]
+		}, -- [8]
 		{
 			"wow", -- [1]
 			"Velkx-ArgentDawn", -- [2]
@@ -1233,7 +221,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
 			[51] = 1628291683,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [55]
+		}, -- [9]
 		{
 			"walking is hard", -- [1]
 			"Velkx-ArgentDawn", -- [2]
@@ -1255,7 +243,7 @@ ElvCharacterDB = {
 			[52] = "|cffa22fc8Velkx-ArgentDawn|r",
 			[51] = 1628291686,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [56]
+		}, -- [10]
 		{
 			"gmmmm", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1277,7 +265,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628291724,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
+		}, -- [11]
 		{
 			"no idea how i kept everyone alive there", -- [1]
 			"Helisho-Silvermoon", -- [2]
@@ -1299,7 +287,7 @@ ElvCharacterDB = {
 			[52] = "|cff00fe97Helisho-Silvermoon|r",
 			[51] = 1628291956,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [58]
+		}, -- [12]
 		{
 			"is waycrest manor any good?", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1321,7 +309,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628293365,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [59]
+		}, -- [13]
 		{
 			"never done it", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1343,7 +331,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628293367,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [60]
+		}, -- [14]
 		{
 			"hi", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1365,7 +353,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628293367,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [61]
+		}, -- [15]
 		{
 			"yo", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1387,7 +375,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628293372,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [62]
+		}, -- [16]
 		{
 			"gz", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1409,7 +397,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628293881,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [63]
+		}, -- [17]
 		{
 			"You need to target the shrooms with Upheaval. :)", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1431,7 +419,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628293951,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [64]
+		}, -- [18]
 		{
 			"sorry", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1453,7 +441,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294052,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [65]
+		}, -- [19]
 		{
 			"yay ty", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1475,7 +463,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294234,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [66]
+		}, -- [20]
 		{
 			"another? :)", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1497,7 +485,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294237,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [67]
+		}, -- [21]
 		{
 			"dance", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1519,7 +507,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628294326,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [68]
+		}, -- [22]
 		{
 			"yooo", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1541,7 +529,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628294337,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [69]
+		}, -- [23]
 		{
 			"this looks sick", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1563,7 +551,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628294338,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [70]
+		}, -- [24]
 		{
 			"clear trash", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1585,7 +573,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294470,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [71]
+		}, -- [25]
 		{
 			"o my bad sry", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1607,7 +595,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628294487,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [72]
+		}, -- [26]
 		{
 			"Unstable Runic Mark on Vínes", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1629,7 +617,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294499,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [27]
 		{
 			"3", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1651,7 +639,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294502,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [28]
 		{
 			"2", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1673,7 +661,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294503,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [75]
+		}, -- [29]
 		{
 			"1", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1695,7 +683,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294504,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [30]
 		{
 			"2", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1717,7 +705,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294550,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [31]
 		{
 			"1", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1739,7 +727,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294551,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [32]
 		{
 			"gg", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1761,7 +749,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294557,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [79]
+		}, -- [33]
 		{
 			"here", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1783,7 +771,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294671,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [80]
+		}, -- [34]
 		{
 			"over here lads", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1805,7 +793,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628294672,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [81]
+		}, -- [35]
 		{
 			"or?", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -1827,7 +815,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628294675,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [82]
+		}, -- [36]
 		{
 			"folloq the poison fire", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -1849,7 +837,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628294682,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [83]
+		}, -- [37]
 		{
 			"3", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1871,7 +859,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294684,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [38]
 		{
 			"2", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1893,7 +881,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294685,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [39]
 		{
 			"1", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1915,7 +903,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294686,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [40]
 		{
 			"Runic Mark on Vínes", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1937,7 +925,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294702,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [41]
 		{
 			"this place is sick", -- [1]
 			"Runicpower-Dentarg", -- [2]
@@ -1959,7 +947,7 @@ ElvCharacterDB = {
 			[52] = "|cffc31d39Runicpower-Dentarg|r",
 			[51] = 1628294783,
 			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
-		}, -- [88]
+		}, -- [42]
 		{
 			"Uproot on Vínes", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -1981,7 +969,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294838,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [43]
 		{
 			"Soul Thorns on Vínes", -- [1]
 			"Vínes-Silvermoon", -- [2]
@@ -2003,7 +991,7 @@ ElvCharacterDB = {
 			[52] = "|cfffe7b09Vínes-Silvermoon|r",
 			[51] = 1628294942,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [44]
 		{
 			"just keep running here", -- [1]
 			"Wilgur-Mazrigos", -- [2]
@@ -2025,7 +1013,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWilgur|r",
 			[51] = 1628295467,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [45]
 		{
 			"these adds keep respawning", -- [1]
 			"Wilgur-Mazrigos", -- [2]
@@ -2047,7 +1035,7 @@ ElvCharacterDB = {
 			[52] = "|cff3ec6eaWilgur|r",
 			[51] = 1628295472,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [46]
 		{
 			"over here", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -2069,7 +1057,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628295553,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [47]
 		{
 			"come down", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -2091,7 +1079,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628295555,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [48]
 		{
 			"play with us", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -2113,7 +1101,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628295558,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [49]
 		{
 			"join the pary", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -2135,7 +1123,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628295564,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [50]
 		{
 			"we have illigal things", -- [1]
 			"Dehlicia-Mazrigos", -- [2]
@@ -2157,7 +1145,7 @@ ElvCharacterDB = {
 			[52] = "|cff8687edDehlicia|r",
 			[51] = 1628295570,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [51]
 		{
 			"yay", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -2179,7 +1167,7 @@ ElvCharacterDB = {
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628295641,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
-		}, -- [98]
+		}, -- [52]
 		{
 			"ty", -- [1]
 			"Noaptea-AzjolNerub", -- [2]
@@ -2200,6 +1188,1018 @@ ElvCharacterDB = {
 			false, -- [17]
 			[52] = "|cff006fdcNoaptea-AzjolNerub|r",
 			[51] = 1628295642,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [53]
+		{
+			"Can you sign my charter, you can leave after if you wish, I am forming a new guild :)", -- [1]
+			"Demonchrist-Khadgar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Demonchrist-Khadgar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-1080-098FBA25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Demonchrist-Khadgar|r",
+			[51] = 1628336387,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [54]
+		{
+			"sure friend", -- [1]
+			"Demonchrist-Khadgar", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Demonchrist-Khadgar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			9, -- [11]
+			"Player-1080-098FBA25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Demonchrist-Khadgar|r",
+			[51] = 1628336402,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [55]
+		{
+			"throw it my way again", -- [1]
+			"Demonchrist-Khadgar", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Demonchrist-Khadgar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-1080-098FBA25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Demonchrist-Khadgar|r",
+			[51] = 1628336407,
+			[50] = "CHAT_MSG_WHISPER_INFORM",
+		}, -- [56]
+		{
+			"you should have a request :)", -- [1]
+			"Demonchrist-Khadgar", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Demonchrist-Khadgar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-1080-098FBA25", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Demonchrist-Khadgar|r",
+			[51] = 1628336457,
+			[50] = "CHAT_MSG_WHISPER",
+		}, -- [57]
+		{
+			"dunno the way :D", -- [1]
+			"Fleisht-Ravencrest", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Fleisht-Ravencrest", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			585, -- [11]
+			"Player-1329-06159852", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cFleisht-Ravencrest|r",
+			[51] = 1628376309,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [58]
+		{
+			"we doing entire dungenon?", -- [1]
+			"Kroingicker-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Kroingicker-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			590, -- [11]
+			"Player-3391-0BFEDC65", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cKroingicker-Silvermoon|r",
+			[51] = 1628376345,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [59]
+		{
+			"Cannon Barrage on Wingedguy", -- [1]
+			"Wingedguy-Aggramar", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Wingedguy-Aggramar", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			727, -- [11]
+			"Player-1325-0690D297", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfff38bb9Wingedguy-Aggramar|r",
+			[51] = 1628377290,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [60]
+		{
+			"Cannon Barrage on Naidarin", -- [1]
+			"Naidarin-Doomhammer", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Naidarin-Doomhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			730, -- [11]
+			"Player-1402-0532169C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffefefeNaidarin-Doomhammer|r",
+			[51] = 1628377319,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [61]
+		{
+			"hey guys", -- [1]
+			"Runicpower-Dentarg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Runicpower-Dentarg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			789, -- [11]
+			"Player-1084-0A4A6453", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Runicpower-Dentarg|r",
+			[51] = 1628391800,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [62]
+		{
+			"Taelia is hot", -- [1]
+			"Notcaprisun-ArgentDawn", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Notcaprisun-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			793, -- [11]
+			"Player-3702-0A4942DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Notcaprisun-ArgentDawn|r",
+			[51] = 1628391810,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [63]
+		{
+			"nice job heals", -- [1]
+			"Runicpower-Dentarg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Runicpower-Dentarg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			947, -- [11]
+			"Player-1084-0A4A6453", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Runicpower-Dentarg|r",
+			[51] = 1628392578,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [64]
+		{
+			"are you mocking me?", -- [1]
+			"Notcaprisun-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notcaprisun-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			955, -- [11]
+			"Player-3702-0A4942DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Notcaprisun-ArgentDawn|r",
+			[51] = 1628392618,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [65]
+		{
+			"no", -- [1]
+			"Runicpower-Dentarg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Runicpower-Dentarg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			956, -- [11]
+			"Player-1084-0A4A6453", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Runicpower-Dentarg|r",
+			[51] = 1628392622,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [66]
+		{
+			"lol", -- [1]
+			"Runicpower-Dentarg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Runicpower-Dentarg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			957, -- [11]
+			"Player-1084-0A4A6453", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Runicpower-Dentarg|r",
+			[51] = 1628392623,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [67]
+		{
+			"u did well", -- [1]
+			"Runicpower-Dentarg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Runicpower-Dentarg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			959, -- [11]
+			"Player-1084-0A4A6453", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Runicpower-Dentarg|r",
+			[51] = 1628392627,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [68]
+		{
+			"that was a big pull", -- [1]
+			"Runicpower-Dentarg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Runicpower-Dentarg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			962, -- [11]
+			"Player-1084-0A4A6453", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Runicpower-Dentarg|r",
+			[51] = 1628392643,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [69]
+		{
+			"ok", -- [1]
+			"Notcaprisun-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notcaprisun-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			966, -- [11]
+			"Player-3702-0A4942DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Notcaprisun-ArgentDawn|r",
+			[51] = 1628392679,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [70]
+		{
+			"|cff1eff00|Hitem:159158::::::::47:105:::2:6654:1698:2:28:1227:9:47:::::|h[Ashvane Company Chestplate of the Feverflare]|h|r", -- [1]
+			"Notcaprisun-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notcaprisun-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			979, -- [11]
+			"Player-3702-0A4942DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Notcaprisun-ArgentDawn|r",
+			[51] = 1628392758,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [71]
+		{
+			"go", -- [1]
+			"Davinci-Auchindoun", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Davinci-Auchindoun", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1014, -- [11]
+			"Player-1597-0F01730B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDavinci-Auchindoun|r",
+			[51] = 1628393111,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [72]
+		{
+			"1 dps in cannon", -- [1]
+			"Runicpower-Dentarg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Runicpower-Dentarg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1017, -- [11]
+			"Player-1084-0A4A6453", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Runicpower-Dentarg|r",
+			[51] = 1628393163,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [73]
+		{
+			"obama", -- [1]
+			"Notcaprisun-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notcaprisun-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1028, -- [11]
+			"Player-3702-0A4942DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Notcaprisun-ArgentDawn|r",
+			[51] = 1628393272,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [74]
+		{
+			"ty", -- [1]
+			"Runicpower-Dentarg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Runicpower-Dentarg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1043, -- [11]
+			"Player-1084-0A4A6453", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Runicpower-Dentarg|r",
+			[51] = 1628393402,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [75]
+		{
+			"ty (:", -- [1]
+			"Davinci-Auchindoun", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Davinci-Auchindoun", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1044, -- [11]
+			"Player-1597-0F01730B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDavinci-Auchindoun|r",
+			[51] = 1628393402,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [76]
+		{
+			"lag", -- [1]
+			"Notcaprisun-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notcaprisun-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1062, -- [11]
+			"Player-3702-0A4942DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Notcaprisun-ArgentDawn|r",
+			[51] = 1628393503,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [77]
+		{
+			"stand here", -- [1]
+			"Runicpower-Dentarg", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Runicpower-Dentarg", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1073, -- [11]
+			"Player-1084-0A4A6453", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Runicpower-Dentarg|r",
+			[51] = 1628393694,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [78]
+		{
+			"i hate this boss", -- [1]
+			"Mahosha-Doomhammer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mahosha-Doomhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1075, -- [11]
+			"Player-1402-0A01D177", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mahosha-Doomhammer|r",
+			[51] = 1628393697,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [79]
+		{
+			"tanks are so rare lol", -- [1]
+			"Davinci-Auchindoun", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Davinci-Auchindoun", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1101, -- [11]
+			"Player-1597-0F01730B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDavinci-Auchindoun|r",
+			[51] = 1628393872,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [80]
+		{
+			"lol", -- [1]
+			"Mahosha-Doomhammer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mahosha-Doomhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1102, -- [11]
+			"Player-1402-0A01D177", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mahosha-Doomhammer|r",
+			[51] = 1628393876,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [81]
+		{
+			"wait", -- [1]
+			"Notcaprisun-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notcaprisun-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1162, -- [11]
+			"Player-3702-0A4942DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Notcaprisun-ArgentDawn|r",
+			[51] = 1628394415,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [82]
+		{
+			"who wants |cff1eff00|Hitem:160143::::::::47:105:::3:6654:4802:1678:2:28:1224:9:47:::::|h[Ravascale Shoulderguards of the Quickblade]|h|r", -- [1]
+			"Notcaprisun-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notcaprisun-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1173, -- [11]
+			"Player-3702-0A4942DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Notcaprisun-ArgentDawn|r",
+			[51] = 1628394581,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [83]
+		{
+			"gang bang", -- [1]
+			"Notcaprisun-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notcaprisun-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1221, -- [11]
+			"Player-3702-0A4942DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Notcaprisun-ArgentDawn|r",
+			[51] = 1628394856,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [84]
+		{
+			"ty", -- [1]
+			"Davinci-Auchindoun", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Davinci-Auchindoun", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1230, -- [11]
+			"Player-1597-0F01730B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDavinci-Auchindoun|r",
+			[51] = 1628394969,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [85]
+		{
+			"who wants|cff1eff00|Hitem:160143::::::::47:105:::3:6654:4802:1678:2:28:1224:9:47:::::|h[Ravascale Shoulderguards of the Quickblade]|h|r|cff1eff00|Hitem:159158::::::::47:105:::2:6654:1698:2:28:1227:9:47:::::|h[Ashvane Company Chestplate of the Feverflare]|h|r|cff9d9d9d|Hitem:154796::::::::47:105::19:1:6656:2:28:1224:9:47:::::|h[Crumbling Chain Sabatons]|h|r", -- [1]
+			"Notcaprisun-ArgentDawn", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Notcaprisun-ArgentDawn", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1262, -- [11]
+			"Player-3702-0A4942DF", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Notcaprisun-ArgentDawn|r",
+			[51] = 1628395163,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [86]
+		{
+			"lol", -- [1]
+			"Mahosha-Doomhammer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mahosha-Doomhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1264, -- [11]
+			"Player-1402-0A01D177", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mahosha-Doomhammer|r",
+			[51] = 1628395170,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [87]
+		{
+			"thanks", -- [1]
+			"Mahosha-Doomhammer", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Mahosha-Doomhammer", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1266, -- [11]
+			"Player-1402-0A01D177", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Mahosha-Doomhammer|r",
+			[51] = 1628395181,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [88]
+		{
+			"hoe defok kry ons mekaar die heeltyd", -- [1]
+			"Dehlicia-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Dehlicia-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			8, -- [11]
+			"Player-1388-06D06D09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDehlicia|r",
+			[51] = 1628441503,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [89]
+		{
+			"geen idee nie", -- [1]
+			"Sheldrus-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Sheldrus-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			9, -- [11]
+			"Player-1388-08D0C7DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Sheldrus|r",
+			[51] = 1628441510,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [90]
+		{
+			"ek love dit :D", -- [1]
+			"Dehlicia-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Dehlicia-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			10, -- [11]
+			"Player-1388-06D06D09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDehlicia|r",
+			[51] = 1628441520,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [91]
+		{
+			"was hier besig om goed te toets by die dummies", -- [1]
+			"Sheldrus-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Sheldrus-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			11, -- [11]
+			"Player-1388-08D0C7DE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Sheldrus|r",
+			[51] = 1628441524,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [92]
+		{
+			"lol same XD", -- [1]
+			"Dehlicia-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Dehlicia-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			12, -- [11]
+			"Player-1388-06D06D09", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff8687edDehlicia|r",
+			[51] = 1628441532,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [93]
+		{
+			"Interrupted |cff71d5ff|Hspell:256060:0|h[Revitalizing Brew]|h|r on Skycap'n Kragg", -- [1]
+			"Voidwall-Aggra(Português)", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Voidwall-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			80, -- [11]
+			"Player-1303-0C089DE7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Voidwall-Aggra(Português)|r",
+			[51] = 1628443378,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [94]
+		{
+			"Interrupted |cff71d5ff|Hspell:258777:0|h[Sea Spout]|h|r on Irontide Oarsman", -- [1]
+			"Voidwall-Aggra(Português)", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Voidwall-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			95, -- [11]
+			"Player-1303-0C089DE7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Voidwall-Aggra(Português)|r",
+			[51] = 1628443465,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [95]
+		{
+			"Interrupted |cff71d5ff|Hspell:281420:0|h[Water Bolt]|h|r on Bilge Rat Brinescale", -- [1]
+			"Voidwall-Aggra(Português)", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Voidwall-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			134, -- [11]
+			"Player-1303-0C089DE7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Voidwall-Aggra(Português)|r",
+			[51] = 1628443616,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [96]
+		{
+			"Interrupted |cff71d5ff|Hspell:257732:0|h[Shattering Bellow]|h|r on Blacktooth Knuckleduster", -- [1]
+			"Voidwall-Aggra(Português)", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Voidwall-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			155, -- [11]
+			"Player-1303-0C089DE7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Voidwall-Aggra(Português)|r",
+			[51] = 1628443734,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [97]
+		{
+			"Interrupted |cff71d5ff|Hspell:281420:0|h[Water Bolt]|h|r on Bilge Rat Brinescale", -- [1]
+			"Voidwall-Aggra(Português)", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Voidwall-Aggra(Português)", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			159, -- [11]
+			"Player-1303-0C089DE7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc31d39Voidwall-Aggra(Português)|r",
+			[51] = 1628443765,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [98]
+		{
+			"piggasssbitch", -- [1]
+			"Ashwìnd-Draenor", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Ashwìnd-Draenor", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			183, -- [11]
+			"Player-1403-0719CA23", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaAshwìnd-Draenor|r",
+			[51] = 1628443919,
 			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [99]
 	},

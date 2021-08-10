@@ -253,25 +253,29 @@ OneRing_Config = {
 					["id"] = 5246,
 				}, -- [2]
 				{
+					["sliceToken"] = "ABuezvvlokY",
+					["id"] = 12323,
+				}, -- [3]
+				{
 					["sliceToken"] = "ABuezvvlokI",
 					["id"] = 18499,
-				}, -- [3]
+				}, -- [4]
 				{
 					["sliceToken"] = "ABuezvvlokU",
 					["id"] = 184364,
-				}, -- [4]
-				{
-					["sliceToken"] = "ABuezvvlokY",
-					["id"] = 12323,
 				}, -- [5]
+				{
+					["id"] = 118038,
+					["sliceToken"] = "ABuezO4UhHi",
+				}, -- [6]
 				{
 					["sliceToken"] = "ABuezme=he1",
 					["id"] = 97462,
-				}, -- [6]
+				}, -- [7]
 				{
 					["sliceToken"] = "ABuezme=her",
 					["id"] = 23920,
-				}, -- [7]
+				}, -- [8]
 				["name"] = "Futy Warrior Buffs",
 				["save"] = true,
 				["limit"] = "Shirang-Mazrigos",
@@ -332,8 +336,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuez8Sytd0",
 				}, -- [5]
 				["save"] = true,
-				["name"] = "Warlock Healing",
 				["limit"] = "Dehlicia-Mazrigos",
+				["name"] = "Warlock Healing",
 			},
 			["riestBuffs"] = {
 				{

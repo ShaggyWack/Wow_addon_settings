@@ -19,13 +19,14 @@ SkadaDB = {
 		["MASTER UI"] = {
 			["modeclicks"] = {
 				["Healing"] = 3,
-				["DPS"] = 23,
-				["Damage"] = 25,
+				["DPS"] = 24,
+				["Damage"] = 30,
 			},
 			["windows"] = {
 				{
 					["barheight"] = 25,
 					["barslocked"] = true,
+					["set"] = "total",
 					["y"] = 29.99996757507324,
 					["barfont"] = "2002 Bold",
 					["title"] = {
@@ -52,7 +53,7 @@ SkadaDB = {
 					},
 					["barfontsize"] = 20,
 					["roleicons"] = true,
-					["mode"] = "DPS",
+					["mode"] = "Damage",
 					["bartexture"] = "ElvUI Blank",
 					["barwidth"] = 417.7780151367188,
 					["smoothing"] = true,

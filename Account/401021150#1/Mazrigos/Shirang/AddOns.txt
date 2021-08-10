@@ -13,3 +13,4 @@ ElvUI_OptionsUI: enabled
 Narcissus: disabled
 Narcissus_Database: disabled
 Narcissus_Barbershop: disabled
+Immersion: enabled

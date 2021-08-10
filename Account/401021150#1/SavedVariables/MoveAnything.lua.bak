@@ -43,6 +43,30 @@ MADB = {
 		["MASTER UI"] = {
 			["name"] = "MASTER UI",
 			["frames"] = {
+				["CharacterFrame"] = {
+					["orgPos"] = {
+						"TOPLEFT", -- [1]
+						"UIParent", -- [2]
+						"TOPLEFT", -- [3]
+						5, -- [4]
+						-129, -- [5]
+					},
+					["name"] = "CharacterFrame",
+					["UIPanelWindows"] = {
+						["whileDead"] = 1,
+						["pushable"] = 3,
+						["area"] = "left",
+					},
+					["scale"] = 1.196544709772779,
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						5.014364242553711, -- [4]
+						450.3695678710938, -- [5]
+					},
+					["orgScale"] = 1,
+				},
 				["MerchantFrame"] = {
 					["orgPos"] = {
 						"TOPLEFT", -- [1]
@@ -63,6 +87,25 @@ MADB = {
 						"BOTTOMLEFT", -- [3]
 						13.22061634063721, -- [4]
 						451.70166015625, -- [5]
+					},
+					["orgScale"] = 1,
+				},
+				["DurabilityFrame"] = {
+					["orgPos"] = {
+						"CENTER", -- [1]
+						"DurabilityFrameHolder", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
+					},
+					["name"] = "DurabilityFrame",
+					["scale"] = 1.385186708708856,
+					["pos"] = {
+						"CENTER", -- [1]
+						"DurabilityFrameHolder", -- [2]
+						"CENTER", -- [3]
+						-2.371996366950877e-05, -- [4]
+						-9.6109664423112e-07, -- [5]
 					},
 					["orgScale"] = 1,
 				},
@@ -106,68 +149,6 @@ MADB = {
 						-451.1651611328125, -- [5]
 					},
 				},
-				["CharacterFrame"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						5, -- [4]
-						-129, -- [5]
-					},
-					["name"] = "CharacterFrame",
-					["UIPanelWindows"] = {
-						["whileDead"] = 1,
-						["pushable"] = 3,
-						["area"] = "left",
-					},
-					["scale"] = 1.196544709772779,
-					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						5.014364242553711, -- [4]
-						450.3695678710938, -- [5]
-					},
-					["orgScale"] = 1,
-				},
-				["DurabilityFrame"] = {
-					["orgPos"] = {
-						"CENTER", -- [1]
-						"DurabilityFrameHolder", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					},
-					["name"] = "DurabilityFrame",
-					["scale"] = 1.385186708708856,
-					["pos"] = {
-						"CENTER", -- [1]
-						"DurabilityFrameHolder", -- [2]
-						"CENTER", -- [3]
-						-2.371996366950877e-05, -- [4]
-						-9.6109664423112e-07, -- [5]
-					},
-					["orgScale"] = 1,
-				},
-				["ObjectiveTrackerFrameScaleMover"] = {
-					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapCluster", -- [2]
-						"BOTTOMRIGHT", -- [3]
-						-10, -- [4]
-						0, -- [5]
-					},
-					["name"] = "ObjectiveTrackerFrameScaleMover",
-					["scale"] = 1.273024491526794,
-					["pos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapCluster", -- [2]
-						"BOTTOMRIGHT", -- [3]
-						-217.5523190163559, -- [4]
-						150.1237973494711, -- [5]
-					},
-					["orgScale"] = 1,
-				},
 				["CollectionsJournal"] = {
 					["orgPos"] = {
 						"CENTER", -- [1]
@@ -190,6 +171,25 @@ MADB = {
 						"BOTTOMLEFT", -- [3]
 						13.43760871887207, -- [4]
 						304.3988952636719, -- [5]
+					},
+					["orgScale"] = 1,
+				},
+				["ObjectiveTrackerFrameScaleMover"] = {
+					["orgPos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapCluster", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-10, -- [4]
+						0, -- [5]
+					},
+					["name"] = "ObjectiveTrackerFrameScaleMover",
+					["scale"] = 1.273024491526794,
+					["pos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapCluster", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-217.5523190163559, -- [4]
+						150.1237973494711, -- [5]
 					},
 					["orgScale"] = 1,
 				},

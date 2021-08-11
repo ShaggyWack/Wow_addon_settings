@@ -2201,8 +2201,8 @@ ElvCharacterDB = {
 		"/s YYES", -- [16]
 		"/s wait", -- [17]
 		"|cffa335ee|Hitem:155880::::::::60:72::6:3:3612:1476:3528::::::|h[Scythe of the Unmaker]|h|r", -- [18]
-		"/elvui", -- [19]
-		"/reload", -- [20]
+		"/reload", -- [19]
+		"/elvui", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

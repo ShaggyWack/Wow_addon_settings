@@ -19,8 +19,8 @@ SkadaDB = {
 		["MASTER UI"] = {
 			["modeclicks"] = {
 				["Healing"] = 3,
-				["DPS"] = 24,
 				["Damage"] = 30,
+				["DPS"] = 24,
 			},
 			["windows"] = {
 				{
@@ -32,9 +32,9 @@ SkadaDB = {
 					["title"] = {
 						["color"] = {
 							["a"] = 0,
-							["b"] = 0.3019607843137255,
-							["g"] = 0.3019607843137255,
 							["r"] = 0.3019607843137255,
+							["g"] = 0.3019607843137255,
+							["b"] = 0.3019607843137255,
 						},
 						["font"] = "2002 Bold",
 						["texture"] = "ElvUI Blank",
@@ -47,9 +47,9 @@ SkadaDB = {
 					["point"] = "BOTTOMRIGHT",
 					["barbgcolor"] = {
 						["a"] = 1,
-						["b"] = 1,
-						["g"] = 1,
 						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
 					},
 					["barfontsize"] = 20,
 					["roleicons"] = true,
@@ -59,10 +59,10 @@ SkadaDB = {
 					["smoothing"] = true,
 					["x"] = -5.556640625,
 					["buttons"] = {
-						["report"] = false,
+						["segment"] = false,
 						["menu"] = false,
 						["mode"] = false,
-						["segment"] = false,
+						["report"] = false,
 					},
 				}, -- [1]
 			},
@@ -70,10 +70,10 @@ SkadaDB = {
 				["hide"] = true,
 			},
 			["versions"] = {
-				["1.6.7"] = true,
+				["1.6.3"] = true,
 				["1.8.0"] = true,
 				["1.6.4"] = true,
-				["1.6.3"] = true,
+				["1.6.7"] = true,
 			},
 			["reset"] = {
 				["instance"] = 2,
@@ -89,10 +89,10 @@ SkadaDB = {
 				}, -- [1]
 			},
 			["versions"] = {
-				["1.6.3"] = true,
+				["1.6.7"] = true,
 				["1.8.0"] = true,
 				["1.6.4"] = true,
-				["1.6.7"] = true,
+				["1.6.3"] = true,
 			},
 		},
 	},

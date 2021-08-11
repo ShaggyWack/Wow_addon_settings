@@ -28,31 +28,16 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["EnemyCasts"] = {
+		["Mirror"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["MASTER UI"] = {
-					["h"] = 30,
-					["w"] = 375,
-					["y"] = -477,
-					["font"] = "2002 Bold",
-					["point"] = "CENTER",
-					["border"] = "None",
-					["x"] = 0,
-					["texture"] = "ElvUI Blank",
-				},
-				["Default"] = {
-					["x"] = 941.666748046875,
-				},
-			},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 			["profiles"] = {
 				["MASTER UI"] = {
-					["x"] = 876,
-					["y"] = 356.666748046875,
 					["gcdposition"] = "free",
+					["y"] = 356.666748046875,
+					["x"] = 876,
 				},
 			},
 		},
@@ -78,12 +63,12 @@ Quartz3DB = {
 					["h"] = 25,
 					["w"] = 310,
 					["y"] = -385,
-					["x"] = 0,
+					["font"] = "2002 Bold",
 					["iconposition"] = "left",
 					["point"] = "CENTER",
 					["border"] = "None",
 					["texture"] = "ElvUI Blank",
-					["font"] = "2002 Bold",
+					["x"] = 0,
 				},
 				["Default"] = {
 					["x"] = 966.666748046875,
@@ -92,7 +77,22 @@ Quartz3DB = {
 		},
 		["Interrupt"] = {
 		},
-		["Mirror"] = {
+		["Player"] = {
+			["profiles"] = {
+				["MASTER UI"] = {
+					["h"] = 30,
+					["w"] = 375,
+					["y"] = -477,
+					["font"] = "2002 Bold",
+					["point"] = "CENTER",
+					["border"] = "None",
+					["x"] = 0,
+					["texture"] = "ElvUI Blank",
+				},
+				["Default"] = {
+					["x"] = 941.666748046875,
+				},
+			},
 		},
 		["Latency"] = {
 		},

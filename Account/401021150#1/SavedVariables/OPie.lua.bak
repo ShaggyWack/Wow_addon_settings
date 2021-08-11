@@ -4,9 +4,9 @@ OneRing_Config = {
 		["Mazrigos-Shirang-2"] = "MASTER UI",
 		["Mazrigos-Dannidan-2"] = "default",
 		["Mazrigos-Ytoh-3"] = "MASTER UI",
-		["Mazrigos-Dehlicia-2"] = "MASTER UI",
-		["Mazrigos-Merwarr-3"] = "MASTER UI",
 		["Mazrigos-Damnuspoop"] = "MASTER UI",
+		["Mazrigos-Merwarr-3"] = "MASTER UI",
+		["Mazrigos-Dehlicia-2"] = "MASTER UI",
 	},
 	["_GameVersion"] = "9.1.0",
 	["_OPieVersion"] = "Xe 6 (3.106)",
@@ -19,11 +19,11 @@ OneRing_Config = {
 			["RingScale"] = 0.9000000357627869,
 			["MISpinOnHide"] = false,
 			["XTPointerSnap"] = true,
-			["IndicationOffsetX"] = 100,
+			["ClickActivation"] = true,
 			["ShowCooldowns"] = true,
 			["CenterAction"] = true,
+			["IndicationOffsetX"] = 100,
 			["IndicationOffsetY"] = -50,
-			["ClickActivation"] = true,
 		},
 	},
 	["PersistentStorage"] = {
@@ -50,8 +50,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekJ2R=l3",
 				}, -- [5]
 				["save"] = true,
-				["limit"] = "Ytoh-Mazrigos",
 				["name"] = "Healing Cooldowns",
+				["limit"] = "Ytoh-Mazrigos",
 			},
 			["Healing1"] = {
 				{
@@ -63,8 +63,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekHhPhSr",
 				}, -- [2]
 				["save"] = true,
-				["limit"] = "Ytoh-Mazrigos",
 				["name"] = "Healing",
+				["limit"] = "Ytoh-Mazrigos",
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,
@@ -107,8 +107,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekHiLR5e",
 				}, -- [8]
 				["save"] = true,
-				["limit"] = "Damnuspoop-Mazrigos",
 				["name"] = "Healing",
+				["limit"] = "Damnuspoop-Mazrigos",
 			},
 			["HunterAspects"] = {
 				{
@@ -123,10 +123,10 @@ OneRing_Config = {
 					["id"] = 193530,
 					["sliceToken"] = "ABuekT/WuVe",
 				}, -- [3]
-				["name"] = "Aspects",
+				["limit"] = "HUNTER",
 				["save"] = true,
 				["hotkey"] = "BUTTON4",
-				["limit"] = "HUNTER",
+				["name"] = "Aspects",
 			},
 			["HunterTraps"] = {
 				{
@@ -149,10 +149,10 @@ OneRing_Config = {
 					["id"] = 259495,
 					["sliceToken"] = "ABuekP1D8Pr",
 				}, -- [5]
-				["limit"] = "HUNTER",
+				["name"] = "Traps",
 				["save"] = true,
 				["hotkey"] = "[spec:3] BUTTON5",
-				["name"] = "Traps",
+				["limit"] = "HUNTER",
 			},
 			["HunterPets"] = {
 				{
@@ -181,8 +181,8 @@ OneRing_Config = {
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
 				}, -- [5]
 				["save"] = true,
-				["limit"] = "HUNTER",
 				["name"] = "Pets",
+				["limit"] = "HUNTER",
 			},
 			["Buffs"] = {
 				{
@@ -194,8 +194,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekYxdior",
 				}, -- [2]
 				["save"] = true,
-				["name"] = "Buffs",
 				["limit"] = "Damnuspoop-Mazrigos",
+				["name"] = "Buffs",
 			},
 			["lockCurses"] = {
 				{
@@ -215,8 +215,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuez8SytdV",
 				}, -- [4]
 				["save"] = true,
-				["name"] = "Warlock Curses",
 				["limit"] = "Dehlicia-Mazrigos",
+				["name"] = "Warlock Curses",
 			},
 			["PetUtility"] = {
 				{
@@ -240,8 +240,67 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekT/WuVf",
 				}, -- [5]
 				["save"] = true,
-				["name"] = "Pet Utility",
 				["limit"] = "Damnuspoop-Mazrigos",
+				["name"] = "Pet Utility",
+			},
+			["ockHealing"] = {
+				{
+					["id"] = 234153,
+					["sliceToken"] = "ABuez8SytdH",
+				}, -- [1]
+				{
+					["id"] = 755,
+					["sliceToken"] = "ABuez8SytdG",
+				}, -- [2]
+				{
+					["id"] = 6789,
+					["sliceToken"] = "ABuez8SytdF",
+				}, -- [3]
+				{
+					["id"] = 104773,
+					["sliceToken"] = "ABuez8SytdD",
+				}, -- [4]
+				{
+					"item", -- [1]
+					5512, -- [2]
+					["sliceToken"] = "ABuez8Sytd0",
+				}, -- [5]
+				["save"] = true,
+				["name"] = "Warlock Healing",
+				["limit"] = "Dehlicia-Mazrigos",
+			},
+			["arlockUtil"] = {
+				{
+					["id"] = 698,
+					["sliceToken"] = "ABuez8Sytdwu",
+				}, -- [1]
+				{
+					["id"] = 342601,
+					["sliceToken"] = "ABuez8Sytdwy",
+				}, -- [2]
+				{
+					["id"] = 1098,
+					["sliceToken"] = "ABuezIj/1hr",
+				}, -- [3]
+				{
+					["id"] = 5697,
+					["sliceToken"] = "ABuez8Sytdw1",
+				}, -- [4]
+				{
+					["id"] = 20707,
+					["sliceToken"] = "ABuez8Sytdwo",
+				}, -- [5]
+				{
+					["id"] = 6201,
+					["sliceToken"] = "ABuez8Sytdwt",
+				}, -- [6]
+				{
+					["id"] = 29893,
+					["sliceToken"] = "ABuezIj/1h1",
+				}, -- [7]
+				["save"] = true,
+				["limit"] = "Dehlicia-Mazrigos",
+				["name"] = "Warlock Util",
 			},
 			["rriorBuffs"] = {
 				{
@@ -276,68 +335,9 @@ OneRing_Config = {
 					["sliceToken"] = "ABuezme=her",
 					["id"] = 23920,
 				}, -- [8]
-				["name"] = "Futy Warrior Buffs",
-				["save"] = true,
 				["limit"] = "Shirang-Mazrigos",
-			},
-			["arlockUtil"] = {
-				{
-					["id"] = 698,
-					["sliceToken"] = "ABuez8Sytdwu",
-				}, -- [1]
-				{
-					["id"] = 342601,
-					["sliceToken"] = "ABuez8Sytdwy",
-				}, -- [2]
-				{
-					["id"] = 1098,
-					["sliceToken"] = "ABuezIj/1hr",
-				}, -- [3]
-				{
-					["id"] = 5697,
-					["sliceToken"] = "ABuez8Sytdw1",
-				}, -- [4]
-				{
-					["id"] = 20707,
-					["sliceToken"] = "ABuez8Sytdwo",
-				}, -- [5]
-				{
-					["id"] = 6201,
-					["sliceToken"] = "ABuez8Sytdwt",
-				}, -- [6]
-				{
-					["id"] = 29893,
-					["sliceToken"] = "ABuezIj/1h1",
-				}, -- [7]
 				["save"] = true,
-				["name"] = "Warlock Util",
-				["limit"] = "Dehlicia-Mazrigos",
-			},
-			["ockHealing"] = {
-				{
-					["id"] = 234153,
-					["sliceToken"] = "ABuez8SytdH",
-				}, -- [1]
-				{
-					["id"] = 755,
-					["sliceToken"] = "ABuez8SytdG",
-				}, -- [2]
-				{
-					["id"] = 6789,
-					["sliceToken"] = "ABuez8SytdF",
-				}, -- [3]
-				{
-					["id"] = 104773,
-					["sliceToken"] = "ABuez8SytdD",
-				}, -- [4]
-				{
-					"item", -- [1]
-					5512, -- [2]
-					["sliceToken"] = "ABuez8Sytd0",
-				}, -- [5]
-				["save"] = true,
-				["limit"] = "Dehlicia-Mazrigos",
-				["name"] = "Warlock Healing",
+				["name"] = "Futy Warrior Buffs",
 			},
 			["riestBuffs"] = {
 				{
@@ -370,9 +370,9 @@ OneRing_Config = {
 					["sliceToken"] = "ABuezc07QIz",
 				}, -- [7]
 				["offset"] = 0,
-				["name"] = "Shadow Priest Buffs",
-				["save"] = true,
 				["limit"] = "PRIEST",
+				["save"] = true,
+				["name"] = "Shadow Priest Buffs",
 			},
 		},
 	},

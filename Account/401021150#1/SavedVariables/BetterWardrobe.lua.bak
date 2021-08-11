@@ -12,6 +12,10 @@ BetterWardrobe_Options = {
 		["Arthees - Mazrigos"] = "Default",
 	},
 	["profiles"] = {
+		["Mazrigos"] = {
+			["DR_Height"] = 750,
+			["DR_Width"] = 650,
+		},
 		["Default"] = {
 		},
 		["MASTER UI"] = {
@@ -22,10 +26,6 @@ BetterWardrobe_Options = {
 			["ShowTooltips"] = false,
 			["ShowHidden"] = true,
 			["DR_ShowControls"] = false,
-		},
-		["Mazrigos"] = {
-			["DR_Height"] = 750,
-			["DR_Width"] = 650,
 		},
 	},
 }
@@ -43,17 +43,29 @@ BetterWardrobe_CharacterData = {
 	},
 }
 BetterWardrobe_SavedSetData = {
+	["profileKeys"] = {
+		["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
+		["Shirang - Mazrigos"] = "Shirang - Mazrigos",
+		["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
+		["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
+		["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
+		["Ytoh - Mazrigos"] = "Ytoh - Mazrigos",
+		["Fartnipplebo - Lightbringer"] = "Fartnipplebo - Lightbringer",
+		["Yato - Mazrigos"] = "Yato - Mazrigos",
+		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
+	},
 	["global"] = {
 		["sets"] = {
 			["Damnuspoop - Mazrigos"] = {
 				{
-					["isClass"] = true,
+					["items"] = {
+					},
 					["type"] = "Saved",
 					["description"] = "",
 					["label"] = "Saved Set",
-					["icon"] = 1127586,
+					["favorite"] = false,
 					["limitedTimeSet"] = false,
-					["uiOrder"] = 100,
+					["collected"] = true,
 					["hiddenUtilCollected"] = false,
 					["expansionID"] = 1,
 					["sources"] = {
@@ -77,182 +89,13 @@ BetterWardrobe_SavedSetData = {
 						0, -- [18]
 						0, -- [19]
 					},
+					["isClass"] = true,
+					["patchID"] = "",
+					["setID"] = 5000,
+					["uiOrder"] = 100,
+					["icon"] = 1127586,
 					["name"] = "Dark Hunter",
-					["setID"] = 5000,
-					["patchID"] = "",
-					["collected"] = true,
-					["favorite"] = false,
-					["items"] = {
-					},
 				}, -- [1]
-			},
-			["Ytoh - Mazrigos"] = {
-				{
-					["description"] = "",
-					["label"] = "Extended Saved Set",
-					["limitedTimeSet"] = false,
-					["hiddenUtilCollected"] = false,
-					["sources"] = {
-						69765, -- [1]
-						0, -- [2]
-						64449, -- [3]
-						0, -- [4]
-						6187, -- [5]
-						81191, -- [6]
-						5860, -- [7]
-						62719, -- [8]
-						78944, -- [9]
-						64445, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						66820, -- [15]
-						62356, -- [16]
-						62356, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["patchID"] = "",
-					["icon"] = 1107438,
-					["setType"] = "extra",
-					["type"] = "Saved",
-					["setID"] = 5000,
-					["items"] = {
-					},
-					["isClass"] = true,
-					["name"] = "Blue Stone Ninja",
-					["expansionID"] = 1,
-					["uiOrder"] = 100,
-					["collected"] = true,
-					["favorite"] = false,
-					["index"] = 1,
-				}, -- [1]
-				{
-					["description"] = "",
-					["label"] = "Extended Saved Set",
-					["limitedTimeSet"] = false,
-					["hiddenUtilCollected"] = false,
-					["sources"] = {
-						50543, -- [1]
-						0, -- [2]
-						54942, -- [3]
-						20495, -- [4]
-						61908, -- [5]
-						46434, -- [6]
-						66428, -- [7]
-						69726, -- [8]
-						50487, -- [9]
-						81194, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						78917, -- [15]
-						0, -- [16]
-						0, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["patchID"] = "",
-					["icon"] = 796430,
-					["setType"] = "extra",
-					["type"] = "Saved",
-					["setID"] = 5001,
-					["items"] = {
-					},
-					["isClass"] = true,
-					["name"] = "Mistweaver",
-					["expansionID"] = 1,
-					["uiOrder"] = 200,
-					["collected"] = true,
-					["favorite"] = false,
-					["index"] = 2,
-				}, -- [2]
-			},
-			["Shirang - Mazrigos"] = {
-				{
-					["description"] = "",
-					["label"] = "Saved Set",
-					["limitedTimeSet"] = false,
-					["hiddenUtilCollected"] = false,
-					["sources"] = {
-						47230, -- [1]
-						0, -- [2]
-						62588, -- [3]
-						0, -- [4]
-						62584, -- [5]
-						62582, -- [6]
-						62587, -- [7]
-						62583, -- [8]
-						0, -- [9]
-						67163, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						78989, -- [15]
-						62895, -- [16]
-						62754, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["patchID"] = "",
-					["offShoulder"] = 0,
-					["icon"] = 645204,
-					["setType"] = "SavedBlizzard",
-					["setID"] = 5002,
-					["expansionID"] = 1,
-					["items"] = {
-					},
-					["name"] = "Black Steel Samurai",
-					["isClass"] = true,
-					["uiOrder"] = 100,
-					["collected"] = true,
-					["favorite"] = false,
-					["mainShoulder"] = 0,
-				}, -- [1]
-				{
-					["description"] = "",
-					["label"] = "Saved Set",
-					["limitedTimeSet"] = false,
-					["hiddenUtilCollected"] = false,
-					["sources"] = {
-						102216, -- [1]
-						0, -- [2]
-						102224, -- [3]
-						0, -- [4]
-						102244, -- [5]
-						104180, -- [6]
-						103328, -- [7]
-						101974, -- [8]
-						101954, -- [9]
-						104184, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						102297, -- [15]
-						105221, -- [16]
-						105221, -- [17]
-						0, -- [18]
-						0, -- [19]
-					},
-					["patchID"] = "",
-					["offShoulder"] = 0,
-					["icon"] = 2467777,
-					["setType"] = "SavedBlizzard",
-					["setID"] = 5000,
-					["expansionID"] = 1,
-					["items"] = {
-					},
-					["name"] = "Tri-Bone Hunter",
-					["isClass"] = true,
-					["uiOrder"] = 200,
-					["collected"] = true,
-					["favorite"] = false,
-					["mainShoulder"] = 0,
-				}, -- [2]
 			},
 			["Dehlicia - Mazrigos"] = {
 				{
@@ -288,13 +131,13 @@ BetterWardrobe_SavedSetData = {
 					["setID"] = 5000,
 					["items"] = {
 					},
-					["isClass"] = true,
-					["name"] = "Demon Lady",
-					["expansionID"] = 1,
-					["uiOrder"] = 100,
-					["collected"] = true,
-					["favorite"] = false,
 					["index"] = 1,
+					["isClass"] = true,
+					["expansionID"] = 1,
+					["collected"] = true,
+					["uiOrder"] = 100,
+					["favorite"] = false,
+					["name"] = "Demon Lady",
 				}, -- [1]
 				{
 					["description"] = "",
@@ -329,27 +172,184 @@ BetterWardrobe_SavedSetData = {
 					["setID"] = 5001,
 					["items"] = {
 					},
-					["isClass"] = true,
-					["name"] = "Purple Wings",
-					["expansionID"] = 1,
-					["uiOrder"] = 200,
-					["collected"] = true,
-					["favorite"] = false,
 					["index"] = 2,
+					["isClass"] = true,
+					["expansionID"] = 1,
+					["collected"] = true,
+					["uiOrder"] = 200,
+					["favorite"] = false,
+					["name"] = "Purple Wings",
+				}, -- [2]
+			},
+			["Ytoh - Mazrigos"] = {
+				{
+					["description"] = "",
+					["label"] = "Extended Saved Set",
+					["limitedTimeSet"] = false,
+					["hiddenUtilCollected"] = false,
+					["sources"] = {
+						69765, -- [1]
+						0, -- [2]
+						64449, -- [3]
+						0, -- [4]
+						6187, -- [5]
+						81191, -- [6]
+						5860, -- [7]
+						62719, -- [8]
+						78944, -- [9]
+						64445, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						66820, -- [15]
+						62356, -- [16]
+						62356, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["patchID"] = "",
+					["icon"] = 1107438,
+					["setType"] = "extra",
+					["type"] = "Saved",
+					["setID"] = 5000,
+					["items"] = {
+					},
+					["index"] = 1,
+					["isClass"] = true,
+					["expansionID"] = 1,
+					["collected"] = true,
+					["uiOrder"] = 100,
+					["favorite"] = false,
+					["name"] = "Blue Stone Ninja",
+				}, -- [1]
+				{
+					["description"] = "",
+					["label"] = "Extended Saved Set",
+					["limitedTimeSet"] = false,
+					["hiddenUtilCollected"] = false,
+					["sources"] = {
+						50543, -- [1]
+						0, -- [2]
+						54942, -- [3]
+						20495, -- [4]
+						61908, -- [5]
+						46434, -- [6]
+						66428, -- [7]
+						69726, -- [8]
+						50487, -- [9]
+						81194, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						78917, -- [15]
+						0, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["patchID"] = "",
+					["icon"] = 796430,
+					["setType"] = "extra",
+					["type"] = "Saved",
+					["setID"] = 5001,
+					["items"] = {
+					},
+					["index"] = 2,
+					["isClass"] = true,
+					["expansionID"] = 1,
+					["collected"] = true,
+					["uiOrder"] = 200,
+					["favorite"] = false,
+					["name"] = "Mistweaver",
+				}, -- [2]
+			},
+			["Shirang - Mazrigos"] = {
+				{
+					["description"] = "",
+					["label"] = "Saved Set",
+					["limitedTimeSet"] = false,
+					["hiddenUtilCollected"] = false,
+					["sources"] = {
+						47230, -- [1]
+						0, -- [2]
+						62588, -- [3]
+						0, -- [4]
+						62584, -- [5]
+						62582, -- [6]
+						62587, -- [7]
+						62583, -- [8]
+						0, -- [9]
+						67163, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						78989, -- [15]
+						62895, -- [16]
+						62754, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["patchID"] = "",
+					["offShoulder"] = 0,
+					["icon"] = 645204,
+					["setType"] = "SavedBlizzard",
+					["setID"] = 5002,
+					["expansionID"] = 1,
+					["mainShoulder"] = 0,
+					["name"] = "Black Steel Samurai",
+					["isClass"] = true,
+					["collected"] = true,
+					["uiOrder"] = 100,
+					["favorite"] = false,
+					["items"] = {
+					},
+				}, -- [1]
+				{
+					["description"] = "",
+					["label"] = "Saved Set",
+					["limitedTimeSet"] = false,
+					["hiddenUtilCollected"] = false,
+					["sources"] = {
+						102216, -- [1]
+						0, -- [2]
+						102224, -- [3]
+						0, -- [4]
+						102244, -- [5]
+						104180, -- [6]
+						103328, -- [7]
+						101974, -- [8]
+						101954, -- [9]
+						104184, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						102297, -- [15]
+						105221, -- [16]
+						105221, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["patchID"] = "",
+					["offShoulder"] = 0,
+					["icon"] = 2467777,
+					["setType"] = "SavedBlizzard",
+					["setID"] = 5000,
+					["expansionID"] = 1,
+					["mainShoulder"] = 0,
+					["name"] = "Tri-Bone Hunter",
+					["isClass"] = true,
+					["collected"] = true,
+					["uiOrder"] = 200,
+					["favorite"] = false,
+					["items"] = {
+					},
 				}, -- [2]
 			},
 		},
-	},
-	["profileKeys"] = {
-		["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
-		["Shirang - Mazrigos"] = "Shirang - Mazrigos",
-		["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
-		["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
-		["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
-		["Ytoh - Mazrigos"] = "Ytoh - Mazrigos",
-		["Fartnipplebo - Lightbringer"] = "Fartnipplebo - Lightbringer",
-		["Yato - Mazrigos"] = "Yato - Mazrigos",
-		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
 	},
 	["profiles"] = {
 		["Damnuspoop - Mazrigos"] = {
@@ -433,11 +433,11 @@ BetterWardrobe_ListData = {
 		["profiles"] = {
 			["Damnuspoop - Mazrigos"] = {
 			},
-			["Dannidan - Mazrigos"] = {
+			["Fartnipplebo - Lightbringer"] = {
 			},
 			["Ytoh - Mazrigos"] = {
 			},
-			["Fartnipplebo - Lightbringer"] = {
+			["Dannidan - Mazrigos"] = {
 			},
 			["Dehlicia - Mazrigos"] = {
 			},
@@ -449,6 +449,7 @@ BetterWardrobe_ListData = {
 			},
 		},
 	},
+	["lastUpdte"] = 1,
 	["OutfitDB"] = {
 		["profileKeys"] = {
 			["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
@@ -484,7 +485,6 @@ BetterWardrobe_ListData = {
 			},
 		},
 	},
-	["lastUpdte"] = 1,
 	["HiddenAppearanceDB"] = {
 		["profileKeys"] = {
 			["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",

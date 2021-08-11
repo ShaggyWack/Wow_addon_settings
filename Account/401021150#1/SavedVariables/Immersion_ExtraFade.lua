@@ -5,6 +5,5 @@ IEF_Config = {
 	["hideFrameRateCinematic"] = true,
 	["hideFrameRate"] = false,
 	["keepAlertFrames"] = true,
-	["UIParentAlpha"] = 0,
 	["trackingBarAlpha"] = 0.33,
 }

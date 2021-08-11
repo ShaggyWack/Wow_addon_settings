@@ -45,8 +45,8 @@ RoutesDB = {
 						1, -- [4]
 					},
 					["width"] = 40,
-					["width_minimap"] = 23,
 					["length"] = 9884.693860066858,
+					["width_minimap"] = 23,
 				},
 				["Laestrite Ore Alternate"] = {
 					["route"] = {
@@ -110,8 +110,8 @@ RoutesDB = {
 						1, -- [4]
 					},
 					["width"] = 53,
-					["length"] = 12541.40548363618,
 					["width_minimap"] = 31,
+					["length"] = 12541.40548363618,
 				},
 			},
 		},

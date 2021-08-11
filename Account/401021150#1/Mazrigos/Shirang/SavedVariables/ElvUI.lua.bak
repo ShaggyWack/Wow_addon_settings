@@ -2,1436 +2,6 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"2", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3463, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537350,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [1]
-		{
-			"1", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3464, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537351,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [2]
-		{
-			"Arcane Buildup on Shirang", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3469, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537363,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [3]
-		{
-			"4", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3470, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537364,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [4]
-		{
-			"3", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3472, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537365,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [5]
-		{
-			"2", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3473, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537366,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [6]
-		{
-			"Rain of Fel on Shirang", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3476, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537366,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [7]
-		{
-			"1", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3477, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537367,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [8]
-		{
-			"3", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3478, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537368,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [9]
-		{
-			"2", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3479, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537369,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [10]
-		{
-			"1", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3480, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537370,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [11]
-		{
-			"Burning Embers on Shirang", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3482, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537377,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [12]
-		{
-			"4", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3483, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537378,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [13]
-		{
-			"3", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3484, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537379,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [14]
-		{
-			"2", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3485, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537380,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [15]
-		{
-			"1", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3486, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537381,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [16]
-		{
-			"Arcane Buildup on Shirang", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3487, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537388,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [17]
-		{
-			"4", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3488, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537389,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [18]
-		{
-			"3", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3489, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537390,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [19]
-		{
-			"2", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3490, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537391,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [20]
-		{
-			"1", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3491, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537392,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [21]
-		{
-			"Burning Embers on Shirang", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3493, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537407,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [22]
-		{
-			"4", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3494, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537408,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [23]
-		{
-			"3", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3496, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537409,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [24]
-		{
-			"2", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3497, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537410,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [25]
-		{
-			"1", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3498, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537411,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [26]
-		{
-			"Arcane Buildup on Shirang", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3499, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537413,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [27]
-		{
-			"4", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3500, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537413,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [28]
-		{
-			"3", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3501, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537415,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [29]
-		{
-			"2", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3502, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537416,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [30]
-		{
-			"Rain of Fel on Shirang", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3504, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537417,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [31]
-		{
-			"1", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3505, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537417,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [32]
-		{
-			"3", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3506, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537419,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [33]
-		{
-			"2", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3507, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537420,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [34]
-		{
-			"1", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3508, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537420,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [35]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11996:Player-1388-06CF5DC4:1:8:9:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Eonar]|h|r!", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3510, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537426,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [36]
-		{
-			"{rt1}Sleep Canister", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3537, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537633,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [37]
-		{
-			"Dispel Me!", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3540, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537635,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [38]
-		{
-			"{rt2}Sleep Canister", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3547, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537712,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [39]
-		{
-			"Dispel Me!", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3549, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537714,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [40]
-		{
-			"{rt1}Sleep Canister", -- [1]
-			"Storge-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Storge-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3552, -- [11]
-			"Player-1388-06D07F08", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cStorge|r",
-			[51] = 1628537756,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [41]
-		{
-			"Dispel Me!", -- [1]
-			"Storge-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Storge-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3556, -- [11]
-			"Player-1388-06D07F08", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cStorge|r",
-			[51] = 1628537758,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [42]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11997:Player-1388-06CF5DC4:1:8:9:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Imonar the Soulhunter]|h|r!", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3561, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537813,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [43]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11989:Player-1388-06CF5DC4:1:8:9:21:4294967295:4294967295:4294967295:4294967295|h[Forbidden Descent]|h|r!", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3562, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628537813,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [44]
-		{
-			"|cffa335ee|Hitem:152013::::::::60:252::6:4:3612:1808:1475:3528:1:28:477:::::|h[Helmet of the Hidden Sanctuary]|h|r", -- [1]
-			"Zaelin-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Zaelin-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3579, -- [11]
-			"Player-1388-06F16C51", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc31d39Zaelin|r",
-			[51] = 1628537841,
-			[50] = "CHAT_MSG_PARTY",
-		}, -- [45]
-		{
-			"Reverberating Strike on Storge", -- [1]
-			"Storge-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Storge-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3588, -- [11]
-			"Player-1388-06D07F08", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cStorge|r",
-			[51] = 1628537935,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [46]
-		{
-			"Reverberating Strike on Shirang", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3596, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628538002,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [47]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11998:Player-1388-06CF5DC4:1:8:9:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Kin'garoth]|h|r!", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3598, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628538022,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [48]
-		{
-			"Echoes of Doom on Shirang", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3621, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628538152,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [49]
-		{
-			"Marked Prey on Storge", -- [1]
-			"Storge-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Storge-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3623, -- [11]
-			"Player-1388-06D07F08", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cStorge|r",
-			[51] = 1628538155,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [50]
-		{
-			"3", -- [1]
-			"Storge-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Storge-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3624, -- [11]
-			"Player-1388-06D07F08", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cStorge|r",
-			[51] = 1628538157,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [51]
-		{
-			"2", -- [1]
-			"Storge-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Storge-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3625, -- [11]
-			"Player-1388-06D07F08", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cStorge|r",
-			[51] = 1628538158,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [52]
-		{
-			"1", -- [1]
-			"Storge-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Storge-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3626, -- [11]
-			"Player-1388-06D07F08", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cStorge|r",
-			[51] = 1628538159,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [53]
-		{
-			"Echoes of Doom on Shirang", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3627, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628538161,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [54]
-		{
-			"Necrotic Embrace 1 on {rt3}Shirang{rt3}", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3631, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628538166,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [55]
-		{
-			"Necrotic Embrace 2 on {rt4}Storge{rt4}", -- [1]
-			"Storge-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Storge-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3633, -- [11]
-			"Player-1388-06D07F08", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cStorge|r",
-			[51] = 1628538166,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [56]
-		{
-			"Echoes of Doom on Shirang", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3634, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628538166,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [57]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:11999:Player-1388-06CF5DC4:1:8:9:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Varimathras]|h|r!", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3635, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628538166,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [58]
-		{
-			"Fulminating Pulse fading in 3", -- [1]
-			"Storge-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Storge-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3652, -- [11]
-			"Player-1388-06D07F08", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cStorge|r",
-			[51] = 1628538229,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [59]
-		{
-			"Fulminating Pulse fading in 3", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3653, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628538229,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [60]
-		{
-			"Fulminating Pulse fading in 2", -- [1]
-			"Storge-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Storge-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3655, -- [11]
-			"Player-1388-06D07F08", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cStorge|r",
-			[51] = 1628538230,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [61]
-		{
-			"Fulminating Pulse fading in 2", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3656, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628538230,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [62]
-		{
-			"Fulminating Pulse fading in 1", -- [1]
-			"Storge-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Storge-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3657, -- [11]
-			"Player-1388-06D07F08", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cStorge|r",
-			[51] = 1628538231,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [63]
-		{
-			"Fulminating Pulse fading in 1", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3658, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628538231,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [64]
-		{
-			"Fulminating Pulse fading in 3", -- [1]
-			"Shirang-Mazrigos", -- [2]
-			"Common", -- [3]
-			"", -- [4]
-			"Shirang-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			3661, -- [11]
-			"Player-1388-06CF5DC4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffc59a6cShirang|r",
-			[51] = 1628538269,
-			[50] = "CHAT_MSG_SAY",
-		}, -- [65]
-		{
 			"Fulminating Pulse fading in 2", -- [1]
 			"Shirang-Mazrigos", -- [2]
 			"Common", -- [3]
@@ -1452,7 +22,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538270,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [66]
+		}, -- [1]
 		{
 			"Fulminating Pulse fading in 1", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1474,7 +44,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538271,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [67]
+		}, -- [2]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12000:Player-1388-06CF5DC4:1:8:9:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: The Coven of Shivarra]|h|r!", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1496,7 +66,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538272,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [68]
+		}, -- [3]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11990:Player-1388-06CF5DC4:1:8:9:21:4294967295:4294967295:4294967295:4294967295|h[Hope's End]|h|r!", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1518,7 +88,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538272,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [69]
+		}, -- [4]
 		{
 			"{rt1}Ravenous Blaze", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1540,7 +110,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538366,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [70]
+		}, -- [5]
 		{
 			"{rt2}Ravenous Blaze", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -1562,7 +132,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628538366,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [71]
+		}, -- [6]
 		{
 			"{rt1}Ravenous Blaze", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1584,7 +154,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538425,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [72]
+		}, -- [7]
 		{
 			"{rt1}Ravenous Blaze", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1606,7 +176,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538470,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [73]
+		}, -- [8]
 		{
 			"{rt2}Ravenous Blaze", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -1628,7 +198,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628538470,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [74]
+		}, -- [9]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12001:Player-1388-06CF5DC4:1:8:9:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Aggramar]|h|r!", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1650,7 +220,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538471,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [75]
+		}, -- [10]
 		{
 			"Rage", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1672,7 +242,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538691,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [76]
+		}, -- [11]
 		{
 			"{rt5} Crit/Mast", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -1694,7 +264,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628538696,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [77]
+		}, -- [12]
 		{
 			"{rt6} Haste/Vers", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1716,7 +286,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538696,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [78]
+		}, -- [13]
 		{
 			"Rage", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1738,7 +308,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538831,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [79]
+		}, -- [14]
 		{
 			"Fear", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -1760,7 +330,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628538831,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [80]
+		}, -- [15]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:12002:Player-1388-06CF5DC4:1:8:9:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Argus the Unmaker]|h|r!", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1782,7 +352,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538839,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [81]
+		}, -- [16]
 		{
 			"%s has earned the achievement |cffffff00|Hachievement:11991:Player-1388-06CF5DC4:1:8:9:21:4294967295:4294967295:4294967295:4294967295|h[Seat of the Pantheon]|h|r!", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1804,7 +374,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628538839,
 			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [82]
+		}, -- [17]
 		{
 			"|cffa335ee|Hitem:152789::::::::60:72::6:1:3524:1:28:872:::::|h[Shackled Ur'zul]|h|r", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -1826,7 +396,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628539638,
 			[50] = "CHAT_MSG_PARTY_LEADER",
-		}, -- [83]
+		}, -- [18]
 		{
 			"Decimation", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1848,7 +418,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628539673,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [84]
+		}, -- [19]
 		{
 			"Decimation", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -1870,7 +440,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628539673,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [85]
+		}, -- [20]
 		{
 			"3", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1892,7 +462,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628539675,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [86]
+		}, -- [21]
 		{
 			"3", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -1914,7 +484,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628539675,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [87]
+		}, -- [22]
 		{
 			"2", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1936,7 +506,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628539676,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [88]
+		}, -- [23]
 		{
 			"2", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -1958,7 +528,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628539676,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [89]
+		}, -- [24]
 		{
 			"1", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -1980,7 +550,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628539677,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [90]
+		}, -- [25]
 		{
 			"1", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -2002,7 +572,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628539677,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [91]
+		}, -- [26]
 		{
 			"Fel Bombardment fading in 3", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -2024,7 +594,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628539678,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [92]
+		}, -- [27]
 		{
 			"Fel Bombardment fading in 2", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -2046,7 +616,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628539679,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [93]
+		}, -- [28]
 		{
 			"Fel Bombardment fading in 1", -- [1]
 			"Shirang-Mazrigos", -- [2]
@@ -2068,7 +638,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cShirang|r",
 			[51] = 1628539680,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [94]
+		}, -- [29]
 		{
 			"Fel Bombardment fading in 3", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -2090,7 +660,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628539968,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [95]
+		}, -- [30]
 		{
 			"Fel Bombardment fading in 2", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -2112,7 +682,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628539969,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [96]
+		}, -- [31]
 		{
 			"Fel Bombardment fading in 1", -- [1]
 			"Storge-Mazrigos", -- [2]
@@ -2134,7 +704,7 @@ ElvCharacterDB = {
 			[52] = "|cffc59a6cStorge|r",
 			[51] = 1628539970,
 			[50] = "CHAT_MSG_SAY",
-		}, -- [97]
+		}, -- [32]
 		{
 			"asdasd", -- [1]
 			"|Kq11|k", -- [2]
@@ -2157,7 +727,7 @@ ElvCharacterDB = {
 			[51] = 1628540909,
 			[50] = "CHAT_MSG_BN_WHISPER",
 			[53] = "LandWhale",
-		}, -- [98]
+		}, -- [33]
 		{
 			"|Hitem:155880::::::::60:72::6:3:3612:1476:3528::::::|h[Scythe of the Unmaker]|h", -- [1]
 			"|Kq11|k", -- [2]
@@ -2180,29 +750,1459 @@ ElvCharacterDB = {
 			[51] = 1628540939,
 			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
 			[53] = "LandWhale",
+		}, -- [34]
+		{
+			"how do you summon water elemental as frost mage now as i cant see it", -- [1]
+			"Neil-Terenas", -- [2]
+			"", -- [3]
+			"1. General - Revendreth", -- [4]
+			"Neil-Terenas", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Revendreth", -- [9]
+			0, -- [10]
+			137, -- [11]
+			"Player-2074-04CE3202", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNeil-Terenas|r",
+			[51] = 1628617617,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [35]
+		{
+			"ah its ok i see it", -- [1]
+			"Neil-Terenas", -- [2]
+			"", -- [3]
+			"1. General - Revendreth", -- [4]
+			"Neil-Terenas", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Revendreth", -- [9]
+			0, -- [10]
+			143, -- [11]
+			"Player-2074-04CE3202", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaNeil-Terenas|r",
+			[51] = 1628617660,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [36]
+		{
+			"executioner Adrastia coming down |cffffff00|Hworldmap:1525:4422:5083|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Gliter-BronzeDragonflight", -- [2]
+			"", -- [3]
+			"1. General - Revendreth", -- [4]
+			"Gliter-BronzeDragonflight", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Revendreth", -- [9]
+			0, -- [10]
+			454, -- [11]
+			"Player-1393-07B3B5F9", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Gliter-BronzeDragonflight|r",
+			[51] = 1628621130,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [37]
+		{
+			"Is it just me ", -- [1]
+			"Zouxie-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Zouxie-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			124, -- [11]
+			"Player-2074-0590E483", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Zouxie-EmeraldDream|r",
+			[51] = 1628624141,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [38]
+		{
+			"or does anyone else fall through |cffffff00|Hquest:60858:2060|h[Flight School: Up and Away!]|h|r", -- [1]
+			"Zouxie-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Zouxie-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			125, -- [11]
+			"Player-2074-0590E483", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Zouxie-EmeraldDream|r",
+			[51] = 1628624149,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [39]
+		{
+			"yes", -- [1]
+			"Catallena-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Catallena-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			126, -- [11]
+			"Player-1388-07829B0D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cCatallena|r",
+			[51] = 1628624150,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [40]
+		{
+			"on landing on the flowers", -- [1]
+			"Zouxie-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Zouxie-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			129, -- [11]
+			"Player-2074-0590E483", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Zouxie-EmeraldDream|r",
+			[51] = 1628624171,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [41]
+		{
+			"Yes", -- [1]
+			"Qazyr-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Qazyr-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			131, -- [11]
+			"Player-1388-0A925C81", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edQazyr|r",
+			[51] = 1628624177,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [42]
+		{
+			"yeah everytime i do it, takes me mor ethan a few tries", -- [1]
+			"Oranos-BronzeDragonflight", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Oranos-BronzeDragonflight", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			132, -- [11]
+			"Player-1393-0A7D917E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Oranos-BronzeDragonflight|r",
+			[51] = 1628624178,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [43]
+		{
+			"uhhh sometimes", -- [1]
+			"Mcguire-Terenas", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Mcguire-Terenas", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			133, -- [11]
+			"Player-2074-09FAF4E3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cMcguire-Terenas|r",
+			[51] = 1628624178,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [44]
+		{
+			"keep spamming left right", -- [1]
+			"Catallena-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Catallena-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			134, -- [11]
+			"Player-1388-07829B0D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cCatallena|r",
+			[51] = 1628624186,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [45]
+		{
+			"helps", -- [1]
+			"Catallena-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Catallena-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			136, -- [11]
+			"Player-1388-07829B0D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cCatallena|r",
+			[51] = 1628624192,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [46]
+		{
+			"its so stupid why design something like this, didnt they learn from that jumping world quest in nazajtar", -- [1]
+			"Zouxie-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Zouxie-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			138, -- [11]
+			"Player-2074-0590E483", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Zouxie-EmeraldDream|r",
+			[51] = 1628624210,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [47]
+		{
+			"nostalgia?", -- [1]
+			"Oranos-BronzeDragonflight", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Oranos-BronzeDragonflight", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			145, -- [11]
+			"Player-1393-0A7D917E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Oranos-BronzeDragonflight|r",
+			[51] = 1628624229,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [48]
+		{
+			"more like frustration as it was back then", -- [1]
+			"Zouxie-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Zouxie-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			148, -- [11]
+			"Player-2074-0590E483", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Zouxie-EmeraldDream|r",
+			[51] = 1628624242,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [49]
+		{
+			"fucking nazjatar man", -- [1]
+			"Mcguire-Terenas", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Mcguire-Terenas", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			150, -- [11]
+			"Player-2074-09FAF4E3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cMcguire-Terenas|r",
+			[51] = 1628624260,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [50]
+		{
+			"I thought that zone was bad", -- [1]
+			"Mcguire-Terenas", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Mcguire-Terenas", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			153, -- [11]
+			"Player-2074-09FAF4E3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cMcguire-Terenas|r",
+			[51] = 1628624281,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [51]
+		{
+			"then they invented the maw", -- [1]
+			"Mcguire-Terenas", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Mcguire-Terenas", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			157, -- [11]
+			"Player-2074-09FAF4E3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cMcguire-Terenas|r",
+			[51] = 1628624293,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [52]
+		{
+			"lol", -- [1]
+			"Shivmanx-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Shivmanx-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			159, -- [11]
+			"Player-2074-0898FB6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Shivmanx-EmeraldDream|r",
+			[51] = 1628624308,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [53]
+		{
+			"Its not called the Maw its called Shadowlands", -- [1]
+			"Zouxie-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Zouxie-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			166, -- [11]
+			"Player-2074-0590E483", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Zouxie-EmeraldDream|r",
+			[51] = 1628624365,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [54]
+		{
+			"wehey", -- [1]
+			"Mcguire-Terenas", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Mcguire-Terenas", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			167, -- [11]
+			"Player-2074-09FAF4E3", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cMcguire-Terenas|r",
+			[51] = 1628624371,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [55]
+		{
+			"I don't think they invented the Maw as much as they accidentally read a cursed passage from a forbidden old tome", -- [1]
+			"Qazyr-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Qazyr-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			168, -- [11]
+			"Player-1388-0A925C81", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edQazyr|r",
+			[51] = 1628624374,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [56]
+		{
+			"Needs another Legion or Wrath expansion", -- [1]
+			"Zouxie-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Zouxie-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			171, -- [11]
+			"Player-2074-0590E483", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Zouxie-EmeraldDream|r",
+			[51] = 1628624396,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [57]
+		{
+			"ngl folks i liked the old maw :)", -- [1]
+			"Miarosa-Azuremyst", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Miarosa-Azuremyst", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			178, -- [11]
+			"Player-1417-0203464B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeMiarosa-Azuremyst|r",
+			[51] = 1628624431,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [58]
+		{
+			"the maw is my ex wifes heart", -- [1]
+			"Zouxie-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Zouxie-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			180, -- [11]
+			"Player-2074-0590E483", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Zouxie-EmeraldDream|r",
+			[51] = 1628624446,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [59]
+		{
+			"it was full of nothing", -- [1]
+			"Zouxie-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Zouxie-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			181, -- [11]
+			"Player-2074-0590E483", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Zouxie-EmeraldDream|r",
+			[51] = 1628624451,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [60]
+		{
+			"...except Mawsworn?", -- [1]
+			"Qazyr-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Qazyr-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			185, -- [11]
+			"Player-1388-0A925C81", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edQazyr|r",
+			[51] = 1628624472,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [61]
+		{
+			"tourghast is the place i dont get. im still tyring to figur out if its worth the hassle", -- [1]
+			"Shivmanx-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Shivmanx-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			198, -- [11]
+			"Player-2074-0898FB6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Shivmanx-EmeraldDream|r",
+			[51] = 1628624573,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [62]
+		{
+			"Meh, slightly more now when you can get stuff", -- [1]
+			"Qazyr-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Qazyr-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			199, -- [11]
+			"Player-1388-0A925C81", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edQazyr|r",
+			[51] = 1628624596,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [63]
+		{
+			"i've never liked torghast i just find it boring", -- [1]
+			"Zouxie-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Zouxie-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			200, -- [11]
+			"Player-2074-0590E483", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfff38bb9Zouxie-EmeraldDream|r",
+			[51] = 1628624603,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [64]
+		{
+			"i liked the premice of it but it was a bit naff that we never got any loot", -- [1]
+			"Shivmanx-EmeraldDream", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Shivmanx-EmeraldDream", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			207, -- [11]
+			"Player-2074-0898FB6C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Shivmanx-EmeraldDream|r",
+			[51] = 1628624646,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [65]
+		{
+			"But I recommend going Necrolord Brewmaster, they just crush, Corrosive Dosage and Bonebroth whatever its called", -- [1]
+			"Qazyr-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Qazyr-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			208, -- [11]
+			"Player-1388-0A925C81", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edQazyr|r",
+			[51] = 1628624649,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [66]
+		{
+			"My brother played it in a 5 man team in TC layer 8, the final boss died in less than 10 sec, closer to 5", -- [1]
+			"Qazyr-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Qazyr-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			213, -- [11]
+			"Player-1388-0A925C81", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edQazyr|r",
+			[51] = 1628624700,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [67]
+		{
+			"Id still say the flower bouncing is way better than protecting turtles from birds in BFA", -- [1]
+			"Qazyr-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Bastion", -- [4]
+			"Qazyr-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Bastion", -- [9]
+			0, -- [10]
+			247, -- [11]
+			"Player-1388-0A925C81", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edQazyr|r",
+			[51] = 1628625041,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [68]
+		{
+			"hopecrusher up |cffffff00|Hworldmap:1525:5251:5173|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Neveah-Nordrassil", -- [2]
+			"", -- [3]
+			"1. General - Revendreth", -- [4]
+			"Neveah-Nordrassil", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Revendreth", -- [9]
+			0, -- [10]
+			682, -- [11]
+			"Player-1393-0921793C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeNeveah-Nordrassil|r",
+			[51] = 1628633134,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [69]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14790:Player-1388-06CF5DC4:1:8:11:21:4294967295:4294967295:4294967295:4294967295|h[Covenant Campaign]|h|r!", -- [1]
+			"Shirang-Mazrigos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shirang-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			883, -- [11]
+			"Player-1388-06CF5DC4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cShirang|r",
+			[51] = 1628636504,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [70]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14836:Player-1388-06CF5DC4:1:8:11:21:4294967295:4294967295:4294967295:4294967295|h[Unwavering Bond]|h|r!", -- [1]
+			"Shirang-Mazrigos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shirang-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			894, -- [11]
+			"Player-1388-06CF5DC4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cShirang|r",
+			[51] = 1628636666,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [71]
+		{
+			"|cffffff00|Hworldmap:1525:6287:4724|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Djorah-Stormrage", -- [2]
+			"", -- [3]
+			"1. General - Revendreth", -- [4]
+			"Djorah-Stormrage", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Revendreth", -- [9]
+			0, -- [10]
+			950, -- [11]
+			"Player-1417-07645221", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Djorah-Stormrage|r",
+			[51] = 1628637386,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [72]
+		{
+			"omw", -- [1]
+			"Closetbear-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Closetbear-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1084, -- [11]
+			"Player-1388-090BCBA7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Closetbear-Lightbringer|r",
+			[51] = 1628638529,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [73]
+		{
+			"gone :(", -- [1]
+			"Silvertip-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Silvertip-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1085, -- [11]
+			"Player-1080-05B1ADD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Silvertip-Bloodhoof|r",
+			[51] = 1628638553,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [74]
+		{
+			"despawned", -- [1]
+			"Silvertip-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Silvertip-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1086, -- [11]
+			"Player-1080-05B1ADD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Silvertip-Bloodhoof|r",
+			[51] = 1628638561,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [75]
+		{
+			"consumption - 16 stacks", -- [1]
+			"Chiji-Khadgar", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Chiji-Khadgar", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1189, -- [11]
+			"Player-1080-060E85F6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Chiji-Khadgar|r",
+			[51] = 1628639440,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [76]
+		{
+			"Relic Gatherer inside cave, anyone? |cffffff00|Hworldmap:1961:5612:1573|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Silvertip-Bloodhoof", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Silvertip-Bloodhoof", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1341, -- [11]
+			"Player-1080-05B1ADD4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Silvertip-Bloodhoof|r",
+			[51] = 1628640367,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [77]
+		{
+			"omw", -- [1]
+			"Volantie-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Volantie-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			1342, -- [11]
+			"Player-1388-0150335F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Volantie-Lightbringer|r",
+			[51] = 1628640383,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [78]
+		{
+			"%s has earned the achievement |cffffff00|Hachievement:14840:Player-1388-06CF5DC4:1:8:11:21:4294967295:4294967295:4294967295:4294967295|h[Adventures: Learning the Ropes]|h|r!", -- [1]
+			"Shirang-Mazrigos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Shirang-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			1511, -- [11]
+			"Player-1388-06CF5DC4", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cShirang|r",
+			[51] = 1628642332,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+		}, -- [79]
+		{
+			"let's see what's inside the box |cff0070dd|Hitem:186650::::::::60:63::11::1:28:2060:::::|h[Death's Advance Supplies]|h|r , archivist's was demoralizing", -- [1]
+			"Whoamisc-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Whoamisc-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			25, -- [11]
+			"Player-1388-097C5DFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaWhoamisc-Lightbringer|r",
+			[51] = 1628673757,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [80]
+		{
+			"lol 1x|cff00ccff|Hitem:187187::::::::60:63::11::1:28:2060:::::|h[Korthian Armaments]|h|r 2800gold", -- [1]
+			"Whoamisc-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Whoamisc-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			30, -- [11]
+			"Player-1388-097C5DFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaWhoamisc-Lightbringer|r",
+			[51] = 1628673782,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [81]
+		{
+			"feel rewarded", -- [1]
+			"Whoamisc-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Whoamisc-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			31, -- [11]
+			"Player-1388-097C5DFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaWhoamisc-Lightbringer|r",
+			[51] = 1628673800,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [82]
+		{
+			"gg u got some bis gear", -- [1]
+			"Hypergirl-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Hypergirl-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			36, -- [11]
+			"Player-1388-0A9C94AD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Hypergirl-Lightbringer|r",
+			[51] = 1628673863,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [83]
+		{
+			"consumption bakin' -18", -- [1]
+			"Whoamisc-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Whoamisc-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			87, -- [11]
+			"Player-1388-097C5DFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaWhoamisc-Lightbringer|r",
+			[51] = 1628674214,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [84]
+		{
+			"Drippy is up :)", -- [1]
+			"Ashpaw-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Ashpaw-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			135, -- [11]
+			"Player-1388-0AA623A2", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Ashpaw-Lightbringer|r",
+			[51] = 1628674945,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [85]
+		{
+			"venthyr rare need some aid", -- [1]
+			"Hypergirl-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Hypergirl-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			149, -- [11]
+			"Player-1388-0A9C94AD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Hypergirl-Lightbringer|r",
+			[51] = 1628675081,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [86]
+		{
+			"reliwik egg is up", -- [1]
+			"Whoamisc-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Whoamisc-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			208, -- [11]
+			"Player-1388-097C5DFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaWhoamisc-Lightbringer|r",
+			[51] = 1628675512,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [87]
+		{
+			"invite", -- [1]
+			"Fangface-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Fangface-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			209, -- [11]
+			"Player-1388-08B72C43", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cFangface-Lightbringer|r",
+			[51] = 1628675539,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [88]
+		{
+			"i don't need it tho", -- [1]
+			"Whoamisc-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Whoamisc-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			211, -- [11]
+			"Player-1388-097C5DFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaWhoamisc-Lightbringer|r",
+			[51] = 1628675555,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [89]
+		{
+			"inv help kill him", -- [1]
+			"Fangface-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Fangface-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			212, -- [11]
+			"Player-1388-08B72C43", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cFangface-Lightbringer|r",
+			[51] = 1628675567,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [90]
+		{
+			"ah ok", -- [1]
+			"Fangface-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Fangface-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			213, -- [11]
+			"Player-1388-08B72C43", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cFangface-Lightbringer|r",
+			[51] = 1628675571,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [91]
+		{
+			"|cffffff00|Hworldmap:1961:4978:2898|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|rVe'rayn", -- [1]
+			"Zeorn-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Zeorn-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			226, -- [11]
+			"Player-1388-095A49A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Zeorn|r",
+			[51] = 1628675763,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [92]
+		{
+			"going to kill yorik", -- [1]
+			"Hypergirl-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Hypergirl-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			233, -- [11]
+			"Player-1388-0A9C94AD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Hypergirl-Lightbringer|r",
+			[51] = 1628675879,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [93]
+		{
+			"dominated protector up |cffffff00|Hworldmap:1961:5121:2087|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Zeorn-Mazrigos", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Zeorn-Mazrigos", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			256, -- [11]
+			"Player-1388-095A49A7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Zeorn|r",
+			[51] = 1628672411,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [94]
+		{
+			"Screaming Shade |cffffff00|Hworldmap:1961:4475:4297|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Whoamisc-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Whoamisc-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			267, -- [11]
+			"Player-1388-097C5DFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaWhoamisc-Lightbringer|r",
+			[51] = 1628676116,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [95]
+		{
+			"Kroke the Tormented |cffffff00|Hworldmap:1961:6196:3617|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Whoamisc-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Whoamisc-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			285, -- [11]
+			"Player-1388-097C5DFA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff3ec6eaWhoamisc-Lightbringer|r",
+			[51] = 1628676285,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [96]
+		{
+			"Yorik |cffffff00|Hworldmap:1961:4992:7984|h[|A:Waypoint-MapPin-ChatIcon:13:13:0:0|a Map Pin Location]|h|r", -- [1]
+			"Conquere-Alonsus", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Conquere-Alonsus", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			286, -- [11]
+			"Player-1082-064D2BFE", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcConquere-Alonsus|r",
+			[51] = 1628676324,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [97]
+		{
+			"silent soulstalker", -- [1]
+			"Hypergirl-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Hypergirl-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			349, -- [11]
+			"Player-1388-0A9C94AD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Hypergirl-Lightbringer|r",
+			[51] = 1628677227,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [98]
+		{
+			"up go get him out of the rift :p", -- [1]
+			"Hypergirl-Lightbringer", -- [2]
+			"", -- [3]
+			"1. General - Korthia", -- [4]
+			"Hypergirl-Lightbringer", -- [5]
+			"", -- [6]
+			1, -- [7]
+			1, -- [8]
+			"General - Korthia", -- [9]
+			0, -- [10]
+			350, -- [11]
+			"Player-1388-0A9C94AD", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa22fc8Hypergirl-Lightbringer|r",
+			[51] = 1628677237,
+			[50] = "CHAT_MSG_CHANNEL",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/s we wanna summon a demon", -- [1]
-		"/s lets summon a demon", -- [2]
-		"/s dfffafwwadrrrwrrrdweeerrrwaw", -- [3]
-		"/s follow me", -- [4]
-		"/s come here", -- [5]
-		"/s wait here", -- [6]
-		"/s look at us", -- [7]
-		"/s dwwdwYESD", -- [8]
-		"/roll", -- [9]
-		"/s yo", -- [10]
-		"/s let s be cool", -- [11]
-		"/s warriors in arms", -- [12]
-		"/s click on the thing", -- [13]
-		"/reload", -- [14]
-		"/s hol up", -- [15]
-		"/s click it", -- [16]
-		"/cheer", -- [17]
-		"/s YYES", -- [18]
-		"/s wait", -- [19]
-		"|cffa335ee|Hitem:155880::::::::60:72::6:3:3612:1476:3528::::::|h[Scythe of the Unmaker]|h|r", -- [20]
+		"/s lets summon a demon", -- [1]
+		"/s dfffafwwadrrrwrrrdweeerrrwaw", -- [2]
+		"/s follow me", -- [3]
+		"/s come here", -- [4]
+		"/s wait here", -- [5]
+		"/s look at us", -- [6]
+		"/s dwwdwYESD", -- [7]
+		"/roll", -- [8]
+		"/s yo", -- [9]
+		"/s let s be cool", -- [10]
+		"/s warriors in arms", -- [11]
+		"/s click on the thing", -- [12]
+		"/s hol up", -- [13]
+		"/s click it", -- [14]
+		"/cheer", -- [15]
+		"/s YYES", -- [16]
+		"/s wait", -- [17]
+		"|cffa335ee|Hitem:155880::::::::60:72::6:3:3612:1476:3528::::::|h[Scythe of the Unmaker]|h|r", -- [18]
+		"/elvui", -- [19]
+		"/reload", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

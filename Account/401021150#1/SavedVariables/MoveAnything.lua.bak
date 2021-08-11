@@ -58,6 +58,7 @@ MADB = {
 						["area"] = "left",
 					},
 					["scale"] = 1.196544709772779,
+					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -65,7 +66,6 @@ MADB = {
 						5.014364242553711, -- [4]
 						450.3695678710938, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 				["MerchantFrame"] = {
 					["orgPos"] = {
@@ -81,6 +81,7 @@ MADB = {
 						["area"] = "left",
 					},
 					["scale"] = 1.210224642416667,
+					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -88,26 +89,29 @@ MADB = {
 						13.22061634063721, -- [4]
 						451.70166015625, -- [5]
 					},
-					["orgScale"] = 1,
 				},
-				["DurabilityFrame"] = {
+				["ItemTextFrame"] = {
 					["orgPos"] = {
-						"CENTER", -- [1]
-						"DurabilityFrameHolder", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
+						"LEFT", -- [1]
+						"UIParent", -- [2]
+						"LEFT", -- [3]
+						252.9999847412109, -- [4]
+						-10, -- [5]
 					},
-					["name"] = "DurabilityFrame",
-					["scale"] = 1.385186708708856,
-					["pos"] = {
-						"CENTER", -- [1]
-						"DurabilityFrameHolder", -- [2]
-						"CENTER", -- [3]
-						-2.371996366950877e-05, -- [4]
-						-9.6109664423112e-07, -- [5]
+					["name"] = "ItemTextFrame",
+					["UIPanelWindows"] = {
+						["pushable"] = 0,
+						["area"] = "left",
 					},
+					["scale"] = 1.172958012868667,
 					["orgScale"] = 1,
+					["pos"] = {
+						"BOTTOMLEFT", -- [1]
+						"UIParent", -- [2]
+						"BOTTOMLEFT", -- [3]
+						253.3005523681641, -- [4]
+						289.8646545410156, -- [5]
+					},
 				},
 				["DressUpFrame"] = {
 					["orgPos"] = {
@@ -123,6 +127,7 @@ MADB = {
 						["area"] = "left",
 					},
 					["scale"] = 1.150869489940694,
+					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -130,7 +135,6 @@ MADB = {
 						739.9234619140625, -- [4]
 						398.8272094726563, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 				["StaticPopup1"] = {
 					["orgPos"] = {
@@ -165,6 +169,7 @@ MADB = {
 						["area"] = "left",
 					},
 					["scale"] = 1.190687008359906,
+					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -172,7 +177,6 @@ MADB = {
 						13.43760871887207, -- [4]
 						304.3988952636719, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 				["ObjectiveTrackerFrameScaleMover"] = {
 					["orgPos"] = {
@@ -184,6 +188,7 @@ MADB = {
 					},
 					["name"] = "ObjectiveTrackerFrameScaleMover",
 					["scale"] = 1.273024491526794,
+					["orgScale"] = 1,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
 						"MinimapCluster", -- [2]
@@ -191,36 +196,31 @@ MADB = {
 						-217.5523190163559, -- [4]
 						150.1237973494711, -- [5]
 					},
-					["orgScale"] = 1,
 				},
-				["ItemTextFrame"] = {
+				["DurabilityFrame"] = {
 					["orgPos"] = {
-						"LEFT", -- [1]
-						"UIParent", -- [2]
-						"LEFT", -- [3]
-						252.9999847412109, -- [4]
-						-10, -- [5]
+						"CENTER", -- [1]
+						"DurabilityFrameHolder", -- [2]
+						"CENTER", -- [3]
+						0, -- [4]
+						0, -- [5]
 					},
-					["name"] = "ItemTextFrame",
-					["UIPanelWindows"] = {
-						["pushable"] = 0,
-						["area"] = "left",
-					},
-					["scale"] = 1.172958012868667,
-					["pos"] = {
-						"BOTTOMLEFT", -- [1]
-						"UIParent", -- [2]
-						"BOTTOMLEFT", -- [3]
-						253.3005523681641, -- [4]
-						289.8646545410156, -- [5]
-					},
+					["name"] = "DurabilityFrame",
+					["scale"] = 1.385186708708856,
 					["orgScale"] = 1,
+					["pos"] = {
+						"CENTER", -- [1]
+						"DurabilityFrameHolder", -- [2]
+						"CENTER", -- [3]
+						-2.371996366950877e-05, -- [4]
+						-9.6109664423112e-07, -- [5]
+					},
 				},
 			},
 		},
 	},
-	["closeGUIOnEscape"] = false,
-	["playSound"] = false,
-	["noBags"] = false,
 	["frameListRows"] = 18,
+	["noBags"] = false,
+	["playSound"] = false,
+	["closeGUIOnEscape"] = false,
 }

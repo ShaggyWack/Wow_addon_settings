@@ -3,8 +3,9 @@ OneRing_Config = {
 	["CharProfiles"] = {
 		["Mazrigos-Shirang-2"] = "MASTER UI",
 		["Mazrigos-Dannidan-2"] = "default",
-		["Mazrigos-Ytoh-3"] = "MASTER UI",
 		["Mazrigos-Dehlicia-2"] = "MASTER UI",
+		["Mazrigos-Ytoh-3"] = "MASTER UI",
+		["Mazrigos-Shirang"] = "MASTER UI",
 		["Mazrigos-Merwarr-3"] = "MASTER UI",
 		["Mazrigos-Damnuspoop"] = "MASTER UI",
 	},
@@ -50,8 +51,8 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekJ2R=l3",
 				}, -- [5]
 				["save"] = true,
-				["limit"] = "Ytoh-Mazrigos",
 				["name"] = "Healing Cooldowns",
+				["limit"] = "Ytoh-Mazrigos",
 			},
 			["Healing1"] = {
 				{
@@ -63,34 +64,34 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekHhPhSr",
 				}, -- [2]
 				["save"] = true,
-				["limit"] = "Ytoh-Mazrigos",
 				["name"] = "Healing",
+				["limit"] = "Ytoh-Mazrigos",
 			},
 			["OPieFlagStore"] = {
 				["StoreVersion"] = 2,
 			},
 			["Healing"] = {
 				{
-					["id"] = 109304,
 					["sliceToken"] = "ABuekTNaj92",
+					["id"] = 109304,
 				}, -- [1]
 				{
-					["id"] = 186265,
 					["sliceToken"] = "ABuekIn=L41",
+					["id"] = 186265,
 				}, -- [2]
 				{
-					["id"] = 272651,
 					["sliceToken"] = "ABuekTNaj9i",
+					["id"] = 272651,
 				}, -- [3]
 				{
 					"macro", -- [1]
 					"Spirit Mend", -- [2]
-					["show"] = "[spec:255/254] hide;[pet: Spirit Beast]",
 					["sliceToken"] = "ABuekTNaj9o",
+					["show"] = "[spec:255/254] hide;[pet: Spirit Beast]",
 				}, -- [4]
 				{
-					["id"] = 59543,
 					["sliceToken"] = "ABuekTNaj9p",
+					["id"] = 59543,
 				}, -- [5]
 				{
 					"item", -- [1]
@@ -98,103 +99,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekOeXIj1",
 				}, -- [6]
 				{
-					["id"] = 982,
 					["sliceToken"] = "ABuekYZAXXe",
+					["id"] = 982,
 				}, -- [7]
 				{
 					"item", -- [1]
 					5512, -- [2]
 					["sliceToken"] = "ABuekHiLR5e",
 				}, -- [8]
-				["save"] = true,
-				["limit"] = "Damnuspoop-Mazrigos",
 				["name"] = "Healing",
-			},
-			["HunterAspects"] = {
-				{
-					["id"] = 186257,
-					["sliceToken"] = "OPCHAc",
-				}, -- [1]
-				{
-					["id"] = 186265,
-					["sliceToken"] = "OPCHAt",
-				}, -- [2]
-				{
-					["id"] = 193530,
-					["sliceToken"] = "ABuekT/WuVe",
-				}, -- [3]
-				["name"] = "Aspects",
 				["save"] = true,
-				["hotkey"] = "BUTTON4",
-				["limit"] = "HUNTER",
-			},
-			["HunterTraps"] = {
-				{
-					["id"] = 191433,
-					["sliceToken"] = "OPCHTe",
-				}, -- [1]
-				{
-					["id"] = 187650,
-					["sliceToken"] = "OPCHTf",
-				}, -- [2]
-				{
-					["id"] = 187698,
-					["sliceToken"] = "OPCHTt",
-				}, -- [3]
-				{
-					["id"] = 236776,
-					["sliceToken"] = "ABuekIcenPe",
-				}, -- [4]
-				{
-					["id"] = 259495,
-					["sliceToken"] = "ABuekP1D8Pr",
-				}, -- [5]
-				["limit"] = "HUNTER",
-				["save"] = true,
-				["hotkey"] = "[spec:3] BUTTON5",
-				["name"] = "Traps",
-			},
-			["HunterPets"] = {
-				{
-					["show"] = "[known:883,havepet:1]",
-					["sliceToken"] = "OPCHP1",
-					["id"] = "#showtooltip [@pet,exists,nodead,nopet:1] {{spell:883}};\n/cast [@pet,exists,nopet:1,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:883}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-				}, -- [1]
-				{
-					["show"] = "[known:83242,havepet:2]",
-					["sliceToken"] = "OPCHP2",
-					["id"] = "#showtooltip [@pet,exists,nodead,nopet:2] {{spell:83242}};\n/cast [@pet,exists,nopet:2,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83242}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-				}, -- [2]
-				{
-					["show"] = "[known:83243,havepet:3]",
-					["sliceToken"] = "OPCHP3",
-					["id"] = "#showtooltip [@pet,exists,nodead,nopet:3] {{spell:83243}};\n/cast [@pet,exists,nopet:3,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83243}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-				}, -- [3]
-				{
-					["show"] = "[known:83244,havepet:4]",
-					["sliceToken"] = "OPCHP4",
-					["id"] = "#showtooltip [@pet,exists,nodead,nopet:4] {{spell:83244}};\n/cast [@pet,exists,nopet:4,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83244}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-				}, -- [4]
-				{
-					["show"] = "[known:83245,havepet:5]",
-					["sliceToken"] = "OPCHP5",
-					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-				}, -- [5]
-				["save"] = true,
-				["limit"] = "HUNTER",
-				["name"] = "Pets",
-			},
-			["Buffs"] = {
-				{
-					["id"] = 19574,
-					["sliceToken"] = "ABuekYxdio1",
-				}, -- [1]
-				{
-					["id"] = 193530,
-					["sliceToken"] = "ABuekYxdior",
-				}, -- [2]
-				["save"] = true,
-				["name"] = "Buffs",
 				["limit"] = "Damnuspoop-Mazrigos",
 			},
 			["lockCurses"] = {
@@ -215,70 +129,146 @@ OneRing_Config = {
 					["sliceToken"] = "ABuez8SytdV",
 				}, -- [4]
 				["save"] = true,
-				["name"] = "Warlock Curses",
 				["limit"] = "Dehlicia-Mazrigos",
+				["name"] = "Warlock Curses",
+			},
+			["HunterTraps"] = {
+				{
+					["id"] = 191433,
+					["sliceToken"] = "OPCHTe",
+				}, -- [1]
+				{
+					["sliceToken"] = "OPCHTf",
+					["id"] = 187650,
+				}, -- [2]
+				{
+					["sliceToken"] = "OPCHTt",
+					["id"] = 187698,
+				}, -- [3]
+				{
+					["id"] = 236776,
+					["sliceToken"] = "ABuekIcenPe",
+				}, -- [4]
+				{
+					["id"] = 259495,
+					["sliceToken"] = "ABuekP1D8Pr",
+				}, -- [5]
+				["limit"] = "HUNTER",
+				["save"] = true,
+				["hotkey"] = "[spec:3] BUTTON5",
+				["name"] = "Traps",
+			},
+			["HunterPets"] = {
+				{
+					["sliceToken"] = "OPCHP1",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:1] {{spell:883}};\n/cast [@pet,exists,nopet:1,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:883}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					["show"] = "[known:883,havepet:1]",
+				}, -- [1]
+				{
+					["sliceToken"] = "OPCHP2",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:2] {{spell:83242}};\n/cast [@pet,exists,nopet:2,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83242}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					["show"] = "[known:83242,havepet:2]",
+				}, -- [2]
+				{
+					["sliceToken"] = "OPCHP3",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:3] {{spell:83243}};\n/cast [@pet,exists,nopet:3,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83243}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					["show"] = "[known:83243,havepet:3]",
+				}, -- [3]
+				{
+					["sliceToken"] = "OPCHP4",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:4] {{spell:83244}};\n/cast [@pet,exists,nopet:4,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83244}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					["show"] = "[known:83244,havepet:4]",
+				}, -- [4]
+				{
+					["sliceToken"] = "OPCHP5",
+					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
+					["show"] = "[known:83245,havepet:5]",
+				}, -- [5]
+				["name"] = "Pets",
+				["save"] = true,
+				["limit"] = "HUNTER",
+			},
+			["Buffs"] = {
+				{
+					["sliceToken"] = "ABuekYxdio1",
+					["id"] = 19574,
+				}, -- [1]
+				{
+					["sliceToken"] = "ABuekYxdior",
+					["id"] = 193530,
+				}, -- [2]
+				["name"] = "Buffs",
+				["save"] = true,
+				["limit"] = "Damnuspoop-Mazrigos",
 			},
 			["PetUtility"] = {
 				{
-					["id"] = 1515,
 					["sliceToken"] = "ABuekT/WuVg",
+					["id"] = 1515,
 				}, -- [1]
 				{
-					["id"] = 6991,
 					["sliceToken"] = "ABuekT/WuVd",
+					["id"] = 6991,
 				}, -- [2]
 				{
-					["id"] = 2641,
 					["sliceToken"] = "ABuekT/WuV3",
+					["id"] = 2641,
 				}, -- [3]
 				{
-					["id"] = 1462,
 					["sliceToken"] = "ABuekT/WuVs",
+					["id"] = 1462,
 				}, -- [4]
 				{
-					["id"] = 982,
 					["sliceToken"] = "ABuekT/WuVf",
+					["id"] = 982,
 				}, -- [5]
+				["limit"] = "Damnuspoop-Mazrigos",
 				["save"] = true,
 				["name"] = "Pet Utility",
-				["limit"] = "Damnuspoop-Mazrigos",
 			},
-			["rriorBuffs"] = {
+			["HunterAspects"] = {
 				{
-					["sliceToken"] = "ABuezvvlokP",
-					["id"] = 6673,
+					["sliceToken"] = "OPCHAc",
+					["id"] = 186257,
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuezvvlokO",
-					["id"] = 5246,
+					["sliceToken"] = "OPCHAt",
+					["id"] = 186265,
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuezvvlokY",
-					["id"] = 12323,
+					["sliceToken"] = "ABuekT/WuVe",
+					["id"] = 193530,
+				}, -- [3]
+				["limit"] = "HUNTER",
+				["save"] = true,
+				["hotkey"] = "BUTTON4",
+				["name"] = "Aspects",
+			},
+			["ockHealing"] = {
+				{
+					["id"] = 234153,
+					["sliceToken"] = "ABuez8SytdH",
+				}, -- [1]
+				{
+					["id"] = 755,
+					["sliceToken"] = "ABuez8SytdG",
+				}, -- [2]
+				{
+					["id"] = 6789,
+					["sliceToken"] = "ABuez8SytdF",
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuezvvlokI",
-					["id"] = 18499,
+					["id"] = 104773,
+					["sliceToken"] = "ABuez8SytdD",
 				}, -- [4]
 				{
-					["sliceToken"] = "ABuezvvlokU",
-					["id"] = 184364,
+					"item", -- [1]
+					5512, -- [2]
+					["sliceToken"] = "ABuez8Sytd0",
 				}, -- [5]
-				{
-					["id"] = 118038,
-					["sliceToken"] = "ABuezO4UhHi",
-				}, -- [6]
-				{
-					["sliceToken"] = "ABuezme=he1",
-					["id"] = 97462,
-				}, -- [7]
-				{
-					["sliceToken"] = "ABuezme=her",
-					["id"] = 23920,
-				}, -- [8]
-				["name"] = "Futy Warrior Buffs",
 				["save"] = true,
-				["limit"] = "Shirang-Mazrigos",
+				["name"] = "Warlock Healing",
+				["limit"] = "Dehlicia-Mazrigos",
 			},
 			["arlockUtil"] = {
 				{
@@ -310,34 +300,45 @@ OneRing_Config = {
 					["sliceToken"] = "ABuezIj/1h1",
 				}, -- [7]
 				["save"] = true,
-				["name"] = "Warlock Util",
 				["limit"] = "Dehlicia-Mazrigos",
+				["name"] = "Warlock Util",
 			},
-			["ockHealing"] = {
+			["rriorBuffs"] = {
 				{
-					["id"] = 234153,
-					["sliceToken"] = "ABuez8SytdH",
+					["id"] = 6673,
+					["sliceToken"] = "ABuezvvlokP",
 				}, -- [1]
 				{
-					["id"] = 755,
-					["sliceToken"] = "ABuez8SytdG",
+					["id"] = 5246,
+					["sliceToken"] = "ABuezvvlokO",
 				}, -- [2]
 				{
-					["id"] = 6789,
-					["sliceToken"] = "ABuez8SytdF",
+					["id"] = 12323,
+					["sliceToken"] = "ABuezvvlokY",
 				}, -- [3]
 				{
-					["id"] = 104773,
-					["sliceToken"] = "ABuez8SytdD",
+					["id"] = 18499,
+					["sliceToken"] = "ABuezvvlokI",
 				}, -- [4]
 				{
-					"item", -- [1]
-					5512, -- [2]
-					["sliceToken"] = "ABuez8Sytd0",
+					["id"] = 184364,
+					["sliceToken"] = "ABuezvvlokU",
 				}, -- [5]
+				{
+					["id"] = 118038,
+					["sliceToken"] = "ABuezO4UhHi",
+				}, -- [6]
+				{
+					["id"] = 97462,
+					["sliceToken"] = "ABuezme=he1",
+				}, -- [7]
+				{
+					["id"] = 23920,
+					["sliceToken"] = "ABuezme=her",
+				}, -- [8]
 				["save"] = true,
-				["limit"] = "Dehlicia-Mazrigos",
-				["name"] = "Warlock Healing",
+				["name"] = "Futy Warrior Buffs",
+				["limit"] = "Shirang-Mazrigos",
 			},
 			["riestBuffs"] = {
 				{
@@ -370,9 +371,9 @@ OneRing_Config = {
 					["sliceToken"] = "ABuezc07QIz",
 				}, -- [7]
 				["offset"] = 0,
-				["name"] = "Shadow Priest Buffs",
-				["save"] = true,
 				["limit"] = "PRIEST",
+				["save"] = true,
+				["name"] = "Shadow Priest Buffs",
 			},
 		},
 	},

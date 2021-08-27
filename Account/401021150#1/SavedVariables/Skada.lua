@@ -14,21 +14,22 @@ SkadaDB = {
 		["Fartnipplebo - Lightbringer"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
+		["Nitus - Tarren Mill"] = "MASTER UI",
 	},
 	["profiles"] = {
 		["MASTER UI"] = {
 			["modeclicks"] = {
+				["Enemy healing taken"] = 1,
 				["Healing"] = 3,
-				["DPS"] = 24,
-				["Damage"] = 30,
+				["DPS"] = 28,
+				["Damage"] = 33,
 			},
 			["windows"] = {
 				{
 					["barheight"] = 25,
 					["barslocked"] = true,
-					["set"] = "total",
 					["y"] = 29.99996757507324,
-					["barfont"] = "2002 Bold",
+					["x"] = -5.556640625,
 					["title"] = {
 						["color"] = {
 							["a"] = 0,
@@ -39,11 +40,7 @@ SkadaDB = {
 						["font"] = "2002 Bold",
 						["texture"] = "ElvUI Blank",
 					},
-					["background"] = {
-						["bordertexture"] = "None",
-						["height"] = 168.8888092041016,
-						["texture"] = "None",
-					},
+					["barfont"] = "2002 Bold",
 					["point"] = "BOTTOMRIGHT",
 					["barbgcolor"] = {
 						["a"] = 1,
@@ -53,17 +50,21 @@ SkadaDB = {
 					},
 					["barfontsize"] = 20,
 					["roleicons"] = true,
-					["mode"] = "Damage",
-					["bartexture"] = "ElvUI Blank",
-					["barwidth"] = 417.7780151367188,
-					["smoothing"] = true,
-					["x"] = -5.556640625,
+					["mode"] = "DPS",
 					["buttons"] = {
 						["report"] = false,
 						["menu"] = false,
 						["mode"] = false,
 						["segment"] = false,
 					},
+					["barwidth"] = 417.7780151367188,
+					["smoothing"] = true,
+					["background"] = {
+						["bordertexture"] = "None",
+						["height"] = 168.8888092041016,
+						["texture"] = "None",
+					},
+					["bartexture"] = "ElvUI Blank",
 				}, -- [1]
 			},
 			["icon"] = {

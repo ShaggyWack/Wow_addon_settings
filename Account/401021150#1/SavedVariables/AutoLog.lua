@@ -10,6 +10,7 @@ AutoLog_DB = {
 		["Fartnipplebo - Lightbringer"] = "Fartnipplebo - Lightbringer",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
+		["Nitus - Tarren Mill"] = "Nitus - Tarren Mill",
 	},
 	["global"] = {
 		["mythicdungeons"] = true,

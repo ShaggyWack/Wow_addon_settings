@@ -14,3 +14,5 @@ Narcissus: disabled
 Narcissus_Database: disabled
 Narcissus_Barbershop: disabled
 Immersion: enabled
+AAP-Core: disabled
+Pinging: disabled

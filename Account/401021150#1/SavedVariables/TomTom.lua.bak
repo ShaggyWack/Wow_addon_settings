@@ -10,6 +10,7 @@ TomTomDB = {
 		["Fartnipplebo - Lightbringer"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
+		["Nitus - Tarren Mill"] = "MASTER UI",
 	},
 	["profiles"] = {
 		["MASTER UI"] = {
@@ -25,6 +26,10 @@ TomTomDB = {
 			},
 			["minimap"] = {
 				["default_icon"] = "Interface\\AddOns\\TomTom\\Images\\GoldPurpleDotNew",
+			},
+			["mapcoords"] = {
+				["cursorenable"] = false,
+				["playerenable"] = false,
 			},
 			["block"] = {
 				["enable"] = false,
@@ -71,6 +76,7 @@ TomTomWaypointsM = {
 		["Fartnipplebo - Lightbringer"] = "Fartnipplebo - Lightbringer",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
+		["Nitus - Tarren Mill"] = "Nitus - Tarren Mill",
 	},
 	["profiles"] = {
 		["Damnuspoop - Mazrigos"] = {
@@ -90,6 +96,8 @@ TomTomWaypointsM = {
 		["Yato - Mazrigos"] = {
 		},
 		["Arthees - Mazrigos"] = {
+		},
+		["Nitus - Tarren Mill"] = {
 		},
 	},
 }

@@ -10,6 +10,7 @@ MythicDungeonToolsDB = {
 		["Fartnipplebo - Lightbringer"] = "Fartnipplebo - Lightbringer",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
+		["Nitus - Tarren Mill"] = "Nitus - Tarren Mill",
 	},
 	["global"] = {
 		["anchorTo"] = "CENTER",
@@ -226,9 +227,17 @@ MythicDungeonToolsDB = {
 				{
 					["difficulty"] = 10,
 					["week"] = 1,
+					["mdi"] = {
+						["freehold"] = 1,
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+					},
 					["colorPaletteInfo"] = {
 						["autoColoring"] = true,
 						["colorPaletteIdx"] = 4,
+					},
+					["text"] = "test",
+					["objects"] = {
 					},
 					["value"] = {
 						["selection"] = {
@@ -598,14 +607,6 @@ MythicDungeonToolsDB = {
 							}, -- [31]
 						},
 					},
-					["text"] = "test",
-					["objects"] = {
-					},
-					["mdi"] = {
-						["freehold"] = 1,
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-					},
 				}, -- [2]
 				{
 					["value"] = 0,
@@ -613,7 +614,7 @@ MythicDungeonToolsDB = {
 				}, -- [3]
 			},
 		},
-		["version"] = 361,
+		["version"] = 362,
 		["xoffset"] = -108.8886032104492,
 		["nonFullscreenScale"] = 1,
 		["yoffset"] = 40.27760696411133,

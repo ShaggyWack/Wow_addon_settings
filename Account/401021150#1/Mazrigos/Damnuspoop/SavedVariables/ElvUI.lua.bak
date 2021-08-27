@@ -2,317 +2,317 @@
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
 		{
-			"evening", -- [1]
-			"Arkadec-Lightbringer", -- [2]
-			"", -- [3]
+			"let it phase", -- [1]
+			"Sossatan-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Sossatan-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			80, -- [11]
-			"Player-1388-07D470E1", -- [12]
+			160, -- [11]
+			"Player-3391-0A6EE2F8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edArkadec|r",
-			[51] = 1609091998,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Sossatan-Silvermoon|r",
+			[51] = 1629919607,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [1]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10827:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Xavius]|h|r!", -- [1]
-			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"reset", -- [1]
+			"Feandrelle-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Damnuspoop-Mazrigos", -- [5]
+			"Feandrelle-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			93, -- [11]
-			"Player-1388-06D07A02", -- [12]
+			161, -- [11]
+			"Player-3391-0B302BBC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609092112,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff3ec6eaFeandrelle-Silvermoon|r",
+			[51] = 1629919608,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [2]
 		{
-			"inv??", -- [1]
-			"Nayada-Lightbringer", -- [2]
-			"", -- [3]
+			"its not ready", -- [1]
+			"Sossatan-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Sossatan-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			109, -- [11]
-			"Player-1388-07D74D39", -- [12]
+			162, -- [11]
+			"Player-3391-0A6EE2F8", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Nayada|r",
-			[51] = 1609092261,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Sossatan-Silvermoon|r",
+			[51] = 1629919611,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [3]
 		{
-			"For what?", -- [1]
-			"Khaldros-Lightbringer", -- [2]
-			"", -- [3]
+			"шеэы цфкдщсл", -- [1]
+			"Manbeerbelly-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Manbeerbelly-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			111, -- [11]
-			"Player-1388-0912A0A2", -- [12]
+			163, -- [11]
+			"Player-3391-0B2B665A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Khaldros|r",
-			[51] = 1609092269,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Manbeerbelly-Silvermoon|r",
+			[51] = 1629919624,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [4]
 		{
-			"DENIED", -- [1]
-			"Atrexie-Lightbringer", -- [2]
-			"", -- [3]
+			"it's warlock", -- [1]
+			"Manbeerbelly-Silvermoon", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Manbeerbelly-Silvermoon", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			113, -- [11]
-			"Player-1388-08E5D422", -- [12]
+			164, -- [11]
+			"Player-3391-0B2B665A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Atrexie|r",
-			[51] = 1609092273,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Manbeerbelly-Silvermoon|r",
+			[51] = 1629919630,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [5]
 		{
-			"aren't we doing heroic today lol? :D", -- [1]
-			"Nayada-Lightbringer", -- [2]
-			"", -- [3]
+			"My magic will TEAR you apart!", -- [1]
+			"Kamõs-Lightbringer", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Kamõs-Lightbringer", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			114, -- [11]
-			"Player-1388-07D74D39", -- [12]
+			358, -- [11]
+			"Player-1388-0A6E1C95", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Nayada|r",
-			[51] = 1609092276,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff3ec6eaKamõs-Lightbringer|r",
+			[51] = 1629922235,
+			[50] = "CHAT_MSG_YELL",
 		}, -- [6]
 		{
-			"or was it called off?", -- [1]
-			"Nayada-Lightbringer", -- [2]
+			"%s has earned the achievement |cffffff00|Hachievement:9988:Player-1388-06D07A02:1:8:26:21:4294967295:4294967295:4294967295:4294967295|h[Pro Toss]|h|r!", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			115, -- [11]
-			"Player-1388-07D74D39", -- [12]
+			209, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Nayada|r",
-			[51] = 1609092286,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630003612,
+			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
 		}, -- [7]
 		{
-			"hujer :)", -- [1]
-			"Mistledove-Lightbringer", -- [2]
-			"", -- [3]
+			"Shield of Light fading in 3", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			116, -- [11]
-			"Player-1388-088F6F92", -- [12]
+			345, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Mistledove|r",
-			[51] = 1609092286,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630004916,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [8]
 		{
-			"nayada, it depends", -- [1]
-			"Arkadec-Lightbringer", -- [2]
-			"", -- [3]
+			"Shield of Light fading in 2", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			119, -- [11]
-			"Player-1388-07D470E1", -- [12]
+			346, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edArkadec|r",
-			[51] = 1609092292,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630004917,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [9]
 		{
-			"starts at :15", -- [1]
-			"Cunya-Lightbringer", -- [2]
-			"", -- [3]
+			"Shield of Light fading in 1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			121, -- [11]
-			"Player-1388-078C98C4", -- [12]
+			347, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaCunya|r",
-			[51] = 1609092294,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630004918,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [10]
 		{
-			"There's still 10 mins left :P", -- [1]
-			"Syllania-Mazrigos", -- [2]
-			"", -- [3]
+			"Expel Light on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			123, -- [11]
-			"Player-1388-06CF58C5", -- [12]
+			348, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Syllania|r",
-			[51] = 1609092298,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630004921,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [11]
 		{
-			"10 mins can make difference", -- [1]
-			"Arkadec-Lightbringer", -- [2]
-			"", -- [3]
+			"{rt4}Branded", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			128, -- [11]
-			"Player-1388-07D470E1", -- [12]
+			351, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edArkadec|r",
-			[51] = 1609092318,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630004931,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [12]
 		{
-			"well i was just confused that's all haha", -- [1]
-			"Nayada-Lightbringer", -- [2]
-			"", -- [3]
+			"{rt1}Branded", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			129, -- [11]
-			"Player-1388-07D74D39", -- [12]
+			352, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Nayada|r",
-			[51] = 1609092324,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630004931,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [13]
 		{
-			"starting invites", -- [1]
-			"Ishana-Lightbringer", -- [2]
-			"", -- [3]
+			"{rt6}Branded", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			130, -- [11]
-			"Player-1388-00A640C8", -- [12]
+			353, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Ishana|r",
-			[51] = 1609092342,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630004931,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [14]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11396:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Odyn]|h|r!", -- [1]
+			"{rt3}Branded", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -320,7 +320,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			181, -- [11]
+			354, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -328,35 +328,35 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609093240,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1630004931,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [15]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:6753:Player-1388-0A871154:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Got My Mind On My Money]|h|r!", -- [1]
-			"Féntriox-Lightbringer", -- [2]
-			"", -- [3]
+			"{rt2}Branded", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Féntriox-Lightbringer", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			195, -- [11]
-			"Player-1388-0A871154", -- [12]
+			355, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Féntriox-Lightbringer|r",
-			[51] = 1609093439,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630004931,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [16]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11397:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Guarm]|h|r!", -- [1]
+			"Shield of Light fading in 3", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -364,7 +364,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			206, -- [11]
+			358, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -372,13 +372,13 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609093640,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1630004936,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [17]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11377:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Patient Zero]|h|r!", -- [1]
+			"Shield of Light fading in 2", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -386,7 +386,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			256, -- [11]
+			359, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -394,13 +394,13 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609094292,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1630004937,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [18]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11398:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Helya]|h|r!", -- [1]
+			"Shield of Light fading in 1", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -408,7 +408,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			258, -- [11]
+			360, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -416,13 +416,13 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609094292,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1630004938,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [19]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11426:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Heroic: Trial of Valor]|h|r!", -- [1]
+			"Expel Light on Damnuspoop", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -430,7 +430,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			259, -- [11]
+			361, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -438,13 +438,13 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609094292,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1630004941,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [20]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:11762:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Can I Get A Helya]|h|r!", -- [1]
+			"Shield of Light fading in 3", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -452,7 +452,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			276, -- [11]
+			370, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -460,923 +460,461 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609094365,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1630005020,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [21]
 		{
-			"eve every1", -- [1]
-			"Keba-Lightbringer", -- [2]
-			"", -- [3]
+			"Shield of Light fading in 2", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			315, -- [11]
-			"Player-1388-001C6C88", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Keba|r",
-			[51] = 1609094615,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [22]
-		{
-			"hey", -- [1]
-			"Syllania-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			322, -- [11]
-			"Player-1388-06CF58C5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Syllania|r",
-			[51] = 1609094619,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [23]
-		{
-			"Kebaaa", -- [1]
-			"Khaldros-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			323, -- [11]
-			"Player-1388-0912A0A2", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Khaldros|r",
-			[51] = 1609094619,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [24]
-		{
-			"Hey Keba :D", -- [1]
-			"Sadiya-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			327, -- [11]
-			"Player-1388-07A6FBA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcSadiya|r",
-			[51] = 1609094620,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [25]
-		{
-			"eve Keba", -- [1]
-			"Shazira-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			328, -- [11]
-			"Player-1388-008E67AF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Shazira|r",
-			[51] = 1609094622,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [26]
-		{
-			"hey", -- [1]
-			"Kaylack-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			333, -- [11]
-			"Player-1388-02075B76", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaKaylack|r",
-			[51] = 1609094623,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [27]
-		{
-			"hey", -- [1]
-			"Ishana-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			334, -- [11]
-			"Player-1388-00A640C8", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa9d271Ishana|r",
-			[51] = 1609094624,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [28]
-		{
-			"hey mate", -- [1]
-			"Adventine-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			337, -- [11]
-			"Player-1388-001A7BFD", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Adventine|r",
-			[51] = 1609094626,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [29]
-		{
-			"omg he keba", -- [1]
-			"Stylooke-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			338, -- [11]
-			"Player-1388-090FA277", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cffa22fc8Stylooke|r",
-			[51] = 1609094640,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [30]
-		{
-			"Hi! :)", -- [1]
-			"Cunya-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			339, -- [11]
-			"Player-1388-078C98C4", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff3ec6eaCunya|r",
-			[51] = 1609094648,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [31]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14798:Player-1388-095067DF:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Sojourner of Revendreth]|h|r!", -- [1]
-			"Nija-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nija-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			368, -- [11]
-			"Player-1388-095067DF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNija-Lightbringer|r",
-			[51] = 1609094761,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [32]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:14280:Player-1388-095067DF:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Loremaster of Shadowlands]|h|r!", -- [1]
-			"Nija-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Nija-Lightbringer", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			369, -- [11]
-			"Player-1388-095067DF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNija-Lightbringer|r",
-			[51] = 1609094761,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [33]
-		{
-			"Grats! :D", -- [1]
-			"Tavia-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			371, -- [11]
-			"Player-1388-041CB62A", -- [12]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaTavia|r",
-			[51] = 1609094796,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [34]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005021,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [22]
 		{
-			"i did it, thx ;D", -- [1]
-			"Nija-Lightbringer", -- [2]
-			"", -- [3]
+			"Shield of Light fading in 1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			372, -- [11]
-			"Player-1388-095067DF", -- [12]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNija|r",
-			[51] = 1609094807,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [35]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005022,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [23]
 		{
-			"Awesome Nija!", -- [1]
-			"Sadiya-Mazrigos", -- [2]
-			"", -- [3]
+			"Expel Light on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			373, -- [11]
-			"Player-1388-07A6FBA5", -- [12]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcSadiya|r",
-			[51] = 1609094813,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [36]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005026,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [24]
 		{
-			"gratz", -- [1]
-			"Shazira-Lightbringer", -- [2]
-			"", -- [3]
+			"{rt3}Branded", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			374, -- [11]
-			"Player-1388-008E67AF", -- [12]
+			376, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Shazira|r",
-			[51] = 1609094827,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [37]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005035,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [25]
 		{
-			"that took me a while ", -- [1]
-			"Nija-Lightbringer", -- [2]
-			"", -- [3]
+			"{rt4}Branded", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			375, -- [11]
-			"Player-1388-095067DF", -- [12]
+			377, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNija|r",
-			[51] = 1609094831,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [38]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005035,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [26]
 		{
-			"Naw you're just fine. Many people don't have it yet ;p", -- [1]
-			"Sadiya-Mazrigos", -- [2]
-			"", -- [3]
+			"{rt2}Branded", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			378, -- [11]
-			"Player-1388-07A6FBA5", -- [12]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcSadiya|r",
-			[51] = 1609094935,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [39]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005035,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [27]
 		{
-			"do you have it?", -- [1]
-			"Nija-Lightbringer", -- [2]
-			"", -- [3]
+			"{rt1}Branded", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			379, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005035,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [28]
+		{
+			"{rt6}Branded", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			380, -- [11]
-			"Player-1388-095067DF", -- [12]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNija|r",
-			[51] = 1609094994,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [40]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005035,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [29]
 		{
-			"Aye", -- [1]
-			"Sadiya-Mazrigos", -- [2]
-			"", -- [3]
+			"Expel Light on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			381, -- [11]
-			"Player-1388-07A6FBA5", -- [12]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcSadiya|r",
-			[51] = 1609094999,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [41]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005048,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [30]
 		{
-			"i donre it in 1996 it says  :P ", -- [1]
-			"Shakiri-Lightbringer", -- [2]
-			"", -- [3]
+			"Expel Light on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			383, -- [11]
-			"Player-1388-09520D37", -- [12]
+			382, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Shakiri|r",
-			[51] = 1609095050,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [42]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005060,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [31]
 		{
-			"lol", -- [1]
-			"Shakiri-Lightbringer", -- [2]
-			"", -- [3]
+			"Shield of Light fading in 3", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			384, -- [11]
-			"Player-1388-09520D37", -- [12]
+			386, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffe7b09Shakiri|r",
-			[51] = 1609095056,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [43]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005073,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [32]
 		{
-			"pft ", -- [1]
-			"Nija-Lightbringer", -- [2]
-			"", -- [3]
+			"Shield of Light fading in 2", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			385, -- [11]
-			"Player-1388-095067DF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNija|r",
-			[51] = 1609095061,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [44]
-		{
-			"Now that's a long time ago lolol", -- [1]
-			"Sadiya-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			387, -- [11]
-			"Player-1388-07A6FBA5", -- [12]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcSadiya|r",
-			[51] = 1609095063,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [45]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005074,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [33]
 		{
-			"its like we belive (rolling eyes)", -- [1]
-			"Nija-Lightbringer", -- [2]
-			"", -- [3]
+			"Shield of Light fading in 1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			389, -- [11]
-			"Player-1388-095067DF", -- [12]
+			388, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNija|r",
-			[51] = 1609095079,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [46]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005075,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [34]
 		{
-			"6th dec ", -- [1]
-			"Shakiri-Lightbringer", -- [2]
-			"", -- [3]
+			"Expel Light on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			390, -- [11]
-			"Player-1388-09520D37", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shakiri|r",
-			[51] = 1609095082,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [47]
-		{
-			"i done that", -- [1]
-			"Shakiri-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			391, -- [11]
-			"Player-1388-09520D37", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Shakiri|r",
-			[51] = 1609095090,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [48]
-		{
-			"I got it 2nd December", -- [1]
-			"Sadiya-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			392, -- [11]
-			"Player-1388-07A6FBA5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff006fdcSadiya|r",
-			[51] = 1609095093,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [49]
-		{
-			"got what now?", -- [1]
-			"Stpierre-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			393, -- [11]
-			"Player-1388-06CABED0", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Stpierre|r",
-			[51] = 1609095103,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [50]
-		{
-			"i hate you both ", -- [1]
-			"Nija-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			394, -- [11]
-			"Player-1388-095067DF", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cff8687edNija|r",
-			[51] = 1609095105,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [51]
-		{
-			"You got it in December as well Nija!", -- [1]
-			"Sadiya-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			395, -- [11]
-			"Player-1388-07A6FBA5", -- [12]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcSadiya|r",
-			[51] = 1609095116,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [52]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005123,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [35]
 		{
-			"|cffffff00|Hachievement:14280:Player-1388-095067DF:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Loremaster of Shadowlands]|h|r", -- [1]
-			"Nija-Lightbringer", -- [2]
-			"", -- [3]
+			"Storm of Justice on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			396, -- [11]
-			"Player-1388-095067DF", -- [12]
+			399, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNija|r",
-			[51] = 1609095129,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [53]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005127,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [36]
 		{
-			"oh right, gz", -- [1]
-			"Stpierre-Mazrigos", -- [2]
-			"", -- [3]
+			"Shield of Light fading in 3", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			397, -- [11]
-			"Player-1388-06CABED0", -- [12]
+			400, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Stpierre|r",
-			[51] = 1609095138,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [54]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005128,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [37]
 		{
-			"auch ", -- [1]
-			"Nija-Lightbringer", -- [2]
-			"", -- [3]
+			"Shield of Light fading in 2", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			398, -- [11]
-			"Player-1388-095067DF", -- [12]
+			401, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff8687edNija|r",
-			[51] = 1609095159,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [55]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005129,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [38]
 		{
-			"Hello Guys ! ", -- [1]
-			"Odysse-Lightbringer", -- [2]
-			"", -- [3]
+			"Shield of Light fading in 1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			404, -- [11]
-			"Player-1388-08624214", -- [12]
+			402, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Odysse|r",
-			[51] = 1609095527,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [56]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005130,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [39]
 		{
-			"Hi! :)", -- [1]
-			"Cunya-Lightbringer", -- [2]
-			"", -- [3]
+			"Storm of Justice on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			405, -- [11]
-			"Player-1388-078C98C4", -- [12]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaCunya|r",
-			[51] = 1609095531,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [57]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005138,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [40]
 		{
-			"Hello!", -- [1]
-			"Sadiya-Mazrigos", -- [2]
-			"", -- [3]
+			"Expel Light on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			406, -- [11]
-			"Player-1388-07A6FBA5", -- [12]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff006fdcSadiya|r",
-			[51] = 1609095533,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [58]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005141,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [41]
 		{
-			"Hey", -- [1]
-			"Syllania-Mazrigos", -- [2]
-			"", -- [3]
+			"{rt6}Runic Brand", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			407, -- [11]
-			"Player-1388-06CF58C5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Syllania|r",
-			[51] = 1609095545,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [59]
-		{
-			"did u farm HC? ^^", -- [1]
-			"Odysse-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			408, -- [11]
-			"Player-1388-08624214", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Odysse|r",
-			[51] = 1609095546,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [60]
-		{
-			"farm is a strong word", -- [1]
-			"Syllania-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
 			409, -- [11]
-			"Player-1388-06CF58C5", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffe7b09Syllania|r",
-			[51] = 1609095557,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [61]
-		{
-			"but our guild is powerfull now", -- [1]
-			"Odysse-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			410, -- [11]
-			"Player-1388-08624214", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Odysse|r",
-			[51] = 1609095574,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [62]
-		{
-			"%s has earned the achievement |cffffff00|Hachievement:10840:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Skorpyron]|h|r!", -- [1]
-			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"Damnuspoop-Mazrigos", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			434, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1384,13 +922,13 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609096279,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [63]
+			[51] = 1630005144,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [42]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10842:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Chronomatic Anomaly]|h|r!", -- [1]
+			"Shield of Light fading in 3", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -1398,7 +936,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			456, -- [11]
+			412, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1406,13 +944,343 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609096453,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [64]
+			[51] = 1630005153,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [43]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10843:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Trilliax]|h|r!", -- [1]
+			"Shield of Light fading in 2", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			414, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005154,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [44]
+		{
+			"Shield of Light fading in 1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			415, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005155,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [45]
+		{
+			"Expel Light on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			416, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005162,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [46]
+		{
+			"Storm of Justice on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			418, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005162,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [47]
+		{
+			"Storm of Justice on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			421, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005173,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [48]
+		{
+			"{rt4}Runic Brand", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			424, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005179,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [49]
+		{
+			"{rt7}Flaming Volatile Foam", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			436, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005416,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [50]
+		{
+			"{rt3}Orb{rt3}", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			462, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005614,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [51]
+		{
+			"Fetid Rot fading in 15", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			468, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005726,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [52]
+		{
+			"Fetid Rot fading in 3", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			469, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005731,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [53]
+		{
+			"Fetid Rot fading in 2", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			470, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005732,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [54]
+		{
+			"Fetid Rot fading in 1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			471, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005734,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [55]
+		{
+			"Fetid Rot fading in 15", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			475, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005791,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [56]
+		{
+			"Fetid Rot fading in 3", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			477, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005797,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [57]
+		{
+			"Fetid Rot fading in 2", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			478, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005798,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [58]
+		{
+			"Fetid Rot fading in 1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -1428,13 +1296,145 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609096644,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1630005799,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [59]
+		{
+			"{rt3}Orb{rt3}", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			482, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005802,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [60]
+		{
+			"{rt3}Orb{rt3}", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			486, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005816,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [61]
+		{
+			"{rt3}Orb{rt3}", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			489, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630005827,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [62]
+		{
+			"Rot fading in 3", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			508, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630006293,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [63]
+		{
+			"Rot fading in 2", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			509, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630006294,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [64]
+		{
+			"Rot fading in 1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			510, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630006295,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [65]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10742:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Gluten Free]|h|r!", -- [1]
+			"Volatile Rot fading in 3", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -1442,7 +1442,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			480, -- [11]
+			514, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1450,13 +1450,13 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609096644,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1630006308,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [66]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10844:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: Spellblade Aluriel]|h|r!", -- [1]
+			"Volatile Rot fading in 2", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -1464,7 +1464,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			531, -- [11]
+			515, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1472,13 +1472,13 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609097593,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1630006308,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [67]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10846:Player-1388-06D07A02:1:12:27:20:4294967295:4294967295:4294967295:4294967295|h[Mythic: High Botanist Tel'arn]|h|r!", -- [1]
+			"Rot fading in 3", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -1486,7 +1486,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			568, -- [11]
+			516, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1494,387 +1494,387 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609098138,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1630006308,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [68]
 		{
-			"well I just got to 60 so...", -- [1]
-			"Ashton-Lightbringer", -- [2]
-			"", -- [3]
+			"Volatile Rot fading in 1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			2, -- [11]
-			"Player-1388-09A9EBDE", -- [12]
+			517, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaAshton|r",
-			[51] = 1609948976,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630006309,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [69]
 		{
-			"if you have prob il log my druid", -- [1]
-			"Sharr-Lightbringer", -- [2]
-			"", -- [3]
+			"Rot fading in 2", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			3, -- [11]
-			"Player-1388-0964A018", -- [12]
+			518, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Sharr|r",
-			[51] = 1609948978,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630006309,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [70]
 		{
-			"give me a sec il swap ", -- [1]
-			"Sharr-Lightbringer", -- [2]
-			"", -- [3]
+			"Rot fading in 1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			23, -- [11]
-			"Player-1388-0964A018", -- [12]
+			519, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Sharr|r",
-			[51] = 1609948996,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630006311,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [71]
 		{
-			"I tthink its fine just nobody was joining to the group", -- [1]
-			"Ashton-Lightbringer", -- [2]
-			"", -- [3]
+			"Corruption: Descent into Madness fading in 3", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			24, -- [11]
-			"Player-1388-09A9EBDE", -- [12]
+			576, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaAshton|r",
-			[51] = 1609949003,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630006835,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [72]
 		{
-			"no need for help anymore, ty", -- [1]
-			"Ashton-Lightbringer", -- [2]
-			"", -- [3]
+			"Corruption: Descent into Madness fading in 2", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			25, -- [11]
-			"Player-1388-09A9EBDE", -- [12]
+			577, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaAshton|r",
-			[51] = 1609949018,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630006836,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [73]
 		{
-			"ok ", -- [1]
-			"Sharr-Lightbringer", -- [2]
-			"", -- [3]
+			"Corruption: Descent into Madness fading in 1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			28, -- [11]
-			"Player-1388-0964A018", -- [12]
+			578, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Sharr|r",
-			[51] = 1609949022,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630006837,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [74]
 		{
-			"hi all", -- [1]
-			"Clarisant-Mazrigos", -- [2]
+			"why r u pulling like that", -- [1]
+			"Monktecristö-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Monktecristö-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			46, -- [11]
-			"Player-1388-07929650", -- [12]
+			293, -- [11]
+			"Player-1378-0A933099", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaClarisant|r",
-			[51] = 1609949696,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe97Monktecristö-DunModr|r",
+			[51] = 1630073599,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [75]
 		{
-			"Heya", -- [1]
-			"Calistha-Lightbringer", -- [2]
+			"its so messy", -- [1]
+			"Monktecristö-DunModr", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Monktecristö-DunModr", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			47, -- [11]
-			"Player-1388-07B2BBF8", -- [12]
+			294, -- [11]
+			"Player-1378-0A933099", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Calistha|r",
-			[51] = 1609949714,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff00fe97Monktecristö-DunModr|r",
+			[51] = 1630073610,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [76]
 		{
-			"Hi Clariiii , happy new year, hows your arm elbow .hand doing ?", -- [1]
-			"Sharr-Lightbringer", -- [2]
-			"", -- [3]
+			"Shadow Ambush on Galateia", -- [1]
+			"Galateia-AzjolNerub", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Galateia-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			48, -- [11]
-			"Player-1388-0964A018", -- [12]
+			299, -- [11]
+			"Player-1396-096506BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Sharr|r",
-			[51] = 1609949733,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff006fdcGalateia-AzjolNerub|r",
+			[51] = 1630073633,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [77]
 		{
-			"happy new year! it's getting a bit better, thanks", -- [1]
-			"Clarisant-Mazrigos", -- [2]
-			"", -- [3]
+			"3", -- [1]
+			"Galateia-AzjolNerub", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Galateia-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			49, -- [11]
-			"Player-1388-07929650", -- [12]
+			300, -- [11]
+			"Player-1396-096506BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaClarisant|r",
-			[51] = 1609949766,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff006fdcGalateia-AzjolNerub|r",
+			[51] = 1630073636,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [78]
 		{
-			"i can just about type with 2 hands now", -- [1]
-			"Clarisant-Mazrigos", -- [2]
-			"", -- [3]
+			"2", -- [1]
+			"Galateia-AzjolNerub", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Galateia-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			50, -- [11]
-			"Player-1388-07929650", -- [12]
+			301, -- [11]
+			"Player-1396-096506BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaClarisant|r",
-			[51] = 1609949778,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff006fdcGalateia-AzjolNerub|r",
+			[51] = 1630073637,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [79]
 		{
-			"cant you use magic on it ?", -- [1]
-			"Sharr-Lightbringer", -- [2]
-			"", -- [3]
+			"1", -- [1]
+			"Galateia-AzjolNerub", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Galateia-AzjolNerub", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			51, -- [11]
-			"Player-1388-0964A018", -- [12]
+			302, -- [11]
+			"Player-1396-096506BD", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Sharr|r",
-			[51] = 1609949780,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff006fdcGalateia-AzjolNerub|r",
+			[51] = 1630073638,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [80]
 		{
-			"i wish :)", -- [1]
-			"Clarisant-Mazrigos", -- [2]
+			"sabeis hacer el ultimo jefe?", -- [1]
+			"Ankou-Exodar", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Ankou-Exodar", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			52, -- [11]
-			"Player-1388-07929650", -- [12]
+			570, -- [11]
+			"Player-1385-058BD40A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaClarisant|r",
-			[51] = 1609949788,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Ankou-Exodar|r",
+			[51] = 1630075642,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [81]
 		{
-			"thats good news , so be ready for plus 15s soon then ", -- [1]
-			"Sharr-Lightbringer", -- [2]
-			"", -- [3]
+			"Corrupted Blood on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			53, -- [11]
-			"Player-1388-0964A018", -- [12]
+			580, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa9d271Sharr|r",
-			[51] = 1609949817,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630075680,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [82]
 		{
-			"hmmm", -- [1]
-			"Clarisant-Mazrigos", -- [2]
+			"i go with lock?", -- [1]
+			"Stimpybe-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Stimpybe-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			56, -- [11]
-			"Player-1388-07929650", -- [12]
+			606, -- [11]
+			"Player-1403-06C29F16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaClarisant|r",
-			[51] = 1609949853,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Stimpybe-Draenor|r",
+			[51] = 1630075784,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [83]
 		{
-			"Hi clari :) Glad to hear you are better ", -- [1]
-			"Gascoigne-Mazrigos", -- [2]
-			"", -- [3]
+			"Cosmic Artifice on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			57, -- [11]
-			"Player-1388-08F2CECD", -- [12]
+			610, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffef367Gascoigne|r",
-			[51] = 1609949883,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630075812,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [84]
 		{
-			"thanks :)", -- [1]
-			"Clarisant-Mazrigos", -- [2]
-			"", -- [3]
+			"3", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			58, -- [11]
-			"Player-1388-07929650", -- [12]
+			611, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaClarisant|r",
-			[51] = 1609949919,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630075815,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [85]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10678:Player-1388-06D07A02:1:1:6:21:4294967295:4294967295:4294967295:4294967295|h[Cage Rematch]|h|r!", -- [1]
+			"2", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
-			"", -- [3]
+			"Common", -- [3]
 			"", -- [4]
 			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
@@ -1882,7 +1882,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			74, -- [11]
+			612, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1890,11 +1890,55 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609950416,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[51] = 1630075816,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [86]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:10847:Player-1388-06D07A02:1:1:6:21:4294967295:4294967295:4294967295:4294967295|h[Mythic: Tichondrius]|h|r!", -- [1]
+			"1", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			614, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630075817,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [87]
+		{
+			"Cosmic Artifice on Damnuspoop", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Damnuspoop-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			619, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630075835,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [88]
+		{
+			"this is where I notice there wasnt a portal at my spot XD", -- [1]
 			"Damnuspoop-Mazrigos", -- [2]
 			"", -- [3]
 			"", -- [4]
@@ -1904,7 +1948,7 @@ ElvCharacterDB = {
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			192, -- [11]
+			628, -- [11]
 			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
@@ -1912,297 +1956,251 @@ ElvCharacterDB = {
 			false, -- [16]
 			false, -- [17]
 			[52] = "|cffa9d271Damnuspoop|r",
-			[51] = 1609951930,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
-		}, -- [87]
-		{
-			"any wanna join SoA 9?", -- [1]
-			"Nocturnë-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			245, -- [11]
-			"Player-1388-07E09915", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfffefefeNocturnë|r",
-			[51] = 1609952952,
-			[50] = "CHAT_MSG_GUILD",
-		}, -- [88]
-		{
-			"i can try?", -- [1]
-			"Omnos-Lightbringer", -- [2]
-			"", -- [3]
-			"", -- [4]
-			"", -- [5]
-			"", -- [6]
-			0, -- [7]
-			0, -- [8]
-			"", -- [9]
-			0, -- [10]
-			246, -- [11]
-			"Player-1388-0A7BCE36", -- [12]
-			0, -- [13]
-			false, -- [14]
-			false, -- [15]
-			false, -- [16]
-			false, -- [17]
-			[52] = "|cfff38bb9Omnos|r",
-			[51] = 1609952986,
-			[50] = "CHAT_MSG_GUILD",
+			[51] = 1630075867,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [89]
 		{
-			"whats your gear like??", -- [1]
-			"Nocturnë-Lightbringer", -- [2]
+			"menos mal que he preguntado xD", -- [1]
+			"Ankou-Exodar", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Ankou-Exodar", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			247, -- [11]
-			"Player-1388-07E09915", -- [12]
+			630, -- [11]
+			"Player-1385-058BD40A", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeNocturnë|r",
-			[51] = 1609952998,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfff38bb9Ankou-Exodar|r",
+			[51] = 1630075875,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [90]
 		{
-			"ilvl 200 ", -- [1]
-			"Omnos-Lightbringer", -- [2]
+			"All is cool XD", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			248, -- [11]
-			"Player-1388-0A7BCE36", -- [12]
+			632, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Omnos|r",
-			[51] = 1609953005,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630075885,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [91]
 		{
-			"aight", -- [1]
-			"Nocturnë-Lightbringer", -- [2]
+			"bb", -- [1]
+			"Stimpybe-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Stimpybe-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			249, -- [11]
-			"Player-1388-07E09915", -- [12]
+			662, -- [11]
+			"Player-1403-06C29F16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfffefefeNocturnë|r",
-			[51] = 1609953017,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cfffe7b09Stimpybe-Draenor|r",
+			[51] = 1630076023,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [92]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14468:Player-1388-001A7BFD:1:1:9:21:4294967295:4294967295:4294967295:4294967295|h[Twisting Corridors: Layer 1]|h|r!", -- [1]
-			"Adventine-Lightbringer", -- [2]
+			"ty", -- [1]
+			"Stimpybe-Draenor", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"Adventine-Lightbringer", -- [5]
+			"Stimpybe-Draenor", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			4, -- [11]
-			"Player-1388-001A7BFD", -- [12]
+			663, -- [11]
+			"Player-1403-06C29F16", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Adventine-Lightbringer|r",
-			[51] = 1610207356,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cfffe7b09Stimpybe-Draenor|r",
+			[51] = 1630076024,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
 		}, -- [93]
 		{
-			"gz", -- [1]
-			"Stpierre-Mazrigos", -- [2]
+			"revivirme porfiiii", -- [1]
+			"Pekepan-Exodar", -- [2]
 			"", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Pekepan-Exodar", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			5, -- [11]
-			"Player-1388-06CABED0", -- [12]
+			667, -- [11]
+			"Player-1385-0A8C17EC", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Stpierre|r",
-			[51] = 1610207368,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cff8687edPekepan-Exodar|r",
+			[51] = 1630076035,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
 		}, -- [94]
 		{
-			"Grats", -- [1]
-			"Euthalia-Mazrigos", -- [2]
-			"", -- [3]
+			"so", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			9, -- [11]
-			"Player-1388-09A076FE", -- [12]
+			144, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffa22fc8Euthalia|r",
-			[51] = 1610207381,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630084725,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [95]
 		{
-			"cheers", -- [1]
-			"Adventine-Lightbringer", -- [2]
-			"", -- [3]
+			"come here often?", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			11, -- [11]
-			"Player-1388-001A7BFD", -- [12]
+			145, -- [11]
+			"Player-1388-06D07A02", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cfff38bb9Adventine|r",
-			[51] = 1610207389,
-			[50] = "CHAT_MSG_GUILD",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630084728,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [96]
 		{
-			"%s has earned the achievement |cffffff00|Hachievement:14845:Player-1388-09A9EBDE:1:1:9:21:4294967295:4294967295:4294967295:4294967295|h[Adventures: A Step in the Right Direction]|h|r!", -- [1]
-			"Ashton-Lightbringer", -- [2]
-			"", -- [3]
+			"yeah, you?", -- [1]
+			"Rémcö-BronzeDragonflight", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"Ashton-Lightbringer", -- [5]
+			"Rémcö-BronzeDragonflight", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			45, -- [11]
-			"Player-1388-09A9EBDE", -- [12]
+			146, -- [11]
+			"Player-1393-0AAD8B8F", -- [12]
 			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cff3ec6eaAshton-Lightbringer|r",
-			[51] = 1610207784,
-			[50] = "CHAT_MSG_GUILD_ACHIEVEMENT",
+			[52] = "|cff006fdcRémcö-BronzeDragonflight|r",
+			[51] = 1630084735,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [97]
 		{
-			"asdasdasd", -- [1]
-			"|Kq11|k", -- [2]
-			"", -- [3]
+			"yeh same", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			285, -- [11]
-			false, -- [12]
-			9, -- [13]
+			147, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cLandWhale|r",
-			[51] = 1625844693,
-			[50] = "CHAT_MSG_BN_WHISPER",
-			[53] = "LandWhale",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630084740,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [98]
 		{
-			"[WeakAuras: Damnuspoop-Mazrigos - Beastial Wrath]", -- [1]
-			"|Kq11|k", -- [2]
-			"", -- [3]
+			"buuuueee", -- [1]
+			"Damnuspoop-Mazrigos", -- [2]
+			"Common", -- [3]
 			"", -- [4]
-			"", -- [5]
+			"Damnuspoop-Mazrigos", -- [5]
 			"", -- [6]
 			0, -- [7]
 			0, -- [8]
 			"", -- [9]
 			0, -- [10]
-			286, -- [11]
-			false, -- [12]
-			9, -- [13]
+			148, -- [11]
+			"Player-1388-06D07A02", -- [12]
+			0, -- [13]
 			false, -- [14]
 			false, -- [15]
 			false, -- [16]
 			false, -- [17]
-			[52] = "|cffc59a6cLandWhale|r",
-			[51] = 1625844699,
-			[50] = "CHAT_MSG_BN_WHISPER_INFORM",
-			[53] = "LandWhale",
+			[52] = "|cffa9d271Damnuspoop|r",
+			[51] = 1630084744,
+			[50] = "CHAT_MSG_SAY",
 		}, -- [99]
 	},
 	["ChatEditHistory"] = {
-		"/i I hate this", -- [1]
-		"/i would hel", -- [2]
-		"/bow", -- [3]
-		"/p oh no", -- [4]
-		"/p click this bad boi", -- [5]
-		"/p ooooh", -- [6]
-		"/p dang, coolio", -- [7]
-		"/p tanks", -- [8]
-		"/wa", -- [9]
-		"/point", -- [10]
-		"/roll", -- [11]
-		"/p come with me", -- [12]
-		"/p you need those shoulders?", -- [13]
-		"/autolog", -- [14]
-		"/i yeh", -- [15]
-		"/p noooooicew", -- [16]
-		"/elvui", -- [17]
-		"/p just want to swap those talents real quick", -- [18]
-		"/p hello friend", -- [19]
-		"[WeakAuras: Damnuspoop-Mazrigos - Beastial Wrath]", -- [20]
+		"/s luxthos", -- [1]
+		"/i are we gonna kill the dudes?", -- [2]
+		"/i go gold mine", -- [3]
+		"/s  /way 63,2, 52,0", -- [4]
+		"/way 63,2, 52,0", -- [5]
+		"/s he has 40", -- [6]
+		"/way Talador 49.79, 48.65 Exarch Maladaar", -- [7]
+		"/elvui", -- [8]
+		"/rarescanner", -- [9]
+		"/reload", -- [10]
+		"/avk", -- [11]
+		"/wa", -- [12]
+		"/i this is where I notice there wasnt a portal at my spot XD", -- [13]
+		"/i All is cool XD", -- [14]
+		"/run print(C_QuestLog.IsQuestFlaggedCompleted(63854))", -- [15]
+		"/wave", -- [16]
+		"/s so", -- [17]
+		"/s come here often?", -- [18]
+		"/s yeh same", -- [19]
+		"/s buuuueee", -- [20]
 	},
 	["ConvertKeybindings"] = true,
 }

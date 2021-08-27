@@ -36,9 +36,10 @@ Quartz3DB = {
 					["h"] = 30,
 					["w"] = 375,
 					["y"] = -477,
-					["font"] = "2002 Bold",
+					["font"] = "Expressway",
 					["point"] = "CENTER",
 					["border"] = "None",
+					["fontsize"] = 20,
 					["x"] = 0,
 					["texture"] = "ElvUI Blank",
 				},
@@ -82,8 +83,9 @@ Quartz3DB = {
 					["iconposition"] = "left",
 					["point"] = "CENTER",
 					["border"] = "None",
+					["fontsize"] = 20,
 					["texture"] = "ElvUI Blank",
-					["font"] = "2002 Bold",
+					["font"] = "Expressway",
 				},
 				["Default"] = {
 					["x"] = 966.666748046875,
@@ -107,6 +109,7 @@ Quartz3DB = {
 		["Fartnipplebo - Lightbringer"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
+		["Nitus - Tarren Mill"] = "MASTER UI",
 	},
 	["profiles"] = {
 		["MASTER UI"] = {

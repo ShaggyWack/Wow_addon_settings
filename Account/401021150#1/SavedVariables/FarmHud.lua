@@ -40,7 +40,7 @@ FarmHudDB = {
 		0.7, -- [4]
 	},
 	["tracking^136454"] = "client",
-	["healcircle_show"] = true,
+	["healcircle_show"] = false,
 	["time_radius"] = 0.48,
 	["time_local"] = false,
 	["background_alpha"] = 0,
@@ -61,7 +61,7 @@ FarmHudDB = {
 		0, -- [1]
 		1, -- [2]
 		0, -- [3]
-		0.5, -- [4]
+		0.0560498833656311, -- [4]
 	},
 	["tracking^1863940"] = "client",
 	["player_dot"] = "blizz",
@@ -98,7 +98,7 @@ FarmHudDB = {
 	["cardinalpoints_show"] = false,
 	["buttons_radius"] = 0.56,
 	["tracking^133939"] = "client",
-	["gathercircle_show"] = false,
+	["gathercircle_show"] = true,
 	["coords_bottom"] = false,
 	["QuestArrowInfoMsg"] = false,
 	["tracking^136466"] = "client",

@@ -10,6 +10,7 @@ HandyNotesDB = {
 		["Fartnipplebo - Lightbringer"] = "Fartnipplebo - Lightbringer",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
+		["Nitus - Tarren Mill"] = "MASTER UI",
 	},
 	["profiles"] = {
 		["Shirang - Mazrigos"] = {
@@ -25,6 +26,8 @@ HandyNotesDB = {
 			["icon_scale_minimap"] = 1.5,
 		},
 		["Fartnipplebo - Lightbringer"] = {
+		},
+		["Nitus - Tarren Mill"] = {
 		},
 		["Yato - Mazrigos"] = {
 		},
@@ -45,6 +48,7 @@ HandyNotes_HandyNotesDB = {
 		["Fartnipplebo - Lightbringer"] = "Fartnipplebo - Lightbringer",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
+		["Nitus - Tarren Mill"] = "Nitus - Tarren Mill",
 	},
 	["profiles"] = {
 		["Damnuspoop - Mazrigos"] = {
@@ -64,6 +68,8 @@ HandyNotes_HandyNotesDB = {
 		["Yato - Mazrigos"] = {
 		},
 		["Arthees - Mazrigos"] = {
+		},
+		["Nitus - Tarren Mill"] = {
 		},
 	},
 }

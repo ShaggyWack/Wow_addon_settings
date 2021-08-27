@@ -10,6 +10,7 @@ HandyNotes_ShadowlandsDB = {
 		["Fartnipplebo - Lightbringer"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
+		["Nitus - Tarren Mill"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

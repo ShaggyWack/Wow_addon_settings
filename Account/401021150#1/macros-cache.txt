@@ -1,3 +1,7 @@
 VER 3 0000000000000001 "Mad boi search" "134951"
 /targetexact Maw Mad Construc
 END
+VER 3 0000000000000003 "Nuke Bars" "135819"
+/run for i = 1,120 do PickupAction(i) PutItemInBackpack() ClearCursor() end
+/run for i = 1,10 do PickupPetAction(i) PutItemInBackpack() ClearCursor() end
+END

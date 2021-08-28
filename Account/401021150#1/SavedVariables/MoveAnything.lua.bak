@@ -31,8 +31,16 @@ MADB = {
 			["name"] = "default",
 			["frames"] = {
 				["ObjectiveTrackerFrameScaleMover"] = {
-					["scale"] = 1.297871645525451,
+					["orgPos"] = {
+						"TOPRIGHT", -- [1]
+						"MinimapCluster", -- [2]
+						"BOTTOMRIGHT", -- [3]
+						-10, -- [4]
+						0, -- [5]
+					},
 					["name"] = "ObjectiveTrackerFrameScaleMover",
+					["scale"] = 1.297871645525451,
+					["orgScale"] = 1,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
 						"MinimapCluster", -- [2]
@@ -47,21 +55,8 @@ MADB = {
 			["name"] = "MASTER UI",
 			["frames"] = {
 				["CharacterFrame"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						285, -- [4]
-						-142, -- [5]
-					},
 					["name"] = "CharacterFrame",
-					["UIPanelWindows"] = {
-						["whileDead"] = 1,
-						["pushable"] = 3,
-						["area"] = "left",
-					},
 					["scale"] = 1.196544709772779,
-					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -71,20 +66,8 @@ MADB = {
 					},
 				},
 				["MerchantFrame"] = {
-					["orgPos"] = {
-						"TOPLEFT", -- [1]
-						"UIParent", -- [2]
-						"TOPLEFT", -- [3]
-						13, -- [4]
-						-95.99999237060547, -- [5]
-					},
 					["name"] = "MerchantFrame",
-					["UIPanelWindows"] = {
-						["pushable"] = 0,
-						["area"] = "left",
-					},
 					["scale"] = 1.210224642416667,
-					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -94,16 +77,8 @@ MADB = {
 					},
 				},
 				["DurabilityFrame"] = {
-					["orgPos"] = {
-						"CENTER", -- [1]
-						"DurabilityFrameHolder", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					},
 					["name"] = "DurabilityFrame",
 					["scale"] = 1.385186708708856,
-					["orgScale"] = 1,
 					["pos"] = {
 						"CENTER", -- [1]
 						"DurabilityFrameHolder", -- [2]
@@ -113,20 +88,8 @@ MADB = {
 					},
 				},
 				["DressUpFrame"] = {
-					["orgPos"] = {
-						"RIGHT", -- [1]
-						"UIParent", -- [2]
-						"RIGHT", -- [3]
-						-339, -- [4]
-						-31, -- [5]
-					},
 					["name"] = "DressUpFrame",
-					["UIPanelWindows"] = {
-						["pushable"] = 2,
-						["area"] = "left",
-					},
 					["scale"] = 1.150869489940694,
-					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -136,13 +99,6 @@ MADB = {
 					},
 				},
 				["StaticPopup1"] = {
-					["orgPos"] = {
-						"TOP", -- [1]
-						"UIParent", -- [2]
-						"TOP", -- [3]
-						0, -- [4]
-						-135, -- [5]
-					},
 					["name"] = "StaticPopup1",
 					["pos"] = {
 						"TOP", -- [1]
@@ -153,22 +109,8 @@ MADB = {
 					},
 				},
 				["CollectionsJournal"] = {
-					["orgPos"] = {
-						"CENTER", -- [1]
-						"UIParent", -- [2]
-						"CENTER", -- [3]
-						0, -- [4]
-						0, -- [5]
-					},
 					["name"] = "CollectionsJournal",
-					["UIPanelWindows"] = {
-						["whileDead"] = 1,
-						["width"] = 733,
-						["pushable"] = 0,
-						["area"] = "left",
-					},
 					["scale"] = 1.190687008359906,
-					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -178,16 +120,8 @@ MADB = {
 					},
 				},
 				["ObjectiveTrackerFrameScaleMover"] = {
-					["orgPos"] = {
-						"TOPRIGHT", -- [1]
-						"MinimapCluster", -- [2]
-						"BOTTOMRIGHT", -- [3]
-						-10, -- [4]
-						0, -- [5]
-					},
 					["name"] = "ObjectiveTrackerFrameScaleMover",
 					["scale"] = 1.273024491526794,
-					["orgScale"] = 1,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
 						"MinimapCluster", -- [2]
@@ -197,20 +131,8 @@ MADB = {
 					},
 				},
 				["ItemTextFrame"] = {
-					["orgPos"] = {
-						"LEFT", -- [1]
-						"UIParent", -- [2]
-						"LEFT", -- [3]
-						252.9999847412109, -- [4]
-						-10, -- [5]
-					},
 					["name"] = "ItemTextFrame",
-					["UIPanelWindows"] = {
-						["pushable"] = 0,
-						["area"] = "left",
-					},
 					["scale"] = 1.172958012868667,
-					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]

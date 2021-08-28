@@ -20,9 +20,9 @@ OneRing_Config = {
 			["RingScale"] = 0.9000000357627869,
 			["MISpinOnHide"] = false,
 			["XTPointerSnap"] = true,
-			["IndicationOffsetY"] = -50,
 			["ShowCooldowns"] = true,
 			["CenterAction"] = true,
+			["IndicationOffsetY"] = -50,
 			["IndicationOffsetX"] = 100,
 			["ClickActivation"] = true,
 		},
@@ -72,26 +72,26 @@ OneRing_Config = {
 			},
 			["Healing"] = {
 				{
-					["sliceToken"] = "ABuekTNaj92",
 					["id"] = 109304,
+					["sliceToken"] = "ABuekTNaj92",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuekIn=L41",
 					["id"] = 186265,
+					["sliceToken"] = "ABuekIn=L41",
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuekTNaj9i",
 					["id"] = 272651,
+					["sliceToken"] = "ABuekTNaj9i",
 				}, -- [3]
 				{
 					"macro", -- [1]
 					"Spirit Mend", -- [2]
-					["sliceToken"] = "ABuekTNaj9o",
 					["show"] = "[spec:255/254] hide;[pet: Spirit Beast]",
+					["sliceToken"] = "ABuekTNaj9o",
 				}, -- [4]
 				{
-					["sliceToken"] = "ABuekTNaj9p",
 					["id"] = 59543,
+					["sliceToken"] = "ABuekTNaj9p",
 				}, -- [5]
 				{
 					"item", -- [1]
@@ -99,16 +99,16 @@ OneRing_Config = {
 					["sliceToken"] = "ABuekOeXIj1",
 				}, -- [6]
 				{
-					["sliceToken"] = "ABuekYZAXXe",
 					["id"] = 982,
+					["sliceToken"] = "ABuekYZAXXe",
 				}, -- [7]
 				{
 					"item", -- [1]
 					5512, -- [2]
 					["sliceToken"] = "ABuekHiLR5e",
 				}, -- [8]
-				["name"] = "Healing",
 				["save"] = true,
+				["name"] = "Healing",
 				["limit"] = "Damnuspoop-Mazrigos",
 			},
 			["lockCurses"] = {
@@ -138,12 +138,12 @@ OneRing_Config = {
 					["sliceToken"] = "OPCHTe",
 				}, -- [1]
 				{
-					["sliceToken"] = "OPCHTf",
 					["id"] = 187650,
+					["sliceToken"] = "OPCHTf",
 				}, -- [2]
 				{
-					["sliceToken"] = "OPCHTt",
 					["id"] = 187698,
+					["sliceToken"] = "OPCHTt",
 				}, -- [3]
 				{
 					["id"] = 236776,
@@ -160,84 +160,84 @@ OneRing_Config = {
 			},
 			["HunterPets"] = {
 				{
+					["show"] = "[known:883,havepet:1]",
 					["sliceToken"] = "OPCHP1",
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:1] {{spell:883}};\n/cast [@pet,exists,nopet:1,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:883}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-					["show"] = "[known:883,havepet:1]",
 				}, -- [1]
 				{
+					["show"] = "[known:83242,havepet:2]",
 					["sliceToken"] = "OPCHP2",
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:2] {{spell:83242}};\n/cast [@pet,exists,nopet:2,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83242}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-					["show"] = "[known:83242,havepet:2]",
 				}, -- [2]
 				{
+					["show"] = "[known:83243,havepet:3]",
 					["sliceToken"] = "OPCHP3",
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:3] {{spell:83243}};\n/cast [@pet,exists,nopet:3,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83243}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-					["show"] = "[known:83243,havepet:3]",
 				}, -- [3]
 				{
+					["show"] = "[known:83244,havepet:4]",
 					["sliceToken"] = "OPCHP4",
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:4] {{spell:83244}};\n/cast [@pet,exists,nopet:4,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83244}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-					["show"] = "[known:83244,havepet:4]",
 				}, -- [4]
 				{
+					["show"] = "[known:83245,havepet:5]",
 					["sliceToken"] = "OPCHP5",
 					["id"] = "#showtooltip [@pet,exists,nodead,nopet:5] {{spell:83245}};\n/cast [@pet,exists,nopet:5,nodead] {{spell:2641}}\n/cast [@pet,noexists,nomod] {{spell:83245}}; [@pet,dead][@pet,noexists] {{spell:982}}; [@pet,help,nomod] {{spell:136}}; [@pet] {{spell:2641}}",
-					["show"] = "[known:83245,havepet:5]",
 				}, -- [5]
-				["name"] = "Pets",
 				["save"] = true,
+				["name"] = "Pets",
 				["limit"] = "HUNTER",
 			},
 			["Buffs"] = {
 				{
-					["sliceToken"] = "ABuekYxdio1",
 					["id"] = 19574,
+					["sliceToken"] = "ABuekYxdio1",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuekYxdior",
 					["id"] = 193530,
+					["sliceToken"] = "ABuekYxdior",
 				}, -- [2]
-				["name"] = "Buffs",
 				["save"] = true,
+				["name"] = "Buffs",
 				["limit"] = "Damnuspoop-Mazrigos",
 			},
 			["PetUtility"] = {
 				{
-					["sliceToken"] = "ABuekT/WuVg",
 					["id"] = 1515,
+					["sliceToken"] = "ABuekT/WuVg",
 				}, -- [1]
 				{
-					["sliceToken"] = "ABuekT/WuVd",
 					["id"] = 6991,
+					["sliceToken"] = "ABuekT/WuVd",
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuekT/WuV3",
 					["id"] = 2641,
+					["sliceToken"] = "ABuekT/WuV3",
 				}, -- [3]
 				{
-					["sliceToken"] = "ABuekT/WuVs",
 					["id"] = 1462,
+					["sliceToken"] = "ABuekT/WuVs",
 				}, -- [4]
 				{
-					["sliceToken"] = "ABuekT/WuVf",
 					["id"] = 982,
+					["sliceToken"] = "ABuekT/WuVf",
 				}, -- [5]
-				["limit"] = "Damnuspoop-Mazrigos",
 				["save"] = true,
+				["limit"] = "Damnuspoop-Mazrigos",
 				["name"] = "Pet Utility",
 			},
 			["HunterAspects"] = {
 				{
-					["sliceToken"] = "OPCHAc",
 					["id"] = 186257,
+					["sliceToken"] = "OPCHAc",
 				}, -- [1]
 				{
-					["sliceToken"] = "OPCHAt",
 					["id"] = 186265,
+					["sliceToken"] = "OPCHAt",
 				}, -- [2]
 				{
-					["sliceToken"] = "ABuekT/WuVe",
 					["id"] = 193530,
+					["sliceToken"] = "ABuekT/WuVe",
 				}, -- [3]
 				["limit"] = "HUNTER",
 				["save"] = true,

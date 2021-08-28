@@ -1,0 +1,12 @@
+VER 3 0100000000000075 " " "SPELL_SHADOW_ANTISHADOW"
+/cast Berserk
+/cast Incarnation: King of the Jungle
+END
+VER 3 0100000000000045 " " "ABILITY_DRUID_MANGLE2"
+/cast Mangle
+/cast Tiger's Fury
+END
+VER 3 0100000000000074 "ZGVMacro2" "0"
+/target Captain Stoutfist
+/run ZGV:MRM()
+END

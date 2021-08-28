@@ -1,0 +1,18 @@
+VER 3 0100000000000004 " " "SPELL_PALADIN_EXECUTIONSENTENCE"
+#showtooltip
+/cast [@player] Execution Sentence
+END
+VER 3 0100000000000002 " " "INV_CHEST_PLATE15"
+/use Card of Omens
+END
+VER 3 0100000000000001 "Mill" "INV_AXE_1H_DRAENORDUNGEON_C_02.BLP"
+/use Milling
+/use Fireweed
+/use Nagrand Arrowbloom
+/use Starflower
+/use Talador Orchid
+END
+VER 3 0100000000000003 "Seals" "INV_SCROLL_11"
+/cast Seal of Righteousness
+/cast Seal of Truth
+END

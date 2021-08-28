@@ -31,8 +31,8 @@ MADB = {
 			["name"] = "default",
 			["frames"] = {
 				["ObjectiveTrackerFrameScaleMover"] = {
-					["scale"] = 1.297871645525451,
 					["name"] = "ObjectiveTrackerFrameScaleMover",
+					["scale"] = 1.297871645525451,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
 						"MinimapCluster", -- [2]
@@ -61,6 +61,7 @@ MADB = {
 						["area"] = "left",
 					},
 					["scale"] = 1.196544709772779,
+					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -68,7 +69,6 @@ MADB = {
 						5.014364242553711, -- [4]
 						450.3695678710938, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 				["MerchantFrame"] = {
 					["orgPos"] = {
@@ -84,6 +84,7 @@ MADB = {
 						["area"] = "left",
 					},
 					["scale"] = 1.210224642416667,
+					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -91,7 +92,6 @@ MADB = {
 						13.22061634063721, -- [4]
 						451.70166015625, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 				["ItemTextFrame"] = {
 					["orgPos"] = {
@@ -107,6 +107,7 @@ MADB = {
 						["area"] = "left",
 					},
 					["scale"] = 1.172958012868667,
+					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -114,7 +115,6 @@ MADB = {
 						253.3005523681641, -- [4]
 						289.8646545410156, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 				["DressUpFrame"] = {
 					["orgPos"] = {
@@ -130,6 +130,7 @@ MADB = {
 						["area"] = "left",
 					},
 					["scale"] = 1.150869489940694,
+					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -137,7 +138,6 @@ MADB = {
 						739.9234619140625, -- [4]
 						398.8272094726563, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 				["StaticPopup1"] = {
 					["orgPos"] = {
@@ -172,6 +172,7 @@ MADB = {
 						["area"] = "left",
 					},
 					["scale"] = 1.190687008359906,
+					["orgScale"] = 1,
 					["pos"] = {
 						"BOTTOMLEFT", -- [1]
 						"UIParent", -- [2]
@@ -179,7 +180,6 @@ MADB = {
 						13.43760871887207, -- [4]
 						304.3988952636719, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 				["ObjectiveTrackerFrameScaleMover"] = {
 					["orgPos"] = {
@@ -191,6 +191,7 @@ MADB = {
 					},
 					["name"] = "ObjectiveTrackerFrameScaleMover",
 					["scale"] = 1.273024491526794,
+					["orgScale"] = 1,
 					["pos"] = {
 						"TOPRIGHT", -- [1]
 						"MinimapCluster", -- [2]
@@ -198,7 +199,6 @@ MADB = {
 						-217.5523190163559, -- [4]
 						150.1237973494711, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 				["DurabilityFrame"] = {
 					["orgPos"] = {
@@ -210,6 +210,7 @@ MADB = {
 					},
 					["name"] = "DurabilityFrame",
 					["scale"] = 1.385186708708856,
+					["orgScale"] = 1,
 					["pos"] = {
 						"CENTER", -- [1]
 						"DurabilityFrameHolder", -- [2]
@@ -217,7 +218,6 @@ MADB = {
 						-8.108518764575588e-05, -- [4]
 						-1.478076543214009e-06, -- [5]
 					},
-					["orgScale"] = 1,
 				},
 			},
 		},

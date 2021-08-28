@@ -6,27 +6,19 @@ TomTomDB = {
 		["Dannidan - Mazrigos"] = "MASTER UI",
 		["Dehlicia - Mazrigos"] = "MASTER UI",
 		["Merwarr - Mazrigos"] = "MASTER UI",
+		["Elryniana - Mazrigos"] = "Default",
+		["Ellarah - Mazrigos"] = "Default",
+		["Nohva - Mazrigos"] = "Default",
+		["Nitus - Tarren Mill"] = "MASTER UI",
 		["Ytoh - Mazrigos"] = "MASTER UI",
 		["Fartnipplebo - Lightbringer"] = "Default",
+		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Nitus - Tarren Mill"] = "MASTER UI",
+		["Phuhrbe - Mazrigos"] = "Default",
 	},
 	["profiles"] = {
 		["MASTER UI"] = {
-			["arrow"] = {
-				["lock"] = true,
-				["position"] = {
-					"CENTER", -- [1]
-					nil, -- [2]
-					"CENTER", -- [3]
-					0, -- [4]
-					0, -- [5]
-				},
-			},
-			["minimap"] = {
-				["default_icon"] = "Interface\\AddOns\\TomTom\\Images\\GoldPurpleDotNew",
-			},
 			["mapcoords"] = {
 				["cursorenable"] = false,
 				["playerenable"] = false,
@@ -41,16 +33,8 @@ TomTomDB = {
 					226.6667175292969, -- [5]
 				},
 			},
-		},
-		["Default"] = {
-			["block"] = {
-				["position"] = {
-					"TOPRIGHT", -- [1]
-					nil, -- [2]
-					"TOPRIGHT", -- [3]
-					-11.11192417144775, -- [4]
-					-277.2224731445313, -- [5]
-				},
+			["minimap"] = {
+				["default_icon"] = "Interface\\AddOns\\TomTom\\Images\\GoldPurpleDotNew",
 			},
 			["arrow"] = {
 				["position"] = {
@@ -59,6 +43,27 @@ TomTomDB = {
 					"CENTER", -- [3]
 					0, -- [4]
 					0, -- [5]
+				},
+				["lock"] = true,
+			},
+		},
+		["Default"] = {
+			["arrow"] = {
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					0, -- [5]
+				},
+			},
+			["block"] = {
+				["position"] = {
+					"TOPRIGHT", -- [1]
+					nil, -- [2]
+					"TOPRIGHT", -- [3]
+					-11.11192417144775, -- [4]
+					-277.2224731445313, -- [5]
 				},
 			},
 		},
@@ -72,11 +77,16 @@ TomTomWaypointsM = {
 		["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 		["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
 		["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
+		["Elryniana - Mazrigos"] = "Elryniana - Mazrigos",
+		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
+		["Nohva - Mazrigos"] = "Nohva - Mazrigos",
+		["Nitus - Tarren Mill"] = "Nitus - Tarren Mill",
 		["Ytoh - Mazrigos"] = "Ytoh - Mazrigos",
 		["Fartnipplebo - Lightbringer"] = "Fartnipplebo - Lightbringer",
+		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-		["Nitus - Tarren Mill"] = "Nitus - Tarren Mill",
+		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 	},
 	["profiles"] = {
 		["Damnuspoop - Mazrigos"] = {
@@ -89,15 +99,25 @@ TomTomWaypointsM = {
 		},
 		["Merwarr - Mazrigos"] = {
 		},
+		["Elryniana - Mazrigos"] = {
+		},
+		["Ellarah - Mazrigos"] = {
+		},
+		["Nohva - Mazrigos"] = {
+		},
+		["Nitus - Tarren Mill"] = {
+		},
 		["Ytoh - Mazrigos"] = {
 		},
 		["Fartnipplebo - Lightbringer"] = {
+		},
+		["Lyriah - Mazrigos"] = {
 		},
 		["Yato - Mazrigos"] = {
 		},
 		["Arthees - Mazrigos"] = {
 		},
-		["Nitus - Tarren Mill"] = {
+		["Phuhrbe - Mazrigos"] = {
 		},
 	},
 }

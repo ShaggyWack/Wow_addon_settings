@@ -5,30 +5,20 @@ RoutesDB = {
 		["Shirang - Mazrigos"] = "Default",
 		["Dannidan - Mazrigos"] = "Default",
 		["Dehlicia - Mazrigos"] = "Default",
+		["Phuhrbe - Mazrigos"] = "Default",
+		["Elryniana - Mazrigos"] = "Default",
 		["Merwarr - Mazrigos"] = "Default",
+		["Nohva - Mazrigos"] = "Default",
+		["Nitus - Tarren Mill"] = "Default",
 		["Ytoh - Mazrigos"] = "Default",
 		["Fartnipplebo - Lightbringer"] = "Default",
+		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Nitus - Tarren Mill"] = "Default",
+		["Ellarah - Mazrigos"] = "Default",
 	},
 	["global"] = {
 		["routes"] = {
-			[1533] = {
-				["Soulmirror Shards"] = {
-					["length"] = 11713.68618348334,
-					["route"] = {
-						58257341, -- [1]
-						59547328, -- [2]
-						59847350, -- [3]
-						60857567, -- [4]
-						59507721, -- [5]
-						58007522, -- [6]
-						56657416, -- [7]
-						57477384, -- [8]
-					},
-				},
-			},
 			[1525] = {
 				["Laestrite Ore"] = {
 					["route"] = {
@@ -87,6 +77,21 @@ RoutesDB = {
 						1, -- [4]
 					},
 					["length"] = 9884.693860066858,
+				},
+			},
+			[1533] = {
+				["Soulmirror Shards"] = {
+					["length"] = 11713.68618348334,
+					["route"] = {
+						58257341, -- [1]
+						59547328, -- [2]
+						59847350, -- [3]
+						60857567, -- [4]
+						59507721, -- [5]
+						58007522, -- [6]
+						56657416, -- [7]
+						57477384, -- [8]
+					},
 				},
 			},
 			[1565] = {

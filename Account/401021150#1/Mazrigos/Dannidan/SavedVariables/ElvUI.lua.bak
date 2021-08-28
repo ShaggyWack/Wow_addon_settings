@@ -1,6 +1,226 @@
 
 ElvCharacterDB = {
 	["ChatHistoryLog"] = {
+		{
+			"{rt1} Moonfall has prepared a |cff71d5ff|Hspell:190336:0|h[Conjure Refreshment]|h|r. {rt1}", -- [1]
+			"Moonfall-Mazrigos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Moonfall-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			321, -- [11]
+			"Player-1388-08003951", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMoonfall|r",
+			[51] = 1628446651,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [1]
+		{
+			"lol", -- [1]
+			"Qûartz-Silvermoon", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Qûartz-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			347, -- [11]
+			"Player-3391-0C09986F", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffc59a6cQûartz-Silvermoon|r",
+			[51] = 1628446906,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [2]
+		{
+			"lol", -- [1]
+			"Moonfall-Mazrigos", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Moonfall-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			348, -- [11]
+			"Player-1388-08003951", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMoonfall|r",
+			[51] = 1628446914,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [3]
+		{
+			"{rt1} Moonfall has prepared a |cff71d5ff|Hspell:190336:0|h[Conjure Refreshment]|h|r. {rt1}", -- [1]
+			"Moonfall-Mazrigos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Moonfall-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			357, -- [11]
+			"Player-1388-08003951", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff3ec6eaMoonfall|r",
+			[51] = 1628446991,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [4]
+		{
+			"hey :D", -- [1]
+			"Dashe-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dashe-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			363, -- [11]
+			"Player-3391-06882BA7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dashe-Silvermoon|r",
+			[51] = 1628447074,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [5]
+		{
+			"let me know when i can teleport", -- [1]
+			"Dashe-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dashe-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			375, -- [11]
+			"Player-3391-06882BA7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dashe-Silvermoon|r",
+			[51] = 1628447103,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [6]
+		{
+			"we done", -- [1]
+			"Isalath-Mazrigos", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Isalath-Mazrigos", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			376, -- [11]
+			"Player-1388-08345EBA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cffa22fc8Isalath|r",
+			[51] = 1628447111,
+			[50] = "CHAT_MSG_INSTANCE_CHAT_LEADER",
+		}, -- [7]
+		{
+			"nice omw", -- [1]
+			"Dashe-Silvermoon", -- [2]
+			"", -- [3]
+			"", -- [4]
+			"Dashe-Silvermoon", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			378, -- [11]
+			"Player-3391-06882BA7", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cfffe7b09Dashe-Silvermoon|r",
+			[51] = 1628447123,
+			[50] = "CHAT_MSG_INSTANCE_CHAT",
+		}, -- [8]
+		{
+			"out of mana", -- [1]
+			"Neanite-Drak'thul", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Neanite-Drak'thul", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			457, -- [11]
+			"Player-1092-0A3AA91C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcNeanite-Drak'thul|r",
+			[51] = 1628447677,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [9]
+		{
+			"mana", -- [1]
+			"Neanite-Drak'thul", -- [2]
+			"Common", -- [3]
+			"", -- [4]
+			"Neanite-Drak'thul", -- [5]
+			"", -- [6]
+			0, -- [7]
+			0, -- [8]
+			"", -- [9]
+			0, -- [10]
+			472, -- [11]
+			"Player-1092-0A3AA91C", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			false, -- [17]
+			[52] = "|cff006fdcNeanite-Drak'thul|r",
+			[51] = 1628447742,
+			[50] = "CHAT_MSG_SAY",
+		}, -- [10]
 	},
 	["ChatEditHistory"] = {
 		"/wa", -- [1]

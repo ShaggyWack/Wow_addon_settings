@@ -10,11 +10,16 @@ SkadaDB = {
 		["Dannidan - Mazrigos"] = "MASTER UI",
 		["Dehlicia - Mazrigos"] = "MASTER UI",
 		["Merwarr - Mazrigos"] = "MASTER UI",
+		["Elryniana - Mazrigos"] = "Default",
+		["Ellarah - Mazrigos"] = "Default",
+		["Nohva - Mazrigos"] = "Default",
+		["Nitus - Tarren Mill"] = "MASTER UI",
 		["Ytoh - Mazrigos"] = "MASTER UI",
 		["Fartnipplebo - Lightbringer"] = "Default",
+		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Nitus - Tarren Mill"] = "MASTER UI",
+		["Phuhrbe - Mazrigos"] = "Default",
 	},
 	["profiles"] = {
 		["MASTER UI"] = {
@@ -26,15 +31,35 @@ SkadaDB = {
 			},
 			["windows"] = {
 				{
-					["barheight"] = 25,
-					["barslocked"] = true,
+					["barfont"] = "2002 Bold",
 					["background"] = {
-						["bordertexture"] = "None",
 						["height"] = 168.8888092041016,
+						["bordertexture"] = "None",
 						["texture"] = "None",
 					},
+					["barheight"] = 25,
+					["buttons"] = {
+						["segment"] = false,
+						["mode"] = false,
+						["menu"] = false,
+						["report"] = false,
+					},
+					["barbgcolor"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["smoothing"] = true,
+					["barwidth"] = 417.7780151367188,
+					["barfontsize"] = 20,
 					["y"] = 29.99996757507324,
-					["barfont"] = "2002 Bold",
+					["x"] = -5.556640625,
+					["barslocked"] = true,
+					["roleicons"] = true,
+					["bartexture"] = "ElvUI Blank",
+					["mode"] = "DPS",
+					["point"] = "BOTTOMRIGHT",
 					["title"] = {
 						["color"] = {
 							["a"] = 0,
@@ -45,36 +70,16 @@ SkadaDB = {
 						["font"] = "2002 Bold",
 						["texture"] = "ElvUI Blank",
 					},
-					["x"] = -5.556640625,
-					["point"] = "BOTTOMRIGHT",
-					["barbgcolor"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-					["barfontsize"] = 20,
-					["roleicons"] = true,
-					["mode"] = "DPS",
-					["buttons"] = {
-						["segment"] = false,
-						["menu"] = false,
-						["mode"] = false,
-						["report"] = false,
-					},
-					["barwidth"] = 417.7780151367188,
-					["smoothing"] = true,
-					["bartexture"] = "ElvUI Blank",
 				}, -- [1]
-			},
-			["icon"] = {
-				["hide"] = true,
 			},
 			["versions"] = {
 				["1.6.3"] = true,
 				["1.8.0"] = true,
 				["1.6.4"] = true,
 				["1.6.7"] = true,
+			},
+			["icon"] = {
+				["hide"] = true,
 			},
 			["reset"] = {
 				["instance"] = 2,
@@ -85,8 +90,8 @@ SkadaDB = {
 			["windows"] = {
 				{
 					["y"] = 42.2222900390625,
-					["x"] = 198.8889465332031,
 					["point"] = "LEFT",
+					["x"] = 198.8889465332031,
 				}, -- [1]
 			},
 			["versions"] = {

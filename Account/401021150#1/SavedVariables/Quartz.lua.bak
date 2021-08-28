@@ -12,13 +12,13 @@ Quartz3DB = {
 		["Pet"] = {
 			["profiles"] = {
 				["MASTER UI"] = {
-					["h"] = 10,
-					["w"] = 193,
 					["y"] = 102.2219619750977,
-					["font"] = "2002 Bold",
+					["h"] = 10,
 					["point"] = "BOTTOM",
-					["border"] = "None",
+					["font"] = "2002 Bold",
 					["x"] = -289,
+					["border"] = "None",
+					["w"] = 193,
 					["texture"] = "ElvUI Blank",
 				},
 				["Default"] = {
@@ -33,14 +33,15 @@ Quartz3DB = {
 		["Player"] = {
 			["profiles"] = {
 				["MASTER UI"] = {
-					["h"] = 30,
-					["w"] = 375,
-					["y"] = -477,
-					["font"] = "Expressway",
 					["point"] = "CENTER",
-					["border"] = "None",
+					["w"] = 375,
+					["y"] = -440,
+					["h"] = 30,
 					["fontsize"] = 20,
 					["x"] = 0,
+					["font"] = "Expressway",
+					["timefontsize"] = 20,
+					["border"] = "None",
 					["texture"] = "ElvUI Blank",
 				},
 				["Default"] = {
@@ -51,8 +52,8 @@ Quartz3DB = {
 		["GCD"] = {
 			["profiles"] = {
 				["MASTER UI"] = {
-					["x"] = 876,
 					["y"] = 356.666748046875,
+					["x"] = 876,
 					["gcdposition"] = "free",
 				},
 			},
@@ -60,13 +61,13 @@ Quartz3DB = {
 		["Focus"] = {
 			["profiles"] = {
 				["MASTER UI"] = {
-					["w"] = 187,
 					["y"] = -289.1109008789063,
 					["font"] = "2002 Bold",
 					["point"] = "CENTER",
-					["border"] = "None",
-					["texture"] = "ElvUI Blank",
 					["x"] = -1.50079345703125,
+					["border"] = "None",
+					["w"] = 187,
+					["texture"] = "ElvUI Blank",
 				},
 				["Default"] = {
 					["x"] = 966.666748046875,
@@ -76,16 +77,16 @@ Quartz3DB = {
 		["Target"] = {
 			["profiles"] = {
 				["MASTER UI"] = {
-					["h"] = 25,
+					["point"] = "CENTER",
 					["w"] = 310,
 					["y"] = -385,
-					["x"] = 0,
-					["iconposition"] = "left",
-					["point"] = "CENTER",
-					["border"] = "None",
+					["h"] = 25,
 					["fontsize"] = 20,
+					["x"] = 0,
 					["texture"] = "ElvUI Blank",
+					["border"] = "None",
 					["font"] = "Expressway",
+					["iconposition"] = "left",
 				},
 				["Default"] = {
 					["x"] = 966.666748046875,
@@ -105,26 +106,31 @@ Quartz3DB = {
 		["Dannidan - Mazrigos"] = "MASTER UI",
 		["Dehlicia - Mazrigos"] = "MASTER UI",
 		["Merwarr - Mazrigos"] = "MASTER UI",
+		["Elryniana - Mazrigos"] = "Default",
+		["Ellarah - Mazrigos"] = "Default",
+		["Nohva - Mazrigos"] = "Default",
+		["Nitus - Tarren Mill"] = "MASTER UI",
 		["Ytoh - Mazrigos"] = "MASTER UI",
 		["Fartnipplebo - Lightbringer"] = "Default",
+		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Nitus - Tarren Mill"] = "MASTER UI",
+		["Phuhrbe - Mazrigos"] = "Default",
 	},
 	["profiles"] = {
 		["MASTER UI"] = {
-			["completecolor"] = {
-				0.1176470588235294, -- [1]
-				0.6823529411764706, -- [2]
-				0.3254901960784314, -- [3]
-				1, -- [4]
-			},
 			["modules"] = {
 				["Swing"] = false,
 				["GCD"] = false,
 				["Buff"] = false,
 				["Timer"] = false,
 				["Mirror"] = false,
+			},
+			["completecolor"] = {
+				0.1176470588235294, -- [1]
+				0.6823529411764706, -- [2]
+				0.3254901960784314, -- [3]
+				1, -- [4]
 			},
 		},
 		["Default"] = {

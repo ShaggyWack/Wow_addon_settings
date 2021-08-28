@@ -6,13 +6,20 @@ HandyNotesDB = {
 		["Dannidan - Mazrigos"] = "MASTER UI",
 		["Dehlicia - Mazrigos"] = "MASTER UI",
 		["Merwarr - Mazrigos"] = "MASTER UI",
+		["Elryniana - Mazrigos"] = "Elryniana - Mazrigos",
+		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
+		["Nohva - Mazrigos"] = "Nohva - Mazrigos",
+		["Nitus - Tarren Mill"] = "MASTER UI",
 		["Ytoh - Mazrigos"] = "MASTER UI",
 		["Fartnipplebo - Lightbringer"] = "Fartnipplebo - Lightbringer",
+		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-		["Nitus - Tarren Mill"] = "MASTER UI",
+		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 	},
 	["profiles"] = {
+		["Ellarah - Mazrigos"] = {
+		},
 		["Shirang - Mazrigos"] = {
 		},
 		["Dannidan - Mazrigos"] = {
@@ -21,19 +28,27 @@ HandyNotesDB = {
 		},
 		["Merwarr - Mazrigos"] = {
 		},
+		["Elryniana - Mazrigos"] = {
+		},
+		["Lyriah - Mazrigos"] = {
+		},
+		["Nohva - Mazrigos"] = {
+		},
 		["MASTER UI"] = {
 			["icon_scale"] = 1.5,
 			["icon_scale_minimap"] = 1.5,
 		},
+		["Ytoh - Mazrigos"] = {
+		},
 		["Fartnipplebo - Lightbringer"] = {
 		},
-		["Ytoh - Mazrigos"] = {
+		["Nitus - Tarren Mill"] = {
 		},
 		["Yato - Mazrigos"] = {
 		},
 		["Arthees - Mazrigos"] = {
 		},
-		["Nitus - Tarren Mill"] = {
+		["Phuhrbe - Mazrigos"] = {
 		},
 	},
 }
@@ -44,11 +59,16 @@ HandyNotes_HandyNotesDB = {
 		["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 		["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
 		["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
+		["Elryniana - Mazrigos"] = "Elryniana - Mazrigos",
+		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
+		["Nohva - Mazrigos"] = "Nohva - Mazrigos",
+		["Nitus - Tarren Mill"] = "Nitus - Tarren Mill",
 		["Ytoh - Mazrigos"] = "Ytoh - Mazrigos",
 		["Fartnipplebo - Lightbringer"] = "Fartnipplebo - Lightbringer",
+		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-		["Nitus - Tarren Mill"] = "Nitus - Tarren Mill",
+		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 	},
 	["profiles"] = {
 		["Damnuspoop - Mazrigos"] = {
@@ -61,15 +81,25 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Merwarr - Mazrigos"] = {
 		},
+		["Elryniana - Mazrigos"] = {
+		},
+		["Ellarah - Mazrigos"] = {
+		},
+		["Nohva - Mazrigos"] = {
+		},
+		["Nitus - Tarren Mill"] = {
+		},
 		["Ytoh - Mazrigos"] = {
 		},
 		["Fartnipplebo - Lightbringer"] = {
+		},
+		["Lyriah - Mazrigos"] = {
 		},
 		["Yato - Mazrigos"] = {
 		},
 		["Arthees - Mazrigos"] = {
 		},
-		["Nitus - Tarren Mill"] = {
+		["Phuhrbe - Mazrigos"] = {
 		},
 	},
 }

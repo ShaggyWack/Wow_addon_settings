@@ -1,0 +1,4 @@
+VER 3 0100000000000005 " " "SPELL_DEATHKNIGHT_BLOODBOIL"
+/cast Blood Boil
+/cast Bone Shield
+END

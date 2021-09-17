@@ -3,9 +3,10 @@ BetterWardrobe_Options = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "MASTER UI",
 		["Shirang - Mazrigos"] = "MASTER UI",
+		["Phuhrbe - Mazrigos"] = "Default",
 		["Dannidan - Mazrigos"] = "MASTER UI",
 		["Dehlicia - Mazrigos"] = "MASTER UI",
-		["Phuhrbe - Mazrigos"] = "Default",
+		["Ellarah - Mazrigos"] = "Default",
 		["Elryniana - Mazrigos"] = "Default",
 		["Merwarr - Mazrigos"] = "MASTER UI",
 		["Nohva - Mazrigos"] = "Default",
@@ -15,15 +16,9 @@ BetterWardrobe_Options = {
 		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Ellarah - Mazrigos"] = "Default",
+		["Toeboe - Tarren Mill"] = "Default",
 	},
 	["profiles"] = {
-		["Mazrigos"] = {
-			["DR_Height"] = 750,
-			["DR_Width"] = 650,
-		},
-		["Default"] = {
-		},
 		["MASTER UI"] = {
 			["TooltipPreview_CustomModel"] = false,
 			["TooltipPreview_Show"] = true,
@@ -33,15 +28,22 @@ BetterWardrobe_Options = {
 			["ShowHidden"] = true,
 			["DR_ShowControls"] = false,
 		},
+		["Mazrigos"] = {
+			["DR_Height"] = 750,
+			["DR_Width"] = 650,
+		},
+		["Default"] = {
+		},
 	},
 }
 BetterWardrobe_CharacterData = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
 		["Shirang - Mazrigos"] = "Shirang - Mazrigos",
+		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 		["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 		["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
-		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
 		["Elryniana - Mazrigos"] = "Elryniana - Mazrigos",
 		["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
 		["Nohva - Mazrigos"] = "Nohva - Mazrigos",
@@ -51,7 +53,7 @@ BetterWardrobe_CharacterData = {
 		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
+		["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 	},
 }
 BetterWardrobe_SavedSetData = {
@@ -168,6 +170,33 @@ BetterWardrobe_SavedSetData = {
 					["icon"] = 2467777,
 					["index"] = 2,
 				}, -- [2]
+				{
+					["outfitID"] = 1,
+					["sources"] = {
+						0, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						113287, -- [6]
+						113466, -- [7]
+						113268, -- [8]
+						0, -- [9]
+						113273, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						146498, -- [15]
+						92527, -- [16]
+						0, -- [17]
+						0, -- [18]
+						0, -- [19]
+					},
+					["name"] = "Darkplate Reaper",
+					["icon"] = 3174692,
+					["index"] = 3,
+				}, -- [3]
 			},
 			["Dannidan - Mazrigos"] = {
 			},
@@ -205,8 +234,8 @@ BetterWardrobe_SavedSetData = {
 					["setID"] = 5000,
 					["items"] = {
 					},
-					["name"] = "Demon Lady",
 					["isClass"] = true,
+					["name"] = "Demon Lady",
 					["expansionID"] = 1,
 					["uiOrder"] = 100,
 					["collected"] = true,
@@ -246,8 +275,8 @@ BetterWardrobe_SavedSetData = {
 					["setID"] = 5001,
 					["items"] = {
 					},
-					["name"] = "Purple Wings",
 					["isClass"] = true,
+					["name"] = "Purple Wings",
 					["expansionID"] = 1,
 					["uiOrder"] = 200,
 					["collected"] = true,
@@ -315,6 +344,35 @@ BetterWardrobe_SavedSetData = {
 					["index"] = 1,
 				}, -- [1]
 			},
+			["Merwarr - Mazrigos"] = {
+				{
+					["outfitID"] = 0,
+					["sources"] = {
+						38241, -- [1]
+						0, -- [2]
+						38237, -- [3]
+						0, -- [4]
+						38257, -- [5]
+						38260, -- [6]
+						0, -- [7]
+						38259, -- [8]
+						38262, -- [9]
+						4461, -- [10]
+						0, -- [11]
+						0, -- [12]
+						0, -- [13]
+						0, -- [14]
+						86273, -- [15]
+						81588, -- [16]
+						0, -- [17]
+						0, -- [18]
+						21996, -- [19]
+					},
+					["name"] = "Holy White",
+					["icon"] = 412514,
+					["index"] = 1,
+				}, -- [1]
+			},
 			["Ytoh - Mazrigos"] = {
 				{
 					["description"] = "",
@@ -349,8 +407,8 @@ BetterWardrobe_SavedSetData = {
 					["setID"] = 5000,
 					["items"] = {
 					},
-					["name"] = "Blue Stone Ninja",
 					["isClass"] = true,
+					["name"] = "Blue Stone Ninja",
 					["expansionID"] = 1,
 					["uiOrder"] = 100,
 					["collected"] = true,
@@ -390,8 +448,8 @@ BetterWardrobe_SavedSetData = {
 					["setID"] = 5001,
 					["items"] = {
 					},
-					["name"] = "Mistweaver",
 					["isClass"] = true,
+					["name"] = "Mistweaver",
 					["expansionID"] = 1,
 					["uiOrder"] = 200,
 					["collected"] = true,
@@ -399,38 +457,11 @@ BetterWardrobe_SavedSetData = {
 					["index"] = 2,
 				}, -- [2]
 			},
-			["Merwarr - Mazrigos"] = {
-				{
-					["outfitID"] = 0,
-					["sources"] = {
-						38241, -- [1]
-						0, -- [2]
-						38237, -- [3]
-						0, -- [4]
-						38257, -- [5]
-						38260, -- [6]
-						0, -- [7]
-						38259, -- [8]
-						38262, -- [9]
-						4461, -- [10]
-						0, -- [11]
-						0, -- [12]
-						0, -- [13]
-						0, -- [14]
-						86273, -- [15]
-						81588, -- [16]
-						0, -- [17]
-						0, -- [18]
-						21996, -- [19]
-					},
-					["name"] = "Holy White",
-					["icon"] = 412514,
-					["index"] = 1,
-				}, -- [1]
-			},
-			["Phuhrbe - Mazrigos"] = {
+			["Ellarah - Mazrigos"] = {
 			},
 			["Lyriah - Mazrigos"] = {
+			},
+			["Phuhrbe - Mazrigos"] = {
 			},
 			["Arthees - Mazrigos"] = {
 				{
@@ -461,16 +492,17 @@ BetterWardrobe_SavedSetData = {
 					["index"] = 1,
 				}, -- [1]
 			},
-			["Ellarah - Mazrigos"] = {
+			["Toeboe - Tarren Mill"] = {
 			},
 		},
 	},
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
 		["Shirang - Mazrigos"] = "Shirang - Mazrigos",
+		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 		["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 		["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
-		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
 		["Elryniana - Mazrigos"] = "Elryniana - Mazrigos",
 		["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
 		["Nohva - Mazrigos"] = "Nohva - Mazrigos",
@@ -480,7 +512,7 @@ BetterWardrobe_SavedSetData = {
 		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
+		["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 	},
 	["profiles"] = {
 		["Damnuspoop - Mazrigos"] = {
@@ -506,9 +538,10 @@ BetterWardrobe_SubstituteItemData = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "Default",
 		["Shirang - Mazrigos"] = "Default",
+		["Phuhrbe - Mazrigos"] = "Default",
 		["Dannidan - Mazrigos"] = "Default",
 		["Dehlicia - Mazrigos"] = "Default",
-		["Phuhrbe - Mazrigos"] = "Default",
+		["Ellarah - Mazrigos"] = "Default",
 		["Elryniana - Mazrigos"] = "Default",
 		["Merwarr - Mazrigos"] = "Mazrigos",
 		["Nohva - Mazrigos"] = "Default",
@@ -518,7 +551,7 @@ BetterWardrobe_SubstituteItemData = {
 		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Ellarah - Mazrigos"] = "Default",
+		["Toeboe - Tarren Mill"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -532,9 +565,10 @@ BetterWardrobe_ListData = {
 		["profileKeys"] = {
 			["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
 			["Shirang - Mazrigos"] = "Shirang - Mazrigos",
+			["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 			["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 			["Dehlicia - Mazrigos"] = "Damnuspoop - Mazrigos",
-			["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+			["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
 			["Elryniana - Mazrigos"] = "Elryniana - Mazrigos",
 			["Merwarr - Mazrigos"] = "Default",
 			["Nohva - Mazrigos"] = "Nohva - Mazrigos",
@@ -544,7 +578,7 @@ BetterWardrobe_ListData = {
 			["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 			["Yato - Mazrigos"] = "Yato - Mazrigos",
 			["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-			["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
+			["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 		},
 		["profiles"] = {
 			["Damnuspoop - Mazrigos"] = {
@@ -569,9 +603,10 @@ BetterWardrobe_ListData = {
 		["profileKeys"] = {
 			["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
 			["Shirang - Mazrigos"] = "Shirang - Mazrigos",
+			["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 			["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 			["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
-			["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+			["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
 			["Elryniana - Mazrigos"] = "Elryniana - Mazrigos",
 			["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
 			["Nohva - Mazrigos"] = "Nohva - Mazrigos",
@@ -581,7 +616,7 @@ BetterWardrobe_ListData = {
 			["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 			["Yato - Mazrigos"] = "Yato - Mazrigos",
 			["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-			["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
+			["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 		},
 		["profiles"] = {
 			["Damnuspoop - Mazrigos"] = {
@@ -592,25 +627,27 @@ BetterWardrobe_ListData = {
 			},
 			["Dehlicia - Mazrigos"] = {
 			},
+			["Phuhrbe - Mazrigos"] = {
+			},
 			["Elryniana - Mazrigos"] = {
 			},
 			["Merwarr - Mazrigos"] = {
 			},
 			["Nohva - Mazrigos"] = {
 			},
-			["Phuhrbe - Mazrigos"] = {
+			["Ellarah - Mazrigos"] = {
 			},
 			["Ytoh - Mazrigos"] = {
 			},
 			["Fartnipplebo - Lightbringer"] = {
 			},
-			["Nitus - Tarren Mill"] = {
-			},
 			["Lyriah - Mazrigos"] = {
+			},
+			["Nitus - Tarren Mill"] = {
 			},
 			["Arthees - Mazrigos"] = {
 			},
-			["Ellarah - Mazrigos"] = {
+			["Toeboe - Tarren Mill"] = {
 			},
 		},
 	},
@@ -618,9 +655,10 @@ BetterWardrobe_ListData = {
 		["profileKeys"] = {
 			["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
 			["Shirang - Mazrigos"] = "Shirang - Mazrigos",
+			["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 			["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 			["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
-			["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+			["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
 			["Elryniana - Mazrigos"] = "Elryniana - Mazrigos",
 			["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
 			["Nohva - Mazrigos"] = "Nohva - Mazrigos",
@@ -630,7 +668,7 @@ BetterWardrobe_ListData = {
 			["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 			["Yato - Mazrigos"] = "Yato - Mazrigos",
 			["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-			["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
+			["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 		},
 		["char"] = {
 			["Damnuspoop - Mazrigos"] = {
@@ -648,9 +686,9 @@ BetterWardrobe_ListData = {
 			},
 			["Shirang - Mazrigos"] = {
 				["lastTransmogOutfitIDSpec"] = {
-					5002, -- [1]
-					5002, -- [2]
-					5002, -- [3]
+					5001, -- [1]
+					5001, -- [2]
+					5001, -- [3]
 				},
 			},
 		},
@@ -660,9 +698,10 @@ BetterWardrobe_ListData = {
 		["profileKeys"] = {
 			["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
 			["Shirang - Mazrigos"] = "Shirang - Mazrigos",
+			["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 			["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 			["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
-			["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+			["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
 			["Elryniana - Mazrigos"] = "Elryniana - Mazrigos",
 			["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
 			["Nohva - Mazrigos"] = "Nohva - Mazrigos",
@@ -672,7 +711,7 @@ BetterWardrobe_ListData = {
 			["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 			["Yato - Mazrigos"] = "Yato - Mazrigos",
 			["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-			["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
+			["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 		},
 		["profiles"] = {
 			["Damnuspoop - Mazrigos"] = {

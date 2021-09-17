@@ -6,6 +6,9 @@ MSBTProfiles_SavedVars = {
 			["soundsDisabled"] = true,
 			["enableBlizzardDamage"] = true,
 			["scrollAreas"] = {
+				["Outgoing"] = {
+					["disabled"] = true,
+				},
 				["Incoming"] = {
 					["direction"] = "Up",
 					["critFontName"] = "2002 Bold",
@@ -14,13 +17,10 @@ MSBTProfiles_SavedVars = {
 					["normalFontName"] = "2002 Bold",
 					["offsetX"] = -174,
 				},
-				["Notification"] = {
-					["disabled"] = true,
-				},
 				["Static"] = {
 					["disabled"] = true,
 				},
-				["Outgoing"] = {
+				["Notification"] = {
 					["disabled"] = true,
 				},
 			},
@@ -32,9 +32,6 @@ MSBTProfiles_SavedVars = {
 			["hotThrottleDuration"] = 0,
 			["hideNames"] = true,
 			["enableBlizzardDamage"] = true,
-			["hideFullOverheals"] = true,
-			["textShadowingDisabled"] = true,
-			["creationVersion"] = "5.7.152",
 			["events"] = {
 				["PET_INCOMING_HOT_CRIT"] = {
 					["disabled"] = true,
@@ -317,27 +314,10 @@ MSBTProfiles_SavedVars = {
 					["colorR"] = 1,
 				},
 			},
+			["textShadowingDisabled"] = true,
+			["creationVersion"] = "5.7.152",
+			["hideFullOverheals"] = true,
 			["scrollAreas"] = {
-				["Notification"] = {
-					["disabled"] = true,
-				},
-				["Outgoing"] = {
-					["direction"] = "Up",
-					["critFontName"] = "2002 Bold",
-					["critOutlineIndex"] = 1,
-					["stickyBehavior"] = "Normal",
-					["critFontSize"] = 26,
-					["critFontAlpha"] = 100,
-					["offsetX"] = 135,
-					["normalOutlineIndex"] = 1,
-					["normalFontAlpha"] = 100,
-					["normalFontName"] = "2002 Bold",
-					["offsetY"] = -141,
-					["normalFontSize"] = 18,
-				},
-				["Static"] = {
-					["disabled"] = true,
-				},
 				["Incoming"] = {
 					["critFontAlpha"] = 100,
 					["critFontName"] = "2002 Bold",
@@ -351,13 +331,33 @@ MSBTProfiles_SavedVars = {
 					["offsetY"] = -141,
 					["normalFontSize"] = 18,
 				},
+				["Notification"] = {
+					["disabled"] = true,
+				},
+				["Static"] = {
+					["disabled"] = true,
+				},
+				["Outgoing"] = {
+					["direction"] = "Up",
+					["critFontName"] = "2002 Bold",
+					["critOutlineIndex"] = 1,
+					["stickyBehavior"] = "Normal",
+					["critFontSize"] = 26,
+					["critFontAlpha"] = 100,
+					["offsetX"] = 135,
+					["normalOutlineIndex"] = 1,
+					["normalFontAlpha"] = 100,
+					["offsetY"] = -141,
+					["normalFontName"] = "2002 Bold",
+					["normalFontSize"] = 18,
+				},
 			},
-			["soundsDisabled"] = true,
-			["skillIconsDisabled"] = true,
-			["enableBlizzardHealing"] = false,
-			["shortenNumbers"] = true,
-			["hideSkills"] = true,
 			["classColoringDisabled"] = true,
+			["skillIconsDisabled"] = true,
+			["hideSkills"] = true,
+			["shortenNumbers"] = true,
+			["enableBlizzardHealing"] = false,
+			["soundsDisabled"] = true,
 		},
 	},
 }

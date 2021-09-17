@@ -20,10 +20,10 @@ OneRing_Config = {
 			["RingScale"] = 0.9000000357627869,
 			["MISpinOnHide"] = false,
 			["XTPointerSnap"] = true,
+			["IndicationOffsetX"] = 100,
 			["ShowCooldowns"] = true,
 			["CenterAction"] = true,
 			["IndicationOffsetY"] = -50,
-			["IndicationOffsetX"] = 100,
 			["ClickActivation"] = true,
 		},
 	},
@@ -305,39 +305,39 @@ OneRing_Config = {
 			},
 			["rriorBuffs"] = {
 				{
-					["id"] = 6673,
 					["sliceToken"] = "ABuezvvlokP",
+					["id"] = 6673,
 				}, -- [1]
 				{
-					["id"] = 5246,
 					["sliceToken"] = "ABuezvvlokO",
+					["id"] = 5246,
 				}, -- [2]
 				{
-					["id"] = 12323,
 					["sliceToken"] = "ABuezvvlokY",
+					["id"] = 12323,
 				}, -- [3]
 				{
-					["id"] = 18499,
 					["sliceToken"] = "ABuezvvlokI",
+					["id"] = 18499,
 				}, -- [4]
 				{
 					["id"] = 184364,
 					["sliceToken"] = "ABuezvvlokU",
 				}, -- [5]
 				{
-					["id"] = 118038,
 					["sliceToken"] = "ABuezO4UhHi",
+					["id"] = 118038,
 				}, -- [6]
 				{
-					["id"] = 97462,
 					["sliceToken"] = "ABuezme=he1",
+					["id"] = 97462,
 				}, -- [7]
 				{
-					["id"] = 23920,
 					["sliceToken"] = "ABuezme=her",
+					["id"] = 23920,
 				}, -- [8]
-				["save"] = true,
 				["name"] = "Futy Warrior Buffs",
+				["save"] = true,
 				["limit"] = "Shirang-Mazrigos",
 			},
 			["riestBuffs"] = {

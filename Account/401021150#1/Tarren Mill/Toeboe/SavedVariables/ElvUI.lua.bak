@@ -1,0 +1,294 @@
+
+ElvCharacterDB = {
+	["ConvertKeybindings"] = true,
+	["ChatEditHistory"] = {
+	},
+	["ChatHistoryLog"] = {
+		{
+			"/// V O I D ////  Tazavesh NM=190K / Tazavesh HM=370K / KEYSTONE TIME +10 = 115K / +11 = 140K / +12 = 160K / +13 = 180K / +14 = 180K in time /  +15 = 250K in time / +16 = 350k / +17 = 500k /4x15=860k/4x14=660k/4x10=385k / only gold", -- [1]
+			"Ziggmas-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Ziggmas-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			477, -- [11]
+			"Player-1084-0A3A6D6B", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff00fe97Ziggmas|r",
+			[51] = 1630181093,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [1]
+		{
+			"Full HEROIC |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r \"650K\"  << O B L I V I O N >>   /  VIP TRADER + LOOT  ||||   |cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r  +  |cff66bbff|Hjournal:1:2441:14|h[Sylvanas Windrunner]|h|r HEROIC   << 220k >>   ||||  /   ~~  M+15=220k ~~  M+16=390K ~~ M+18=690K  ~~  INTIME GUARANTEE  / TorghasT / WHIS ME", -- [1]
+			"Obliviok-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Obliviok-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			478, -- [11]
+			"Player-1084-0A47E767", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edObliviok|r",
+			[51] = 1630181093,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [2]
+		{
+			"< NOVA > is OFFERING || Sanctum HC 640k|| || VIP Trader 350k || || Sanctum Normal 180k || || M+10 = 125k || || M+15= 210k ||  Level UP || || Torghast ||  Tazavesh Normal 200k -- Hard Mode 400k || || Sylvanas HC Curve 140k || || Last 2Bosss HC 200k ||", -- [1]
+			"Novahip-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novahip-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			479, -- [11]
+			"Player-1084-0A41EE35", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Novahip|r",
+			[51] = 1630181093,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [3]
+		{
+			"<NOVA> Offering M+15->210k <> HC SoD->640k - Vip Traders - NM->180k <> Sylvanas->140k - Kel'Thuzad->80k - Last2->200k <> 4x+15->756k and Free Armor <> M+12->160k <> M+10->125k <> Tazavesh->200k - Hard->400k <> Torghast-PvP-Lvl /w me info.", -- [1]
+			"Novadwl-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novadwl-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			480, -- [11]
+			"Player-1084-0A4734FC", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff8687edNovadwl|r",
+			[51] = 1630181093,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [4]
+		{
+			"~DAWN COMMUNITY~ [WTS]  |cffffff00|Hachievement:15127:Player-1084-0A3E4AA4:0:0:0:-1:0:0:0:0|h[Heroic: Sanctum of Domination]|h|r HEROIC 10/10   /   >>>   VIP TRADER  +  LOOT  --Cloth - Plate - Mail - Leather--    <<<   /  |cff66bbff|Hjournal:1:2440:14|h[Kel'Thuzad]|h|r + |cff66bbff|Hjournal:1:2441:14|h[Sylvanas Windrunner]|h|r  HC  << 200K >>   ||  M+15=220k  ||  4x15 = 800K   /  WHIS ME  BOOK", -- [1]
+			"Dawniboost-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dawniboost-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			481, -- [11]
+			"Player-1084-0A4BF2D8", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffe7b09Dawniboost|r",
+			[51] = 1630181093,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [5]
+		{
+			"< NOVA > is OFFERING || M+10 =125k || || M+15= 210k  || Torghast || || Level Up Boost || || Tazavesh Normal 200k -- Hard Mode 400k || || Sanctum Normal 180k ||||Sylvanas HC Curve 140k || || Last 2Boss HC 200k|| || Sanctum HC 640k VIP trader 350k ||", -- [1]
+			"Novahp-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Novahp-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			483, -- [11]
+			"Player-1084-0A3632A6", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeNovahp|r",
+			[51] = 1630181095,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [6]
+		{
+			"WE ARE OFFERING * +15 190 K * /  Taze HM 350K (+3000 Dungeon experience Group) . FREE LEATHER AND MAIL STACK", -- [1]
+			"ßlooboost-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"ßlooboost-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			484, -- [11]
+			"Player-1084-0A3E8EF1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffc59a6cßlooboost|r",
+			[51] = 1630181095,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [7]
+		{
+			"<NOVA> Offering <Mythic 0-20 In Time+loot > [<+15 210k(265K Timed)>/+14 200k/+12 160k /+10 125K ]ArmorStack [Tazavesh NM 200K/HM 400K] Torghast 1-12 || <Raid SOD Normal 10/10 180K || SOD HC 10/10 640K |||cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|rHC Last 2 Boss 200k> /w for", -- [1]
+			"Vaishnavi-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Vaishnavi-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			485, -- [11]
+			"Player-1084-0A442F8D", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcVaishnavi|r",
+			[51] = 1630181095,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [8]
+		{
+			"<Dawn> [WTS] |cffffff00|Hachievement:15134:Player-3682-0AAE9553:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r <Sylvanas HC  140k> <KT HC 80k> <Both 200k> |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r<10/10HC 650k><VIP Trader>|cff66bbff|Hjournal:0:1194:23|h[Tazavesh, the Veiled Market]|h|rHM 510k> <M+14 200k> <M+15 220K> <4x15s 800K><Torghast 2xL12 270k>", -- [1]
+			"Helperdawn-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Helperdawn-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			486, -- [11]
+			"Player-1084-0A4C3EB1", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffefefeHelperdawn|r",
+			[51] = 1630181096,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [9]
+		{
+			"<Dawn> [WTS] |cffffff00|Hachievement:15134:Player-3674-0AC59E01:0:0:0:-1:0:0:0:0|h[Ahead of the Curve: Sylvanas Windrunner]|h|r <Sylvanas HC  140k> <KT HC 80k> <Both 200k> |cff66bbff|Hjournal:0:1193:14|h[Sanctum of Domination]|h|r<10/10HC 650k><VIP Trader>|cff66bbff|Hjournal:0:1194:23|h[Tazavesh, the Veiled Market]|h|rHM 510k> <M+14 200k> <M+15 220K> <4x15s 800K><Torghast 2xL12 270k>", -- [1]
+			"Dawnadvertis-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dawnadvertis-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			487, -- [11]
+			"Player-1084-0A29C45E", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcDawnadvertis|r",
+			[51] = 1630181096,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [10]
+		{
+			"<DAWN> WTS M+15 <220k> 4xM+15 <800K> Tazavesh HM <400k> |cff66bbff|Hjournal:0:1193:15|h[Sanctum of Domination]|h|r Mythic/Heroic. 10/10 Heroic <585k> (Trader Available) Sylvanas <140k> KT <80k> both <200k>. Whisper me to RESERVE SPOT!", -- [1]
+			"Flaplikebird-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Flaplikebird-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			488, -- [11]
+			"Player-1084-0A4C5CBA", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cffa9d271Flaplikebird|r",
+			[51] = 1630181096,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [11]
+		{
+			"<NOVA> WTS Last 2 Boss HC 220k For Today . Full Run HC SOD 640k . Mythic +15 intime 285k Outtime 250k and all mythic + /w more info and Tazavesh NM 220k and HM 450k . All Torghast Layer /w more info", -- [1]
+			"Dexture-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Dexture-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			489, -- [11]
+			"Player-1084-0A4A4501", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cff006fdcDexture|r",
+			[51] = 1630181097,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [12]
+		{
+			"<NOVA> LAST 2 BOSS HC =200k/SYLVANA HC=140k|| SANCTUM FULL Clear 10/10 =640k (VIP AVAILBLE) || TAZAVESH ||  ARENA || TORGHAST  || M+15=210k || M+14 =200k || M+12=160k || M+10 =125k ||===> ARMOR STACK FREE  4x M+15=756k || 4x M+12= 576k || 4x M+10= 450k", -- [1]
+			"Nôvasixthree-TarrenMill", -- [2]
+			"", -- [3]
+			"2. Trade - City", -- [4]
+			"Nôvasixthree-TarrenMill", -- [5]
+			"", -- [6]
+			2, -- [7]
+			2, -- [8]
+			"Trade - City", -- [9]
+			0, -- [10]
+			490, -- [11]
+			"Player-1084-0A4C5D4A", -- [12]
+			0, -- [13]
+			false, -- [14]
+			false, -- [15]
+			false, -- [16]
+			true, -- [17]
+			[52] = "|cfffef367Nôvasixthree|r",
+			[51] = 1630181101,
+			[50] = "CHAT_MSG_CHANNEL",
+		}, -- [13]
+	},
+}

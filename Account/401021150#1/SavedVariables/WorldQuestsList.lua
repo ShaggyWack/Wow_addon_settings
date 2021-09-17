@@ -1,59 +1,5 @@
 
 VWQL = {
-	["Damnuspoop-Mazrigos"] = {
-		["FilterType"] = {
-		},
-		["VERSION"] = 101,
-		["Quests"] = {
-			[61886] = true,
-			[43183] = true,
-			[43943] = true,
-			[43758] = true,
-			[43512] = true,
-			[59585] = true,
-			[43774] = true,
-			[41949] = true,
-			[60475] = true,
-			[60855] = true,
-			[43091] = true,
-			[58221] = true,
-			[41091] = true,
-			[61946] = true,
-			[44121] = true,
-			[43434] = true,
-			[61540] = true,
-			[48467] = true,
-			[41865] = true,
-			[41489] = true,
-			[44893] = true,
-			[42123] = true,
-			[60899] = true,
-			[61783] = true,
-			[43764] = true,
-			[61220] = true,
-			[41692] = true,
-			[60657] = true,
-			[60533] = true,
-			[41257] = true,
-			[60872] = true,
-			[42962] = true,
-			[61549] = true,
-			[61866] = true,
-			[61667] = true,
-			[61539] = true,
-			[46933] = true,
-			[60911] = true,
-			[43710] = true,
-			[61815] = true,
-			[62258] = true,
-			[44892] = true,
-			[60597] = true,
-			[61477] = true,
-		},
-		["Filter"] = 63,
-	},
-	["AnchorQCBTop"] = 715.5554809570312,
-	["HideLegion"] = true,
 	["Ytoh-Mazrigos"] = {
 		["FilterType"] = {
 		},
@@ -82,43 +28,8 @@ VWQL = {
 		["VERSION"] = 101,
 	},
 	["Scale"] = 1.1,
-	["DisableIconsGeneralMap947"] = true,
-	["Nohva-Mazrigos"] = {
-		["VERSION"] = 101,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
 	["Sort"] = 5,
-	["Fartnipplebo-Lightbringer"] = {
-		["Filter"] = 63,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["VERSION"] = 101,
-	},
-	["Arthees-Mazrigos"] = {
-		["VERSION"] = 101,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
-	["Lyriah-Mazrigos"] = {
-		["VERSION"] = 101,
-		["FilterType"] = {
-		},
-		["Quests"] = {
-		},
-		["Filter"] = 63,
-	},
 	["VERSION"] = 101,
-	["Anchor"] = 1,
-	["Arrow_PointX"] = -118.6675720214844,
 	["Yato-Mazrigos"] = {
 		["VERSION"] = 97,
 		["FilterType"] = {
@@ -126,17 +37,6 @@ VWQL = {
 		["Quests"] = {
 		},
 		["Filter"] = 63,
-	},
-	["Merwarr-Mazrigos"] = {
-		["Filter"] = 63,
-		["VERSION"] = 101,
-		["RegularQuestMode"] = true,
-		["Quests"] = {
-		},
-		["FilterType"] = {
-		},
-	},
-	["Ignore"] = {
 	},
 	["Phuhrbe-Mazrigos"] = {
 		["VERSION"] = 101,
@@ -146,8 +46,7 @@ VWQL = {
 		},
 		["Filter"] = 63,
 	},
-	["DisableArrow"] = true,
-	["AzeriteFormat"] = 20,
+	["Arrow_Point1"] = "TOPRIGHT",
 	["ReverseSort"] = false,
 	["Ellarah-Mazrigos"] = {
 		["Filter"] = 63,
@@ -166,45 +65,91 @@ VWQL = {
 		},
 		["VERSION"] = 101,
 	},
-	["SortPrio"] = {
-	},
 	["Shirang-Mazrigos"] = {
 		["FilterType"] = {
 		},
 		["VERSION"] = 101,
 		["Quests"] = {
-			[60872] = true,
 			[64531] = true,
-			[61866] = true,
-			[57465] = true,
-			[60475] = true,
-			[61220] = true,
-			[60601] = true,
-			[60657] = true,
-			[60533] = true,
-			[59585] = true,
-			[61783] = true,
-			[61815] = true,
-			[60855] = true,
-			[58221] = true,
-			[61539] = true,
-			[61540] = true,
-			[57443] = true,
-			[61886] = true,
-			[61946] = true,
-			[61544] = true,
-			[62258] = true,
-			[61477] = true,
-			[59718] = true,
-			[61667] = true,
-			[61549] = true,
-			[60899] = true,
-			[60911] = true,
-			[58084] = true,
+			[48831] = true,
 		},
 		["Filter"] = 63,
 	},
-	["Arrow_Point1"] = "TOPRIGHT",
+	["AnchorQCBLeft"] = 211.6666717529297,
+	["Damnuspoop-Mazrigos"] = {
+		["FilterType"] = {
+		},
+		["VERSION"] = 101,
+		["Quests"] = {
+			[44895] = true,
+			[43943] = true,
+			[60855] = true,
+			[61787] = true,
+			[43248] = true,
+			[61593] = true,
+			[64273] = true,
+			[61549] = true,
+			[62058] = true,
+			[59585] = true,
+			[59578] = true,
+			[48831] = true,
+			[42713] = true,
+		},
+		["Filter"] = 63,
+	},
+	["AnchorQCBTop"] = 715.5554809570312,
+	["DisableIconsGeneralMap947"] = true,
+	["Lyriah-Mazrigos"] = {
+		["VERSION"] = 101,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Nohva-Mazrigos"] = {
+		["VERSION"] = 101,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["Fartnipplebo-Lightbringer"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 101,
+	},
+	["Arrow_Point2"] = "TOPRIGHT",
+	["Arthees-Mazrigos"] = {
+		["VERSION"] = 101,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["Filter"] = 63,
+	},
+	["DisableArrow"] = true,
+	["Arrow_PointX"] = -118.6675720214844,
+	["Merwarr-Mazrigos"] = {
+		["Filter"] = 63,
+		["VERSION"] = 101,
+		["RegularQuestMode"] = true,
+		["Quests"] = {
+		},
+		["FilterType"] = {
+		},
+	},
+	["Ignore"] = {
+	},
+	["HideLegion"] = true,
+	["SortPrio"] = {
+	},
+	["Anchor"] = 1,
+	["AzeriteFormat"] = 20,
 	["Nitus-TarrenMill"] = {
 		["VERSION"] = 101,
 		["Filter"] = 63,
@@ -214,8 +159,6 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
-	["Arrow_Point2"] = "TOPRIGHT",
-	["AnchorQCBLeft"] = 211.6666717529297,
 	["Dannidan-Mazrigos"] = {
 		["Filter"] = 63,
 		["VERSION"] = 101,
@@ -225,17 +168,25 @@ VWQL = {
 		["FilterType"] = {
 		},
 	},
+	["Toeboe-TarrenMill"] = {
+		["Filter"] = 63,
+		["FilterType"] = {
+		},
+		["Quests"] = {
+		},
+		["VERSION"] = 101,
+	},
 	["Dehlicia-Mazrigos"] = {
 		["Filter"] = 63,
 		["VERSION"] = 101,
 		["Quests"] = {
-			[60653] = true,
+			[59848] = true,
 			[61883] = true,
-			[58084] = true,
+			[60653] = true,
 			[57465] = true,
 			[60657] = true,
 			[60659] = true,
-			[59848] = true,
+			[58084] = true,
 		},
 		["FilterType"] = {
 		},

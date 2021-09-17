@@ -3,7 +3,13 @@ MSBTProfiles_SavedVars = {
 	["profiles"] = {
 		["Default"] = {
 			["scrollAreas"] = {
+				["Notification"] = {
+					["disabled"] = true,
+				},
 				["Outgoing"] = {
+					["disabled"] = true,
+				},
+				["Static"] = {
 					["disabled"] = true,
 				},
 				["Incoming"] = {
@@ -13,12 +19,6 @@ MSBTProfiles_SavedVars = {
 					["offsetY"] = -158,
 					["offsetX"] = -174,
 					["normalFontName"] = "2002 Bold",
-				},
-				["Static"] = {
-					["disabled"] = true,
-				},
-				["Notification"] = {
-					["disabled"] = true,
 				},
 			},
 			["soundsDisabled"] = true,
@@ -31,50 +31,12 @@ MSBTProfiles_SavedVars = {
 		["MASTER UI"] = {
 			["hotThrottleDuration"] = 0,
 			["hideNames"] = true,
-			["classColoringDisabled"] = true,
-			["hideSkills"] = true,
-			["textShadowingDisabled"] = true,
-			["creationVersion"] = "5.7.152",
 			["soundsDisabled"] = true,
 			["enableBlizzardHealing"] = false,
-			["hideFullOverheals"] = true,
-			["skillIconsDisabled"] = true,
-			["scrollAreas"] = {
-				["Incoming"] = {
-					["critFontAlpha"] = 100,
-					["critFontName"] = "2002 Bold",
-					["normalOutlineIndex"] = 1,
-					["stickyBehavior"] = "Normal",
-					["critFontSize"] = 26,
-					["offsetX"] = -175,
-					["critOutlineIndex"] = 1,
-					["normalFontAlpha"] = 100,
-					["normalFontName"] = "2002 Bold",
-					["offsetY"] = -141,
-					["normalFontSize"] = 18,
-				},
-				["Notification"] = {
-					["disabled"] = true,
-				},
-				["Static"] = {
-					["disabled"] = true,
-				},
-				["Outgoing"] = {
-					["direction"] = "Up",
-					["critFontName"] = "2002 Bold",
-					["critOutlineIndex"] = 1,
-					["stickyBehavior"] = "Normal",
-					["critFontSize"] = 26,
-					["critFontAlpha"] = 100,
-					["offsetX"] = 135,
-					["offsetY"] = -141,
-					["normalFontAlpha"] = 100,
-					["normalFontName"] = "2002 Bold",
-					["normalOutlineIndex"] = 1,
-					["normalFontSize"] = 18,
-				},
-			},
-			["shortenNumbers"] = true,
+			["textShadowingDisabled"] = true,
+			["creationVersion"] = "5.7.152",
+			["classColoringDisabled"] = true,
+			["hideSkills"] = true,
 			["events"] = {
 				["PET_INCOMING_HOT_CRIT"] = {
 					["disabled"] = true,
@@ -357,6 +319,44 @@ MSBTProfiles_SavedVars = {
 					["colorR"] = 1,
 				},
 			},
+			["skillIconsDisabled"] = true,
+			["scrollAreas"] = {
+				["Outgoing"] = {
+					["direction"] = "Up",
+					["critFontName"] = "2002 Bold",
+					["critOutlineIndex"] = 1,
+					["stickyBehavior"] = "Normal",
+					["critFontSize"] = 26,
+					["critFontAlpha"] = 100,
+					["offsetX"] = 135,
+					["normalFontName"] = "2002 Bold",
+					["normalFontAlpha"] = 100,
+					["offsetY"] = -141,
+					["normalOutlineIndex"] = 1,
+					["normalFontSize"] = 18,
+				},
+				["Incoming"] = {
+					["critFontAlpha"] = 100,
+					["critFontName"] = "2002 Bold",
+					["normalOutlineIndex"] = 1,
+					["stickyBehavior"] = "Normal",
+					["critFontSize"] = 26,
+					["offsetX"] = -175,
+					["critOutlineIndex"] = 1,
+					["normalFontAlpha"] = 100,
+					["normalFontName"] = "2002 Bold",
+					["offsetY"] = -141,
+					["normalFontSize"] = 18,
+				},
+				["Static"] = {
+					["disabled"] = true,
+				},
+				["Notification"] = {
+					["disabled"] = true,
+				},
+			},
+			["shortenNumbers"] = true,
+			["hideFullOverheals"] = true,
 			["enableBlizzardDamage"] = true,
 		},
 	},

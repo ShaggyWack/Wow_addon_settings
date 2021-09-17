@@ -2,6 +2,7 @@
 TomTomDB = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "MASTER UI",
+		["Phuhrbe - Mazrigos"] = "Default",
 		["Shirang - Mazrigos"] = "MASTER UI",
 		["Dannidan - Mazrigos"] = "MASTER UI",
 		["Dehlicia - Mazrigos"] = "MASTER UI",
@@ -15,10 +16,23 @@ TomTomDB = {
 		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Phuhrbe - Mazrigos"] = "Default",
+		["Toeboe - Tarren Mill"] = "Default",
 	},
 	["profiles"] = {
 		["MASTER UI"] = {
+			["arrow"] = {
+				["lock"] = true,
+				["position"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					0, -- [4]
+					0, -- [5]
+				},
+			},
+			["minimap"] = {
+				["default_icon"] = "Interface\\AddOns\\TomTom\\Images\\GoldPurpleDotNew",
+			},
 			["mapcoords"] = {
 				["cursorenable"] = false,
 				["playerenable"] = false,
@@ -32,19 +46,6 @@ TomTomDB = {
 					245.5556488037109, -- [4]
 					226.6667175292969, -- [5]
 				},
-			},
-			["minimap"] = {
-				["default_icon"] = "Interface\\AddOns\\TomTom\\Images\\GoldPurpleDotNew",
-			},
-			["arrow"] = {
-				["position"] = {
-					"CENTER", -- [1]
-					nil, -- [2]
-					"CENTER", -- [3]
-					0, -- [4]
-					0, -- [5]
-				},
-				["lock"] = true,
 			},
 		},
 		["Default"] = {
@@ -73,6 +74,7 @@ TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
+		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 		["Shirang - Mazrigos"] = "Shirang - Mazrigos",
 		["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 		["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
@@ -86,10 +88,12 @@ TomTomWaypointsM = {
 		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+		["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 	},
 	["profiles"] = {
 		["Damnuspoop - Mazrigos"] = {
+		},
+		["Phuhrbe - Mazrigos"] = {
 		},
 		["Shirang - Mazrigos"] = {
 		},
@@ -117,7 +121,7 @@ TomTomWaypointsM = {
 		},
 		["Arthees - Mazrigos"] = {
 		},
-		["Phuhrbe - Mazrigos"] = {
+		["Toeboe - Tarren Mill"] = {
 		},
 	},
 }

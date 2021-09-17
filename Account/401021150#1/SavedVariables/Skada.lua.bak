@@ -6,6 +6,7 @@ SkadaDB = {
 	},
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "MASTER UI",
+		["Phuhrbe - Mazrigos"] = "Default",
 		["Shirang - Mazrigos"] = "MASTER UI",
 		["Dannidan - Mazrigos"] = "MASTER UI",
 		["Dehlicia - Mazrigos"] = "MASTER UI",
@@ -19,7 +20,7 @@ SkadaDB = {
 		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Phuhrbe - Mazrigos"] = "Default",
+		["Toeboe - Tarren Mill"] = "Default",
 	},
 	["profiles"] = {
 		["MASTER UI"] = {
@@ -31,35 +32,15 @@ SkadaDB = {
 			},
 			["windows"] = {
 				{
-					["barfont"] = "2002 Bold",
+					["barheight"] = 25,
+					["barslocked"] = true,
 					["background"] = {
-						["height"] = 168.8888092041016,
 						["bordertexture"] = "None",
+						["height"] = 168.8888092041016,
 						["texture"] = "None",
 					},
-					["barheight"] = 25,
-					["buttons"] = {
-						["segment"] = false,
-						["mode"] = false,
-						["menu"] = false,
-						["report"] = false,
-					},
-					["barbgcolor"] = {
-						["a"] = 1,
-						["r"] = 1,
-						["g"] = 1,
-						["b"] = 1,
-					},
-					["smoothing"] = true,
-					["barwidth"] = 417.7780151367188,
-					["barfontsize"] = 20,
 					["y"] = 29.99996757507324,
-					["x"] = -5.556640625,
-					["barslocked"] = true,
-					["roleicons"] = true,
-					["bartexture"] = "ElvUI Blank",
-					["mode"] = "DPS",
-					["point"] = "BOTTOMRIGHT",
+					["barfont"] = "2002 Bold",
 					["title"] = {
 						["color"] = {
 							["a"] = 0,
@@ -70,16 +51,36 @@ SkadaDB = {
 						["font"] = "2002 Bold",
 						["texture"] = "ElvUI Blank",
 					},
+					["x"] = -5.556640625,
+					["point"] = "BOTTOMRIGHT",
+					["barbgcolor"] = {
+						["a"] = 1,
+						["r"] = 1,
+						["g"] = 1,
+						["b"] = 1,
+					},
+					["barfontsize"] = 20,
+					["roleicons"] = true,
+					["mode"] = "DPS",
+					["bartexture"] = "ElvUI Blank",
+					["barwidth"] = 417.7780151367188,
+					["smoothing"] = true,
+					["buttons"] = {
+						["segment"] = false,
+						["menu"] = false,
+						["mode"] = false,
+						["report"] = false,
+					},
 				}, -- [1]
+			},
+			["icon"] = {
+				["hide"] = true,
 			},
 			["versions"] = {
 				["1.6.3"] = true,
 				["1.8.0"] = true,
 				["1.6.4"] = true,
 				["1.6.7"] = true,
-			},
-			["icon"] = {
-				["hide"] = true,
 			},
 			["reset"] = {
 				["instance"] = 2,
@@ -90,8 +91,8 @@ SkadaDB = {
 			["windows"] = {
 				{
 					["y"] = 42.2222900390625,
-					["point"] = "LEFT",
 					["x"] = 198.8889465332031,
+					["point"] = "LEFT",
 				}, -- [1]
 			},
 			["versions"] = {

@@ -8,9 +8,10 @@ TSV_DB = {
 		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
 		["Nohva - Mazrigos"] = "Nohva - Mazrigos",
 		["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
-		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
-		["Shirang - Mazrigos"] = "Shirang - Mazrigos",
-		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
 		["Nitus - Tarren Mill"] = "Nitus - Tarren Mill",
+		["Shirang - Mazrigos"] = "Shirang - Mazrigos",
+		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
+		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
+		["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 	},
 }

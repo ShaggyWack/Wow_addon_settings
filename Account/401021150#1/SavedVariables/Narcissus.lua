@@ -29,10 +29,6 @@ NarcissusDB = {
 	["MinimapButton"] = {
 		["Position"] = 2.617993877991494,
 	},
-	["CameraOrbit"] = true,
-	["AutoPlayAnimation"] = true,
-	["AFKScreen"] = false,
-	["BorderTheme"] = "Dark",
 	["Tutorials"] = {
 		["ExitConfirmation"] = true,
 		["Movement"] = true,
@@ -42,21 +38,25 @@ NarcissusDB = {
 		["NPCBrowser"] = true,
 		["EquipmentSetManager"] = false,
 	},
+	["CameraTransition"] = false,
+	["AFKScreen"] = false,
+	["BorderTheme"] = "Dark",
+	["CameraOrbit"] = true,
 	["CorruptionTooltip"] = false,
 	["ShowModulePanelOnMouseOver"] = true,
 	["CameraSafeMode"] = false,
 	["FadeButton"] = false,
-	["EnableGrainEffect"] = false,
 	["WeatherEffect"] = true,
+	["EnableGrainEffect"] = false,
 	["EnableDoubleTap"] = false,
 	["AFKAutoStand"] = false,
 	["LetterboxEffect"] = false,
 	["LetterboxRatio"] = 2,
 	["GemManager"] = true,
 	["ModelPanelScale"] = 1,
-	["TooltipTheme"] = "Dark",
-	["AnchorToMinimap"] = false,
 	["DressingRoomIncludeItemID"] = false,
+	["AnchorToMinimap"] = false,
+	["TooltipTheme"] = "Dark",
 	["UseEntranceVisual"] = true,
 	["CorruptionTooltipModel"] = true,
 	["PhotoModeButton"] = {
@@ -65,8 +65,8 @@ NarcissusDB = {
 	["EyeColor"] = 1,
 	["ShowMinimapButton"] = false,
 	["DefaultLayout"] = 2,
-	["Version"] = 10300,
-	["CameraTransition"] = false,
+	["Version"] = 10500,
+	["AutoPlayAnimation"] = true,
 	["BaseLineOffset"] = 0,
 	["FadeMusic"] = false,
 	["ConduitTooltip"] = true,
@@ -2008,9 +2008,9 @@ NarciStatisticsDB = {
 				21, -- [2]
 				true, -- [3]
 			},
-			[60732] = {
-				78, -- [1]
-				21, -- [2]
+			[62778] = {
+				160, -- [1]
+				15, -- [2]
 				true, -- [3]
 			},
 			[57471] = {
@@ -2043,9 +2043,9 @@ NarciStatisticsDB = {
 				45, -- [2]
 				true, -- [3]
 			},
-			[62778] = {
-				160, -- [1]
-				15, -- [2]
+			[60732] = {
+				78, -- [1]
+				21, -- [2]
 				true, -- [3]
 			},
 			[60764] = {
@@ -2078,9 +2078,9 @@ NarciStatisticsDB = {
 				8, -- [2]
 				true, -- [3]
 			},
-			[57951] = {
-				73, -- [1]
-				20, -- [2]
+			[63066] = {
+				101, -- [1]
+				3, -- [2]
 				true, -- [3]
 			},
 			[57919] = {
@@ -2088,9 +2088,9 @@ NarciStatisticsDB = {
 				2, -- [2]
 				true, -- [3]
 			},
-			[63066] = {
-				101, -- [1]
-				3, -- [2]
+			[57951] = {
+				73, -- [1]
+				20, -- [2]
 				true, -- [3]
 			},
 			[57927] = {
@@ -2158,9 +2158,9 @@ NarciStatisticsDB = {
 				30, -- [2]
 				true, -- [3]
 			},
-			[60509] = {
-				100, -- [1]
-				42, -- [2]
+			[63578] = {
+				99, -- [1]
+				22, -- [2]
 				true, -- [3]
 			},
 			[58431] = {
@@ -2168,9 +2168,9 @@ NarciStatisticsDB = {
 				37, -- [2]
 				true, -- [3]
 			},
-			[63578] = {
-				99, -- [1]
-				22, -- [2]
+			[60509] = {
+				100, -- [1]
+				42, -- [2]
 				true, -- [3]
 			},
 			[57926] = {
@@ -2193,19 +2193,19 @@ NarciStatisticsDB = {
 				22, -- [2]
 				true, -- [3]
 			},
-			[62715] = {
-				94, -- [1]
-				10, -- [2]
-				false, -- [3]
+			[63738] = {
+				65, -- [1]
+				13, -- [2]
+				true, -- [3]
 			},
 			[60856] = {
 				81, -- [1]
 				32, -- [2]
 				true, -- [3]
 			},
-			[62779] = {
-				81, -- [1]
-				7, -- [2]
+			[59710] = {
+				91, -- [1]
+				31, -- [2]
 				true, -- [3]
 			},
 			[58719] = {
@@ -2353,9 +2353,9 @@ NarciStatisticsDB = {
 				7, -- [2]
 				true, -- [3]
 			},
-			[62716] = {
-				86, -- [1]
-				10, -- [2]
+			[63739] = {
+				41, -- [1]
+				1, -- [2]
 				true, -- [3]
 			},
 			[57903] = {
@@ -2393,9 +2393,9 @@ NarciStatisticsDB = {
 				35, -- [2]
 				true, -- [3]
 			},
-			[63132] = {
-				26, -- [1]
-				7, -- [2]
+			[60063] = {
+				129, -- [1]
+				63, -- [2]
 				true, -- [3]
 			},
 			[61981] = {
@@ -2418,9 +2418,9 @@ NarciStatisticsDB = {
 				3, -- [2]
 				true, -- [3]
 			},
-			[60063] = {
-				129, -- [1]
-				63, -- [2]
+			[63132] = {
+				26, -- [1]
+				7, -- [2]
 				true, -- [3]
 			},
 			[63164] = {
@@ -2563,9 +2563,9 @@ NarciStatisticsDB = {
 				28, -- [2]
 				true, -- [3]
 			},
-			[57922] = {
-				78, -- [1]
-				2, -- [2]
+			[63037] = {
+				84, -- [1]
+				5, -- [2]
 				true, -- [3]
 			},
 			[63133] = {
@@ -2718,14 +2718,14 @@ NarciStatisticsDB = {
 				12, -- [2]
 				true, -- [3]
 			},
-			[57923] = {
-				93, -- [1]
-				3, -- [2]
-				true, -- [3]
-			},
 			[63038] = {
 				81, -- [1]
 				13, -- [2]
+				true, -- [3]
+			},
+			[57923] = {
+				93, -- [1]
+				3, -- [2]
 				true, -- [3]
 			},
 			[57381] = {
@@ -2758,14 +2758,14 @@ NarciStatisticsDB = {
 				25, -- [2]
 				true, -- [3]
 			},
-			[58179] = {
-				64, -- [1]
-				31, -- [2]
-				true, -- [3]
-			},
 			[59202] = {
 				43, -- [1]
 				10, -- [2]
+				true, -- [3]
+			},
+			[58179] = {
+				64, -- [1]
+				31, -- [2]
 				true, -- [3]
 			},
 			[58593] = {
@@ -2803,9 +2803,9 @@ NarciStatisticsDB = {
 				13, -- [2]
 				true, -- [3]
 			},
-			[60577] = {
-				85, -- [1]
-				20, -- [2]
+			[59554] = {
+				52, -- [1]
+				5, -- [2]
 				true, -- [3]
 			},
 			[57444] = {
@@ -2818,9 +2818,9 @@ NarciStatisticsDB = {
 				0, -- [2]
 				true, -- [3]
 			},
-			[59554] = {
-				52, -- [1]
-				5, -- [2]
+			[60577] = {
+				85, -- [1]
+				20, -- [2]
 				true, -- [3]
 			},
 			[58563] = {
@@ -2838,14 +2838,14 @@ NarciStatisticsDB = {
 				68, -- [2]
 				true, -- [3]
 			},
-			[63902] = {
-				59, -- [1]
-				6, -- [2]
+			[58787] = {
+				106, -- [1]
+				27, -- [2]
 				true, -- [3]
 			},
-			[59714] = {
-				88, -- [1]
-				32, -- [2]
+			[60737] = {
+				48, -- [1]
+				10, -- [2]
 				true, -- [3]
 			},
 			[58723] = {
@@ -2858,9 +2858,9 @@ NarciStatisticsDB = {
 				23, -- [2]
 				true, -- [3]
 			},
-			[58787] = {
-				106, -- [1]
-				27, -- [2]
+			[63902] = {
+				59, -- [1]
+				6, -- [2]
 				true, -- [3]
 			},
 			[57474] = {
@@ -2883,14 +2883,14 @@ NarciStatisticsDB = {
 				26, -- [2]
 				true, -- [3]
 			},
-			[63039] = {
-				73, -- [1]
-				4, -- [2]
-				true, -- [3]
-			},
 			[57924] = {
 				113, -- [1]
 				18, -- [2]
+				true, -- [3]
+			},
+			[63039] = {
+				73, -- [1]
+				4, -- [2]
 				true, -- [3]
 			},
 			[59011] = {
@@ -2903,9 +2903,9 @@ NarciStatisticsDB = {
 				1, -- [2]
 				true, -- [3]
 			},
-			[60737] = {
-				48, -- [1]
-				10, -- [2]
+			[59714] = {
+				88, -- [1]
+				32, -- [2]
 				true, -- [3]
 			},
 			[57985] = {
@@ -3063,9 +3063,9 @@ NarciStatisticsDB = {
 				6, -- [2]
 				true, -- [3]
 			},
-			[63037] = {
-				84, -- [1]
-				5, -- [2]
+			[57922] = {
+				78, -- [1]
+				2, -- [2]
 				true, -- [3]
 			},
 			[60775] = {
@@ -3128,9 +3128,9 @@ NarciStatisticsDB = {
 				6, -- [2]
 				false, -- [3]
 			},
-			[63739] = {
-				41, -- [1]
-				1, -- [2]
+			[62716] = {
+				86, -- [1]
+				10, -- [2]
 				true, -- [3]
 			},
 			[61334] = {
@@ -3193,15 +3193,15 @@ NarciStatisticsDB = {
 				45, -- [2]
 				true, -- [3]
 			},
-			[59710] = {
-				91, -- [1]
-				31, -- [2]
+			[62779] = {
+				81, -- [1]
+				7, -- [2]
 				true, -- [3]
 			},
-			[63738] = {
-				65, -- [1]
-				13, -- [2]
-				true, -- [3]
+			[62715] = {
+				94, -- [1]
+				10, -- [2]
+				false, -- [3]
 			},
 			[58949] = {
 				99, -- [1]

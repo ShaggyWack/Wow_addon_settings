@@ -3,9 +3,10 @@ MythicDungeonToolsDB = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
 		["Shirang - Mazrigos"] = "Shirang - Mazrigos",
+		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 		["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 		["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
-		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
 		["Elryniana - Mazrigos"] = "Elryniana - Mazrigos",
 		["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
 		["Nohva - Mazrigos"] = "Nohva - Mazrigos",
@@ -15,7 +16,7 @@ MythicDungeonToolsDB = {
 		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
+		["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 	},
 	["global"] = {
 		["anchorTo"] = "CENTER",
@@ -163,10 +164,6 @@ MythicDungeonToolsDB = {
 					},
 					["uid"] = "jUaFG4dbtT4",
 					["week"] = 1,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
 					["value"] = {
 						["selection"] = {
 							1, -- [1]
@@ -184,6 +181,10 @@ MythicDungeonToolsDB = {
 							{
 							}, -- [1]
 						},
+					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
 					},
 					["text"] = "Default 2",
 					["difficulty"] = 8,
@@ -236,13 +237,6 @@ MythicDungeonToolsDB = {
 						["freehold"] = 1,
 						["freeholdJoined"] = false,
 						["beguiling"] = 1,
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
-					["text"] = "test",
-					["objects"] = {
 					},
 					["value"] = {
 						["selection"] = {
@@ -611,6 +605,13 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [31]
 						},
+					},
+					["text"] = "test",
+					["objects"] = {
+					},
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
 					},
 				}, -- [2]
 				{

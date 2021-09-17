@@ -30,7 +30,24 @@ Quartz3DB = {
 		},
 		["Mirror"] = {
 		},
-		["EnemyCasts"] = {
+		["Player"] = {
+			["profiles"] = {
+				["MASTER UI"] = {
+					["h"] = 30,
+					["w"] = 375,
+					["y"] = -440,
+					["x"] = 0,
+					["point"] = "CENTER",
+					["border"] = "None",
+					["fontsize"] = 20,
+					["font"] = "Expressway",
+					["timefontsize"] = 20,
+					["texture"] = "ElvUI Blank",
+				},
+				["Default"] = {
+					["x"] = 941.666748046875,
+				},
+			},
 		},
 		["GCD"] = {
 			["profiles"] = {
@@ -78,24 +95,7 @@ Quartz3DB = {
 		},
 		["Interrupt"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["MASTER UI"] = {
-					["h"] = 30,
-					["w"] = 375,
-					["y"] = -440,
-					["x"] = 0,
-					["point"] = "CENTER",
-					["border"] = "None",
-					["fontsize"] = 20,
-					["font"] = "Expressway",
-					["timefontsize"] = 20,
-					["texture"] = "ElvUI Blank",
-				},
-				["Default"] = {
-					["x"] = 941.666748046875,
-				},
-			},
+		["EnemyCasts"] = {
 		},
 		["Latency"] = {
 		},
@@ -103,9 +103,10 @@ Quartz3DB = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "MASTER UI",
 		["Shirang - Mazrigos"] = "MASTER UI",
+		["Phuhrbe - Mazrigos"] = "Default",
 		["Dannidan - Mazrigos"] = "MASTER UI",
 		["Dehlicia - Mazrigos"] = "MASTER UI",
-		["Phuhrbe - Mazrigos"] = "Default",
+		["Ellarah - Mazrigos"] = "Default",
 		["Elryniana - Mazrigos"] = "Default",
 		["Merwarr - Mazrigos"] = "MASTER UI",
 		["Nohva - Mazrigos"] = "Default",
@@ -115,7 +116,7 @@ Quartz3DB = {
 		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Ellarah - Mazrigos"] = "Default",
+		["Toeboe - Tarren Mill"] = "Default",
 	},
 	["profiles"] = {
 		["MASTER UI"] = {

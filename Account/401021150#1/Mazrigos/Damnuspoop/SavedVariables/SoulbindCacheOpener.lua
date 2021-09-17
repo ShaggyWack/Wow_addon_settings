@@ -4,10 +4,10 @@ SoulbindCacheOpenerDB = {
 	["freeSpace"] = false,
 	["alignment"] = "LEFT",
 	["position"] = {
-		"CENTER", -- [1]
+		"TOP", -- [1]
 		nil, -- [2]
-		"CENTER", -- [3]
-		311.1105651855469, -- [4]
-		73.33332824707031, -- [5]
+		"TOP", -- [3]
+		292.2215576171875, -- [4]
+		-90.49991607666016, -- [5]
 	},
 }

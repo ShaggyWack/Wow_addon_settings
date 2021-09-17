@@ -2,6 +2,7 @@
 RoutesDB = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "Default",
+		["Phuhrbe - Mazrigos"] = "Default",
 		["Shirang - Mazrigos"] = "Default",
 		["Dannidan - Mazrigos"] = "Default",
 		["Dehlicia - Mazrigos"] = "Default",
@@ -15,7 +16,7 @@ RoutesDB = {
 		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Phuhrbe - Mazrigos"] = "Default",
+		["Toeboe - Tarren Mill"] = "Default",
 	},
 	["global"] = {
 		["routes"] = {

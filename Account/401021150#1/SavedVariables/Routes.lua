@@ -3,9 +3,10 @@ RoutesDB = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "Default",
 		["Shirang - Mazrigos"] = "Default",
+		["Phuhrbe - Mazrigos"] = "Default",
 		["Dannidan - Mazrigos"] = "Default",
 		["Dehlicia - Mazrigos"] = "Default",
-		["Phuhrbe - Mazrigos"] = "Default",
+		["Ellarah - Mazrigos"] = "Default",
 		["Elryniana - Mazrigos"] = "Default",
 		["Merwarr - Mazrigos"] = "Default",
 		["Nohva - Mazrigos"] = "Default",
@@ -15,10 +16,51 @@ RoutesDB = {
 		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Ellarah - Mazrigos"] = "Default",
+		["Toeboe - Tarren Mill"] = "Default",
 	},
 	["global"] = {
 		["routes"] = {
+			[1533] = {
+				["Soulmirror Shards"] = {
+					["length"] = 11713.68618348334,
+					["route"] = {
+						58257341, -- [1]
+						59547328, -- [2]
+						59847350, -- [3]
+						60857567, -- [4]
+						59507721, -- [5]
+						58007522, -- [6]
+						56657416, -- [7]
+						57477384, -- [8]
+					},
+				},
+			},
+			[1565] = {
+				["Champions Pelt"] = {
+					["route"] = {
+						59043824, -- [1]
+						59103976, -- [2]
+						58384227, -- [3]
+						56194152, -- [4]
+						56454292, -- [5]
+						57264468, -- [6]
+						57744364, -- [7]
+						58164460, -- [8]
+						58294664, -- [9]
+						54134115, -- [10]
+						57923955, -- [11]
+					},
+					["color"] = {
+						1, -- [1]
+						0.5411764705882353, -- [2]
+						0, -- [3]
+						1, -- [4]
+					},
+					["width"] = 53,
+					["length"] = 12541.40548363618,
+					["width_minimap"] = 31,
+				},
+			},
 			[1525] = {
 				["Laestrite Ore"] = {
 					["route"] = {
@@ -77,47 +119,6 @@ RoutesDB = {
 						1, -- [4]
 					},
 					["length"] = 9884.693860066858,
-				},
-			},
-			[1533] = {
-				["Soulmirror Shards"] = {
-					["length"] = 11713.68618348334,
-					["route"] = {
-						58257341, -- [1]
-						59547328, -- [2]
-						59847350, -- [3]
-						60857567, -- [4]
-						59507721, -- [5]
-						58007522, -- [6]
-						56657416, -- [7]
-						57477384, -- [8]
-					},
-				},
-			},
-			[1565] = {
-				["Champions Pelt"] = {
-					["route"] = {
-						59043824, -- [1]
-						59103976, -- [2]
-						58384227, -- [3]
-						56194152, -- [4]
-						56454292, -- [5]
-						57264468, -- [6]
-						57744364, -- [7]
-						58164460, -- [8]
-						58294664, -- [9]
-						54134115, -- [10]
-						57923955, -- [11]
-					},
-					["color"] = {
-						1, -- [1]
-						0.5411764705882353, -- [2]
-						0, -- [3]
-						1, -- [4]
-					},
-					["width"] = 53,
-					["length"] = 12541.40548363618,
-					["width_minimap"] = 31,
 				},
 			},
 		},

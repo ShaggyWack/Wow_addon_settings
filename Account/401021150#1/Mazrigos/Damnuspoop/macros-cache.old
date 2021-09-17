@@ -3,6 +3,9 @@ VER 3 01000000000000A7 "BM Buffs" "132127"
 /cast Bestial Wrath
 /cast Aspect of the Wild
 END
+VER 3 01000000000000AA "Flare Puddle" "1003154"
+/castsequence [@cursor] reset=combat Tar Trap, Flare
+END
 VER 3 01000000000000A6 "Healing" "461117"
 /click ORLOpen Healing
 END

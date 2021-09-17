@@ -7,9 +7,10 @@ SkadaDB = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "MASTER UI",
 		["Shirang - Mazrigos"] = "MASTER UI",
+		["Phuhrbe - Mazrigos"] = "Default",
 		["Dannidan - Mazrigos"] = "MASTER UI",
 		["Dehlicia - Mazrigos"] = "MASTER UI",
-		["Phuhrbe - Mazrigos"] = "Default",
+		["Ellarah - Mazrigos"] = "Default",
 		["Elryniana - Mazrigos"] = "Default",
 		["Merwarr - Mazrigos"] = "MASTER UI",
 		["Nohva - Mazrigos"] = "Default",
@@ -19,7 +20,7 @@ SkadaDB = {
 		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Ellarah - Mazrigos"] = "Default",
+		["Toeboe - Tarren Mill"] = "Default",
 	},
 	["profiles"] = {
 		["MASTER UI"] = {
@@ -56,12 +57,7 @@ SkadaDB = {
 					["barfontsize"] = 20,
 					["roleicons"] = true,
 					["mode"] = "DPS",
-					["buttons"] = {
-						["report"] = false,
-						["menu"] = false,
-						["mode"] = false,
-						["segment"] = false,
-					},
+					["bartexture"] = "ElvUI Blank",
 					["barwidth"] = 417.7780151367188,
 					["smoothing"] = true,
 					["background"] = {
@@ -69,7 +65,12 @@ SkadaDB = {
 						["height"] = 168.8888092041016,
 						["texture"] = "None",
 					},
-					["bartexture"] = "ElvUI Blank",
+					["buttons"] = {
+						["report"] = false,
+						["menu"] = false,
+						["mode"] = false,
+						["segment"] = false,
+					},
 				}, -- [1]
 			},
 			["icon"] = {

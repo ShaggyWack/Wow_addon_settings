@@ -31,8 +31,8 @@ MADB = {
 			["name"] = "default",
 			["frames"] = {
 				["ObjectiveTrackerFrameScaleMover"] = {
-					["name"] = "ObjectiveTrackerFrameScaleMover",
 					["scale"] = 1.297871645525451,
+					["name"] = "ObjectiveTrackerFrameScaleMover",
 					["pos"] = {
 						"TOPRIGHT", -- [1]
 						"MinimapCluster", -- [2]

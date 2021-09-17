@@ -9,6 +9,11 @@ END
 VER 3 01000000000000A6 "Healing" "461117"
 /click ORLOpen Healing
 END
+VER 3 01000000000000AB "lvl 45 talents" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [talent:6/2] Barrage
+/cast [talent:6/3] Stampede
+END
 VER 3 01000000000000A9 "Misdirect Pet" "132180"
 /target pet
 /cast Misdirection

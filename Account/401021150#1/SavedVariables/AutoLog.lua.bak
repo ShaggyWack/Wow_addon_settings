@@ -2,6 +2,7 @@
 AutoLog_DB = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
+		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 		["Shirang - Mazrigos"] = "Shirang - Mazrigos",
 		["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 		["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
@@ -15,7 +16,7 @@ AutoLog_DB = {
 		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+		["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 	},
 	["global"] = {
 		["mythicdungeons"] = true,

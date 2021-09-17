@@ -3,9 +3,10 @@ TomTomDB = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "MASTER UI",
 		["Shirang - Mazrigos"] = "MASTER UI",
+		["Phuhrbe - Mazrigos"] = "Default",
 		["Dannidan - Mazrigos"] = "MASTER UI",
 		["Dehlicia - Mazrigos"] = "MASTER UI",
-		["Phuhrbe - Mazrigos"] = "Default",
+		["Ellarah - Mazrigos"] = "Default",
 		["Elryniana - Mazrigos"] = "Default",
 		["Merwarr - Mazrigos"] = "MASTER UI",
 		["Nohva - Mazrigos"] = "Default",
@@ -15,7 +16,7 @@ TomTomDB = {
 		["Lyriah - Mazrigos"] = "Default",
 		["Yato - Mazrigos"] = "Default",
 		["Arthees - Mazrigos"] = "Default",
-		["Ellarah - Mazrigos"] = "Default",
+		["Toeboe - Tarren Mill"] = "Default",
 	},
 	["profiles"] = {
 		["MASTER UI"] = {
@@ -74,9 +75,10 @@ TomTomWaypointsM = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
 		["Shirang - Mazrigos"] = "Shirang - Mazrigos",
+		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 		["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 		["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
-		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
 		["Elryniana - Mazrigos"] = "Elryniana - Mazrigos",
 		["Merwarr - Mazrigos"] = "Merwarr - Mazrigos",
 		["Nohva - Mazrigos"] = "Nohva - Mazrigos",
@@ -86,18 +88,20 @@ TomTomWaypointsM = {
 		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-		["Ellarah - Mazrigos"] = "Ellarah - Mazrigos",
+		["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 	},
 	["profiles"] = {
 		["Damnuspoop - Mazrigos"] = {
 		},
 		["Shirang - Mazrigos"] = {
 		},
+		["Phuhrbe - Mazrigos"] = {
+		},
 		["Dannidan - Mazrigos"] = {
 		},
 		["Dehlicia - Mazrigos"] = {
 		},
-		["Phuhrbe - Mazrigos"] = {
+		["Ellarah - Mazrigos"] = {
 		},
 		["Elryniana - Mazrigos"] = {
 		},
@@ -117,7 +121,7 @@ TomTomWaypointsM = {
 		},
 		["Arthees - Mazrigos"] = {
 		},
-		["Ellarah - Mazrigos"] = {
+		["Toeboe - Tarren Mill"] = {
 		},
 	},
 }

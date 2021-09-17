@@ -12,12 +12,12 @@ AVKGlobalSettings = {
 	},
 	["Aardvark"] = {
 		["amfb"] = false,
-		["afab"] = false,
+		["afabv"] = true,
 		["abajb"] = true,
 		["abajbt"] = true,
-		["afabv"] = true,
-		["afabas"] = true,
+		["afab"] = false,
 		["amfbt"] = true,
+		["afabas"] = true,
 	},
 	["FrameScales"] = {
 		["ambs"] = 0.5,
@@ -28,23 +28,23 @@ AVKGlobalSettings = {
 		["sdsm"] = true,
 		["sialfm"] = true,
 		["stsm"] = true,
-		["sialsm"] = true,
-		["sntsm"] = true,
-		["seas"] = true,
 		["slit"] = true,
-		["seasg"] = true,
-		["sirlm"] = true,
+		["sntsm"] = true,
+		["sialsm"] = true,
+		["seas"] = true,
 		["ses"] = true,
+		["sirlm"] = true,
 		["stil"] = false,
+		["seasg"] = true,
 	},
 	["Protect"] = {
 		["pep"] = true,
 		["pirlm"] = true,
 		["pcbp"] = true,
-		["pialfm"] = true,
+		["pialsm"] = true,
 		["pdpm"] = true,
 		["plit"] = true,
-		["pialsm"] = true,
+		["pialfm"] = true,
 	},
 	["Repair"] = {
 		["rcarm"] = false,
@@ -56,6 +56,25 @@ AVKGlobalSettings = {
 	},
 }
 AVKGlobalSellTable = {
+	{
+		["itemName"] = "Regurgitated Kyrian Wings",
+		["iconFileDataID"] = 2103871,
+		["bindType"] = 1,
+		["itemSellPrice"] = 100000,
+		["itemLink"] = "|cff1eff00|Hitem:182749::::::::60:253:::::::::|h[Regurgitated Kyrian Wings]|h|r",
+		["itemClassID"] = 15,
+		["itemLevel"] = 50,
+		["itemStackCount"] = 1,
+		["expacID"] = 8,
+		["itemRarity"] = 2,
+		["isCraftingReagent"] = false,
+		["itemID"] = 182749,
+		["itemMinLevel"] = 0,
+		["itemSubClassID"] = 4,
+		["itemEquipLoc"] = "",
+		["itemSubType"] = "Other",
+		["itemType"] = "Miscellaneous",
+	}, -- [1]
 	{
 		["itemName"] = "Sabatons of Ceaseless Assault",
 		["iconFileDataID"] = 1547868,
@@ -74,7 +93,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1]
+	}, -- [2]
 	{
 		["itemName"] = "Soul Crushing Stompers",
 		["iconFileDataID"] = 1529597,
@@ -93,7 +112,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [2]
+	}, -- [3]
 	{
 		["itemName"] = "Nefarious Light-Step Slippers",
 		["iconFileDataID"] = 1627657,
@@ -112,7 +131,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [3]
+	}, -- [4]
 	{
 		["itemName"] = "Vile Drifter's Footpads",
 		["iconFileDataID"] = 1627511,
@@ -131,7 +150,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [4]
+	}, -- [5]
 	{
 		["itemName"] = "Leggings of Heinous Acts",
 		["iconFileDataID"] = 1629908,
@@ -150,7 +169,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [5]
+	}, -- [6]
 	{
 		["itemName"] = "Subjugated Drudge's Leggings",
 		["iconFileDataID"] = 1560910,
@@ -169,7 +188,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [6]
+	}, -- [7]
 	{
 		["itemName"] = "Gore-Soaked Legplates",
 		["iconFileDataID"] = 1605813,
@@ -188,7 +207,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [7]
+	}, -- [8]
 	{
 		["itemName"] = "Legguards of Doomed Chattel",
 		["iconFileDataID"] = 1581151,
@@ -207,7 +226,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [8]
+	}, -- [9]
 	{
 		["itemName"] = "Sash of Diabolic Preparation",
 		["iconFileDataID"] = 1560904,
@@ -226,7 +245,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [9]
+	}, -- [10]
 	{
 		["itemName"] = "Cinch of Detestable Guile",
 		["iconFileDataID"] = 1626326,
@@ -245,7 +264,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [10]
+	}, -- [11]
 	{
 		["itemName"] = "Waistguard of Devilish Deeds",
 		["iconFileDataID"] = 1547867,
@@ -264,7 +283,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [11]
+	}, -- [12]
 	{
 		["itemName"] = "Waistguard of Fel Magics",
 		["iconFileDataID"] = 1561259,
@@ -283,7 +302,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [12]
+	}, -- [13]
 	{
 		["itemName"] = "Gauntlets of Barbaric Cruelty",
 		["iconFileDataID"] = 1605809,
@@ -302,7 +321,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [13]
+	}, -- [14]
 	{
 		["itemName"] = "Fel-Linked Crushers",
 		["iconFileDataID"] = 1581149,
@@ -321,7 +340,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [14]
+	}, -- [15]
 	{
 		["itemName"] = "Gloves of Grim Direction",
 		["iconFileDataID"] = 1627241,
@@ -340,7 +359,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [15]
+	}, -- [16]
 	{
 		["itemName"] = "Gloves of Barbarous Feats",
 		["iconFileDataID"] = 1626331,
@@ -359,7 +378,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [16]
+	}, -- [17]
 	{
 		["itemName"] = "Fel-Absorbant Wristbands",
 		["iconFileDataID"] = 1627658,
@@ -378,7 +397,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [17]
+	}, -- [18]
 	{
 		["itemName"] = "Tainted Corruptor's Vambraces",
 		["iconFileDataID"] = 1561258,
@@ -397,7 +416,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [18]
+	}, -- [19]
 	{
 		["itemName"] = "Poison-Barbed Bracers",
 		["iconFileDataID"] = 1547869,
@@ -416,7 +435,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [19]
+	}, -- [20]
 	{
 		["itemName"] = "Bracers of Diabolic Fury",
 		["iconFileDataID"] = 1629904,
@@ -435,7 +454,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [20]
+	}, -- [21]
 	{
 		["itemName"] = "Robes of Demonic Purpose",
 		["iconFileDataID"] = 1627662,
@@ -454,7 +473,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [21]
+	}, -- [22]
 	{
 		["itemName"] = "Breastplate of Terminal End",
 		["iconFileDataID"] = 1529602,
@@ -473,7 +492,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [22]
+	}, -- [23]
 	{
 		["itemName"] = "Enthralling Chain Armor",
 		["iconFileDataID"] = 1670296,
@@ -492,7 +511,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [23]
+	}, -- [24]
 	{
 		["itemName"] = "Imp-Overseer's Vest",
 		["iconFileDataID"] = 1627514,
@@ -511,7 +530,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [24]
+	}, -- [25]
 	{
 		["itemName"] = "Accursed Defiler's Mantle",
 		["iconFileDataID"] = 1627244,
@@ -530,7 +549,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [25]
+	}, -- [26]
 	{
 		["itemName"] = "Spaulders of Vile Determination",
 		["iconFileDataID"] = 1529606,
@@ -549,7 +568,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [26]
+	}, -- [27]
 	{
 		["itemName"] = "Fel-Spike Shoulderpads",
 		["iconFileDataID"] = 1316447,
@@ -568,7 +587,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [27]
+	}, -- [28]
 	{
 		["itemName"] = "Shoulderguards of the Despondent Masses",
 		["iconFileDataID"] = 1547874,
@@ -587,7 +606,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [28]
+	}, -- [29]
 	{
 		["itemName"] = "Horned Hood of Retaliation",
 		["iconFileDataID"] = 1316445,
@@ -606,7 +625,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [29]
+	}, -- [30]
 	{
 		["itemName"] = "Mesmerizing Soul Hood",
 		["iconFileDataID"] = 1560909,
@@ -625,7 +644,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [30]
+	}, -- [31]
 	{
 		["itemName"] = "Helm of the Vigilant Eye",
 		["iconFileDataID"] = 1581150,
@@ -644,7 +663,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [31]
+	}, -- [32]
 	{
 		["itemName"] = "Crown of Burning Resolve",
 		["iconFileDataID"] = 1605811,
@@ -663,7 +682,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [32]
+	}, -- [33]
 	{
 		["itemName"] = "Essence of the Burgeoning Brood",
 		["iconFileDataID"] = 132848,
@@ -682,7 +701,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [33]
+	}, -- [34]
 	{
 		["itemName"] = "Occularus' Unblemished Lens",
 		["iconFileDataID"] = 512902,
@@ -701,7 +720,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [34]
+	}, -- [35]
 	{
 		["itemName"] = "Censer of Dark Intent",
 		["iconFileDataID"] = 971282,
@@ -720,7 +739,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [35]
+	}, -- [36]
 	{
 		["itemName"] = "Meto's Orb of Entropy",
 		["iconFileDataID"] = 1717106,
@@ -739,7 +758,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [36]
+	}, -- [37]
 	{
 		["itemName"] = "Scourge of Perverse Desire",
 		["iconFileDataID"] = 460858,
@@ -758,7 +777,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [37]
+	}, -- [38]
 	{
 		["itemName"] = "Fel Mistress' Brand",
 		["iconFileDataID"] = 1109960,
@@ -777,7 +796,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [38]
+	}, -- [39]
 	{
 		["itemName"] = "Frigid Earring",
 		["iconFileDataID"] = 1027833,
@@ -796,7 +815,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [39]
+	}, -- [40]
 	{
 		["itemName"] = "Sotanathor's Thundering Hoof",
 		["iconFileDataID"] = 132368,
@@ -815,7 +834,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [40]
+	}, -- [41]
 	{
 		["itemName"] = "Vilemus' Bile",
 		["iconFileDataID"] = 609895,
@@ -834,7 +853,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [41]
+	}, -- [42]
 	{
 		["itemName"] = "Spike of Immortal Command",
 		["iconFileDataID"] = 1717112,
@@ -853,7 +872,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [42]
+	}, -- [43]
 	{
 		["itemName"] = "Eye of F'harg",
 		["iconFileDataID"] = 463855,
@@ -872,7 +891,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [43]
+	}, -- [44]
 	{
 		["itemName"] = "Eye of Shatug",
 		["iconFileDataID"] = 463857,
@@ -891,7 +910,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [44]
+	}, -- [45]
 	{
 		["itemName"] = "Ishkar's Felshield Emitter",
 		["iconFileDataID"] = 1769069,
@@ -910,7 +929,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [45]
+	}, -- [46]
 	{
 		["itemName"] = "Terminus Signaling Beacon",
 		["iconFileDataID"] = 1362633,
@@ -929,7 +948,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [46]
+	}, -- [47]
 	{
 		["itemName"] = "Seeping Scourgewing",
 		["iconFileDataID"] = 132105,
@@ -948,7 +967,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [47]
+	}, -- [48]
 	{
 		["itemName"] = "Shadow-Singed Fang",
 		["iconFileDataID"] = 1029737,
@@ -967,7 +986,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [48]
+	}, -- [49]
 	{
 		["itemName"] = "Carafe of Searing Light",
 		["iconFileDataID"] = 1769067,
@@ -986,7 +1005,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [49]
+	}, -- [50]
 	{
 		["itemName"] = "Prototype Personnel Decimator",
 		["iconFileDataID"] = 1373903,
@@ -1005,7 +1024,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [50]
+	}, -- [51]
 	{
 		["itemName"] = "Acrid Catalyst Injector",
 		["iconFileDataID"] = 1362636,
@@ -1024,7 +1043,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [51]
+	}, -- [52]
 	{
 		["itemName"] = "Gorshalach's Legacy",
 		["iconFileDataID"] = 511516,
@@ -1043,7 +1062,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [52]
+	}, -- [53]
 	{
 		["itemName"] = "Aggramar's Conviction",
 		["iconFileDataID"] = 1729935,
@@ -1062,7 +1081,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [53]
+	}, -- [54]
 	{
 		["itemName"] = "Golganneth's Vitality",
 		["iconFileDataID"] = 1729934,
@@ -1081,7 +1100,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [54]
+	}, -- [55]
 	{
 		["itemName"] = "Eonar's Compassion",
 		["iconFileDataID"] = 1729933,
@@ -1100,7 +1119,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [55]
+	}, -- [56]
 	{
 		["itemName"] = "Khaz'goroth's Courage",
 		["iconFileDataID"] = 1729936,
@@ -1119,7 +1138,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [56]
+	}, -- [57]
 	{
 		["itemName"] = "Aman'Thul's Vision",
 		["iconFileDataID"] = 1729937,
@@ -1138,7 +1157,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [57]
+	}, -- [58]
 	{
 		["itemName"] = "Norgannon's Prowess",
 		["iconFileDataID"] = 1729932,
@@ -1157,7 +1176,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [58]
+	}, -- [59]
 	{
 		["itemName"] = "Vitality Resonator",
 		["iconFileDataID"] = 1362665,
@@ -1176,7 +1195,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [59]
+	}, -- [60]
 	{
 		["itemName"] = "Riftworld Codex",
 		["iconFileDataID"] = 329513,
@@ -1195,7 +1214,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [60]
+	}, -- [61]
 	{
 		["itemName"] = "Tarratus Keystone",
 		["iconFileDataID"] = 132780,
@@ -1214,7 +1233,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [61]
+	}, -- [62]
 	{
 		["itemName"] = "Garothi Feedback Conduit",
 		["iconFileDataID"] = 133864,
@@ -1233,7 +1252,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [62]
+	}, -- [63]
 	{
 		["itemName"] = "Smoldering Titanguard",
 		["iconFileDataID"] = 132360,
@@ -1252,7 +1271,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [63]
+	}, -- [64]
 	{
 		["itemName"] = "Sheath of Asara",
 		["iconFileDataID"] = 136189,
@@ -1271,7 +1290,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [64]
+	}, -- [65]
 	{
 		["itemName"] = "Highfather's Machination",
 		["iconFileDataID"] = 136011,
@@ -1290,7 +1309,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [65]
+	}, -- [66]
 	{
 		["itemName"] = "Diima's Glacial Aegis",
 		["iconFileDataID"] = 537514,
@@ -1309,7 +1328,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [66]
+	}, -- [67]
 	{
 		["itemName"] = "Forgefiend's Fabricator",
 		["iconFileDataID"] = 1769065,
@@ -1328,7 +1347,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [67]
+	}, -- [68]
 	{
 		["itemName"] = "Apocalypse Drive",
 		["iconFileDataID"] = 133869,
@@ -1347,7 +1366,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [68]
+	}, -- [69]
 	{
 		["itemName"] = "Sullied Seal of the Pantheon",
 		["iconFileDataID"] = 1391743,
@@ -1366,7 +1385,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [69]
+	}, -- [70]
 	{
 		["itemName"] = "Seal of the Portalmaster",
 		["iconFileDataID"] = 1391741,
@@ -1385,7 +1404,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [70]
+	}, -- [71]
 	{
 		["itemName"] = "Loop of the Life-Binder",
 		["iconFileDataID"] = 1391762,
@@ -1404,7 +1423,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [71]
+	}, -- [72]
 	{
 		["itemName"] = "Zealous Tormentor's Ring",
 		["iconFileDataID"] = 1391723,
@@ -1423,7 +1442,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [72]
+	}, -- [73]
 	{
 		["itemName"] = "Band of the Sargerite Smith",
 		["iconFileDataID"] = 1391747,
@@ -1442,7 +1461,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [73]
+	}, -- [74]
 	{
 		["itemName"] = "Eredar Warcouncil Sabatons",
 		["iconFileDataID"] = 1605801,
@@ -1461,7 +1480,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [74]
+	}, -- [75]
 	{
 		["itemName"] = "Vicious Flamepaws",
 		["iconFileDataID"] = 1626327,
@@ -1480,7 +1499,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [75]
+	}, -- [76]
 	{
 		["itemName"] = "Burning Coven Sabatons",
 		["iconFileDataID"] = 1561257,
@@ -1499,7 +1518,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [76]
+	}, -- [77]
 	{
 		["itemName"] = "Life-Bearing Footpads",
 		["iconFileDataID"] = 1629903,
@@ -1518,7 +1537,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [77]
+	}, -- [78]
 	{
 		["itemName"] = "Lady Dacidion's Silk Slippers",
 		["iconFileDataID"] = 1627238,
@@ -1537,7 +1556,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [78]
+	}, -- [79]
 	{
 		["itemName"] = "Sandals of the Reborn Colossus",
 		["iconFileDataID"] = 1627657,
@@ -1556,7 +1575,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [79]
+	}, -- [80]
 	{
 		["itemName"] = "Greatboots of the Searing Tempest",
 		["iconFileDataID"] = 1581146,
@@ -1575,7 +1594,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [80]
+	}, -- [81]
 	{
 		["itemName"] = "Whisperstep Runners",
 		["iconFileDataID"] = 1560905,
@@ -1594,7 +1613,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [81]
+	}, -- [82]
 	{
 		["itemName"] = "Doomwalker Warboots",
 		["iconFileDataID"] = 1529597,
@@ -1613,7 +1632,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [82]
+	}, -- [83]
 	{
 		["itemName"] = "Deft Soulhunter's Sabatons",
 		["iconFileDataID"] = 1547868,
@@ -1632,7 +1651,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [83]
+	}, -- [84]
 	{
 		["itemName"] = "Nathrezim Shade-Walkers",
 		["iconFileDataID"] = 1581146,
@@ -1651,7 +1670,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [84]
+	}, -- [85]
 	{
 		["itemName"] = "Depraved Machinist's Footpads",
 		["iconFileDataID"] = 1316440,
@@ -1670,7 +1689,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [85]
+	}, -- [86]
 	{
 		["itemName"] = "Breach-Blocker Legguards",
 		["iconFileDataID"] = 1626333,
@@ -1689,7 +1708,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [86]
+	}, -- [87]
 	{
 		["itemName"] = "Legwraps of the Seasoned Exterminator",
 		["iconFileDataID"] = 1627243,
@@ -1708,7 +1727,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [87]
+	}, -- [88]
 	{
 		["itemName"] = "Greaves of Mercurial Allegiance",
 		["iconFileDataID"] = 1529605,
@@ -1727,7 +1746,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [88]
+	}, -- [89]
 	{
 		["itemName"] = "Felreaper Leggings",
 		["iconFileDataID"] = 1316446,
@@ -1737,17 +1756,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152122,
 		["itemSetID"] = 1329,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [89]
+	}, -- [90]
 	{
 		["itemName"] = "Runebound Leggings",
 		["iconFileDataID"] = 1560910,
@@ -1757,17 +1776,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152139,
 		["itemSetID"] = 1326,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [90]
+	}, -- [91]
 	{
 		["itemName"] = "Cosmos-Culling Legplates",
 		["iconFileDataID"] = 1605813,
@@ -1786,7 +1805,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [91]
+	}, -- [92]
 	{
 		["itemName"] = "Caustic Titanspite Legguards",
 		["iconFileDataID"] = 1316446,
@@ -1805,7 +1824,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [92]
+	}, -- [93]
 	{
 		["itemName"] = "Grim Inquisitor's Leggings",
 		["iconFileDataID"] = 1627243,
@@ -1815,17 +1834,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152175,
 		["itemSetID"] = 1320,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [93]
+	}, -- [94]
 	{
 		["itemName"] = "Juggernaut Legplates",
 		["iconFileDataID"] = 1561264,
@@ -1835,17 +1854,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152182,
 		["itemSetID"] = 1319,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [94]
+	}, -- [95]
 	{
 		["itemName"] = "Dreadwake Legplates",
 		["iconFileDataID"] = 1529605,
@@ -1855,17 +1874,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152116,
 		["itemSetID"] = 1330,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [95]
+	}, -- [96]
 	{
 		["itemName"] = "Gilded Seraph's Leggings",
 		["iconFileDataID"] = 1662772,
@@ -1875,17 +1894,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152157,
 		["itemSetID"] = 1323,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [96]
+	}, -- [97]
 	{
 		["itemName"] = "Leggings of Chi-Ji",
 		["iconFileDataID"] = 1629908,
@@ -1895,17 +1914,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152146,
 		["itemSetID"] = 1325,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [97]
+	}, -- [98]
 	{
 		["itemName"] = "Battalion-Shattering Leggings",
 		["iconFileDataID"] = 1581151,
@@ -1924,7 +1943,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [98]
+	}, -- [99]
 	{
 		["itemName"] = "Light's Vanguard Legplates",
 		["iconFileDataID"] = 1605813,
@@ -1934,17 +1953,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152152,
 		["itemSetID"] = 1324,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [99]
+	}, -- [100]
 	{
 		["itemName"] = "Pants of the Dashing Scoundrel",
 		["iconFileDataID"] = 1627517,
@@ -1954,17 +1973,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152164,
 		["itemSetID"] = 1322,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [100]
+	}, -- [101]
 	{
 		["itemName"] = "Leggings of Venerated Spirits",
 		["iconFileDataID"] = 1581151,
@@ -1974,17 +1993,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152170,
 		["itemSetID"] = 1321,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [101]
+	}, -- [102]
 	{
 		["itemName"] = "Serpentstalker Legguards",
 		["iconFileDataID"] = 1547873,
@@ -1994,17 +2013,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152134,
 		["itemSetID"] = 1327,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [102]
+	}, -- [103]
 	{
 		["itemName"] = "Bearmantle Legguards",
 		["iconFileDataID"] = 1626333,
@@ -2014,17 +2033,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152128,
 		["itemSetID"] = 1328,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [103]
+	}, -- [104]
 	{
 		["itemName"] = "Fervent Twilight Legwraps",
 		["iconFileDataID"] = 1662772,
@@ -2043,7 +2062,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [104]
+	}, -- [105]
 	{
 		["itemName"] = "Legguards of Numbing Gloom",
 		["iconFileDataID"] = 1547873,
@@ -2062,7 +2081,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [105]
+	}, -- [106]
 	{
 		["itemName"] = "Flamelicked Girdle",
 		["iconFileDataID"] = 1529596,
@@ -2081,7 +2100,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [106]
+	}, -- [107]
 	{
 		["itemName"] = "Belt of Fractured Sanity",
 		["iconFileDataID"] = 1629902,
@@ -2100,7 +2119,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [107]
+	}, -- [108]
 	{
 		["itemName"] = "Depraved Tactician's Waistguard",
 		["iconFileDataID"] = 1581145,
@@ -2119,7 +2138,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [108]
+	}, -- [109]
 	{
 		["itemName"] = "Grond-Father Girdle",
 		["iconFileDataID"] = 1561259,
@@ -2138,7 +2157,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [109]
+	}, -- [110]
 	{
 		["itemName"] = "Enhanced Worldscorcher Cinch",
 		["iconFileDataID"] = 1560904,
@@ -2157,7 +2176,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [110]
+	}, -- [111]
 	{
 		["itemName"] = "World-Ravager Waistguard",
 		["iconFileDataID"] = 1581145,
@@ -2176,7 +2195,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [111]
+	}, -- [112]
 	{
 		["itemName"] = "Death-Enveloping Cincture",
 		["iconFileDataID"] = 1316442,
@@ -2195,7 +2214,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [112]
+	}, -- [113]
 	{
 		["itemName"] = "Sash of the Gilded Rose",
 		["iconFileDataID"] = 1547867,
@@ -2214,7 +2233,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [113]
+	}, -- [114]
 	{
 		["itemName"] = "Cord of Blossoming Petals",
 		["iconFileDataID"] = 1627656,
@@ -2233,7 +2252,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [114]
+	}, -- [115]
 	{
 		["itemName"] = "Nathrezim Battle Girdle",
 		["iconFileDataID"] = 1605799,
@@ -2252,7 +2271,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [115]
+	}, -- [116]
 	{
 		["itemName"] = "Portal Keeper's Cincture",
 		["iconFileDataID"] = 1627510,
@@ -2271,7 +2290,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [116]
+	}, -- [117]
 	{
 		["itemName"] = "Cord of Surging Hysteria",
 		["iconFileDataID"] = 1627237,
@@ -2290,7 +2309,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [117]
+	}, -- [118]
 	{
 		["itemName"] = "Molten Bite Handguards",
 		["iconFileDataID"] = 1605809,
@@ -2309,7 +2328,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [118]
+	}, -- [119]
 	{
 		["itemName"] = "Heedless Eradication Gauntlets",
 		["iconFileDataID"] = 1581149,
@@ -2328,7 +2347,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [119]
+	}, -- [120]
 	{
 		["itemName"] = "Bearmantle Paws",
 		["iconFileDataID"] = 1626331,
@@ -2338,17 +2357,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152126,
 		["itemSetID"] = 1328,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [120]
+	}, -- [121]
 	{
 		["itemName"] = "Grips of Hungering Shadows",
 		["iconFileDataID"] = 1627515,
@@ -2367,7 +2386,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [121]
+	}, -- [122]
 	{
 		["itemName"] = "Juggernaut Gauntlets",
 		["iconFileDataID"] = 1561262,
@@ -2377,17 +2396,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152180,
 		["itemSetID"] = 1319,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [122]
+	}, -- [123]
 	{
 		["itemName"] = "Serpentstalker Grips",
 		["iconFileDataID"] = 1547871,
@@ -2397,17 +2416,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152132,
 		["itemSetID"] = 1327,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [123]
+	}, -- [124]
 	{
 		["itemName"] = "Light's Vanguard Gauntlets",
 		["iconFileDataID"] = 1605809,
@@ -2417,17 +2436,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152150,
 		["itemSetID"] = 1324,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [124]
+	}, -- [125]
 	{
 		["itemName"] = "Runebound Gloves",
 		["iconFileDataID"] = 1560908,
@@ -2437,17 +2456,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152137,
 		["itemSetID"] = 1326,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [125]
+	}, -- [126]
 	{
 		["itemName"] = "Nascent Deathbringer's Clutches",
 		["iconFileDataID"] = 1529603,
@@ -2466,7 +2485,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [126]
+	}, -- [127]
 	{
 		["itemName"] = "Handwraps of Inevitable Doom",
 		["iconFileDataID"] = 1627241,
@@ -2485,7 +2504,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [127]
+	}, -- [128]
 	{
 		["itemName"] = "Aranasi Shadow-Weaver's Gloves",
 		["iconFileDataID"] = 1560908,
@@ -2504,7 +2523,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [128]
+	}, -- [129]
 	{
 		["itemName"] = "Preysnare Vicegrips",
 		["iconFileDataID"] = 1547871,
@@ -2523,7 +2542,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [129]
+	}, -- [130]
 	{
 		["itemName"] = "Imonar's Demi-Gauntlets",
 		["iconFileDataID"] = 1561262,
@@ -2542,7 +2561,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [130]
+	}, -- [131]
 	{
 		["itemName"] = "Lurid Grips of the Obscene",
 		["iconFileDataID"] = 1629906,
@@ -2561,7 +2580,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [131]
+	}, -- [132]
 	{
 		["itemName"] = "Grim Inquisitor's Gloves",
 		["iconFileDataID"] = 1627241,
@@ -2571,17 +2590,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152173,
 		["itemSetID"] = 1320,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [132]
+	}, -- [133]
 	{
 		["itemName"] = "Gloves of Venerated Spirits",
 		["iconFileDataID"] = 1581149,
@@ -2591,17 +2610,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152168,
 		["itemSetID"] = 1321,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [133]
+	}, -- [134]
 	{
 		["itemName"] = "Dreadwake Gauntlets",
 		["iconFileDataID"] = 1529603,
@@ -2611,17 +2630,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152114,
 		["itemSetID"] = 1330,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [134]
+	}, -- [135]
 	{
 		["itemName"] = "Gilded Seraph's Handwraps",
 		["iconFileDataID"] = 1627660,
@@ -2631,17 +2650,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152155,
 		["itemSetID"] = 1323,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [135]
+	}, -- [136]
 	{
 		["itemName"] = "Gloves of the Dashing Scoundrel",
 		["iconFileDataID"] = 1627515,
@@ -2651,17 +2670,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152162,
 		["itemSetID"] = 1322,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [136]
+	}, -- [137]
 	{
 		["itemName"] = "Felreaper Gloves",
 		["iconFileDataID"] = 1316444,
@@ -2671,17 +2690,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152120,
 		["itemSetID"] = 1329,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [137]
+	}, -- [138]
 	{
 		["itemName"] = "Grips of Chi-Ji",
 		["iconFileDataID"] = 1629906,
@@ -2691,17 +2710,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152144,
 		["itemSetID"] = 1325,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [138]
+	}, -- [139]
 	{
 		["itemName"] = "Fiendish Logistician's Wristwraps",
 		["iconFileDataID"] = 1316441,
@@ -2720,7 +2739,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [139]
+	}, -- [140]
 	{
 		["itemName"] = "Man'ari Pyromancer Cuffs",
 		["iconFileDataID"] = 1560906,
@@ -2739,7 +2758,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [140]
+	}, -- [141]
 	{
 		["itemName"] = "Blood-Drenched Bindings",
 		["iconFileDataID"] = 1627239,
@@ -2758,7 +2777,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [141]
+	}, -- [142]
 	{
 		["itemName"] = "Reality-Splitting Wristguards",
 		["iconFileDataID"] = 1581147,
@@ -2777,7 +2796,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [142]
+	}, -- [143]
 	{
 		["itemName"] = "Scalding Shatterguards",
 		["iconFileDataID"] = 1547869,
@@ -2796,7 +2815,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [143]
+	}, -- [144]
 	{
 		["itemName"] = "Vambraces of Life's Assurance",
 		["iconFileDataID"] = 1605803,
@@ -2815,7 +2834,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [144]
+	}, -- [145]
 	{
 		["itemName"] = "Bracers of Wanton Morality",
 		["iconFileDataID"] = 1627512,
@@ -2834,7 +2853,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [145]
+	}, -- [146]
 	{
 		["itemName"] = "Varimathras' Shattered Manacles",
 		["iconFileDataID"] = 1561258,
@@ -2853,7 +2872,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [146]
+	}, -- [147]
 	{
 		["itemName"] = "Harness of Oppressing Dark",
 		["iconFileDataID"] = 1626330,
@@ -2872,7 +2891,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [147]
+	}, -- [148]
 	{
 		["itemName"] = "Vestments of Enflamed Blight",
 		["iconFileDataID"] = 1627662,
@@ -2891,7 +2910,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [148]
+	}, -- [149]
 	{
 		["itemName"] = "Fleet Commander's Hauberk",
 		["iconFileDataID"] = 1547870,
@@ -2910,7 +2929,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [149]
+	}, -- [150]
 	{
 		["itemName"] = "Soul-Tempered Chestplate",
 		["iconFileDataID"] = 1529602,
@@ -2929,7 +2948,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [150]
+	}, -- [151]
 	{
 		["itemName"] = "Robes of the Forsaken Dreadlord",
 		["iconFileDataID"] = 1670296,
@@ -2948,7 +2967,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [151]
+	}, -- [152]
 	{
 		["itemName"] = "Gambeson of Sargeras' Corruption",
 		["iconFileDataID"] = 1560907,
@@ -2967,7 +2986,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [152]
+	}, -- [153]
 	{
 		["itemName"] = "Vest of Waning Life",
 		["iconFileDataID"] = 1629905,
@@ -2986,7 +3005,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [153]
+	}, -- [154]
 	{
 		["itemName"] = "Serpentstalker Tunic",
 		["iconFileDataID"] = 1547870,
@@ -2996,17 +3015,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152130,
 		["itemSetID"] = 1327,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [154]
+	}, -- [155]
 	{
 		["itemName"] = "Robes of Venerated Spirits",
 		["iconFileDataID"] = 1670296,
@@ -3016,17 +3035,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152166,
 		["itemSetID"] = 1321,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [155]
+	}, -- [156]
 	{
 		["itemName"] = "Vest of the Dashing Scoundrel",
 		["iconFileDataID"] = 1627514,
@@ -3036,17 +3055,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152160,
 		["itemSetID"] = 1322,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [156]
+	}, -- [157]
 	{
 		["itemName"] = "Tunic of Chi-Ji",
 		["iconFileDataID"] = 1629905,
@@ -3056,17 +3075,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152142,
 		["itemSetID"] = 1325,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [157]
+	}, -- [158]
 	{
 		["itemName"] = "Dreadwake Bonecage",
 		["iconFileDataID"] = 1529602,
@@ -3076,17 +3095,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152112,
 		["itemSetID"] = 1330,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [158]
+	}, -- [159]
 	{
 		["itemName"] = "Felreaper Vest",
 		["iconFileDataID"] = 1316443,
@@ -3096,17 +3115,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152118,
 		["itemSetID"] = 1329,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [159]
+	}, -- [160]
 	{
 		["itemName"] = "Vest of Unfathomable Anguish",
 		["iconFileDataID"] = 1316443,
@@ -3125,7 +3144,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [160]
+	}, -- [161]
 	{
 		["itemName"] = "Bearmantle Harness",
 		["iconFileDataID"] = 1626330,
@@ -3135,17 +3154,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152124,
 		["itemSetID"] = 1328,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [161]
+	}, -- [162]
 	{
 		["itemName"] = "Juggernaut Breastplate",
 		["iconFileDataID"] = 1561261,
@@ -3155,17 +3174,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152178,
 		["itemSetID"] = 1319,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [162]
+	}, -- [163]
 	{
 		["itemName"] = "Gilded Seraph's Robes",
 		["iconFileDataID"] = 1627662,
@@ -3175,17 +3194,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152158,
 		["itemSetID"] = 1323,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [163]
+	}, -- [164]
 	{
 		["itemName"] = "Light's Vanguard Breastplate",
 		["iconFileDataID"] = 1605807,
@@ -3195,17 +3214,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152148,
 		["itemSetID"] = 1324,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [164]
+	}, -- [165]
 	{
 		["itemName"] = "Grim Inquisitor's Robes",
 		["iconFileDataID"] = 1627240,
@@ -3215,17 +3234,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152176,
 		["itemSetID"] = 1320,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [165]
+	}, -- [166]
 	{
 		["itemName"] = "Runebound Tunic",
 		["iconFileDataID"] = 1560907,
@@ -3235,17 +3254,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152140,
 		["itemSetID"] = 1326,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [166]
+	}, -- [167]
 	{
 		["itemName"] = "Breastplate of Molten Rebirth",
 		["iconFileDataID"] = 1561261,
@@ -3264,7 +3283,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [167]
+	}, -- [168]
 	{
 		["itemName"] = "Magma-Spattered Smock",
 		["iconFileDataID"] = 1627240,
@@ -3283,7 +3302,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [168]
+	}, -- [169]
 	{
 		["itemName"] = "Cloak of the Burning Vanguard",
 		["iconFileDataID"] = 1629814,
@@ -3302,7 +3321,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [169]
+	}, -- [170]
 	{
 		["itemName"] = "Gilded Seraph's Drape",
 		["iconFileDataID"] = 1627659,
@@ -3312,17 +3331,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152154,
 		["itemSetID"] = 1323,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [170]
+	}, -- [171]
 	{
 		["itemName"] = "Drape of Venerated Spirits",
 		["iconFileDataID"] = 1634391,
@@ -3332,17 +3351,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152167,
 		["itemSetID"] = 1321,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [171]
+	}, -- [172]
 	{
 		["itemName"] = "Light's Vanguard Greatcloak",
 		["iconFileDataID"] = 1605805,
@@ -3352,17 +3371,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152149,
 		["itemSetID"] = 1324,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [172]
+	}, -- [173]
 	{
 		["itemName"] = "Felreaper Drape",
 		["iconFileDataID"] = 1316438,
@@ -3372,17 +3391,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152119,
 		["itemSetID"] = 1329,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [173]
+	}, -- [174]
 	{
 		["itemName"] = "Cloak of the Dashing Scoundrel",
 		["iconFileDataID"] = 1627513,
@@ -3392,17 +3411,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152161,
 		["itemSetID"] = 1322,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [174]
+	}, -- [175]
 	{
 		["itemName"] = "Bearmantle Cloak",
 		["iconFileDataID"] = 1626329,
@@ -3412,17 +3431,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152125,
 		["itemSetID"] = 1328,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [175]
+	}, -- [176]
 	{
 		["itemName"] = "Serpentstalker Drape",
 		["iconFileDataID"] = 1547875,
@@ -3432,17 +3451,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152131,
 		["itemSetID"] = 1327,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [176]
+	}, -- [177]
 	{
 		["itemName"] = "Juggernaut Cloak",
 		["iconFileDataID"] = 1561260,
@@ -3452,17 +3471,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152179,
 		["itemSetID"] = 1319,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [177]
+	}, -- [178]
 	{
 		["itemName"] = "Grim Inquisitor's Cloak",
 		["iconFileDataID"] = 1627180,
@@ -3472,17 +3491,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152172,
 		["itemSetID"] = 1320,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [178]
+	}, -- [179]
 	{
 		["itemName"] = "Cloak of Chi-Ji",
 		["iconFileDataID"] = 1630779,
@@ -3492,17 +3511,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152143,
 		["itemSetID"] = 1325,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [179]
+	}, -- [180]
 	{
 		["itemName"] = "Dreadwake Greatcloak",
 		["iconFileDataID"] = 1529599,
@@ -3512,17 +3531,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152113,
 		["itemSetID"] = 1330,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [180]
+	}, -- [181]
 	{
 		["itemName"] = "Runebound Cape",
 		["iconFileDataID"] = 1629815,
@@ -3532,17 +3551,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152136,
 		["itemSetID"] = 1326,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [181]
+	}, -- [182]
 	{
 		["itemName"] = "Drape of the Spirited Hunt",
 		["iconFileDataID"] = 1529599,
@@ -3561,7 +3580,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [182]
+	}, -- [183]
 	{
 		["itemName"] = "Greatcloak of the Dark Pantheon",
 		["iconFileDataID"] = 1627522,
@@ -3580,7 +3599,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [183]
+	}, -- [184]
 	{
 		["itemName"] = "Shoulderpads of the Demonic Blitz",
 		["iconFileDataID"] = 1627518,
@@ -3599,7 +3618,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [184]
+	}, -- [185]
 	{
 		["itemName"] = "Pauldrons of the Eternal Offensive",
 		["iconFileDataID"] = 1605815,
@@ -3618,7 +3637,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [185]
+	}, -- [186]
 	{
 		["itemName"] = "Soul-Siphon Mantle",
 		["iconFileDataID"] = 1627244,
@@ -3637,7 +3656,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [186]
+	}, -- [187]
 	{
 		["itemName"] = "Bearmantle Shoulders",
 		["iconFileDataID"] = 1626334,
@@ -3647,17 +3666,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152129,
 		["itemSetID"] = 1328,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [187]
+	}, -- [188]
 	{
 		["itemName"] = "Felreaper Spaulders",
 		["iconFileDataID"] = 1316447,
@@ -3667,17 +3686,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152123,
 		["itemSetID"] = 1329,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [188]
+	}, -- [189]
 	{
 		["itemName"] = "Shoulderpads of the Dashing Scoundrel",
 		["iconFileDataID"] = 1627518,
@@ -3687,17 +3706,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152165,
 		["itemSetID"] = 1322,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [189]
+	}, -- [190]
 	{
 		["itemName"] = "Serpentstalker Mantle",
 		["iconFileDataID"] = 1547874,
@@ -3707,17 +3726,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152135,
 		["itemSetID"] = 1327,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [190]
+	}, -- [191]
 	{
 		["itemName"] = "Pauldrons of Venerated Spirits",
 		["iconFileDataID"] = 1581152,
@@ -3727,17 +3746,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152171,
 		["itemSetID"] = 1321,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [191]
+	}, -- [192]
 	{
 		["itemName"] = "Pauldrons of the Soulburner",
 		["iconFileDataID"] = 1547874,
@@ -3756,7 +3775,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [192]
+	}, -- [193]
 	{
 		["itemName"] = "Runebound Mantle",
 		["iconFileDataID"] = 1560911,
@@ -3766,17 +3785,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152141,
 		["itemSetID"] = 1326,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [193]
+	}, -- [194]
 	{
 		["itemName"] = "Dreadwake Pauldrons",
 		["iconFileDataID"] = 1529606,
@@ -3786,17 +3805,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152117,
 		["itemSetID"] = 1330,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [194]
+	}, -- [195]
 	{
 		["itemName"] = "Grim Inquisitor's Shoulderguards",
 		["iconFileDataID"] = 1627244,
@@ -3806,17 +3825,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152177,
 		["itemSetID"] = 1320,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [195]
+	}, -- [196]
 	{
 		["itemName"] = "Fallen Avenger's Amice",
 		["iconFileDataID"] = 1627663,
@@ -3835,7 +3854,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [196]
+	}, -- [197]
 	{
 		["itemName"] = "Pauldrons of Colossal Burden",
 		["iconFileDataID"] = 1581152,
@@ -3854,7 +3873,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [197]
+	}, -- [198]
 	{
 		["itemName"] = "Spaulders of the Relentless Tracker",
 		["iconFileDataID"] = 1626334,
@@ -3873,7 +3892,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [198]
+	}, -- [199]
 	{
 		["itemName"] = "Shoulderguards of Indomitable Purpose",
 		["iconFileDataID"] = 1561265,
@@ -3892,7 +3911,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [199]
+	}, -- [200]
 	{
 		["itemName"] = "Gilded Seraph's Amice",
 		["iconFileDataID"] = 1627663,
@@ -3902,17 +3921,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152159,
 		["itemSetID"] = 1323,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [200]
+	}, -- [201]
 	{
 		["itemName"] = "Juggernaut Pauldrons",
 		["iconFileDataID"] = 1561265,
@@ -3922,17 +3941,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152183,
 		["itemSetID"] = 1319,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [201]
+	}, -- [202]
 	{
 		["itemName"] = "Light's Vanguard Shoulderplates",
 		["iconFileDataID"] = 1605815,
@@ -3942,17 +3961,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152153,
 		["itemSetID"] = 1324,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [202]
+	}, -- [203]
 	{
 		["itemName"] = "Meditation Spheres of Chi-Ji",
 		["iconFileDataID"] = 1629909,
@@ -3962,17 +3981,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152147,
 		["itemSetID"] = 1325,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [203]
+	}, -- [204]
 	{
 		["itemName"] = "Riveted Choker of Delirium",
 		["iconFileDataID"] = 1360004,
@@ -3991,7 +4010,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [204]
+	}, -- [205]
 	{
 		["itemName"] = "Collar of Null-Flame",
 		["iconFileDataID"] = 1360016,
@@ -4010,7 +4029,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [205]
+	}, -- [206]
 	{
 		["itemName"] = "Chain of the Unmaker",
 		["iconFileDataID"] = 1360059,
@@ -4029,7 +4048,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [206]
+	}, -- [207]
 	{
 		["itemName"] = "Vulcanarcore Pendant",
 		["iconFileDataID"] = 1360044,
@@ -4048,7 +4067,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [207]
+	}, -- [208]
 	{
 		["itemName"] = "Crown of Relentless Annihilation",
 		["iconFileDataID"] = 1627661,
@@ -4067,7 +4086,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [208]
+	}, -- [209]
 	{
 		["itemName"] = "Shadowfused Chain Coif",
 		["iconFileDataID"] = 1547872,
@@ -4086,7 +4105,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [209]
+	}, -- [210]
 	{
 		["itemName"] = "General Erodus' Tricorne",
 		["iconFileDataID"] = 1627516,
@@ -4105,7 +4124,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [210]
+	}, -- [211]
 	{
 		["itemName"] = "Soulhunter's Cowl",
 		["iconFileDataID"] = 1627242,
@@ -4124,7 +4143,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [211]
+	}, -- [212]
 	{
 		["itemName"] = "Serpentstalker Helmet",
 		["iconFileDataID"] = 1547872,
@@ -4134,17 +4153,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152133,
 		["itemSetID"] = 1327,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [212]
+	}, -- [213]
 	{
 		["itemName"] = "Runebound Collar",
 		["iconFileDataID"] = 1560909,
@@ -4154,17 +4173,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152138,
 		["itemSetID"] = 1326,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [213]
+	}, -- [214]
 	{
 		["itemName"] = "Titan-Subjugator's Visage",
 		["iconFileDataID"] = 1529604,
@@ -4183,7 +4202,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [214]
+	}, -- [215]
 	{
 		["itemName"] = "Helm of the Awakened Soul",
 		["iconFileDataID"] = 1581150,
@@ -4202,7 +4221,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [215]
+	}, -- [216]
 	{
 		["itemName"] = "Douli of Chi-Ji",
 		["iconFileDataID"] = 1629907,
@@ -4212,17 +4231,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152145,
 		["itemSetID"] = 1325,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [216]
+	}, -- [217]
 	{
 		["itemName"] = "Dreadwake Helm",
 		["iconFileDataID"] = 1529604,
@@ -4232,17 +4251,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152115,
 		["itemSetID"] = 1330,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [217]
+	}, -- [218]
 	{
 		["itemName"] = "Headdress of Living Brambles",
 		["iconFileDataID"] = 1626332,
@@ -4261,7 +4280,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [218]
+	}, -- [219]
 	{
 		["itemName"] = "Nexus Conductor's Headgear",
 		["iconFileDataID"] = 1547872,
@@ -4280,7 +4299,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [219]
+	}, -- [220]
 	{
 		["itemName"] = "Bearmantle Headdress",
 		["iconFileDataID"] = 1626332,
@@ -4290,17 +4309,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152127,
 		["itemSetID"] = 1328,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [220]
+	}, -- [221]
 	{
 		["itemName"] = "Cavalier Hat of the Dashing Scoundrel",
 		["iconFileDataID"] = 1627516,
@@ -4310,17 +4329,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152163,
 		["itemSetID"] = 1322,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [221]
+	}, -- [222]
 	{
 		["itemName"] = "Headdress of Venerated Spirits",
 		["iconFileDataID"] = 1581150,
@@ -4330,17 +4349,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152169,
 		["itemSetID"] = 1321,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [222]
+	}, -- [223]
 	{
 		["itemName"] = "Grim Inquisitor's Death Mask",
 		["iconFileDataID"] = 1627242,
@@ -4350,17 +4369,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152174,
 		["itemSetID"] = 1320,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [223]
+	}, -- [224]
 	{
 		["itemName"] = "Felreaper Hood",
 		["iconFileDataID"] = 1316445,
@@ -4370,17 +4389,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152121,
 		["itemSetID"] = 1329,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [224]
+	}, -- [225]
 	{
 		["itemName"] = "Helmet of the Hidden Sanctuary",
 		["iconFileDataID"] = 1561263,
@@ -4399,7 +4418,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [225]
+	}, -- [226]
 	{
 		["itemName"] = "Gilded Seraph's Crown",
 		["iconFileDataID"] = 1627661,
@@ -4409,17 +4428,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152156,
 		["itemSetID"] = 1323,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [226]
+	}, -- [227]
 	{
 		["itemName"] = "Juggernaut Helm",
 		["iconFileDataID"] = 1561263,
@@ -4429,17 +4448,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152181,
 		["itemSetID"] = 1319,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [227]
+	}, -- [228]
 	{
 		["itemName"] = "Light's Vanguard Helm",
 		["iconFileDataID"] = 1605811,
@@ -4449,17 +4468,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 152151,
 		["itemSetID"] = 1324,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [228]
+	}, -- [229]
 	{
 		["itemName"] = "Gravitational Condensate",
 		["iconFileDataID"] = 132861,
@@ -4478,7 +4497,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [229]
+	}, -- [230]
 	{
 		["itemName"] = "Whistling Ulna",
 		["iconFileDataID"] = 133718,
@@ -4497,7 +4516,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [230]
+	}, -- [231]
 	{
 		["itemName"] = "Lightshield Amplifier",
 		["iconFileDataID"] = 135950,
@@ -4516,7 +4535,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [231]
+	}, -- [232]
 	{
 		["itemName"] = "Fasces of the Endless Legions",
 		["iconFileDataID"] = 454053,
@@ -4535,7 +4554,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [232]
+	}, -- [233]
 	{
 		["itemName"] = "Svirax's Grim Trophy",
 		["iconFileDataID"] = 237299,
@@ -4554,7 +4573,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [233]
+	}, -- [234]
 	{
 		["itemName"] = "Twisted Engineer's Fel-Infuser",
 		["iconFileDataID"] = 840976,
@@ -4573,7 +4592,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [234]
+	}, -- [235]
 	{
 		["itemName"] = "Antoran Charhound",
 		["iconFileDataID"] = 1709931,
@@ -4592,7 +4611,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Mount",
 		["itemType"] = "Miscellaneous",
-	}, -- [235]
+	}, -- [236]
 	{
 		["itemName"] = "Corrupting Dewclaw",
 		["iconFileDataID"] = 1508516,
@@ -4611,7 +4630,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [236]
+	}, -- [237]
 	{
 		["itemName"] = "Shivarran Cachabon",
 		["iconFileDataID"] = 463558,
@@ -4630,7 +4649,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [237]
+	}, -- [238]
 	{
 		["itemName"] = "Tormentor's Brand",
 		["iconFileDataID"] = 132238,
@@ -4649,7 +4668,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [238]
+	}, -- [239]
 	{
 		["itemName"] = "Nathrezim Incisor",
 		["iconFileDataID"] = 136231,
@@ -4668,7 +4687,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [239]
+	}, -- [240]
 	{
 		["itemName"] = "Viscous Reaver-Coolant",
 		["iconFileDataID"] = 576310,
@@ -4687,7 +4706,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [240]
+	}, -- [241]
 	{
 		["itemName"] = "Crepuscular Skitterer Egg",
 		["iconFileDataID"] = 1500908,
@@ -4706,7 +4725,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [241]
+	}, -- [242]
 	{
 		["itemName"] = "Fel-Engraved Handbell",
 		["iconFileDataID"] = 1769027,
@@ -4725,7 +4744,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [242]
+	}, -- [243]
 	{
 		["itemName"] = "Spurting Reaver Heart",
 		["iconFileDataID"] = 133863,
@@ -4744,7 +4763,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [243]
+	}, -- [244]
 	{
 		["itemName"] = "Coven Prayer Bead",
 		["iconFileDataID"] = 1535059,
@@ -4763,7 +4782,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [244]
+	}, -- [245]
 	{
 		["itemName"] = "Obliterator Propellant",
 		["iconFileDataID"] = 463860,
@@ -4782,7 +4801,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [245]
+	}, -- [246]
 	{
 		["itemName"] = "Sliver of Corruption",
 		["iconFileDataID"] = 133795,
@@ -4801,7 +4820,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [246]
+	}, -- [247]
 	{
 		["itemName"] = "Cruor of the Avenger",
 		["iconFileDataID"] = 135822,
@@ -4820,7 +4839,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [247]
+	}, -- [248]
 	{
 		["itemName"] = "Conch of the Thunderer",
 		["iconFileDataID"] = 1498840,
@@ -4839,7 +4858,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [248]
+	}, -- [249]
 	{
 		["itemName"] = "Flickering Ember of Rage",
 		["iconFileDataID"] = 463567,
@@ -4858,7 +4877,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [249]
+	}, -- [250]
 	{
 		["itemName"] = "Shackled Ur'zul",
 		["iconFileDataID"] = 1581747,
@@ -4877,7 +4896,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Mount",
 		["itemType"] = "Miscellaneous",
-	}, -- [250]
+	}, -- [251]
 	{
 		["itemName"] = "Rime of the Spirit Realm",
 		["iconFileDataID"] = 538770,
@@ -4896,7 +4915,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [251]
+	}, -- [252]
 	{
 		["itemName"] = "Condensed Blight Orb",
 		["iconFileDataID"] = 134125,
@@ -4915,7 +4934,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [252]
+	}, -- [253]
 	{
 		["itemName"] = "Root of the Lifebinder",
 		["iconFileDataID"] = 960689,
@@ -4934,7 +4953,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [253]
+	}, -- [254]
 	{
 		["itemName"] = "Mote of the Forgemaster",
 		["iconFileDataID"] = 132838,
@@ -4953,7 +4972,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [254]
+	}, -- [255]
 	{
 		["itemName"] = "Reorigination Spark",
 		["iconFileDataID"] = 135980,
@@ -4972,7 +4991,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [255]
+	}, -- [256]
 	{
 		["itemName"] = "Miniaturized Cosmic Beacon",
 		["iconFileDataID"] = 631503,
@@ -4991,7 +5010,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [256]
+	}, -- [257]
 	{
 		["itemName"] = "Volatile Soul Fragment",
 		["iconFileDataID"] = 1778228,
@@ -5010,7 +5029,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [257]
+	}, -- [258]
 	{
 		["itemName"] = "Unwavering Soul Essence",
 		["iconFileDataID"] = 895888,
@@ -5029,7 +5048,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [258]
+	}, -- [259]
 	{
 		["itemName"] = "Ironvine Thorn",
 		["iconFileDataID"] = 1769008,
@@ -5048,7 +5067,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [259]
+	}, -- [260]
 	{
 		["itemName"] = "Sublimating Portal Frost",
 		["iconFileDataID"] = 135856,
@@ -5067,7 +5086,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [260]
+	}, -- [261]
 	{
 		["itemName"] = "Blazing Dreadsteed Horseshoe",
 		["iconFileDataID"] = 1769016,
@@ -5086,7 +5105,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [261]
+	}, -- [262]
 	{
 		["itemName"] = "Doomfire Dynamo",
 		["iconFileDataID"] = 517112,
@@ -5105,7 +5124,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [262]
+	}, -- [263]
 	{
 		["itemName"] = "Hellfire Ignition Switch",
 		["iconFileDataID"] = 348560,
@@ -5124,7 +5143,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [263]
+	}, -- [264]
 	{
 		["itemName"] = "Fallen Magi's Seerstone",
 		["iconFileDataID"] = 1769010,
@@ -5143,7 +5162,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [264]
+	}, -- [265]
 	{
 		["itemName"] = "Droplets of the Cleansing Storm",
 		["iconFileDataID"] = 1500961,
@@ -5162,7 +5181,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [265]
+	}, -- [266]
 	{
 		["itemName"] = "Spark of Everburning Light",
 		["iconFileDataID"] = 574795,
@@ -5181,7 +5200,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [266]
+	}, -- [267]
 	{
 		["itemName"] = "Pyretic Bronze Clasp",
 		["iconFileDataID"] = 135811,
@@ -5200,7 +5219,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [267]
+	}, -- [268]
 	{
 		["itemName"] = "Prototype Titan-Disc",
 		["iconFileDataID"] = 134375,
@@ -5219,7 +5238,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [268]
+	}, -- [269]
 	{
 		["itemName"] = "Hoarfrost-Beast Talon",
 		["iconFileDataID"] = 1508486,
@@ -5238,7 +5257,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [269]
+	}, -- [270]
 	{
 		["itemName"] = "Venerated Puresoul Idol",
 		["iconFileDataID"] = 1769068,
@@ -5257,7 +5276,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [270]
+	}, -- [271]
 	{
 		["itemName"] = "Mysterious Petrified Egg",
 		["iconFileDataID"] = 1769066,
@@ -5276,7 +5295,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [271]
+	}, -- [272]
 	{
 		["itemName"] = "Stormcaller's Fury",
 		["iconFileDataID"] = 252174,
@@ -5295,7 +5314,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [272]
+	}, -- [273]
 	{
 		["itemName"] = "Frigid Gloomstone",
 		["iconFileDataID"] = 611650,
@@ -5314,7 +5333,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [273]
+	}, -- [274]
 	{
 		["itemName"] = "Sporemound Seedling",
 		["iconFileDataID"] = 464030,
@@ -5333,7 +5352,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [274]
+	}, -- [275]
 	{
 		["itemName"] = "Neuroshock Electrode",
 		["iconFileDataID"] = 133870,
@@ -5352,7 +5371,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [275]
+	}, -- [276]
 	{
 		["itemName"] = "Thu'rayan Lash",
 		["iconFileDataID"] = 133802,
@@ -5371,7 +5390,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [276]
+	}, -- [277]
 	{
 		["itemName"] = "Eidolon of Life",
 		["iconFileDataID"] = 1113436,
@@ -5390,7 +5409,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [277]
+	}, -- [278]
 	{
 		["itemName"] = "Kin'garoth's Oil-Sump",
 		["iconFileDataID"] = 252178,
@@ -5409,7 +5428,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [278]
+	}, -- [279]
 	{
 		["itemName"] = "Decimator Crankshaft",
 		["iconFileDataID"] = 667300,
@@ -5428,7 +5447,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [279]
+	}, -- [280]
 	{
 		["itemName"] = "Fraternal Fervor",
 		["iconFileDataID"] = 459025,
@@ -5447,7 +5466,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [280]
+	}, -- [281]
 	{
 		["itemName"] = "Feverish Carapace",
 		["iconFileDataID"] = 1526593,
@@ -5466,7 +5485,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [281]
+	}, -- [282]
 	{
 		["itemName"] = "Leviathan's Hunger",
 		["iconFileDataID"] = 236296,
@@ -5485,7 +5504,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [282]
+	}, -- [283]
 	{
 		["itemName"] = "Vial of Ceaseless Toxins",
 		["iconFileDataID"] = 463902,
@@ -5504,7 +5523,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [283]
+	}, -- [284]
 	{
 		["itemName"] = "Terror From Below",
 		["iconFileDataID"] = 463487,
@@ -5523,7 +5542,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [284]
+	}, -- [285]
 	{
 		["itemName"] = "Sea Star of the Depthmother",
 		["iconFileDataID"] = 133268,
@@ -5542,7 +5561,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [285]
+	}, -- [286]
 	{
 		["itemName"] = "Tarnished Sentinel Medallion",
 		["iconFileDataID"] = 237241,
@@ -5561,7 +5580,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [286]
+	}, -- [287]
 	{
 		["itemName"] = "Chalice of Moonlight",
 		["iconFileDataID"] = 305294,
@@ -5580,7 +5599,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [287]
+	}, -- [288]
 	{
 		["itemName"] = "Recompiled Guardian Module",
 		["iconFileDataID"] = 967515,
@@ -5599,7 +5618,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [288]
+	}, -- [289]
 	{
 		["itemName"] = "Spectral Thurible",
 		["iconFileDataID"] = 1120352,
@@ -5618,7 +5637,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [289]
+	}, -- [290]
 	{
 		["itemName"] = "Reliquary of the Damned",
 		["iconFileDataID"] = 134547,
@@ -5637,7 +5656,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [290]
+	}, -- [291]
 	{
 		["itemName"] = "Umbral Moonglaives",
 		["iconFileDataID"] = 132330,
@@ -5656,7 +5675,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [291]
+	}, -- [292]
 	{
 		["itemName"] = "Infernal Cinders",
 		["iconFileDataID"] = 840198,
@@ -5675,7 +5694,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [292]
+	}, -- [293]
 	{
 		["itemName"] = "The Deceiver's Grand Design",
 		["iconFileDataID"] = 528948,
@@ -5694,7 +5713,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [293]
+	}, -- [294]
 	{
 		["itemName"] = "Archive of Faith",
 		["iconFileDataID"] = 1043741,
@@ -5713,7 +5732,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [294]
+	}, -- [295]
 	{
 		["itemName"] = "Engine of Eradication",
 		["iconFileDataID"] = 526765,
@@ -5732,7 +5751,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [295]
+	}, -- [296]
 	{
 		["itemName"] = "Specter of Betrayal",
 		["iconFileDataID"] = 463286,
@@ -5751,7 +5770,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [296]
+	}, -- [297]
 	{
 		["itemName"] = "Charm of the Rising Tide",
 		["iconFileDataID"] = 1362646,
@@ -5770,7 +5789,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [297]
+	}, -- [298]
 	{
 		["itemName"] = "Barbaric Mindslaver",
 		["iconFileDataID"] = 537021,
@@ -5789,7 +5808,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [298]
+	}, -- [299]
 	{
 		["itemName"] = "Cradle of Anguish",
 		["iconFileDataID"] = 328484,
@@ -5808,7 +5827,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [299]
+	}, -- [300]
 	{
 		["itemName"] = "Shifting Cosmic Sliver",
 		["iconFileDataID"] = 607851,
@@ -5827,7 +5846,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [300]
+	}, -- [301]
 	{
 		["itemName"] = "Tome of Unraveling Sanity",
 		["iconFileDataID"] = 1379227,
@@ -5846,7 +5865,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [301]
+	}, -- [302]
 	{
 		["itemName"] = "Yathae's Thumb Ring",
 		["iconFileDataID"] = 1408432,
@@ -5865,7 +5884,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [302]
+	}, -- [303]
 	{
 		["itemName"] = "Seal of the Second Duumvirate",
 		["iconFileDataID"] = 897037,
@@ -5884,7 +5903,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [303]
+	}, -- [304]
 	{
 		["itemName"] = "Band of Rescinded Truths",
 		["iconFileDataID"] = 1391724,
@@ -5903,7 +5922,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [304]
+	}, -- [305]
 	{
 		["itemName"] = "Scaled Band of Servitude",
 		["iconFileDataID"] = 1391752,
@@ -5922,7 +5941,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [305]
+	}, -- [306]
 	{
 		["itemName"] = "Iron Ballast Sabatons",
 		["iconFileDataID"] = 1518775,
@@ -5941,7 +5960,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [306]
+	}, -- [307]
 	{
 		["itemName"] = "Insulated Finpads",
 		["iconFileDataID"] = 1550415,
@@ -5960,7 +5979,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [307]
+	}, -- [308]
 	{
 		["itemName"] = "Glacier Walkers",
 		["iconFileDataID"] = 1531489,
@@ -5979,7 +5998,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [308]
+	}, -- [309]
 	{
 		["itemName"] = "Steadfast Purifier's Warboots",
 		["iconFileDataID"] = 1512748,
@@ -5998,7 +6017,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [309]
+	}, -- [310]
 	{
 		["itemName"] = "Emberscatter Treads",
 		["iconFileDataID"] = 1511488,
@@ -6017,7 +6036,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [310]
+	}, -- [311]
 	{
 		["itemName"] = "Slippers of Enduring Vigilance",
 		["iconFileDataID"] = 1518066,
@@ -6036,7 +6055,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [311]
+	}, -- [312]
 	{
 		["itemName"] = "Star-Stalker Treads",
 		["iconFileDataID"] = 1529798,
@@ -6055,7 +6074,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [312]
+	}, -- [313]
 	{
 		["itemName"] = "Felscape Pathfinders",
 		["iconFileDataID"] = 1549273,
@@ -6074,7 +6093,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [313]
+	}, -- [314]
 	{
 		["itemName"] = "Lava-Slough Legguards",
 		["iconFileDataID"] = 1551057,
@@ -6093,7 +6112,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [314]
+	}, -- [315]
 	{
 		["itemName"] = "Bonespur Studded Legwraps",
 		["iconFileDataID"] = 1550786,
@@ -6112,7 +6131,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [315]
+	}, -- [316]
 	{
 		["itemName"] = "Wildstalker Leggings",
 		["iconFileDataID"] = 1529803,
@@ -6122,17 +6141,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147143,
 		["itemSetID"] = 1304,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [316]
+	}, -- [317]
 	{
 		["itemName"] = "Diabolic Leggings",
 		["iconFileDataID"] = 1511493,
@@ -6142,17 +6161,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147184,
 		["itemSetID"] = 1311,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [317]
+	}, -- [318]
 	{
 		["itemName"] = "Legguards of the Skybreaker",
 		["iconFileDataID"] = 1559209,
@@ -6162,17 +6181,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147179,
 		["itemSetID"] = 1310,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [318]
+	}, -- [319]
 	{
 		["itemName"] = "Leggings of Blind Absolution",
 		["iconFileDataID"] = 1603361,
@@ -6182,17 +6201,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147166,
 		["itemSetID"] = 1308,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [319]
+	}, -- [320]
 	{
 		["itemName"] = "Gravewarden Legplates",
 		["iconFileDataID"] = 1551057,
@@ -6202,17 +6221,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147125,
 		["itemSetID"] = 1301,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [320]
+	}, -- [321]
 	{
 		["itemName"] = "Xuen's Legguards",
 		["iconFileDataID"] = 1536488,
@@ -6222,17 +6241,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147155,
 		["itemSetID"] = 1306,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [321]
+	}, -- [322]
 	{
 		["itemName"] = "Radiant Lightbringer Greaves",
 		["iconFileDataID"] = 1512753,
@@ -6242,17 +6261,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147161,
 		["itemSetID"] = 1307,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [322]
+	}, -- [323]
 	{
 		["itemName"] = "Demonbane Leggings",
 		["iconFileDataID"] = 1537006,
@@ -6262,17 +6281,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147131,
 		["itemSetID"] = 1302,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [323]
+	}, -- [324]
 	{
 		["itemName"] = "Fanged Slayer's Legguards",
 		["iconFileDataID"] = 1549278,
@@ -6282,17 +6301,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147173,
 		["itemSetID"] = 1309,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [324]
+	}, -- [325]
 	{
 		["itemName"] = "Stormheart Legguards",
 		["iconFileDataID"] = 1550786,
@@ -6302,17 +6321,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147137,
 		["itemSetID"] = 1303,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [325]
+	}, -- [326]
 	{
 		["itemName"] = "Titanic Onslaught Greaves",
 		["iconFileDataID"] = 1518780,
@@ -6322,17 +6341,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147191,
 		["itemSetID"] = 1312,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [326]
+	}, -- [327]
 	{
 		["itemName"] = "Leggings of Divine Portents",
 		["iconFileDataID"] = 1533500,
@@ -6351,7 +6370,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [327]
+	}, -- [328]
 	{
 		["itemName"] = "Greaves of Impure Midnight",
 		["iconFileDataID"] = 1518780,
@@ -6370,7 +6389,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [328]
+	}, -- [329]
 	{
 		["itemName"] = "Leggings of the Arcane Tempest",
 		["iconFileDataID"] = 1533500,
@@ -6380,17 +6399,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147148,
 		["itemSetID"] = 1305,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [329]
+	}, -- [330]
 	{
 		["itemName"] = "Legwraps of Fused Loathing",
 		["iconFileDataID"] = 1511493,
@@ -6409,7 +6428,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [330]
+	}, -- [331]
 	{
 		["itemName"] = "Flesh-Raking Leggings",
 		["iconFileDataID"] = 1529803,
@@ -6428,7 +6447,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [331]
+	}, -- [332]
 	{
 		["itemName"] = "Legguards of Siphoned Power",
 		["iconFileDataID"] = 1559209,
@@ -6447,7 +6466,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [332]
+	}, -- [333]
 	{
 		["itemName"] = "Belt of Screaming Slag",
 		["iconFileDataID"] = 1529797,
@@ -6466,7 +6485,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [333]
+	}, -- [334]
 	{
 		["itemName"] = "Waistguard of Interminable Unity",
 		["iconFileDataID"] = 1550414,
@@ -6485,7 +6504,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [334]
+	}, -- [335]
 	{
 		["itemName"] = "Shiversleet Waistguard",
 		["iconFileDataID"] = 1512747,
@@ -6504,7 +6523,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [335]
+	}, -- [336]
 	{
 		["itemName"] = "Strife-Riddled Cinch",
 		["iconFileDataID"] = 1511487,
@@ -6523,7 +6542,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [336]
+	}, -- [337]
 	{
 		["itemName"] = "Cinch of Sizzling Flesh",
 		["iconFileDataID"] = 1549272,
@@ -6542,7 +6561,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [337]
+	}, -- [338]
 	{
 		["itemName"] = "Soul-Render's Greatbelt",
 		["iconFileDataID"] = 1551045,
@@ -6561,7 +6580,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [338]
+	}, -- [339]
 	{
 		["itemName"] = "Waistguard of Profane Duplicity",
 		["iconFileDataID"] = 1531487,
@@ -6580,7 +6599,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [339]
+	}, -- [340]
 	{
 		["itemName"] = "Etched Bone Waistband",
 		["iconFileDataID"] = 1550780,
@@ -6599,7 +6618,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [340]
+	}, -- [341]
 	{
 		["itemName"] = "Braided Torture Lash",
 		["iconFileDataID"] = 1533494,
@@ -6618,7 +6637,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [341]
+	}, -- [342]
 	{
 		["itemName"] = "Moonfire Stranglers",
 		["iconFileDataID"] = 1550784,
@@ -6637,7 +6656,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [342]
+	}, -- [343]
 	{
 		["itemName"] = "Dusk-Crusher Handguards",
 		["iconFileDataID"] = 1512751,
@@ -6656,7 +6675,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [343]
+	}, -- [344]
 	{
 		["itemName"] = "Titanic Onslaught Handguards",
 		["iconFileDataID"] = 1518778,
@@ -6666,17 +6685,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147189,
 		["itemSetID"] = 1312,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [344]
+	}, -- [345]
 	{
 		["itemName"] = "Gravewarden Handguards",
 		["iconFileDataID"] = 1551053,
@@ -6686,17 +6705,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147123,
 		["itemSetID"] = 1301,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [345]
+	}, -- [346]
 	{
 		["itemName"] = "Stormheart Gloves",
 		["iconFileDataID"] = 1550784,
@@ -6706,17 +6725,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147135,
 		["itemSetID"] = 1303,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [346]
+	}, -- [347]
 	{
 		["itemName"] = "Xuen's Gauntlets",
 		["iconFileDataID"] = 1536486,
@@ -6726,17 +6745,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147153,
 		["itemSetID"] = 1306,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [347]
+	}, -- [348]
 	{
 		["itemName"] = "Radiant Lightbringer Gauntlets",
 		["iconFileDataID"] = 1512751,
@@ -6746,17 +6765,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147159,
 		["itemSetID"] = 1307,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [348]
+	}, -- [349]
 	{
 		["itemName"] = "Fanged Slayer's Handguards",
 		["iconFileDataID"] = 1549276,
@@ -6766,17 +6785,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147171,
 		["itemSetID"] = 1309,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [349]
+	}, -- [350]
 	{
 		["itemName"] = "Grips of the Skybreaker",
 		["iconFileDataID"] = 1550418,
@@ -6786,17 +6805,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147177,
 		["itemSetID"] = 1310,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [350]
+	}, -- [351]
 	{
 		["itemName"] = "Groundshatter Gauntlets",
 		["iconFileDataID"] = 1518778,
@@ -6815,7 +6834,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [351]
+	}, -- [352]
 	{
 		["itemName"] = "Gloves of Wayward Compulsions",
 		["iconFileDataID"] = 1549276,
@@ -6834,7 +6853,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [352]
+	}, -- [353]
 	{
 		["itemName"] = "Vicegrip of the Unrepentant",
 		["iconFileDataID"] = 1550418,
@@ -6853,7 +6872,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [353]
+	}, -- [354]
 	{
 		["itemName"] = "Gloves of the Arcane Tempest",
 		["iconFileDataID"] = 1533498,
@@ -6863,17 +6882,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147146,
 		["itemSetID"] = 1305,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [354]
+	}, -- [355]
 	{
 		["itemName"] = "Wildstalker Gauntlets",
 		["iconFileDataID"] = 1529801,
@@ -6883,17 +6902,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147141,
 		["itemSetID"] = 1304,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [355]
+	}, -- [356]
 	{
 		["itemName"] = "Diabolic Gloves",
 		["iconFileDataID"] = 1511491,
@@ -6903,17 +6922,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147182,
 		["itemSetID"] = 1311,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [356]
+	}, -- [357]
 	{
 		["itemName"] = "Demonbane Gauntlets",
 		["iconFileDataID"] = 1531501,
@@ -6923,17 +6942,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147129,
 		["itemSetID"] = 1302,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [357]
+	}, -- [358]
 	{
 		["itemName"] = "Gloves of Blind Absolution",
 		["iconFileDataID"] = 1518069,
@@ -6943,17 +6962,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147164,
 		["itemSetID"] = 1308,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [358]
+	}, -- [359]
 	{
 		["itemName"] = "Gauntlets of Spiteful Haunting",
 		["iconFileDataID"] = 1529801,
@@ -6972,7 +6991,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [359]
+	}, -- [360]
 	{
 		["itemName"] = "Gloves of Furtive Oppression",
 		["iconFileDataID"] = 1511491,
@@ -6991,7 +7010,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [360]
+	}, -- [361]
 	{
 		["itemName"] = "Bonemeal-Crusted Armplates",
 		["iconFileDataID"] = 1551049,
@@ -7010,7 +7029,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [361]
+	}, -- [362]
 	{
 		["itemName"] = "Bracers of Rippling Darkness",
 		["iconFileDataID"] = 1550782,
@@ -7029,7 +7048,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [362]
+	}, -- [363]
 	{
 		["itemName"] = "Ravenous Devotee's Bracelets",
 		["iconFileDataID"] = 1511489,
@@ -7048,7 +7067,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [363]
+	}, -- [364]
 	{
 		["itemName"] = "Pain-Singed Armguards",
 		["iconFileDataID"] = 1529799,
@@ -7067,7 +7086,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [364]
+	}, -- [365]
 	{
 		["itemName"] = "Sinew-Stitched Wristguards",
 		["iconFileDataID"] = 1549274,
@@ -7086,7 +7105,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [365]
+	}, -- [366]
 	{
 		["itemName"] = "Oathbreaker's Cuffs",
 		["iconFileDataID"] = 1518067,
@@ -7105,7 +7124,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [366]
+	}, -- [367]
 	{
 		["itemName"] = "Cuirass of Blinding Dawn",
 		["iconFileDataID"] = 1518777,
@@ -7124,7 +7143,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [367]
+	}, -- [368]
 	{
 		["itemName"] = "Robe of Aqueous Command",
 		["iconFileDataID"] = 1533501,
@@ -7143,7 +7162,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [368]
+	}, -- [369]
 	{
 		["itemName"] = "Spirebreaker Harness",
 		["iconFileDataID"] = 1536485,
@@ -7162,7 +7181,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [369]
+	}, -- [370]
 	{
 		["itemName"] = "Radiant Lightbringer Breastplate",
 		["iconFileDataID"] = 1512750,
@@ -7172,17 +7191,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147157,
 		["itemSetID"] = 1307,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [370]
+	}, -- [371]
 	{
 		["itemName"] = "Robes of Blind Absolution",
 		["iconFileDataID"] = 1518071,
@@ -7192,17 +7211,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147167,
 		["itemSetID"] = 1308,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [371]
+	}, -- [372]
 	{
 		["itemName"] = "Gravewarden Chestplate",
 		["iconFileDataID"] = 1551051,
@@ -7212,17 +7231,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147121,
 		["itemSetID"] = 1301,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [372]
+	}, -- [373]
 	{
 		["itemName"] = "Harness of the Skybreaker",
 		["iconFileDataID"] = 1550417,
@@ -7232,17 +7251,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147175,
 		["itemSetID"] = 1310,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [373]
+	}, -- [374]
 	{
 		["itemName"] = "Wildstalker Chestguard",
 		["iconFileDataID"] = 1529800,
@@ -7252,17 +7271,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147139,
 		["itemSetID"] = 1304,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [374]
+	}, -- [375]
 	{
 		["itemName"] = "Diabolic Robe",
 		["iconFileDataID"] = 1511490,
@@ -7272,17 +7291,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147185,
 		["itemSetID"] = 1311,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [375]
+	}, -- [376]
 	{
 		["itemName"] = "Fanged Slayer's Chestguard",
 		["iconFileDataID"] = 1549275,
@@ -7292,17 +7311,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147169,
 		["itemSetID"] = 1309,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [376]
+	}, -- [377]
 	{
 		["itemName"] = "Robes of the Arcane Tempest",
 		["iconFileDataID"] = 1533501,
@@ -7312,17 +7331,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147149,
 		["itemSetID"] = 1305,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [377]
+	}, -- [378]
 	{
 		["itemName"] = "Titanic Onslaught Breastplate",
 		["iconFileDataID"] = 1518777,
@@ -7332,17 +7351,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147187,
 		["itemSetID"] = 1312,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [378]
+	}, -- [379]
 	{
 		["itemName"] = "Xuen's Tunic",
 		["iconFileDataID"] = 1536485,
@@ -7352,17 +7371,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147151,
 		["itemSetID"] = 1306,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [379]
+	}, -- [380]
 	{
 		["itemName"] = "Demonbane Harness",
 		["iconFileDataID"] = 1531505,
@@ -7372,17 +7391,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147127,
 		["itemSetID"] = 1302,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [380]
+	}, -- [381]
 	{
 		["itemName"] = "Stormheart Tunic",
 		["iconFileDataID"] = 1550783,
@@ -7392,17 +7411,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147133,
 		["itemSetID"] = 1303,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [381]
+	}, -- [382]
 	{
 		["itemName"] = "Hauberk of Frozen Mist",
 		["iconFileDataID"] = 1550417,
@@ -7421,7 +7440,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [382]
+	}, -- [383]
 	{
 		["itemName"] = "Wave-Hammered Breastplate",
 		["iconFileDataID"] = 1512750,
@@ -7440,7 +7459,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [383]
+	}, -- [384]
 	{
 		["itemName"] = "Soul Queen's Ceremonial Robes",
 		["iconFileDataID"] = 1518071,
@@ -7459,7 +7478,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [384]
+	}, -- [385]
 	{
 		["itemName"] = "Hide of the Abyssal Behemoth",
 		["iconFileDataID"] = 1549275,
@@ -7478,7 +7497,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [385]
+	}, -- [386]
 	{
 		["itemName"] = "Cape of Mindless Fury",
 		["iconFileDataID"] = 1501129,
@@ -7497,7 +7516,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [386]
+	}, -- [387]
 	{
 		["itemName"] = "Shroud of the Drowned Adherent",
 		["iconFileDataID"] = 1412476,
@@ -7516,7 +7535,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [387]
+	}, -- [388]
 	{
 		["itemName"] = "Drape of the Arcane Tempest",
 		["iconFileDataID"] = 1600255,
@@ -7526,17 +7545,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147145,
 		["itemSetID"] = 1305,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [388]
+	}, -- [389]
 	{
 		["itemName"] = "Cloak of Stifling Brimstone",
 		["iconFileDataID"] = 1365935,
@@ -7555,7 +7574,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [389]
+	}, -- [390]
 	{
 		["itemName"] = "Diabolic Shroud",
 		["iconFileDataID"] = 1517231,
@@ -7565,17 +7584,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147181,
 		["itemSetID"] = 1311,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [390]
+	}, -- [391]
 	{
 		["itemName"] = "Drape of the Skybreaker",
 		["iconFileDataID"] = 1559573,
@@ -7585,17 +7604,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147176,
 		["itemSetID"] = 1310,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [391]
+	}, -- [392]
 	{
 		["itemName"] = "Wildstalker Cape",
 		["iconFileDataID"] = 1529795,
@@ -7605,17 +7624,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147140,
 		["itemSetID"] = 1304,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [392]
+	}, -- [393]
 	{
 		["itemName"] = "Titanic Onslaught Cloak",
 		["iconFileDataID"] = 1525579,
@@ -7625,17 +7644,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147188,
 		["itemSetID"] = 1312,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [393]
+	}, -- [394]
 	{
 		["itemName"] = "Demonbane Shroud",
 		["iconFileDataID"] = 1531493,
@@ -7645,17 +7664,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147128,
 		["itemSetID"] = 1302,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [394]
+	}, -- [395]
 	{
 		["itemName"] = "Shawl of Blind Absolution",
 		["iconFileDataID"] = 1518068,
@@ -7665,17 +7684,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147163,
 		["itemSetID"] = 1308,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [395]
+	}, -- [396]
 	{
 		["itemName"] = "Radiant Lightbringer Cape",
 		["iconFileDataID"] = 1521196,
@@ -7685,17 +7704,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147158,
 		["itemSetID"] = 1307,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [396]
+	}, -- [397]
 	{
 		["itemName"] = "Xuen's Cloak",
 		["iconFileDataID"] = 1536484,
@@ -7705,17 +7724,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147152,
 		["itemSetID"] = 1306,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [397]
+	}, -- [398]
 	{
 		["itemName"] = "Fanged Slayer's Shroud",
 		["iconFileDataID"] = 1623442,
@@ -7725,17 +7744,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147170,
 		["itemSetID"] = 1309,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [398]
+	}, -- [399]
 	{
 		["itemName"] = "Gravewarden Cloak",
 		["iconFileDataID"] = 1580809,
@@ -7745,17 +7764,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147122,
 		["itemSetID"] = 1301,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [399]
+	}, -- [400]
 	{
 		["itemName"] = "Stormheart Drape",
 		["iconFileDataID"] = 1589459,
@@ -7765,17 +7784,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147134,
 		["itemSetID"] = 1303,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [400]
+	}, -- [401]
 	{
 		["itemName"] = "Shoulderplates of Crackling Flame",
 		["iconFileDataID"] = 1512754,
@@ -7794,7 +7813,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [401]
+	}, -- [402]
 	{
 		["itemName"] = "Mantle of Waning Radiance",
 		["iconFileDataID"] = 1550421,
@@ -7813,7 +7832,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [402]
+	}, -- [403]
 	{
 		["itemName"] = "Shoulderpads of Whispering Twilight",
 		["iconFileDataID"] = 1511494,
@@ -7832,7 +7851,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [403]
+	}, -- [404]
 	{
 		["itemName"] = "Mantle of Broken Spirits",
 		["iconFileDataID"] = 1518072,
@@ -7851,7 +7870,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [404]
+	}, -- [405]
 	{
 		["itemName"] = "Radiant Lightbringer Shoulderguards",
 		["iconFileDataID"] = 1512754,
@@ -7861,17 +7880,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147162,
 		["itemSetID"] = 1307,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [405]
+	}, -- [406]
 	{
 		["itemName"] = "Stormheart Mantle",
 		["iconFileDataID"] = 1550788,
@@ -7881,17 +7900,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147138,
 		["itemSetID"] = 1303,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [406]
+	}, -- [407]
 	{
 		["itemName"] = "Dripping Arcfin Shoulderpads",
 		["iconFileDataID"] = 1536489,
@@ -7910,7 +7929,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [407]
+	}, -- [408]
 	{
 		["itemName"] = "Pauldrons of the Gibbering Eye",
 		["iconFileDataID"] = 1529804,
@@ -7929,7 +7948,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [408]
+	}, -- [409]
 	{
 		["itemName"] = "Grave-Dredged Pauldrons",
 		["iconFileDataID"] = 1551059,
@@ -7948,7 +7967,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [409]
+	}, -- [410]
 	{
 		["itemName"] = "Titanic Onslaught Pauldrons",
 		["iconFileDataID"] = 1518781,
@@ -7958,17 +7977,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147192,
 		["itemSetID"] = 1312,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [410]
+	}, -- [411]
 	{
 		["itemName"] = "Mantle of the Arcane Tempest",
 		["iconFileDataID"] = 1533502,
@@ -7978,17 +7997,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147150,
 		["itemSetID"] = 1305,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [411]
+	}, -- [412]
 	{
 		["itemName"] = "Demonbane Shoulderpads",
 		["iconFileDataID"] = 1531507,
@@ -7998,17 +8017,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147132,
 		["itemSetID"] = 1302,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [412]
+	}, -- [413]
 	{
 		["itemName"] = "Pauldrons of the Skybreaker",
 		["iconFileDataID"] = 1550421,
@@ -8018,17 +8037,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147180,
 		["itemSetID"] = 1310,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [413]
+	}, -- [414]
 	{
 		["itemName"] = "Gravewarden Pauldrons",
 		["iconFileDataID"] = 1551059,
@@ -8038,17 +8057,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147126,
 		["itemSetID"] = 1301,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [414]
+	}, -- [415]
 	{
 		["itemName"] = "Diabolic Mantle",
 		["iconFileDataID"] = 1511494,
@@ -8058,17 +8077,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147186,
 		["itemSetID"] = 1311,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [415]
+	}, -- [416]
 	{
 		["itemName"] = "Wildstalker Spaulders",
 		["iconFileDataID"] = 1529804,
@@ -8078,17 +8097,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147144,
 		["itemSetID"] = 1304,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [416]
+	}, -- [417]
 	{
 		["itemName"] = "Mantle of Blind Absolution",
 		["iconFileDataID"] = 1518072,
@@ -8098,17 +8117,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147168,
 		["itemSetID"] = 1308,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [417]
+	}, -- [418]
 	{
 		["itemName"] = "Fanged Slayer's Shoulderpads",
 		["iconFileDataID"] = 1549279,
@@ -8118,17 +8137,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147174,
 		["itemSetID"] = 1309,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [418]
+	}, -- [419]
 	{
 		["itemName"] = "Xuen's Shoulderguards",
 		["iconFileDataID"] = 1536489,
@@ -8138,17 +8157,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147156,
 		["itemSetID"] = 1306,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [419]
+	}, -- [420]
 	{
 		["itemName"] = "Locket of Splintered Souls",
 		["iconFileDataID"] = 133337,
@@ -8167,7 +8186,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [420]
+	}, -- [421]
 	{
 		["itemName"] = "String of Extracted Incisors",
 		["iconFileDataID"] = 1535071,
@@ -8186,7 +8205,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [421]
+	}, -- [422]
 	{
 		["itemName"] = "Hundred-Fathom Veil",
 		["iconFileDataID"] = 1518070,
@@ -8205,7 +8224,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [422]
+	}, -- [423]
 	{
 		["itemName"] = "Azure Squallshaper's Helm",
 		["iconFileDataID"] = 1550419,
@@ -8224,7 +8243,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [423]
+	}, -- [424]
 	{
 		["itemName"] = "Demonbane Faceguard",
 		["iconFileDataID"] = 1531503,
@@ -8234,17 +8253,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147130,
 		["itemSetID"] = 1302,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [424]
+	}, -- [425]
 	{
 		["itemName"] = "Hood of Blind Absolution",
 		["iconFileDataID"] = 1518070,
@@ -8254,17 +8273,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147165,
 		["itemSetID"] = 1308,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [425]
+	}, -- [426]
 	{
 		["itemName"] = "Lunar-Wrath Headgear",
 		["iconFileDataID"] = 1549277,
@@ -8283,7 +8302,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [426]
+	}, -- [427]
 	{
 		["itemName"] = "Shadow-Scarred Headcover",
 		["iconFileDataID"] = 1536487,
@@ -8302,7 +8321,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [427]
+	}, -- [428]
 	{
 		["itemName"] = "Crown of Discarded Hope",
 		["iconFileDataID"] = 1529802,
@@ -8321,7 +8340,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [428]
+	}, -- [429]
 	{
 		["itemName"] = "Crown of the Arcane Tempest",
 		["iconFileDataID"] = 1533499,
@@ -8331,17 +8350,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147147,
 		["itemSetID"] = 1305,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [429]
+	}, -- [430]
 	{
 		["itemName"] = "Helmet of the Skybreaker",
 		["iconFileDataID"] = 1550419,
@@ -8351,17 +8370,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147178,
 		["itemSetID"] = 1310,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [430]
+	}, -- [431]
 	{
 		["itemName"] = "Xuen's Helm",
 		["iconFileDataID"] = 1536487,
@@ -8371,17 +8390,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147154,
 		["itemSetID"] = 1306,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [431]
+	}, -- [432]
 	{
 		["itemName"] = "Titanic Onslaught Greathelm",
 		["iconFileDataID"] = 1518779,
@@ -8391,17 +8410,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147190,
 		["itemSetID"] = 1312,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [432]
+	}, -- [433]
 	{
 		["itemName"] = "Wildstalker Helmet",
 		["iconFileDataID"] = 1529802,
@@ -8411,17 +8430,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147142,
 		["itemSetID"] = 1304,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [433]
+	}, -- [434]
 	{
 		["itemName"] = "Armet of the Rotten Mind",
 		["iconFileDataID"] = 1551055,
@@ -8440,7 +8459,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [434]
+	}, -- [435]
 	{
 		["itemName"] = "Fanged Slayer's Helm",
 		["iconFileDataID"] = 1549277,
@@ -8450,17 +8469,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147172,
 		["itemSetID"] = 1309,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [435]
+	}, -- [436]
 	{
 		["itemName"] = "Gravewarden Visage",
 		["iconFileDataID"] = 1551055,
@@ -8470,17 +8489,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147124,
 		["itemSetID"] = 1301,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [436]
+	}, -- [437]
 	{
 		["itemName"] = "Stormheart Headdress",
 		["iconFileDataID"] = 1550785,
@@ -8490,17 +8509,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147136,
 		["itemSetID"] = 1303,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [437]
+	}, -- [438]
 	{
 		["itemName"] = "Diabolic Helm",
 		["iconFileDataID"] = 1511492,
@@ -8510,17 +8529,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147183,
 		["itemSetID"] = 1311,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [438]
+	}, -- [439]
 	{
 		["itemName"] = "Blackened Mask of Disgrace",
 		["iconFileDataID"] = 1511492,
@@ -8539,7 +8558,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [439]
+	}, -- [440]
 	{
 		["itemName"] = "Radiant Lightbringer Crown",
 		["iconFileDataID"] = 1512752,
@@ -8549,17 +8568,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 147160,
 		["itemSetID"] = 1307,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [440]
+	}, -- [441]
 	{
 		["itemName"] = "Felsoul Vortex",
 		["iconFileDataID"] = 1035054,
@@ -8578,7 +8597,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [441]
+	}, -- [442]
 	{
 		["itemName"] = "Inexorable Truth Serum",
 		["iconFileDataID"] = 236884,
@@ -8597,7 +8616,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [442]
+	}, -- [443]
 	{
 		["itemName"] = "Icon of Perverse Animation",
 		["iconFileDataID"] = 537517,
@@ -8616,7 +8635,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [443]
+	}, -- [444]
 	{
 		["itemName"] = "Abyss Worm",
 		["iconFileDataID"] = 1519579,
@@ -8635,7 +8654,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Mount",
 		["itemType"] = "Miscellaneous",
-	}, -- [444]
+	}, -- [445]
 	{
 		["itemName"] = "Pungent Chum",
 		["iconFileDataID"] = 1500917,
@@ -8654,7 +8673,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [445]
+	}, -- [446]
 	{
 		["itemName"] = "Globe of Frothing Eddies",
 		["iconFileDataID"] = 1385912,
@@ -8673,7 +8692,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [446]
+	}, -- [447]
 	{
 		["itemName"] = "Flawless Hurricane Pearl",
 		["iconFileDataID"] = 237371,
@@ -8692,7 +8711,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [447]
+	}, -- [448]
 	{
 		["itemName"] = "Brand of Relentless Agony",
 		["iconFileDataID"] = 615100,
@@ -8711,7 +8730,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [448]
+	}, -- [449]
 	{
 		["itemName"] = "Mote of Astral Suffusion",
 		["iconFileDataID"] = 1391782,
@@ -8730,7 +8749,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [449]
+	}, -- [450]
 	{
 		["itemName"] = "Ferocity of the Devout",
 		["iconFileDataID"] = 236215,
@@ -8749,7 +8768,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [450]
+	}, -- [451]
 	{
 		["itemName"] = "Imploding Infernal Star",
 		["iconFileDataID"] = 517112,
@@ -8768,7 +8787,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [451]
+	}, -- [452]
 	{
 		["itemName"] = "Cleansing Ignition Catalyst",
 		["iconFileDataID"] = 236301,
@@ -8787,7 +8806,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [452]
+	}, -- [453]
 	{
 		["itemName"] = "Charred Hymnal of the Moon",
 		["iconFileDataID"] = 953645,
@@ -8806,7 +8825,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [453]
+	}, -- [454]
 	{
 		["itemName"] = "Unfurling Origination",
 		["iconFileDataID"] = 462522,
@@ -8825,7 +8844,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [454]
+	}, -- [455]
 	{
 		["itemName"] = "Scornful Reflection",
 		["iconFileDataID"] = 651083,
@@ -8844,7 +8863,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [455]
+	}, -- [456]
 	{
 		["itemName"] = "Blood of the Unworthy",
 		["iconFileDataID"] = 237515,
@@ -8863,7 +8882,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [456]
+	}, -- [457]
 	{
 		["itemName"] = "Blessing of the White Lady",
 		["iconFileDataID"] = 237574,
@@ -8882,7 +8901,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [457]
+	}, -- [458]
 	{
 		["itemName"] = "Chiseled Starlight",
 		["iconFileDataID"] = 237205,
@@ -8901,7 +8920,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [458]
+	}, -- [459]
 	{
 		["itemName"] = "Moontalon's Feather",
 		["iconFileDataID"] = 132926,
@@ -8920,7 +8939,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [459]
+	}, -- [460]
 	{
 		["itemName"] = "Boon of the Prophet",
 		["iconFileDataID"] = 135876,
@@ -8939,7 +8958,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [460]
+	}, -- [461]
 	{
 		["itemName"] = "Virus of Lethargy",
 		["iconFileDataID"] = 136092,
@@ -8958,7 +8977,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [461]
+	}, -- [462]
 	{
 		["itemName"] = "Stabilized Extinction Protocol",
 		["iconFileDataID"] = 133862,
@@ -8977,7 +8996,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [462]
+	}, -- [463]
 	{
 		["itemName"] = "Tears of the Maiden",
 		["iconFileDataID"] = 136168,
@@ -8996,7 +9015,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [463]
+	}, -- [464]
 	{
 		["itemName"] = "Fragment of Grace",
 		["iconFileDataID"] = 134888,
@@ -9015,7 +9034,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [464]
+	}, -- [465]
 	{
 		["itemName"] = "Befouled Effigy of Elune",
 		["iconFileDataID"] = 134443,
@@ -9034,7 +9053,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [465]
+	}, -- [466]
 	{
 		["itemName"] = "Harjatan's Leering Eye",
 		["iconFileDataID"] = 237297,
@@ -9053,7 +9072,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [466]
+	}, -- [467]
 	{
 		["itemName"] = "Ice-Threaded Conch",
 		["iconFileDataID"] = 133797,
@@ -9072,7 +9091,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [467]
+	}, -- [468]
 	{
 		["itemName"] = "Calcified Barnacle",
 		["iconFileDataID"] = 1499548,
@@ -9091,7 +9110,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [468]
+	}, -- [469]
 	{
 		["itemName"] = "Smoldering Thumbscrews",
 		["iconFileDataID"] = 1612931,
@@ -9110,7 +9129,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [469]
+	}, -- [470]
 	{
 		["itemName"] = "Grimacing Highborne Skull",
 		["iconFileDataID"] = 133729,
@@ -9129,7 +9148,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [470]
+	}, -- [471]
 	{
 		["itemName"] = "Preserved Starlight Incense",
 		["iconFileDataID"] = 959794,
@@ -9148,7 +9167,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [471]
+	}, -- [472]
 	{
 		["itemName"] = "Glowing Prayer Candle",
 		["iconFileDataID"] = 537227,
@@ -9167,7 +9186,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [472]
+	}, -- [473]
 	{
 		["itemName"] = "Mutated Nautilus",
 		["iconFileDataID"] = 1498855,
@@ -9186,7 +9205,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [473]
+	}, -- [474]
 	{
 		["itemName"] = "Inquisition's Master Key",
 		["iconFileDataID"] = 135828,
@@ -9205,7 +9224,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [474]
+	}, -- [475]
 	{
 		["itemName"] = "Sphere of Entropy",
 		["iconFileDataID"] = 236518,
@@ -9224,7 +9243,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [475]
+	}, -- [476]
 	{
 		["itemName"] = "Ruinous Ashes",
 		["iconFileDataID"] = 1003596,
@@ -9243,7 +9262,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [476]
+	}, -- [477]
 	{
 		["itemName"] = "Man'ari Blood Pact",
 		["iconFileDataID"] = 441148,
@@ -9262,7 +9281,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [477]
+	}, -- [478]
 	{
 		["itemName"] = "Torn Fabric of Reality",
 		["iconFileDataID"] = 429383,
@@ -9281,7 +9300,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [478]
+	}, -- [479]
 	{
 		["itemName"] = "Valorous Spark of Hope",
 		["iconFileDataID"] = 136046,
@@ -9300,7 +9319,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [479]
+	}, -- [480]
 	{
 		["itemName"] = "Reactive Pylon Casing",
 		["iconFileDataID"] = 133022,
@@ -9319,7 +9338,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [480]
+	}, -- [481]
 	{
 		["itemName"] = "Fang of Tichondrius",
 		["iconFileDataID"] = 136231,
@@ -9338,7 +9357,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [481]
+	}, -- [482]
 	{
 		["itemName"] = "Icon of Rot",
 		["iconFileDataID"] = 1029009,
@@ -9357,7 +9376,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [482]
+	}, -- [483]
 	{
 		["itemName"] = "Entwined Elemental Foci",
 		["iconFileDataID"] = 136027,
@@ -9376,7 +9395,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [483]
+	}, -- [484]
 	{
 		["itemName"] = "Perfectly Preserved Cake",
 		["iconFileDataID"] = 133783,
@@ -9395,7 +9414,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [484]
+	}, -- [485]
 	{
 		["itemName"] = "Claw of the Crystalline Scorpid",
 		["iconFileDataID"] = 133448,
@@ -9414,7 +9433,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [485]
+	}, -- [486]
 	{
 		["itemName"] = "Arcanogolem Digit",
 		["iconFileDataID"] = 133874,
@@ -9433,7 +9452,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [486]
+	}, -- [487]
 	{
 		["itemName"] = "Royal Dagger Haft",
 		["iconFileDataID"] = 134885,
@@ -9452,7 +9471,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [487]
+	}, -- [488]
 	{
 		["itemName"] = "Erratic Metronome",
 		["iconFileDataID"] = 134376,
@@ -9471,7 +9490,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [488]
+	}, -- [489]
 	{
 		["itemName"] = "Animated Exoskeleton",
 		["iconFileDataID"] = 134882,
@@ -9490,7 +9509,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [489]
+	}, -- [490]
 	{
 		["itemName"] = "Ephemeral Paradox",
 		["iconFileDataID"] = 1362660,
@@ -9509,7 +9528,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [490]
+	}, -- [491]
 	{
 		["itemName"] = "Star Gate",
 		["iconFileDataID"] = 1362630,
@@ -9528,7 +9547,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [491]
+	}, -- [492]
 	{
 		["itemName"] = "Aluriel's Mirror",
 		["iconFileDataID"] = 458243,
@@ -9547,7 +9566,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [492]
+	}, -- [493]
 	{
 		["itemName"] = "Pharamere's Forbidden Grimoire",
 		["iconFileDataID"] = 134556,
@@ -9566,7 +9585,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [493]
+	}, -- [494]
 	{
 		["itemName"] = "Etraeus' Celestial Map",
 		["iconFileDataID"] = 1519351,
@@ -9585,7 +9604,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [494]
+	}, -- [495]
 	{
 		["itemName"] = "Nightblooming Frond",
 		["iconFileDataID"] = 458235,
@@ -9604,7 +9623,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [495]
+	}, -- [496]
 	{
 		["itemName"] = "Whispers in the Dark",
 		["iconFileDataID"] = 1362664,
@@ -9623,7 +9642,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [496]
+	}, -- [497]
 	{
 		["itemName"] = "Draught of Souls",
 		["iconFileDataID"] = 463926,
@@ -9642,7 +9661,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [497]
+	}, -- [498]
 	{
 		["itemName"] = "Infernal Contract",
 		["iconFileDataID"] = 1362662,
@@ -9661,7 +9680,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [498]
+	}, -- [499]
 	{
 		["itemName"] = "Fury of the Burning Sky",
 		["iconFileDataID"] = 1029580,
@@ -9680,7 +9699,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [499]
+	}, -- [500]
 	{
 		["itemName"] = "Might of Krosus",
 		["iconFileDataID"] = 1122135,
@@ -9699,7 +9718,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [500]
+	}, -- [501]
 	{
 		["itemName"] = "Convergence of Fates",
 		["iconFileDataID"] = 1391675,
@@ -9718,7 +9737,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [501]
+	}, -- [502]
 	{
 		["itemName"] = "Ring of Exclusive Servitude",
 		["iconFileDataID"] = 1391751,
@@ -9737,7 +9756,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [502]
+	}, -- [503]
 	{
 		["itemName"] = "Spellblade's Gemmed Signet",
 		["iconFileDataID"] = 1391748,
@@ -9756,7 +9775,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [503]
+	}, -- [504]
 	{
 		["itemName"] = "Ring of the Scoured Clan",
 		["iconFileDataID"] = 1391740,
@@ -9775,7 +9794,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [504]
+	}, -- [505]
 	{
 		["itemName"] = "Ring of Braided Stems",
 		["iconFileDataID"] = 1391735,
@@ -9794,7 +9813,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [505]
+	}, -- [506]
 	{
 		["itemName"] = "Stutterstep Treads",
 		["iconFileDataID"] = 1335530,
@@ -9813,7 +9832,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [506]
+	}, -- [507]
 	{
 		["itemName"] = "Immaculately Polished Boots",
 		["iconFileDataID"] = 1316215,
@@ -9832,7 +9851,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [507]
+	}, -- [508]
 	{
 		["itemName"] = "Sabatons of Burning Steps",
 		["iconFileDataID"] = 1339435,
@@ -9851,7 +9870,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [508]
+	}, -- [509]
 	{
 		["itemName"] = "Leystone-Toe Kickers",
 		["iconFileDataID"] = 1320038,
@@ -9870,7 +9889,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [509]
+	}, -- [510]
 	{
 		["itemName"] = "Sabatons of Unchanging Fate",
 		["iconFileDataID"] = 1320038,
@@ -9889,7 +9908,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [510]
+	}, -- [511]
 	{
 		["itemName"] = "Treads of Galactic Odyssey",
 		["iconFileDataID"] = 1345974,
@@ -9908,7 +9927,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [511]
+	}, -- [512]
 	{
 		["itemName"] = "Outcast Wanderer's Footrags",
 		["iconFileDataID"] = 1306773,
@@ -9927,7 +9946,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [512]
+	}, -- [513]
 	{
 		["itemName"] = "Grove-Tender's Moccasins",
 		["iconFileDataID"] = 1339045,
@@ -9946,7 +9965,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [513]
+	}, -- [514]
 	{
 		["itemName"] = "Shal'dorei Weedstompers",
 		["iconFileDataID"] = 1318377,
@@ -9965,7 +9984,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [514]
+	}, -- [515]
 	{
 		["itemName"] = "Perpetually Muddy Sandals",
 		["iconFileDataID"] = 1306773,
@@ -9984,7 +10003,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [515]
+	}, -- [516]
 	{
 		["itemName"] = "Gnawed Nightfallen Britches",
 		["iconFileDataID"] = 1335535,
@@ -10003,7 +10022,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [516]
+	}, -- [517]
 	{
 		["itemName"] = "Chrono-Tempered Legplates",
 		["iconFileDataID"] = 1316220,
@@ -10022,7 +10041,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [517]
+	}, -- [518]
 	{
 		["itemName"] = "Pertinacious Legplates",
 		["iconFileDataID"] = 1318382,
@@ -10041,7 +10060,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [518]
+	}, -- [519]
 	{
 		["itemName"] = "Master Warmage's Leggings",
 		["iconFileDataID"] = 1336647,
@@ -10060,7 +10079,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [519]
+	}, -- [520]
 	{
 		["itemName"] = "Leggings of Azj'Aqir",
 		["iconFileDataID"] = 1306778,
@@ -10070,17 +10089,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138317,
 		["itemSetID"] = 1291,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [520]
+	}, -- [521]
 	{
 		["itemName"] = "Doomblade Pants",
 		["iconFileDataID"] = 1308713,
@@ -10090,17 +10109,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138335,
 		["itemSetID"] = 1289,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [521]
+	}, -- [522]
 	{
 		["itemName"] = "Eagletalon Legchains",
 		["iconFileDataID"] = 1318382,
@@ -10110,17 +10129,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138344,
 		["itemSetID"] = 1284,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [522]
+	}, -- [523]
 	{
 		["itemName"] = "Legplates of the Highlord",
 		["iconFileDataID"] = 1316220,
@@ -10130,17 +10149,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138359,
 		["itemSetID"] = 1287,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [523]
+	}, -- [524]
 	{
 		["itemName"] = "Legplates of the Obsidian Aspect",
 		["iconFileDataID"] = 1357448,
@@ -10150,17 +10169,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138360,
 		["itemSetID"] = 1292,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [524]
+	}, -- [525]
 	{
 		["itemName"] = "Legwraps of Second Sight",
 		["iconFileDataID"] = 1408497,
@@ -10170,17 +10189,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138379,
 		["itemSetID"] = 1282,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [525]
+	}, -- [526]
 	{
 		["itemName"] = "Leggings of Enveloped Dissonance",
 		["iconFileDataID"] = 1335535,
@@ -10190,17 +10209,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138334,
 		["itemSetID"] = 1286,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [526]
+	}, -- [527]
 	{
 		["itemName"] = "Leggings of Everburning Knowledge",
 		["iconFileDataID"] = 1345979,
@@ -10210,17 +10229,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138315,
 		["itemSetID"] = 1285,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [527]
+	}, -- [528]
 	{
 		["itemName"] = "Dreadwyrm Legplates",
 		["iconFileDataID"] = 1320043,
@@ -10230,17 +10249,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138358,
 		["itemSetID"] = 1281,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [528]
+	}, -- [529]
 	{
 		["itemName"] = "Leggings of Shackled Elements",
 		["iconFileDataID"] = 1339441,
@@ -10250,17 +10269,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138345,
 		["itemSetID"] = 1290,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [529]
+	}, -- [530]
 	{
 		["itemName"] = "Purifier's Leggings",
 		["iconFileDataID"] = 1336647,
@@ -10270,17 +10289,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138316,
 		["itemSetID"] = 1288,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [530]
+	}, -- [531]
 	{
 		["itemName"] = "Trousers of Cultivation",
 		["iconFileDataID"] = 1339051,
@@ -10299,7 +10318,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [531]
+	}, -- [532]
 	{
 		["itemName"] = "Leggings of the Astral Warden",
 		["iconFileDataID"] = 1339051,
@@ -10309,17 +10328,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138333,
 		["itemSetID"] = 1283,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [532]
+	}, -- [533]
 	{
 		["itemName"] = "Goresmeared Abyssal Waistplate",
 		["iconFileDataID"] = 1357433,
@@ -10338,7 +10357,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [533]
+	}, -- [534]
 	{
 		["itemName"] = "Girdle of Nefarious Strategy",
 		["iconFileDataID"] = 1308707,
@@ -10357,7 +10376,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [534]
+	}, -- [535]
 	{
 		["itemName"] = "Emblazoned Duskwatch Belt",
 		["iconFileDataID"] = 1318376,
@@ -10376,7 +10395,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [535]
+	}, -- [536]
 	{
 		["itemName"] = "Belt of Celestial Alignment",
 		["iconFileDataID"] = 1339434,
@@ -10395,7 +10414,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [536]
+	}, -- [537]
 	{
 		["itemName"] = "Cake Carrier's Girdle",
 		["iconFileDataID"] = 1339044,
@@ -10414,7 +10433,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [537]
+	}, -- [538]
 	{
 		["itemName"] = "Gilded Nightborne Waistplate",
 		["iconFileDataID"] = 1316214,
@@ -10433,7 +10452,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [538]
+	}, -- [539]
 	{
 		["itemName"] = "Antiquated Highborne Cinch",
 		["iconFileDataID"] = 1336641,
@@ -10452,7 +10471,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [539]
+	}, -- [540]
 	{
 		["itemName"] = "Man'ari Skullbuckled Cinch",
 		["iconFileDataID"] = 1306772,
@@ -10471,7 +10490,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [540]
+	}, -- [541]
 	{
 		["itemName"] = "High Shadow Councilor's Wrap",
 		["iconFileDataID"] = 1408491,
@@ -10490,7 +10509,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [541]
+	}, -- [542]
 	{
 		["itemName"] = "Waistplate of Fractured Realities",
 		["iconFileDataID"] = 1320037,
@@ -10509,7 +10528,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [542]
+	}, -- [543]
 	{
 		["itemName"] = "Sterilizer's Insulated Gauntlets",
 		["iconFileDataID"] = 1318380,
@@ -10528,7 +10547,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [543]
+	}, -- [544]
 	{
 		["itemName"] = "Scorpid Handler's Gloves",
 		["iconFileDataID"] = 1345977,
@@ -10547,7 +10566,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [544]
+	}, -- [545]
 	{
 		["itemName"] = "Temporally Displaced Gloves",
 		["iconFileDataID"] = 1408495,
@@ -10566,7 +10585,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [545]
+	}, -- [546]
 	{
 		["itemName"] = "Gauntlets of Fractured Eons",
 		["iconFileDataID"] = 1316218,
@@ -10585,7 +10604,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [546]
+	}, -- [547]
 	{
 		["itemName"] = "Gauntlets of Shackled Elements",
 		["iconFileDataID"] = 1339438,
@@ -10595,17 +10614,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138341,
 		["itemSetID"] = 1290,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [547]
+	}, -- [548]
 	{
 		["itemName"] = "Gloves of the Astral Warden",
 		["iconFileDataID"] = 1339049,
@@ -10615,17 +10634,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138327,
 		["itemSetID"] = 1283,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [548]
+	}, -- [549]
 	{
 		["itemName"] = "Gloves of Synchronous Elements",
 		["iconFileDataID"] = 1308711,
@@ -10644,7 +10663,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [549]
+	}, -- [550]
 	{
 		["itemName"] = "Bridgebreaker Gauntlets",
 		["iconFileDataID"] = 1320041,
@@ -10663,7 +10682,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [550]
+	}, -- [551]
 	{
 		["itemName"] = "Eagletalon Gauntlets",
 		["iconFileDataID"] = 1318380,
@@ -10673,17 +10692,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138340,
 		["itemSetID"] = 1284,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [551]
+	}, -- [552]
 	{
 		["itemName"] = "Dreadwyrm Gauntlets",
 		["iconFileDataID"] = 1320041,
@@ -10693,17 +10712,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138352,
 		["itemSetID"] = 1281,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [552]
+	}, -- [553]
 	{
 		["itemName"] = "Gauntlets of the Highlord",
 		["iconFileDataID"] = 1316218,
@@ -10713,17 +10732,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138353,
 		["itemSetID"] = 1287,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [553]
+	}, -- [554]
 	{
 		["itemName"] = "Gauntlets of the Obsidian Aspect",
 		["iconFileDataID"] = 1357447,
@@ -10733,17 +10752,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138354,
 		["itemSetID"] = 1292,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [554]
+	}, -- [555]
 	{
 		["itemName"] = "Gloves of Everburning Knowledge",
 		["iconFileDataID"] = 1345977,
@@ -10753,17 +10772,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138309,
 		["itemSetID"] = 1285,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [555]
+	}, -- [556]
 	{
 		["itemName"] = "Gloves of Enveloped Dissonance",
 		["iconFileDataID"] = 1335533,
@@ -10773,17 +10792,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138328,
 		["itemSetID"] = 1286,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [556]
+	}, -- [557]
 	{
 		["itemName"] = "Gloves of Second Sight",
 		["iconFileDataID"] = 1408495,
@@ -10793,17 +10812,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138377,
 		["itemSetID"] = 1282,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [557]
+	}, -- [558]
 	{
 		["itemName"] = "Purifier's Gloves",
 		["iconFileDataID"] = 1336645,
@@ -10813,17 +10832,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138310,
 		["itemSetID"] = 1288,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [558]
+	}, -- [559]
 	{
 		["itemName"] = "Clutch of Azj'Aqir",
 		["iconFileDataID"] = 1306776,
@@ -10833,17 +10852,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138311,
 		["itemSetID"] = 1291,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [559]
+	}, -- [560]
 	{
 		["itemName"] = "Doomblade Gauntlets",
 		["iconFileDataID"] = 1308711,
@@ -10853,17 +10872,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138329,
 		["itemSetID"] = 1289,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [560]
+	}, -- [561]
 	{
 		["itemName"] = "Duskwatch Plate Bracers",
 		["iconFileDataID"] = 1316216,
@@ -10882,7 +10901,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [561]
+	}, -- [562]
 	{
 		["itemName"] = "Bracers of Harnessed Flame",
 		["iconFileDataID"] = 1345975,
@@ -10901,7 +10920,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [562]
+	}, -- [563]
 	{
 		["itemName"] = "Stinger Resistant Bracers",
 		["iconFileDataID"] = 1318378,
@@ -10920,7 +10939,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [563]
+	}, -- [564]
 	{
 		["itemName"] = "Bracers of Impossible Choices",
 		["iconFileDataID"] = 1308709,
@@ -10939,7 +10958,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [564]
+	}, -- [565]
 	{
 		["itemName"] = "Jagged Carapace Wristclamps",
 		["iconFileDataID"] = 1320039,
@@ -10958,7 +10977,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [565]
+	}, -- [566]
 	{
 		["itemName"] = "Thistle-Proof Thorngrabbers",
 		["iconFileDataID"] = 1318378,
@@ -10977,7 +10996,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [566]
+	}, -- [567]
 	{
 		["itemName"] = "Woven Lasher Tendril Bracers",
 		["iconFileDataID"] = 1306774,
@@ -10996,7 +11015,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [567]
+	}, -- [568]
 	{
 		["itemName"] = "Well-Flattened Wristguards",
 		["iconFileDataID"] = 1335531,
@@ -11015,7 +11034,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [568]
+	}, -- [569]
 	{
 		["itemName"] = "Eternally Recurring Bracers",
 		["iconFileDataID"] = 1357445,
@@ -11034,7 +11053,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [569]
+	}, -- [570]
 	{
 		["itemName"] = "Robes of Fluctuating Energy",
 		["iconFileDataID"] = 1345980,
@@ -11053,7 +11072,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [570]
+	}, -- [571]
 	{
 		["itemName"] = "Arcanochitin Hauberk",
 		["iconFileDataID"] = 1339437,
@@ -11072,7 +11091,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [571]
+	}, -- [572]
 	{
 		["itemName"] = "Captain's Parade Breastplate",
 		["iconFileDataID"] = 1316217,
@@ -11091,7 +11110,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [572]
+	}, -- [573]
 	{
 		["itemName"] = "Dreadwyrm Breastplate",
 		["iconFileDataID"] = 1320040,
@@ -11101,17 +11120,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138349,
 		["itemSetID"] = 1281,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [573]
+	}, -- [574]
 	{
 		["itemName"] = "Breastplate of the Remembered King",
 		["iconFileDataID"] = 1357446,
@@ -11130,7 +11149,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [574]
+	}, -- [575]
 	{
 		["itemName"] = "Purifier's Cassock",
 		["iconFileDataID"] = 1336644,
@@ -11140,17 +11159,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138319,
 		["itemSetID"] = 1288,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [575]
+	}, -- [576]
 	{
 		["itemName"] = "Robe of Everburning Knowledge",
 		["iconFileDataID"] = 1345980,
@@ -11160,17 +11179,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138318,
 		["itemSetID"] = 1285,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [576]
+	}, -- [577]
 	{
 		["itemName"] = "Raiment of Shackled Elements",
 		["iconFileDataID"] = 1339437,
@@ -11180,17 +11199,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138346,
 		["itemSetID"] = 1290,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [577]
+	}, -- [578]
 	{
 		["itemName"] = "Finery of Azj'Aqir",
 		["iconFileDataID"] = 1306775,
@@ -11200,17 +11219,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138320,
 		["itemSetID"] = 1291,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [578]
+	}, -- [579]
 	{
 		["itemName"] = "Breastplate of the Highlord",
 		["iconFileDataID"] = 1316217,
@@ -11220,17 +11239,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138350,
 		["itemSetID"] = 1287,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [579]
+	}, -- [580]
 	{
 		["itemName"] = "Eagletalon Tunic",
 		["iconFileDataID"] = 1318379,
@@ -11240,17 +11259,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138339,
 		["itemSetID"] = 1284,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [580]
+	}, -- [581]
 	{
 		["itemName"] = "Doomblade Tunic",
 		["iconFileDataID"] = 1308710,
@@ -11260,17 +11279,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138326,
 		["itemSetID"] = 1289,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [581]
+	}, -- [582]
 	{
 		["itemName"] = "Tunic of Second Sight",
 		["iconFileDataID"] = 1408494,
@@ -11280,17 +11299,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138376,
 		["itemSetID"] = 1282,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [582]
+	}, -- [583]
 	{
 		["itemName"] = "Tunic of Enveloped Dissonance",
 		["iconFileDataID"] = 1335532,
@@ -11300,17 +11319,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138325,
 		["itemSetID"] = 1286,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [583]
+	}, -- [584]
 	{
 		["itemName"] = "Chestplate of the Obsidian Aspect",
 		["iconFileDataID"] = 1357446,
@@ -11320,17 +11339,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138351,
 		["itemSetID"] = 1292,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [584]
+	}, -- [585]
 	{
 		["itemName"] = "Robe of the Astral Warden",
 		["iconFileDataID"] = 1339048,
@@ -11340,17 +11359,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138324,
 		["itemSetID"] = 1283,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [585]
+	}, -- [586]
 	{
 		["itemName"] = "Tunic of Unwavering Devotion",
 		["iconFileDataID"] = 1408494,
@@ -11369,7 +11388,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [586]
+	}, -- [587]
 	{
 		["itemName"] = "Dreadlord's Tattered Wingcover",
 		["iconFileDataID"] = 1412476,
@@ -11388,7 +11407,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [587]
+	}, -- [588]
 	{
 		["itemName"] = "Cloak of Azj'Aqir",
 		["iconFileDataID"] = 1306780,
@@ -11398,17 +11417,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138373,
 		["itemSetID"] = 1291,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [588]
+	}, -- [589]
 	{
 		["itemName"] = "Dreadwyrm Greatcloak",
 		["iconFileDataID"] = 1320036,
@@ -11418,17 +11437,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138364,
 		["itemSetID"] = 1281,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [589]
+	}, -- [590]
 	{
 		["itemName"] = "Purifier's Drape",
 		["iconFileDataID"] = 1334644,
@@ -11438,17 +11457,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138370,
 		["itemSetID"] = 1288,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [590]
+	}, -- [591]
 	{
 		["itemName"] = "Astromancer's Greatcloak",
 		["iconFileDataID"] = 1320077,
@@ -11467,7 +11486,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [591]
+	}, -- [592]
 	{
 		["itemName"] = "Greatmantle of the Highlord",
 		["iconFileDataID"] = 1316222,
@@ -11477,17 +11496,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138369,
 		["itemSetID"] = 1287,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [592]
+	}, -- [593]
 	{
 		["itemName"] = "Cloak of Enveloped Dissonance",
 		["iconFileDataID"] = 1335806,
@@ -11497,17 +11516,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138367,
 		["itemSetID"] = 1286,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [593]
+	}, -- [594]
 	{
 		["itemName"] = "Doomblade Shadowwrap",
 		["iconFileDataID"] = 1413123,
@@ -11517,17 +11536,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138371,
 		["itemSetID"] = 1289,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [594]
+	}, -- [595]
 	{
 		["itemName"] = "Greatcloak of the Obsidian Aspect",
 		["iconFileDataID"] = 1377578,
@@ -11537,17 +11556,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138374,
 		["itemSetID"] = 1292,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [595]
+	}, -- [596]
 	{
 		["itemName"] = "Eagletalon Cloak",
 		["iconFileDataID"] = 1320077,
@@ -11557,17 +11576,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138368,
 		["itemSetID"] = 1284,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [596]
+	}, -- [597]
 	{
 		["itemName"] = "Cloak of the Astral Warden",
 		["iconFileDataID"] = 1339047,
@@ -11577,17 +11596,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138366,
 		["itemSetID"] = 1283,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [597]
+	}, -- [598]
 	{
 		["itemName"] = "Cape of Second Sight",
 		["iconFileDataID"] = 1412476,
@@ -11597,17 +11616,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138375,
 		["itemSetID"] = 1282,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [598]
+	}, -- [599]
 	{
 		["itemName"] = "Cloak of Everburning Knowledge",
 		["iconFileDataID"] = 1346190,
@@ -11617,17 +11636,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138365,
 		["itemSetID"] = 1285,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [599]
+	}, -- [600]
 	{
 		["itemName"] = "Cloak of Shackled Elements",
 		["iconFileDataID"] = 1365934,
@@ -11637,17 +11656,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138372,
 		["itemSetID"] = 1290,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [600]
+	}, -- [601]
 	{
 		["itemName"] = "Cloak of Temporal Recalibration",
 		["iconFileDataID"] = 1365934,
@@ -11666,7 +11685,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [601]
+	}, -- [602]
 	{
 		["itemName"] = "Pauldrons of Enveloped Dissonance",
 		["iconFileDataID"] = 1335536,
@@ -11676,17 +11695,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138337,
 		["itemSetID"] = 1286,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [602]
+	}, -- [603]
 	{
 		["itemName"] = "Eagletalon Spaulders",
 		["iconFileDataID"] = 1318383,
@@ -11696,17 +11715,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138347,
 		["itemSetID"] = 1284,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [603]
+	}, -- [604]
 	{
 		["itemName"] = "Purifier's Mantle",
 		["iconFileDataID"] = 1336648,
@@ -11716,17 +11735,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138322,
 		["itemSetID"] = 1288,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [604]
+	}, -- [605]
 	{
 		["itemName"] = "Pauldrons of Shackled Elements",
 		["iconFileDataID"] = 1339442,
@@ -11736,17 +11755,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138348,
 		["itemSetID"] = 1290,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [605]
+	}, -- [606]
 	{
 		["itemName"] = "Shoulderguards of Second Sight",
 		["iconFileDataID"] = 1408498,
@@ -11756,17 +11775,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138380,
 		["itemSetID"] = 1282,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [606]
+	}, -- [607]
 	{
 		["itemName"] = "Mantle of the Astral Warden",
 		["iconFileDataID"] = 1339052,
@@ -11776,17 +11795,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138336,
 		["itemSetID"] = 1283,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [607]
+	}, -- [608]
 	{
 		["itemName"] = "Chaos-Scarred Mantle",
 		["iconFileDataID"] = 1345981,
@@ -11805,7 +11824,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [608]
+	}, -- [609]
 	{
 		["itemName"] = "Pauldrons of Warped Memory",
 		["iconFileDataID"] = 1339442,
@@ -11824,7 +11843,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [609]
+	}, -- [610]
 	{
 		["itemName"] = "Pauldrons of the Highlord",
 		["iconFileDataID"] = 1316221,
@@ -11834,17 +11853,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138362,
 		["itemSetID"] = 1287,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [610]
+	}, -- [611]
 	{
 		["itemName"] = "Pauldrons of Azj'Aqir",
 		["iconFileDataID"] = 1306779,
@@ -11854,17 +11873,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138323,
 		["itemSetID"] = 1291,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [611]
+	}, -- [612]
 	{
 		["itemName"] = "Mantle of the Torn Sky",
 		["iconFileDataID"] = 1408498,
@@ -11883,7 +11902,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [612]
+	}, -- [613]
 	{
 		["itemName"] = "Shoulderguard of the Eclipse",
 		["iconFileDataID"] = 1357450,
@@ -11902,7 +11921,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [613]
+	}, -- [614]
 	{
 		["itemName"] = "Netherbranded Shoulderpads",
 		["iconFileDataID"] = 1318383,
@@ -11921,7 +11940,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [614]
+	}, -- [615]
 	{
 		["itemName"] = "Dreadwyrm Shoulderguards",
 		["iconFileDataID"] = 1320044,
@@ -11931,17 +11950,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138361,
 		["itemSetID"] = 1281,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [615]
+	}, -- [616]
 	{
 		["itemName"] = "Mantle of Everburning Knowledge",
 		["iconFileDataID"] = 1345981,
@@ -11951,17 +11970,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138321,
 		["itemSetID"] = 1285,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [616]
+	}, -- [617]
 	{
 		["itemName"] = "Doomblade Spaulders",
 		["iconFileDataID"] = 1308714,
@@ -11971,17 +11990,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138338,
 		["itemSetID"] = 1289,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [617]
+	}, -- [618]
 	{
 		["itemName"] = "Shoulderplates of the Obsidian Aspect",
 		["iconFileDataID"] = 1357450,
@@ -11991,17 +12010,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138363,
 		["itemSetID"] = 1292,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [618]
+	}, -- [619]
 	{
 		["itemName"] = "Mantle of Prestidigitation",
 		["iconFileDataID"] = 1306779,
@@ -12020,7 +12039,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [619]
+	}, -- [620]
 	{
 		["itemName"] = "Zealous Timestone Pendant",
 		["iconFileDataID"] = 1360023,
@@ -12039,7 +12058,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [620]
+	}, -- [621]
 	{
 		["itemName"] = "Radiant String of Scorpid Eyes",
 		["iconFileDataID"] = 1360053,
@@ -12058,7 +12077,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [621]
+	}, -- [622]
 	{
 		["itemName"] = "Brooch of the Astral Scryer",
 		["iconFileDataID"] = 1360056,
@@ -12077,7 +12096,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [622]
+	}, -- [623]
 	{
 		["itemName"] = "Beleron's Choker of Misery",
 		["iconFileDataID"] = 1360006,
@@ -12096,7 +12115,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [623]
+	}, -- [624]
 	{
 		["itemName"] = "Hood of Fading Opportunity",
 		["iconFileDataID"] = 1318381,
@@ -12115,7 +12134,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [624]
+	}, -- [625]
 	{
 		["itemName"] = "Nighthold Custodian's Hood",
 		["iconFileDataID"] = 1345978,
@@ -12134,7 +12153,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [625]
+	}, -- [626]
 	{
 		["itemName"] = "Vintage Suramar Nobility Hat",
 		["iconFileDataID"] = 1339050,
@@ -12153,7 +12172,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [626]
+	}, -- [627]
 	{
 		["itemName"] = "Nightborne Battle-Magus Hood",
 		["iconFileDataID"] = 1335534,
@@ -12172,7 +12191,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [627]
+	}, -- [628]
 	{
 		["itemName"] = "Helm of Shackled Elements",
 		["iconFileDataID"] = 1339439,
@@ -12182,17 +12201,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138343,
 		["itemSetID"] = 1290,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [628]
+	}, -- [629]
 	{
 		["itemName"] = "Architect's Coif of Despair",
 		["iconFileDataID"] = 1339439,
@@ -12211,7 +12230,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [629]
+	}, -- [630]
 	{
 		["itemName"] = "Eventide Casque",
 		["iconFileDataID"] = 1357387,
@@ -12230,7 +12249,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [630]
+	}, -- [631]
 	{
 		["itemName"] = "Eagletalon Cowl",
 		["iconFileDataID"] = 1318381,
@@ -12240,17 +12259,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138342,
 		["itemSetID"] = 1284,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [631]
+	}, -- [632]
 	{
 		["itemName"] = "Mask of Second Sight",
 		["iconFileDataID"] = 1408496,
@@ -12260,17 +12279,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138378,
 		["itemSetID"] = 1282,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [632]
+	}, -- [633]
 	{
 		["itemName"] = "Warhelm of the Obsidian Aspect",
 		["iconFileDataID"] = 1357387,
@@ -12280,17 +12299,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138357,
 		["itemSetID"] = 1292,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [633]
+	}, -- [634]
 	{
 		["itemName"] = "Eyes of Azj'Aqir",
 		["iconFileDataID"] = 1306777,
@@ -12300,17 +12319,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138314,
 		["itemSetID"] = 1291,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [634]
+	}, -- [635]
 	{
 		["itemName"] = "Hood of Enveloped Dissonance",
 		["iconFileDataID"] = 1335534,
@@ -12320,17 +12339,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138331,
 		["itemSetID"] = 1286,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [635]
+	}, -- [636]
 	{
 		["itemName"] = "Hood of the Astral Warden",
 		["iconFileDataID"] = 1339050,
@@ -12340,17 +12359,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138330,
 		["itemSetID"] = 1283,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [636]
+	}, -- [637]
 	{
 		["itemName"] = "Purifier's Gorget",
 		["iconFileDataID"] = 1336646,
@@ -12360,17 +12379,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138313,
 		["itemSetID"] = 1288,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [637]
+	}, -- [638]
 	{
 		["itemName"] = "Dreadwyrm Crown",
 		["iconFileDataID"] = 1320042,
@@ -12380,17 +12399,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138355,
 		["itemSetID"] = 1281,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [638]
+	}, -- [639]
 	{
 		["itemName"] = "Doomblade Cowl",
 		["iconFileDataID"] = 1308712,
@@ -12400,17 +12419,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138332,
 		["itemSetID"] = 1289,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [639]
+	}, -- [640]
 	{
 		["itemName"] = "Helmet of the Highlord",
 		["iconFileDataID"] = 1316219,
@@ -12420,17 +12439,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138356,
 		["itemSetID"] = 1287,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [640]
+	}, -- [641]
 	{
 		["itemName"] = "Hood of Everburning Knowledge",
 		["iconFileDataID"] = 1345978,
@@ -12440,17 +12459,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 50,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 45,
 		["expacID"] = 6,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 45,
+		["isCraftingReagent"] = false,
 		["itemID"] = 138312,
 		["itemSetID"] = 1285,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [641]
+	}, -- [642]
 	{
 		["itemName"] = "Archaic Nathrezim Keepsake",
 		["iconFileDataID"] = 134443,
@@ -12469,7 +12488,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [642]
+	}, -- [643]
 	{
 		["itemName"] = "Precipice of Eternity",
 		["iconFileDataID"] = 1386548,
@@ -12488,7 +12507,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [643]
+	}, -- [644]
 	{
 		["itemName"] = "Suspended Nightwell Droplet",
 		["iconFileDataID"] = 1391773,
@@ -12507,7 +12526,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [644]
+	}, -- [645]
 	{
 		["itemName"] = "Flickering Timespark",
 		["iconFileDataID"] = 1519263,
@@ -12526,7 +12545,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [645]
+	}, -- [646]
 	{
 		["itemName"] = "Illusion: Chronos",
 		["iconFileDataID"] = 237174,
@@ -12545,7 +12564,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [646]
+	}, -- [647]
 	{
 		["itemName"] = "Infused Chitin Fragment",
 		["iconFileDataID"] = 237410,
@@ -12564,7 +12583,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [647]
+	}, -- [648]
 	{
 		["itemName"] = "Chittering Mandible",
 		["iconFileDataID"] = 133726,
@@ -12583,7 +12602,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [648]
+	}, -- [649]
 	{
 		["itemName"] = "Tempest of the Heavens",
 		["iconFileDataID"] = 136046,
@@ -12602,7 +12621,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [649]
+	}, -- [650]
 	{
 		["itemName"] = "Construct Personality Sphere",
 		["iconFileDataID"] = 237185,
@@ -12621,7 +12640,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [650]
+	}, -- [651]
 	{
 		["itemName"] = "Soggy Manascrubber Brush",
 		["iconFileDataID"] = 461132,
@@ -12640,7 +12659,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [651]
+	}, -- [652]
 	{
 		["itemName"] = "Foreign Contaminant",
 		["iconFileDataID"] = 132094,
@@ -12659,7 +12678,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [652]
+	}, -- [653]
 	{
 		["itemName"] = "Heart of Frost",
 		["iconFileDataID"] = 609814,
@@ -12678,7 +12697,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [653]
+	}, -- [654]
 	{
 		["itemName"] = "Arcana Crux",
 		["iconFileDataID"] = 135734,
@@ -12697,7 +12716,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [654]
+	}, -- [655]
 	{
 		["itemName"] = "Soul of Flame",
 		["iconFileDataID"] = 535291,
@@ -12716,7 +12735,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [655]
+	}, -- [656]
 	{
 		["itemName"] = "Manatoxin Gland",
 		["iconFileDataID"] = 237415,
@@ -12735,7 +12754,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [656]
+	}, -- [657]
 	{
 		["itemName"] = "Fingernail of the Fel Brute",
 		["iconFileDataID"] = 134887,
@@ -12754,7 +12773,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [657]
+	}, -- [658]
 	{
 		["itemName"] = "Writ of Subjugation",
 		["iconFileDataID"] = 237449,
@@ -12773,7 +12792,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [658]
+	}, -- [659]
 	{
 		["itemName"] = "Sundered Comet",
 		["iconFileDataID"] = 1033907,
@@ -12792,7 +12811,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [659]
+	}, -- [660]
 	{
 		["itemName"] = "Breath of Dusk",
 		["iconFileDataID"] = 136201,
@@ -12811,7 +12830,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [660]
+	}, -- [661]
 	{
 		["itemName"] = "Sunflare Coal",
 		["iconFileDataID"] = 961622,
@@ -12830,7 +12849,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [661]
+	}, -- [662]
 	{
 		["itemName"] = "Phial of Fel Blood",
 		["iconFileDataID"] = 650637,
@@ -12849,7 +12868,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [662]
+	}, -- [663]
 	{
 		["itemName"] = "Lionshead Lapel Clasp",
 		["iconFileDataID"] = 1519261,
@@ -12868,7 +12887,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [663]
+	}, -- [664]
 	{
 		["itemName"] = "Vampiric Fetish",
 		["iconFileDataID"] = 897091,
@@ -12887,7 +12906,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [664]
+	}, -- [665]
 	{
 		["itemName"] = "Felstained Jawbone Fragments",
 		["iconFileDataID"] = 1519260,
@@ -12906,7 +12925,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [665]
+	}, -- [666]
 	{
 		["itemName"] = "Glistening Meteorite Shard",
 		["iconFileDataID"] = 237196,
@@ -12925,7 +12944,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [666]
+	}, -- [667]
 	{
 		["itemName"] = "Parasitic Spore",
 		["iconFileDataID"] = 132371,
@@ -12944,7 +12963,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [667]
+	}, -- [668]
 	{
 		["itemName"] = "Unkindled Ember",
 		["iconFileDataID"] = 514016,
@@ -12963,7 +12982,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [668]
+	}, -- [669]
 	{
 		["itemName"] = "Felfire Pitch",
 		["iconFileDataID"] = 237150,
@@ -12982,7 +13001,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [669]
+	}, -- [670]
 	{
 		["itemName"] = "Warchief's Shattered Tusk",
 		["iconFileDataID"] = 1519262,
@@ -13001,7 +13020,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [670]
+	}, -- [671]
 	{
 		["itemName"] = "Exothermic Core",
 		["iconFileDataID"] = 252172,
@@ -13020,7 +13039,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [671]
+	}, -- [672]
 	{
 		["itemName"] = "Collapsing Epoch",
 		["iconFileDataID"] = 132886,
@@ -13039,7 +13058,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [672]
+	}, -- [673]
 	{
 		["itemName"] = "Farsight Spiritjewel",
 		["iconFileDataID"] = 134333,
@@ -13058,7 +13077,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [673]
+	}, -- [674]
 	{
 		["itemName"] = "Chains of the Valorous",
 		["iconFileDataID"] = 132508,
@@ -13077,7 +13096,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [674]
+	}, -- [675]
 	{
 		["itemName"] = "Brinewater Slime in a Bottle",
 		["iconFileDataID"] = 236877,
@@ -13096,7 +13115,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [675]
+	}, -- [676]
 	{
 		["itemName"] = "Eye of Guarm",
 		["iconFileDataID"] = 237298,
@@ -13115,7 +13134,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [676]
+	}, -- [677]
 	{
 		["itemName"] = "Ring of Ascended Glory",
 		["iconFileDataID"] = 1408460,
@@ -13134,7 +13153,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [677]
+	}, -- [678]
 	{
 		["itemName"] = "Treads of the Drowned",
 		["iconFileDataID"] = 1515412,
@@ -13153,7 +13172,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [678]
+	}, -- [679]
 	{
 		["itemName"] = "Lead-Soled Seabed Striders",
 		["iconFileDataID"] = 1509493,
@@ -13172,7 +13191,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [679]
+	}, -- [680]
 	{
 		["itemName"] = "Moccasins of Silent Passage",
 		["iconFileDataID"] = 1519204,
@@ -13191,7 +13210,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [680]
+	}, -- [681]
 	{
 		["itemName"] = "Radiant Soul Sabatons",
 		["iconFileDataID"] = 1501127,
@@ -13210,7 +13229,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [681]
+	}, -- [682]
 	{
 		["itemName"] = "Sucker-Scarred Leggings",
 		["iconFileDataID"] = 1519209,
@@ -13229,7 +13248,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [682]
+	}, -- [683]
 	{
 		["itemName"] = "Leggings of the Lower Planes",
 		["iconFileDataID"] = 1515417,
@@ -13248,7 +13267,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [683]
+	}, -- [684]
 	{
 		["itemName"] = "Leggings of the Undaunted",
 		["iconFileDataID"] = 1501133,
@@ -13267,7 +13286,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [684]
+	}, -- [685]
 	{
 		["itemName"] = "Goldrune Legplates",
 		["iconFileDataID"] = 1509498,
@@ -13286,7 +13305,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [685]
+	}, -- [686]
 	{
 		["itemName"] = "Strand of Whelk Shells",
 		["iconFileDataID"] = 1519203,
@@ -13305,7 +13324,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [686]
+	}, -- [687]
 	{
 		["itemName"] = "Anchor Chain Waistguard",
 		["iconFileDataID"] = 1501126,
@@ -13324,7 +13343,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [687]
+	}, -- [688]
 	{
 		["itemName"] = "Krakenbone Waistplate",
 		["iconFileDataID"] = 1509492,
@@ -13343,7 +13362,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [688]
+	}, -- [689]
 	{
 		["itemName"] = "Cinch of Light",
 		["iconFileDataID"] = 1515411,
@@ -13362,7 +13381,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [689]
+	}, -- [690]
 	{
 		["itemName"] = "Reinforced Hound-Handler's Gauntlets",
 		["iconFileDataID"] = 1509496,
@@ -13381,7 +13400,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [690]
+	}, -- [691]
 	{
 		["itemName"] = "Kvaldir Exult's Grips",
 		["iconFileDataID"] = 1501131,
@@ -13400,7 +13419,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [691]
+	}, -- [692]
 	{
 		["itemName"] = "Oiled Rigger's Handwraps",
 		["iconFileDataID"] = 1515415,
@@ -13419,7 +13438,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [692]
+	}, -- [693]
 	{
 		["itemName"] = "Gloves of Issued Challenge",
 		["iconFileDataID"] = 1519207,
@@ -13438,7 +13457,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [693]
+	}, -- [694]
 	{
 		["itemName"] = "Calcareous Wristclamps",
 		["iconFileDataID"] = 1509494,
@@ -13457,7 +13476,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [694]
+	}, -- [695]
 	{
 		["itemName"] = "Helhound Hair Bracers",
 		["iconFileDataID"] = 1515413,
@@ -13476,7 +13495,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [695]
+	}, -- [696]
 	{
 		["itemName"] = "Bite-Resistant Wristclamps",
 		["iconFileDataID"] = 1501128,
@@ -13495,7 +13514,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [696]
+	}, -- [697]
 	{
 		["itemName"] = "Sky-Valiant's Wristguards",
 		["iconFileDataID"] = 1519205,
@@ -13514,7 +13533,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [697]
+	}, -- [698]
 	{
 		["itemName"] = "Robes of Celestial Adornment",
 		["iconFileDataID"] = 1515414,
@@ -13533,7 +13552,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [698]
+	}, -- [699]
 	{
 		["itemName"] = "Helbeast Skin Tunic",
 		["iconFileDataID"] = 1519206,
@@ -13552,7 +13571,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [699]
+	}, -- [700]
 	{
 		["itemName"] = "Corroded Val'kyr Chainmail",
 		["iconFileDataID"] = 1501130,
@@ -13571,7 +13590,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [700]
+	}, -- [701]
 	{
 		["itemName"] = "Gleaming Val'kyr Cuirass",
 		["iconFileDataID"] = 1509495,
@@ -13590,7 +13609,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [701]
+	}, -- [702]
 	{
 		["itemName"] = "Mantle of the Victorious Dead",
 		["iconFileDataID"] = 1529277,
@@ -13609,7 +13628,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [702]
+	}, -- [703]
 	{
 		["itemName"] = "Drape of the Unworthy",
 		["iconFileDataID"] = 1515426,
@@ -13628,7 +13647,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [703]
+	}, -- [704]
 	{
 		["itemName"] = "Windwhipped Sailcloth",
 		["iconFileDataID"] = 1515345,
@@ -13647,10 +13666,10 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [704]
+	}, -- [705]
 	{
 		["itemID"] = 142428,
-	}, -- [705]
+	}, -- [706]
 	{
 		["itemName"] = "Phylactery of Unwilling Servitude",
 		["iconFileDataID"] = 967511,
@@ -13669,7 +13688,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [706]
+	}, -- [707]
 	{
 		["itemName"] = "Token of the Lightning Keeper",
 		["iconFileDataID"] = 136103,
@@ -13688,7 +13707,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [707]
+	}, -- [708]
 	{
 		["itemName"] = "Sizzling Fang",
 		["iconFileDataID"] = 514017,
@@ -13707,7 +13726,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [708]
+	}, -- [709]
 	{
 		["itemName"] = "Accursed Cuspid",
 		["iconFileDataID"] = 1518090,
@@ -13726,7 +13745,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [709]
+	}, -- [710]
 	{
 		["itemName"] = "Chilled Incisor",
 		["iconFileDataID"] = 429386,
@@ -13745,7 +13764,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [710]
+	}, -- [711]
 	{
 		["itemName"] = "Unforged Titansteel",
 		["iconFileDataID"] = 237046,
@@ -13764,7 +13783,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [711]
+	}, -- [712]
 	{
 		["itemName"] = "Swell of the Tides",
 		["iconFileDataID"] = 237590,
@@ -13783,7 +13802,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [712]
+	}, -- [713]
 	{
 		["itemName"] = "Fury of the Sea",
 		["iconFileDataID"] = 607849,
@@ -13802,7 +13821,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [713]
+	}, -- [714]
 	{
 		["itemName"] = "Ravens' Sight",
 		["iconFileDataID"] = 645217,
@@ -13821,7 +13840,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [714]
+	}, -- [715]
 	{
 		["itemName"] = "Favor of the Prime Designate",
 		["iconFileDataID"] = 612099,
@@ -13840,7 +13859,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [715]
+	}, -- [716]
 	{
 		["itemName"] = "Twisting Wind",
 		["iconFileDataID"] = 132119,
@@ -13859,7 +13878,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [716]
+	}, -- [717]
 	{
 		["itemName"] = "Spontaneous Appendages",
 		["iconFileDataID"] = 254105,
@@ -13878,7 +13897,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [717]
+	}, -- [718]
 	{
 		["itemName"] = "Wriggling Sinew",
 		["iconFileDataID"] = 134895,
@@ -13897,7 +13916,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [718]
+	}, -- [719]
 	{
 		["itemName"] = "Goblet of Nightmarish Ichor",
 		["iconFileDataID"] = 132789,
@@ -13916,7 +13935,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [719]
+	}, -- [720]
 	{
 		["itemName"] = "Bloodthirsty Instinct",
 		["iconFileDataID"] = 132139,
@@ -13935,7 +13954,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [720]
+	}, -- [721]
 	{
 		["itemName"] = "Heightened Senses",
 		["iconFileDataID"] = 132160,
@@ -13954,7 +13973,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [721]
+	}, -- [722]
 	{
 		["itemName"] = "Ursoc's Rending Paw",
 		["iconFileDataID"] = 132143,
@@ -13973,7 +13992,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [722]
+	}, -- [723]
 	{
 		["itemName"] = "Cocoon of Enforced Solitude",
 		["iconFileDataID"] = 237430,
@@ -13992,7 +14011,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [723]
+	}, -- [724]
 	{
 		["itemName"] = "Unstable Horrorslime",
 		["iconFileDataID"] = 1357800,
@@ -14011,7 +14030,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [724]
+	}, -- [725]
 	{
 		["itemName"] = "Vial of Nightmare Fog",
 		["iconFileDataID"] = 132378,
@@ -14030,7 +14049,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [725]
+	}, -- [726]
 	{
 		["itemName"] = "Phantasmal Echo",
 		["iconFileDataID"] = 135994,
@@ -14049,7 +14068,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [726]
+	}, -- [727]
 	{
 		["itemName"] = "Unbridled Fury",
 		["iconFileDataID"] = 132126,
@@ -14068,7 +14087,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [727]
+	}, -- [728]
 	{
 		["itemName"] = "Ravaged Seed Pod",
 		["iconFileDataID"] = 656441,
@@ -14087,7 +14106,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [728]
+	}, -- [729]
 	{
 		["itemName"] = "Nature's Call",
 		["iconFileDataID"] = 236150,
@@ -14106,7 +14125,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [729]
+	}, -- [730]
 	{
 		["itemName"] = "Swarming Plaguehive",
 		["iconFileDataID"] = 538518,
@@ -14125,7 +14144,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [730]
+	}, -- [731]
 	{
 		["itemName"] = "Horn of Cenarius",
 		["iconFileDataID"] = 237378,
@@ -14144,7 +14163,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [731]
+	}, -- [732]
 	{
 		["itemName"] = "Grotesque Statuette",
 		["iconFileDataID"] = 134908,
@@ -14163,7 +14182,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [732]
+	}, -- [733]
 	{
 		["itemName"] = "Bough of Corruption",
 		["iconFileDataID"] = 135162,
@@ -14182,7 +14201,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [733]
+	}, -- [734]
 	{
 		["itemName"] = "Dreadful Cyclopean Signet",
 		["iconFileDataID"] = 1391744,
@@ -14201,7 +14220,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [734]
+	}, -- [735]
 	{
 		["itemName"] = "Mindrend Band",
 		["iconFileDataID"] = 1391763,
@@ -14220,7 +14239,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [735]
+	}, -- [736]
 	{
 		["itemName"] = "Grubby Silver Ring",
 		["iconFileDataID"] = 1391736,
@@ -14239,7 +14258,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [736]
+	}, -- [737]
 	{
 		["itemName"] = "Twice-Warped Azsharan Signet",
 		["iconFileDataID"] = 1391756,
@@ -14258,7 +14277,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [737]
+	}, -- [738]
 	{
 		["itemName"] = "Stained Maggot Squishers",
 		["iconFileDataID"] = 1408492,
@@ -14277,7 +14296,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [738]
+	}, -- [739]
 	{
 		["itemName"] = "Black Venom Sabatons",
 		["iconFileDataID"] = 1339435,
@@ -14296,7 +14315,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [739]
+	}, -- [740]
 	{
 		["itemName"] = "Crimson Wool-Lined Slippers",
 		["iconFileDataID"] = 1345974,
@@ -14315,7 +14334,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [740]
+	}, -- [741]
 	{
 		["itemName"] = "Scored Ironclaw Sabatons",
 		["iconFileDataID"] = 1339435,
@@ -14334,7 +14353,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [741]
+	}, -- [742]
 	{
 		["itemName"] = "Malignant Sabatons",
 		["iconFileDataID"] = 1318377,
@@ -14353,7 +14372,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [742]
+	}, -- [743]
 	{
 		["itemName"] = "Trampling Warboots",
 		["iconFileDataID"] = 1357449,
@@ -14372,7 +14391,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [743]
+	}, -- [744]
 	{
 		["itemName"] = "Cozy Dryad Hoof-Socks",
 		["iconFileDataID"] = 1336642,
@@ -14391,7 +14410,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [744]
+	}, -- [745]
 	{
 		["itemName"] = "Boots of Endless Betrayal",
 		["iconFileDataID"] = 1308708,
@@ -14410,7 +14429,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [745]
+	}, -- [746]
 	{
 		["itemName"] = "Storm-Battered Legplates",
 		["iconFileDataID"] = 1320043,
@@ -14429,7 +14448,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [746]
+	}, -- [747]
 	{
 		["itemName"] = "Singular Chain Leggings",
 		["iconFileDataID"] = 1339441,
@@ -14448,7 +14467,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [747]
+	}, -- [748]
 	{
 		["itemName"] = "Splotched Bloodfur Leggings",
 		["iconFileDataID"] = 1308713,
@@ -14467,7 +14486,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [748]
+	}, -- [749]
 	{
 		["itemName"] = "Ragged Horrorweave Leggings",
 		["iconFileDataID"] = 1306778,
@@ -14486,7 +14505,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [749]
+	}, -- [750]
 	{
 		["itemName"] = "Disjointed Linkage Leggings",
 		["iconFileDataID"] = 1318382,
@@ -14505,7 +14524,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [750]
+	}, -- [751]
 	{
 		["itemName"] = "Repulsive Leathery Pants",
 		["iconFileDataID"] = 1408497,
@@ -14524,7 +14543,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [751]
+	}, -- [752]
 	{
 		["itemName"] = "Waistplate of Nameless Horror",
 		["iconFileDataID"] = 1320037,
@@ -14543,7 +14562,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [752]
+	}, -- [753]
 	{
 		["itemName"] = "Creeping String of Larva",
 		["iconFileDataID"] = 1339434,
@@ -14562,7 +14581,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [753]
+	}, -- [754]
 	{
 		["itemName"] = "Lifeless Buckled Girdle",
 		["iconFileDataID"] = 1335529,
@@ -14581,7 +14600,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [754]
+	}, -- [755]
 	{
 		["itemName"] = "Pliable Spider Silk Cinch",
 		["iconFileDataID"] = 1345973,
@@ -14600,7 +14619,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [755]
+	}, -- [756]
 	{
 		["itemName"] = "Forest-Lord's Waistwrap",
 		["iconFileDataID"] = 1339044,
@@ -14619,7 +14638,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [756]
+	}, -- [757]
 	{
 		["itemName"] = "Laughing Sister's Pouch-Chain",
 		["iconFileDataID"] = 1318376,
@@ -14638,7 +14657,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [757]
+	}, -- [758]
 	{
 		["itemName"] = "Eon-Tempered Waistplate",
 		["iconFileDataID"] = 1357433,
@@ -14657,7 +14676,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [758]
+	}, -- [759]
 	{
 		["itemName"] = "Gauntlets of Malevolent Intent",
 		["iconFileDataID"] = 1318380,
@@ -14676,7 +14695,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [759]
+	}, -- [760]
 	{
 		["itemName"] = "Dreamsculptor's Gloves",
 		["iconFileDataID"] = 1339049,
@@ -14695,7 +14714,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [760]
+	}, -- [761]
 	{
 		["itemName"] = "Primal Gauntlets of Rage",
 		["iconFileDataID"] = 1357447,
@@ -14714,7 +14733,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [761]
+	}, -- [762]
 	{
 		["itemName"] = "Gauntlets of the Demented Mind",
 		["iconFileDataID"] = 1339438,
@@ -14733,7 +14752,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [762]
+	}, -- [763]
 	{
 		["itemName"] = "Handwraps of Delusional Power",
 		["iconFileDataID"] = 1306776,
@@ -14752,7 +14771,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [763]
+	}, -- [764]
 	{
 		["itemName"] = "Fitted Ironbark Gauntlets",
 		["iconFileDataID"] = 1357447,
@@ -14771,7 +14790,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [764]
+	}, -- [765]
 	{
 		["itemName"] = "Clasp of Cosmic Insignificance",
 		["iconFileDataID"] = 1306774,
@@ -14790,7 +14809,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [765]
+	}, -- [766]
 	{
 		["itemName"] = "Ragged Fur Wristwraps",
 		["iconFileDataID"] = 1336643,
@@ -14809,7 +14828,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [766]
+	}, -- [767]
 	{
 		["itemName"] = "Wristwraps of Broken Trust",
 		["iconFileDataID"] = 1408493,
@@ -14828,7 +14847,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [767]
+	}, -- [768]
 	{
 		["itemName"] = "Dragonspur Wristguards",
 		["iconFileDataID"] = 1339046,
@@ -14847,7 +14866,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [768]
+	}, -- [769]
 	{
 		["itemName"] = "Dragonbone Wristclamps",
 		["iconFileDataID"] = 1357445,
@@ -14866,7 +14885,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [769]
+	}, -- [770]
 	{
 		["itemName"] = "Wristclamps of Mad Dreams",
 		["iconFileDataID"] = 1320039,
@@ -14885,7 +14904,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [770]
+	}, -- [771]
 	{
 		["itemName"] = "Manacles of the Nightmare Colossus",
 		["iconFileDataID"] = 1339436,
@@ -14904,7 +14923,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [771]
+	}, -- [772]
 	{
 		["itemName"] = "Insect-Etched Chestplate",
 		["iconFileDataID"] = 1316217,
@@ -14923,7 +14942,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [772]
+	}, -- [773]
 	{
 		["itemName"] = "Patient Ambusher's Hauberk",
 		["iconFileDataID"] = 1318379,
@@ -14942,7 +14961,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [773]
+	}, -- [774]
 	{
 		["itemName"] = "Grove Keeper's Robe",
 		["iconFileDataID"] = 1339048,
@@ -14961,7 +14980,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [774]
+	}, -- [775]
 	{
 		["itemName"] = "Dreamscale Inlaid Vestments",
 		["iconFileDataID"] = 1336644,
@@ -14980,7 +14999,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [775]
+	}, -- [776]
 	{
 		["itemName"] = "Horror Inscribed Chestguard",
 		["iconFileDataID"] = 1320040,
@@ -14999,7 +15018,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [776]
+	}, -- [777]
 	{
 		["itemName"] = "Scarred Ragefang Chestpiece",
 		["iconFileDataID"] = 1335532,
@@ -15018,7 +15037,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [777]
+	}, -- [778]
 	{
 		["itemName"] = "Maddening Robe of Secrets",
 		["iconFileDataID"] = 1306775,
@@ -15037,7 +15056,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [778]
+	}, -- [779]
 	{
 		["itemName"] = "Gossamer-Spun Greatcloak",
 		["iconFileDataID"] = 1339047,
@@ -15056,7 +15075,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [779]
+	}, -- [780]
 	{
 		["itemName"] = "Evergreen Vinewrap Drape",
 		["iconFileDataID"] = 1335806,
@@ -15075,7 +15094,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [780]
+	}, -- [781]
 	{
 		["itemName"] = "Otherworldy Leather Mantle",
 		["iconFileDataID"] = 1308714,
@@ -15094,7 +15113,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [781]
+	}, -- [782]
 	{
 		["itemName"] = "Pauldrons of Shifting Runes",
 		["iconFileDataID"] = 1316221,
@@ -15113,7 +15132,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [782]
+	}, -- [783]
 	{
 		["itemName"] = "Ancient Dreamwoven Mantle",
 		["iconFileDataID"] = 1345981,
@@ -15132,7 +15151,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [783]
+	}, -- [784]
 	{
 		["itemName"] = "Matted Fur Pauldrons",
 		["iconFileDataID"] = 1318383,
@@ -15151,7 +15170,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [784]
+	}, -- [785]
 	{
 		["itemName"] = "Mantle of Perpetual Bloom",
 		["iconFileDataID"] = 1336648,
@@ -15170,7 +15189,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [785]
+	}, -- [786]
 	{
 		["itemName"] = "Thorny Bramblemail Pauldrons",
 		["iconFileDataID"] = 1339442,
@@ -15189,7 +15208,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [786]
+	}, -- [787]
 	{
 		["itemName"] = "The First Satyr's Spaulders",
 		["iconFileDataID"] = 1045428,
@@ -15208,7 +15227,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [787]
+	}, -- [788]
 	{
 		["itemName"] = "Midnight Herald's Pauldrons",
 		["iconFileDataID"] = 1320044,
@@ -15227,7 +15246,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [788]
+	}, -- [789]
 	{
 		["itemName"] = "Cursed Beartooth Necklace",
 		["iconFileDataID"] = 1360040,
@@ -15246,7 +15265,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [789]
+	}, -- [790]
 	{
 		["itemName"] = "Blackened Portalstone Necklace",
 		["iconFileDataID"] = 1360018,
@@ -15265,7 +15284,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [790]
+	}, -- [791]
 	{
 		["itemName"] = "Mask of Multitudinous Eyes",
 		["iconFileDataID"] = 1308712,
@@ -15284,7 +15303,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [791]
+	}, -- [792]
 	{
 		["itemName"] = "Celestially Aligned Hood",
 		["iconFileDataID"] = 1336646,
@@ -15303,7 +15322,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [792]
+	}, -- [793]
 	{
 		["itemName"] = "Greyed Dragonscale Coif",
 		["iconFileDataID"] = 1318381,
@@ -15322,7 +15341,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [793]
+	}, -- [794]
 	{
 		["itemName"] = "Venom-Fanged Barbute",
 		["iconFileDataID"] = 1320042,
@@ -15341,7 +15360,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [794]
+	}, -- [795]
 	{
 		["itemName"] = "Cowl of Fright",
 		["iconFileDataID"] = 1408496,
@@ -15360,7 +15379,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [795]
+	}, -- [796]
 	{
 		["itemName"] = "Crown of Steely Brambles",
 		["iconFileDataID"] = 1316219,
@@ -15379,7 +15398,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [796]
+	}, -- [797]
 	{
 		["itemName"] = "Hood of Darkened Visions",
 		["iconFileDataID"] = 1306777,
@@ -15398,7 +15417,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [797]
+	}, -- [798]
 	{
 		["itemName"] = "Cube of Malice",
 		["iconFileDataID"] = 237285,
@@ -15417,7 +15436,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [798]
+	}, -- [799]
 	{
 		["itemName"] = "Radiating Metallic Shard",
 		["iconFileDataID"] = 466847,
@@ -15436,7 +15455,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [799]
+	}, -- [800]
 	{
 		["itemName"] = "Sloshing Core of Hatred",
 		["iconFileDataID"] = 839610,
@@ -15455,7 +15474,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [800]
+	}, -- [801]
 	{
 		["itemName"] = "Gore-Drenched Fetish",
 		["iconFileDataID"] = 458256,
@@ -15474,7 +15493,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [801]
+	}, -- [802]
 	{
 		["itemName"] = "Preserved Worldseed",
 		["iconFileDataID"] = 464030,
@@ -15493,7 +15512,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [802]
+	}, -- [803]
 	{
 		["itemName"] = "Bloodied Bear Fang",
 		["iconFileDataID"] = 134298,
@@ -15512,7 +15531,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [803]
+	}, -- [804]
 	{
 		["itemName"] = "Reverberating Femur",
 		["iconFileDataID"] = 133718,
@@ -15531,7 +15550,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [804]
+	}, -- [805]
 	{
 		["itemName"] = "Stormfury Diamond",
 		["iconFileDataID"] = 1412203,
@@ -15550,7 +15569,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [805]
+	}, -- [806]
 	{
 		["itemName"] = "Scything Quill",
 		["iconFileDataID"] = 132915,
@@ -15569,7 +15588,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [806]
+	}, -- [807]
 	{
 		["itemName"] = "Shrieking Bloodstone",
 		["iconFileDataID"] = 134084,
@@ -15588,7 +15607,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [807]
+	}, -- [808]
 	{
 		["itemName"] = "Fel-Bloated Venom Sac",
 		["iconFileDataID"] = 237415,
@@ -15607,7 +15626,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [808]
+	}, -- [809]
 	{
 		["itemName"] = "Nightmare Engulfed Jewel",
 		["iconFileDataID"] = 136163,
@@ -15626,7 +15645,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [809]
+	}, -- [810]
 	{
 		["itemName"] = "Bioluminescent Mushroom",
 		["iconFileDataID"] = 1029746,
@@ -15645,7 +15664,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [810]
+	}, -- [811]
 	{
 		["itemName"] = "Entrancing Stone",
 		["iconFileDataID"] = 134333,
@@ -15664,7 +15683,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [811]
+	}, -- [812]
 	{
 		["itemName"] = "Tuft of Ironfur",
 		["iconFileDataID"] = 237423,
@@ -15683,7 +15702,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [812]
+	}, -- [813]
 	{
 		["itemName"] = "Despoiled Dragonscale",
 		["iconFileDataID"] = 377272,
@@ -15702,7 +15721,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [813]
+	}, -- [814]
 	{
 		["itemName"] = "Radiant Dragon Egg",
 		["iconFileDataID"] = 651737,
@@ -15721,7 +15740,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [814]
+	}, -- [815]
 	{
 		["itemName"] = "Uplifting Emerald",
 		["iconFileDataID"] = 611647,
@@ -15740,7 +15759,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [815]
+	}, -- [816]
 	{
 		["itemName"] = "Unwaking Slumber",
 		["iconFileDataID"] = 136090,
@@ -15759,7 +15778,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [816]
+	}, -- [817]
 	{
 		["itemName"] = "Blessing of Cenarius",
 		["iconFileDataID"] = 348566,
@@ -15778,7 +15797,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [817]
+	}, -- [818]
 	{
 		["itemName"] = "Illusion: Nightmare",
 		["iconFileDataID"] = 237174,
@@ -15797,7 +15816,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [818]
+	}, -- [819]
 	{
 		["itemName"] = "Shaladrassil's Blossom",
 		["iconFileDataID"] = 339292,
@@ -15816,7 +15835,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [819]
+	}, -- [820]
 	{
 		["itemName"] = "Fragment of Eternal Spite",
 		["iconFileDataID"] = 132345,
@@ -15835,7 +15854,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [820]
+	}, -- [821]
 	{
 		["itemName"] = "Azsharan Councillor's Clasp",
 		["iconFileDataID"] = 132374,
@@ -15854,7 +15873,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [821]
+	}, -- [822]
 	{
 		["itemName"] = "Crystallized Drop of Eternity",
 		["iconFileDataID"] = 458245,
@@ -15873,7 +15892,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [822]
+	}, -- [823]
 	{
 		["itemName"] = "Nightmarish Elm Branch",
 		["iconFileDataID"] = 959798,
@@ -15892,7 +15911,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [823]
+	}, -- [824]
 	{
 		["itemName"] = "Ettin Fingernail",
 		["iconFileDataID"] = 134882,
@@ -15911,7 +15930,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [824]
+	}, -- [825]
 	{
 		["itemName"] = "Padawsen's Unlucky Charm",
 		["iconFileDataID"] = 430840,
@@ -15930,7 +15949,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [825]
+	}, -- [826]
 	{
 		["itemName"] = "Thrice-Accursed Compass",
 		["iconFileDataID"] = 134234,
@@ -15949,7 +15968,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [826]
+	}, -- [827]
 	{
 		["itemName"] = "Unstable Arcanocrystal",
 		["iconFileDataID"] = 132778,
@@ -15968,7 +15987,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [827]
+	}, -- [828]
 	{
 		["itemName"] = "Marshstomper Oracle's Loop",
 		["iconFileDataID"] = 1391760,
@@ -15987,7 +16006,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [828]
+	}, -- [829]
 	{
 		["itemName"] = "Ring of Frozen Magic",
 		["iconFileDataID"] = 1391742,
@@ -16006,7 +16025,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [829]
+	}, -- [830]
 	{
 		["itemName"] = "Ring of Deep Sea Pearls",
 		["iconFileDataID"] = 1408442,
@@ -16025,7 +16044,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [830]
+	}, -- [831]
 	{
 		["itemName"] = "Mana-Dowsing Ring",
 		["iconFileDataID"] = 1391758,
@@ -16044,7 +16063,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [831]
+	}, -- [832]
 	{
 		["itemName"] = "Cursed Warden's Keepsake",
 		["iconFileDataID"] = 1391729,
@@ -16063,7 +16082,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [832]
+	}, -- [833]
 	{
 		["itemName"] = "Loop of Polished Pebbles",
 		["iconFileDataID"] = 1391679,
@@ -16082,7 +16101,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [833]
+	}, -- [834]
 	{
 		["itemName"] = "Coral Band of the Abyss",
 		["iconFileDataID"] = 1391749,
@@ -16101,7 +16120,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [834]
+	}, -- [835]
 	{
 		["itemName"] = "Demonic Birthstone Ring",
 		["iconFileDataID"] = 1391726,
@@ -16120,7 +16139,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [835]
+	}, -- [836]
 	{
 		["itemName"] = "Band of Dark Millennia",
 		["iconFileDataID"] = 1391757,
@@ -16139,7 +16158,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [836]
+	}, -- [837]
 	{
 		["itemName"] = "Dingy Suramar Mercantile Signet",
 		["iconFileDataID"] = 1391753,
@@ -16158,7 +16177,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [837]
+	}, -- [838]
 	{
 		["itemName"] = "Frostburned Sabatons",
 		["iconFileDataID"] = 1318377,
@@ -16177,7 +16196,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [838]
+	}, -- [839]
 	{
 		["itemName"] = "Warboots of Smoldering Fury",
 		["iconFileDataID"] = 1316215,
@@ -16196,7 +16215,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [839]
+	}, -- [840]
 	{
 		["itemName"] = "Sandals of Frozen Ash",
 		["iconFileDataID"] = 1345974,
@@ -16215,7 +16234,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [840]
+	}, -- [841]
 	{
 		["itemName"] = "Mana-Tanned Sandals",
 		["iconFileDataID"] = 1335530,
@@ -16234,7 +16253,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [841]
+	}, -- [842]
 	{
 		["itemName"] = "Treads of Disorderly Retreat",
 		["iconFileDataID"] = 1550415,
@@ -16253,7 +16272,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [842]
+	}, -- [843]
 	{
 		["itemName"] = "Doom-Herald's Footpads",
 		["iconFileDataID"] = 1550781,
@@ -16272,7 +16291,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [843]
+	}, -- [844]
 	{
 		["itemName"] = "Malicious Zealot's Legplates",
 		["iconFileDataID"] = 1512753,
@@ -16291,7 +16310,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [844]
+	}, -- [845]
 	{
 		["itemName"] = "Legguards of Unholy Disdain",
 		["iconFileDataID"] = 1537006,
@@ -16310,7 +16329,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [845]
+	}, -- [846]
 	{
 		["itemName"] = "Desiccated Leather Pants",
 		["iconFileDataID"] = 1308713,
@@ -16329,7 +16348,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [846]
+	}, -- [847]
 	{
 		["itemName"] = "Na'zak's Dusty Pantaloons",
 		["iconFileDataID"] = 1306778,
@@ -16348,7 +16367,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [847]
+	}, -- [848]
 	{
 		["itemName"] = "Venomscarred Chain Leggings",
 		["iconFileDataID"] = 1318382,
@@ -16367,7 +16386,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [848]
+	}, -- [849]
 	{
 		["itemName"] = "Avalanche Resistant Legplates",
 		["iconFileDataID"] = 1320043,
@@ -16386,7 +16405,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [849]
+	}, -- [850]
 	{
 		["itemName"] = "Glistening Seaspray Legguards",
 		["iconFileDataID"] = 1559209,
@@ -16405,7 +16424,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [850]
+	}, -- [851]
 	{
 		["itemName"] = "Leggings of Echoing Calamity",
 		["iconFileDataID"] = 1603361,
@@ -16424,7 +16443,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [851]
+	}, -- [852]
 	{
 		["itemName"] = "Dockthrasher Cinch",
 		["iconFileDataID"] = 1518065,
@@ -16443,7 +16462,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [852]
+	}, -- [853]
 	{
 		["itemName"] = "Helchain Waistguard",
 		["iconFileDataID"] = 1318376,
@@ -16462,7 +16481,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [853]
+	}, -- [854]
 	{
 		["itemName"] = "Hel-Cursed Belt",
 		["iconFileDataID"] = 1408491,
@@ -16481,7 +16500,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [854]
+	}, -- [855]
 	{
 		["itemName"] = "Sea-Reaver's Girdle",
 		["iconFileDataID"] = 1357433,
@@ -16500,7 +16519,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [855]
+	}, -- [856]
 	{
 		["itemName"] = "Reaver's Rattling Girdle",
 		["iconFileDataID"] = 1518774,
@@ -16519,7 +16538,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [856]
+	}, -- [857]
 	{
 		["itemName"] = "Cord of Kept Souls",
 		["iconFileDataID"] = 1306772,
@@ -16538,7 +16557,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [857]
+	}, -- [858]
 	{
 		["itemName"] = "Faded Bloodsail Handwraps",
 		["iconFileDataID"] = 1345977,
@@ -16557,7 +16576,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [858]
+	}, -- [859]
 	{
 		["itemName"] = "Salt-Stained Tuskarr Gloves",
 		["iconFileDataID"] = 1308711,
@@ -16576,7 +16595,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [859]
+	}, -- [860]
 	{
 		["itemName"] = "Kezan Pirate's Mitts",
 		["iconFileDataID"] = 1357447,
@@ -16595,7 +16614,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [860]
+	}, -- [861]
 	{
 		["itemName"] = "Blackwater Raider Handguards",
 		["iconFileDataID"] = 1339438,
@@ -16614,7 +16633,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [861]
+	}, -- [862]
 	{
 		["itemName"] = "Taloned Brain-Scrapers",
 		["iconFileDataID"] = 1529801,
@@ -16633,7 +16652,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [862]
+	}, -- [863]
 	{
 		["itemName"] = "Seaweed \"Leather\" Mitts",
 		["iconFileDataID"] = 1335533,
@@ -16652,7 +16671,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [863]
+	}, -- [864]
 	{
 		["itemName"] = "Whirlpool Gloves",
 		["iconFileDataID"] = 1336645,
@@ -16671,7 +16690,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [864]
+	}, -- [865]
 	{
 		["itemName"] = "Chum-Chopper Gauntlets",
 		["iconFileDataID"] = 1320041,
@@ -16690,7 +16709,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [865]
+	}, -- [866]
 	{
 		["itemName"] = "Hook-Fingered Gauntlets",
 		["iconFileDataID"] = 1318380,
@@ -16709,7 +16728,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [866]
+	}, -- [867]
 	{
 		["itemName"] = "Gauntlets of Dreadful Tenacity",
 		["iconFileDataID"] = 1551053,
@@ -16728,7 +16747,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [867]
+	}, -- [868]
 	{
 		["itemName"] = "Rigid Meteorguard Gauntlets",
 		["iconFileDataID"] = 1531501,
@@ -16747,7 +16766,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [868]
+	}, -- [869]
 	{
 		["itemName"] = "Ashen Worldscorcher Gloves",
 		["iconFileDataID"] = 1533498,
@@ -16766,7 +16785,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [869]
+	}, -- [870]
 	{
 		["itemName"] = "Assorted Dragonscale Bracers",
 		["iconFileDataID"] = 1318378,
@@ -16785,7 +16804,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [870]
+	}, -- [871]
 	{
 		["itemName"] = "Snowdrift Bracers",
 		["iconFileDataID"] = 1336643,
@@ -16804,7 +16823,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [871]
+	}, -- [872]
 	{
 		["itemName"] = "Ettinbone Bracers",
 		["iconFileDataID"] = 1320039,
@@ -16823,7 +16842,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [872]
+	}, -- [873]
 	{
 		["itemName"] = "Wax-Sealed Leather Bracers",
 		["iconFileDataID"] = 1408493,
@@ -16842,7 +16861,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [873]
+	}, -- [874]
 	{
 		["itemName"] = "Cuffs of Fearful Service",
 		["iconFileDataID"] = 1533496,
@@ -16861,7 +16880,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [874]
+	}, -- [875]
 	{
 		["itemName"] = "Armbands of Crude Strategy",
 		["iconFileDataID"] = 1529799,
@@ -16880,7 +16899,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [875]
+	}, -- [876]
 	{
 		["itemName"] = "Low-Cut Chestplate",
 		["iconFileDataID"] = 1357446,
@@ -16899,7 +16918,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [876]
+	}, -- [877]
 	{
 		["itemName"] = "Doomsayer's Ritualistic Vestment",
 		["iconFileDataID"] = 1511490,
@@ -16918,7 +16937,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [877]
+	}, -- [878]
 	{
 		["itemName"] = "Si'vashi Guard's Breastplate",
 		["iconFileDataID"] = 1551051,
@@ -16937,7 +16956,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [878]
+	}, -- [879]
 	{
 		["itemName"] = "Robe of Fever Dreams",
 		["iconFileDataID"] = 1336644,
@@ -16956,7 +16975,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [879]
+	}, -- [880]
 	{
 		["itemName"] = "Chestplate of Blackened Emeralds",
 		["iconFileDataID"] = 1320040,
@@ -16975,7 +16994,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [880]
+	}, -- [881]
 	{
 		["itemName"] = "Raiments of Waking Nightmares",
 		["iconFileDataID"] = 1339048,
@@ -16994,7 +17013,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [881]
+	}, -- [882]
 	{
 		["itemName"] = "Hauberk of the Snarled Vale",
 		["iconFileDataID"] = 1318379,
@@ -17013,7 +17032,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [882]
+	}, -- [883]
 	{
 		["itemName"] = "Harness of Devouring Flame",
 		["iconFileDataID"] = 1529800,
@@ -17032,7 +17051,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [883]
+	}, -- [884]
 	{
 		["itemName"] = "Shorebreaker Robes",
 		["iconFileDataID"] = 1550783,
@@ -17051,7 +17070,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [884]
+	}, -- [885]
 	{
 		["itemName"] = "Skimpy Demonleather Tunic",
 		["iconFileDataID"] = 1408494,
@@ -17070,7 +17089,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [885]
+	}, -- [886]
 	{
 		["itemName"] = "Sheer Felthreaded Robe",
 		["iconFileDataID"] = 1306775,
@@ -17089,7 +17108,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [886]
+	}, -- [887]
 	{
 		["itemName"] = "Crop Top Chain Hauberk",
 		["iconFileDataID"] = 1339437,
@@ -17108,7 +17127,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [887]
+	}, -- [888]
 	{
 		["itemName"] = "Ragged Azsharan Sail Fragment",
 		["iconFileDataID"] = 1316222,
@@ -17127,7 +17146,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [888]
+	}, -- [889]
 	{
 		["itemName"] = "Giant's Handkerchief",
 		["iconFileDataID"] = 1334644,
@@ -17146,7 +17165,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [889]
+	}, -- [890]
 	{
 		["itemName"] = "Imp Mother's Loincloth",
 		["iconFileDataID"] = 1412476,
@@ -17165,7 +17184,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [890]
+	}, -- [891]
 	{
 		["itemName"] = "Cloak of Growing Mistrust",
 		["iconFileDataID"] = 1261878,
@@ -17184,7 +17203,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [891]
+	}, -- [892]
 	{
 		["itemName"] = "Coerced Wizard's Cloak",
 		["iconFileDataID"] = 1346190,
@@ -17203,7 +17222,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [892]
+	}, -- [893]
 	{
 		["itemName"] = "Despoiled Dreamthread Cloak",
 		["iconFileDataID"] = 1413123,
@@ -17222,7 +17241,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [893]
+	}, -- [894]
 	{
 		["itemName"] = "Windwhipped Greatcloak",
 		["iconFileDataID"] = 1412476,
@@ -17241,7 +17260,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [894]
+	}, -- [895]
 	{
 		["itemName"] = "Drape of the Mana-Starved",
 		["iconFileDataID"] = 1306780,
@@ -17260,7 +17279,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [895]
+	}, -- [896]
 	{
 		["itemName"] = "Shoulderguards of Unimaginative Magic",
 		["iconFileDataID"] = 1339442,
@@ -17279,7 +17298,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [896]
+	}, -- [897]
 	{
 		["itemName"] = "Padawsen's Squished Pauldrons",
 		["iconFileDataID"] = 1345981,
@@ -17298,7 +17317,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [897]
+	}, -- [898]
 	{
 		["itemName"] = "Mantle of the Aspiring Spellgiant",
 		["iconFileDataID"] = 1335536,
@@ -17317,7 +17336,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [898]
+	}, -- [899]
 	{
 		["itemName"] = "Shoulderplates of Oversized Sorcery",
 		["iconFileDataID"] = 1316221,
@@ -17336,7 +17355,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [899]
+	}, -- [900]
 	{
 		["itemName"] = "Pauldrons of the Engulfing Tide",
 		["iconFileDataID"] = 1518781,
@@ -17355,7 +17374,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [900]
+	}, -- [901]
 	{
 		["itemName"] = "Spaulders of Forgotten Worlds",
 		["iconFileDataID"] = 1533502,
@@ -17374,7 +17393,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [901]
+	}, -- [902]
 	{
 		["itemName"] = "Violent Zealot's Shoulderpads",
 		["iconFileDataID"] = 1549279,
@@ -17393,7 +17412,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [902]
+	}, -- [903]
 	{
 		["itemName"] = "Pendant of Cold Flame",
 		["iconFileDataID"] = 1360054,
@@ -17412,7 +17431,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [903]
+	}, -- [904]
 	{
 		["itemName"] = "Clasp of Burning Demise",
 		["iconFileDataID"] = 133333,
@@ -17431,7 +17450,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [904]
+	}, -- [905]
 	{
 		["itemName"] = "Krakentooth Necklace",
 		["iconFileDataID"] = 1360055,
@@ -17450,7 +17469,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [905]
+	}, -- [906]
 	{
 		["itemName"] = "Choker of Dreamthorns",
 		["iconFileDataID"] = 1360026,
@@ -17469,7 +17488,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [906]
+	}, -- [907]
 	{
 		["itemName"] = "Soultrapper's Pendant",
 		["iconFileDataID"] = 1360003,
@@ -17488,7 +17507,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [907]
+	}, -- [908]
 	{
 		["itemName"] = "Polished Felfury Helmet",
 		["iconFileDataID"] = 1518779,
@@ -17507,7 +17526,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [908]
+	}, -- [909]
 	{
 		["itemName"] = "Plague-Resistant Headcover",
 		["iconFileDataID"] = 1550785,
@@ -17526,7 +17545,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [909]
+	}, -- [910]
 	{
 		["itemName"] = "Coif of Unstable Discharge",
 		["iconFileDataID"] = 1339439,
@@ -17545,7 +17564,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [910]
+	}, -- [911]
 	{
 		["itemName"] = "Stormbattered Casque",
 		["iconFileDataID"] = 1320042,
@@ -17564,7 +17583,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [911]
+	}, -- [912]
 	{
 		["itemName"] = "Helm of the Mountain Recluse",
 		["iconFileDataID"] = 1408496,
@@ -17583,7 +17602,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [912]
+	}, -- [913]
 	{
 		["itemName"] = "Hood of Scorned Brood",
 		["iconFileDataID"] = 1306777,
@@ -17602,7 +17621,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [913]
+	}, -- [914]
 	{
 		["itemName"] = "Cowl of Plumbed Depths",
 		["iconFileDataID"] = 1533499,
@@ -17621,7 +17640,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [914]
+	}, -- [915]
 	{
 		["itemName"] = "Mana Scavenger's Mask",
 		["iconFileDataID"] = 1345978,
@@ -17640,7 +17659,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [915]
+	}, -- [916]
 	{
 		["itemName"] = "Manacrystal-Adorned Helmet",
 		["iconFileDataID"] = 1316219,
@@ -17659,7 +17678,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [916]
+	}, -- [917]
 	{
 		["itemName"] = "Cave Skulker's Helm",
 		["iconFileDataID"] = 1318381,
@@ -17678,7 +17697,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [917]
+	}, -- [918]
 	{
 		["itemName"] = "Magic-Warped Hood",
 		["iconFileDataID"] = 1339050,
@@ -17697,7 +17716,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [918]
+	}, -- [919]
 	{
 		["itemName"] = "\"Liberated\" Un'goro Relic",
 		["iconFileDataID"] = 136017,
@@ -17716,7 +17735,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [919]
+	}, -- [920]
 	{
 		["itemName"] = "Drugon's Snowglobe",
 		["iconFileDataID"] = 132387,
@@ -17735,7 +17754,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [920]
+	}, -- [921]
 	{
 		["itemName"] = "Calamir's Jaw",
 		["iconFileDataID"] = 517022,
@@ -17754,7 +17773,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [921]
+	}, -- [922]
 	{
 		["itemName"] = "Charged Felfire Casing",
 		["iconFileDataID"] = 133010,
@@ -17773,7 +17792,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [922]
+	}, -- [923]
 	{
 		["itemName"] = "Gory Dreadlord Horn",
 		["iconFileDataID"] = 237398,
@@ -17792,7 +17811,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [923]
+	}, -- [924]
 	{
 		["itemName"] = "Beguiling Revelation",
 		["iconFileDataID"] = 136164,
@@ -17811,7 +17830,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [924]
+	}, -- [925]
 	{
 		["itemName"] = "Fel-Scented Bait",
 		["iconFileDataID"] = 970847,
@@ -17830,7 +17849,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [925]
+	}, -- [926]
 	{
 		["itemName"] = "Sea Giant Toothpick Fragment",
 		["iconFileDataID"] = 648844,
@@ -17849,7 +17868,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [926]
+	}, -- [927]
 	{
 		["itemName"] = "Sandblasted Conch",
 		["iconFileDataID"] = 1498841,
@@ -17868,7 +17887,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [927]
+	}, -- [928]
 	{
 		["itemName"] = "Globule of Submersion",
 		["iconFileDataID"] = 132852,
@@ -17887,7 +17906,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [928]
+	}, -- [929]
 	{
 		["itemName"] = "Decaying Dragonfang",
 		["iconFileDataID"] = 304222,
@@ -17906,7 +17925,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [929]
+	}, -- [930]
 	{
 		["itemName"] = "Pillaged Titan Disc",
 		["iconFileDataID"] = 897131,
@@ -17925,7 +17944,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [930]
+	}, -- [931]
 	{
 		["itemName"] = "Leystone Nugget",
 		["iconFileDataID"] = 134333,
@@ -17944,7 +17963,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [931]
+	}, -- [932]
 	{
 		["itemName"] = "Apocron's Energy Core",
 		["iconFileDataID"] = 236520,
@@ -17963,7 +17982,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [932]
+	}, -- [933]
 	{
 		["itemName"] = "Imp-Eye Diamond",
 		["iconFileDataID"] = 1387707,
@@ -17982,7 +18001,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [933]
+	}, -- [934]
 	{
 		["itemName"] = "Crashing Ember",
 		["iconFileDataID"] = 252172,
@@ -18001,7 +18020,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [934]
+	}, -- [935]
 	{
 		["itemName"] = "Brutallus's Wretched Heart",
 		["iconFileDataID"] = 134557,
@@ -18020,7 +18039,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [935]
+	}, -- [936]
 	{
 		["itemName"] = "Barnacled Mistcaller Orb",
 		["iconFileDataID"] = 236516,
@@ -18039,7 +18058,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Artifact Relic",
 		["itemType"] = "Gem",
-	}, -- [936]
+	}, -- [937]
 	{
 		["itemName"] = "Iron Reaver Piston",
 		["iconFileDataID"] = 133872,
@@ -18058,7 +18077,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [937]
+	}, -- [938]
 	{
 		["itemName"] = "Demonic Phylactery",
 		["iconFileDataID"] = 1120349,
@@ -18077,7 +18096,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [938]
+	}, -- [939]
 	{
 		["itemName"] = "Rumbling Pebble",
 		["iconFileDataID"] = 135236,
@@ -18096,7 +18115,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [939]
+	}, -- [940]
 	{
 		["itemName"] = "Fel-Spring Coil",
 		["iconFileDataID"] = 133016,
@@ -18115,7 +18134,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [940]
+	}, -- [941]
 	{
 		["itemName"] = "Mirror of the Blademaster",
 		["iconFileDataID"] = 136056,
@@ -18134,7 +18153,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [941]
+	}, -- [942]
 	{
 		["itemName"] = "Desecrated Shadowmoon Insignia",
 		["iconFileDataID"] = 1002600,
@@ -18153,7 +18172,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [942]
+	}, -- [943]
 	{
 		["itemName"] = "Imbued Stone Sigil",
 		["iconFileDataID"] = 134418,
@@ -18172,7 +18191,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [943]
+	}, -- [944]
 	{
 		["itemName"] = "Prophecy of Fear",
 		["iconFileDataID"] = 1120362,
@@ -18191,7 +18210,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [944]
+	}, -- [945]
 	{
 		["itemName"] = "Intuition's Gift",
 		["iconFileDataID"] = 610679,
@@ -18210,7 +18229,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [945]
+	}, -- [946]
 	{
 		["itemName"] = "Worldbreaker's Resolve",
 		["iconFileDataID"] = 1058935,
@@ -18229,7 +18248,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [946]
+	}, -- [947]
 	{
 		["itemName"] = "Bleeding Hollow Toxin Vessel",
 		["iconFileDataID"] = 348565,
@@ -18248,7 +18267,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [947]
+	}, -- [948]
 	{
 		["itemName"] = "Seed of Creation",
 		["iconFileDataID"] = 656440,
@@ -18267,7 +18286,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [948]
+	}, -- [949]
 	{
 		["itemName"] = "Etching of Sargeras",
 		["iconFileDataID"] = 1122134,
@@ -18286,7 +18305,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [949]
+	}, -- [950]
 	{
 		["itemName"] = "Libram of Vindication",
 		["iconFileDataID"] = 134916,
@@ -18305,7 +18324,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [950]
+	}, -- [951]
 	{
 		["itemName"] = "Reaper's Harvest",
 		["iconFileDataID"] = 135001,
@@ -18324,7 +18343,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [951]
+	}, -- [952]
 	{
 		["itemName"] = "Sacred Draenic Incense",
 		["iconFileDataID"] = 135262,
@@ -18343,7 +18362,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [952]
+	}, -- [953]
 	{
 		["itemName"] = "Fragment of the Dark Star",
 		["iconFileDataID"] = 133265,
@@ -18362,7 +18381,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [953]
+	}, -- [954]
 	{
 		["itemName"] = "Talisman of the Master Tracker",
 		["iconFileDataID"] = 631304,
@@ -18381,7 +18400,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [954]
+	}, -- [955]
 	{
 		["itemName"] = "Core of the Primal Elements",
 		["iconFileDataID"] = 136029,
@@ -18400,7 +18419,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [955]
+	}, -- [956]
 	{
 		["itemName"] = "Repudiation of War",
 		["iconFileDataID"] = 612969,
@@ -18419,7 +18438,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [956]
+	}, -- [957]
 	{
 		["itemName"] = "Tome of Shifting Words",
 		["iconFileDataID"] = 442732,
@@ -18438,7 +18457,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [957]
+	}, -- [958]
 	{
 		["itemName"] = "Unblinking Gaze of Sethe",
 		["iconFileDataID"] = 895885,
@@ -18457,7 +18476,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [958]
+	}, -- [959]
 	{
 		["itemName"] = "Anzu's Cursed Plume",
 		["iconFileDataID"] = 656240,
@@ -18476,7 +18495,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [959]
+	}, -- [960]
 	{
 		["itemName"] = "Discordant Chorus",
 		["iconFileDataID"] = 1058933,
@@ -18495,7 +18514,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [960]
+	}, -- [961]
 	{
 		["itemName"] = "Malicious Censer",
 		["iconFileDataID"] = 461809,
@@ -18514,7 +18533,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [961]
+	}, -- [962]
 	{
 		["itemName"] = "Tyrant's Decree",
 		["iconFileDataID"] = 133209,
@@ -18533,7 +18552,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [962]
+	}, -- [963]
 	{
 		["itemName"] = "Unending Hunger",
 		["iconFileDataID"] = 237524,
@@ -18552,7 +18571,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [963]
+	}, -- [964]
 	{
 		["itemName"] = "Warlord's Unseeing Eye",
 		["iconFileDataID"] = 136155,
@@ -18571,7 +18590,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [964]
+	}, -- [965]
 	{
 		["itemName"] = "Unstable Felshadow Emulsion",
 		["iconFileDataID"] = 463532,
@@ -18590,7 +18609,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [965]
+	}, -- [966]
 	{
 		["itemName"] = "Flickering Felspark",
 		["iconFileDataID"] = 840408,
@@ -18609,7 +18628,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [966]
+	}, -- [967]
 	{
 		["itemName"] = "Soul Capacitor",
 		["iconFileDataID"] = 1120358,
@@ -18628,7 +18647,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [967]
+	}, -- [968]
 	{
 		["itemName"] = "Empty Drinking Horn",
 		["iconFileDataID"] = 134229,
@@ -18647,7 +18666,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [968]
+	}, -- [969]
 	{
 		["itemName"] = "Flanged Gasket",
 		["iconFileDataID"] = 1116971,
@@ -18666,7 +18685,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [969]
+	}, -- [970]
 	{
 		["itemName"] = "Mar'tak's Rugged Seal",
 		["iconFileDataID"] = 1116972,
@@ -18685,7 +18704,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [970]
+	}, -- [971]
 	{
 		["itemName"] = "Sootstained Felsworn Signet",
 		["iconFileDataID"] = 1116963,
@@ -18704,7 +18723,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [971]
+	}, -- [972]
 	{
 		["itemName"] = "Pit-Extracted Stone Signet",
 		["iconFileDataID"] = 1116964,
@@ -18723,7 +18742,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [972]
+	}, -- [973]
 	{
 		["itemName"] = "Shimmering Voidstone Band",
 		["iconFileDataID"] = 1116961,
@@ -18742,7 +18761,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [973]
+	}, -- [974]
 	{
 		["itemName"] = "Ring of Foul Temptation",
 		["iconFileDataID"] = 1116967,
@@ -18761,7 +18780,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [974]
+	}, -- [975]
 	{
 		["itemName"] = "Band of Enthralling Delusion",
 		["iconFileDataID"] = 1116968,
@@ -18780,7 +18799,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [975]
+	}, -- [976]
 	{
 		["itemName"] = "Filigreed Loop of Zealotry",
 		["iconFileDataID"] = 1116962,
@@ -18799,7 +18818,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [976]
+	}, -- [977]
 	{
 		["itemName"] = "Pompous Ceremonial Ring",
 		["iconFileDataID"] = 1116965,
@@ -18818,7 +18837,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [977]
+	}, -- [978]
 	{
 		["itemName"] = "Loathful Encrusted Band",
 		["iconFileDataID"] = 1116973,
@@ -18837,7 +18856,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [978]
+	}, -- [979]
 	{
 		["itemName"] = "Serrated Demontooth Ring",
 		["iconFileDataID"] = 1116969,
@@ -18856,7 +18875,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [979]
+	}, -- [980]
 	{
 		["itemName"] = "Congealed Globule Loop",
 		["iconFileDataID"] = 1116972,
@@ -18875,7 +18894,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [980]
+	}, -- [981]
 	{
 		["itemName"] = "Loop of Beckoned Shadows",
 		["iconFileDataID"] = 1116966,
@@ -18894,7 +18913,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [981]
+	}, -- [982]
 	{
 		["itemName"] = "Portal Key Signet",
 		["iconFileDataID"] = 1116961,
@@ -18913,7 +18932,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [982]
+	}, -- [983]
 	{
 		["itemName"] = "Zakuun's Signet of Command",
 		["iconFileDataID"] = 1116958,
@@ -18932,7 +18951,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [983]
+	}, -- [984]
 	{
 		["itemName"] = "Seal of the Traitorous Councilor",
 		["iconFileDataID"] = 1116959,
@@ -18951,7 +18970,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [984]
+	}, -- [985]
 	{
 		["itemName"] = "Mannoroth's Calcified Eye",
 		["iconFileDataID"] = 1116970,
@@ -18970,7 +18989,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [985]
+	}, -- [986]
 	{
 		["itemName"] = "Pedal-Pushing Sandals",
 		["iconFileDataID"] = 1083040,
@@ -18989,7 +19008,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [986]
+	}, -- [987]
 	{
 		["itemName"] = "Spiked Irontoe Slippers",
 		["iconFileDataID"] = 1086107,
@@ -19008,7 +19027,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [987]
+	}, -- [988]
 	{
 		["itemName"] = "Die-Cast Ringmail Sabatons",
 		["iconFileDataID"] = 1089142,
@@ -19027,7 +19046,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [988]
+	}, -- [989]
 	{
 		["itemName"] = "Shell-Resistant Stompers",
 		["iconFileDataID"] = 1085003,
@@ -19046,7 +19065,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [989]
+	}, -- [990]
 	{
 		["itemName"] = "Toxicologist's Treated Boots",
 		["iconFileDataID"] = 1090244,
@@ -19065,7 +19084,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [990]
+	}, -- [991]
 	{
 		["itemName"] = "Bloody Dagger-Heeled Pumps",
 		["iconFileDataID"] = 1091546,
@@ -19084,7 +19103,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [991]
+	}, -- [992]
 	{
 		["itemName"] = "Stompers of Brazen Terror",
 		["iconFileDataID"] = 1100037,
@@ -19103,7 +19122,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [992]
+	}, -- [993]
 	{
 		["itemName"] = "Treads of the Defiler",
 		["iconFileDataID"] = 1088725,
@@ -19122,7 +19141,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [993]
+	}, -- [994]
 	{
 		["itemName"] = "Surefooted Chain Treads",
 		["iconFileDataID"] = 1096100,
@@ -19141,7 +19160,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [994]
+	}, -- [995]
 	{
 		["itemName"] = "Spiked Throatcrusher Boots",
 		["iconFileDataID"] = 1096100,
@@ -19160,7 +19179,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [995]
+	}, -- [996]
 	{
 		["itemName"] = "Oppressor's Merciless Treads",
 		["iconFileDataID"] = 1107430,
@@ -19179,7 +19198,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [996]
+	}, -- [997]
 	{
 		["itemName"] = "Rivet-Studded Leggings",
 		["iconFileDataID"] = 1090249,
@@ -19198,7 +19217,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [997]
+	}, -- [998]
 	{
 		["itemName"] = "Iron Dragoon's Pantaloons",
 		["iconFileDataID"] = 1089147,
@@ -19217,7 +19236,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [998]
+	}, -- [999]
 	{
 		["itemName"] = "Dia's Nightmarish Leggings",
 		["iconFileDataID"] = 1095297,
@@ -19236,7 +19255,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [999]
+	}, -- [1000]
 	{
 		["itemName"] = "Kilt of Self-Reflection",
 		["iconFileDataID"] = 1096106,
@@ -19255,7 +19274,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1000]
+	}, -- [1001]
 	{
 		["itemName"] = "Acid-Etched Legplates",
 		["iconFileDataID"] = 1100042,
@@ -19274,7 +19293,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1001]
+	}, -- [1002]
 	{
 		["itemName"] = "Deathrattle Leggings",
 		["iconFileDataID"] = 1095297,
@@ -19284,17 +19303,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124167,
 		["itemSetID"] = 1259,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1002]
+	}, -- [1003]
 	{
 		["itemName"] = "Greaves of the Ceaseless Vigil",
 		["iconFileDataID"] = 1088731,
@@ -19304,17 +19323,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124339,
 		["itemSetID"] = 1254,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1003]
+	}, -- [1004]
 	{
 		["itemName"] = "Felblade Leggings",
 		["iconFileDataID"] = 1090249,
@@ -19324,17 +19343,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124269,
 		["itemSetID"] = 1256,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1004]
+	}, -- [1005]
 	{
 		["itemName"] = "Oathclaw Leggings",
 		["iconFileDataID"] = 1086112,
@@ -19344,17 +19363,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124267,
 		["itemSetID"] = 1250,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1005]
+	}, -- [1006]
 	{
 		["itemName"] = "Pantaloons of the Arcanic Conclave",
 		["iconFileDataID"] = 1083043,
@@ -19364,17 +19383,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124165,
 		["itemSetID"] = 1251,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1006]
+	}, -- [1007]
 	{
 		["itemName"] = "Legplates of Iron Wrath",
 		["iconFileDataID"] = 1085008,
@@ -19384,17 +19403,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124340,
 		["itemSetID"] = 1258,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1007]
+	}, -- [1008]
 	{
 		["itemName"] = "Legwraps of the Hurricane's Eye",
 		["iconFileDataID"] = 1107440,
@@ -19404,17 +19423,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124268,
 		["itemSetID"] = 1252,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1008]
+	}, -- [1009]
 	{
 		["itemName"] = "Leggings of the Savage Hunt",
 		["iconFileDataID"] = 1089147,
@@ -19424,17 +19443,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124301,
 		["itemSetID"] = 1253,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1009]
+	}, -- [1010]
 	{
 		["itemName"] = "Ferroleather Leggings",
 		["iconFileDataID"] = 1095671,
@@ -19453,7 +19472,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1010]
+	}, -- [1011]
 	{
 		["itemName"] = "Leggings of the Living Mountain",
 		["iconFileDataID"] = 1096105,
@@ -19463,17 +19482,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124302,
 		["itemSetID"] = 1257,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1011]
+	}, -- [1012]
 	{
 		["itemName"] = "Pious Leggings",
 		["iconFileDataID"] = 1091551,
@@ -19483,17 +19502,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124166,
 		["itemSetID"] = 1255,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1012]
+	}, -- [1013]
 	{
 		["itemName"] = "Demongaze Legplates",
 		["iconFileDataID"] = 1100042,
@@ -19503,17 +19522,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124338,
 		["itemSetID"] = 1249,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1013]
+	}, -- [1014]
 	{
 		["itemName"] = "Legguards of Grievous Consonances",
 		["iconFileDataID"] = 1088731,
@@ -19532,7 +19551,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1014]
+	}, -- [1015]
 	{
 		["itemName"] = "Haughty Chain Legguards",
 		["iconFileDataID"] = 1096105,
@@ -19551,7 +19570,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1015]
+	}, -- [1016]
 	{
 		["itemName"] = "Leggings of Eternal Terror",
 		["iconFileDataID"] = 1107440,
@@ -19570,7 +19589,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1016]
+	}, -- [1017]
 	{
 		["itemName"] = "Blastproof Legguards",
 		["iconFileDataID"] = 1085008,
@@ -19589,7 +19608,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1017]
+	}, -- [1018]
 	{
 		["itemName"] = "Empowered Demonskin Kilt",
 		["iconFileDataID"] = 1086113,
@@ -19608,7 +19627,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1018]
+	}, -- [1019]
 	{
 		["itemName"] = "Leggings of the Iron Summoner",
 		["iconFileDataID"] = 1083043,
@@ -19627,7 +19646,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1019]
+	}, -- [1020]
 	{
 		["itemName"] = "Torch-Brazed Waistguard",
 		["iconFileDataID"] = 1096099,
@@ -19646,7 +19665,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1020]
+	}, -- [1021]
 	{
 		["itemName"] = "Sludge-Soaked Waistband",
 		["iconFileDataID"] = 1091545,
@@ -19665,7 +19684,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1021]
+	}, -- [1022]
 	{
 		["itemName"] = "Girdle of Savage Resolve",
 		["iconFileDataID"] = 1088727,
@@ -19684,7 +19703,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1022]
+	}, -- [1023]
 	{
 		["itemName"] = "Waistwrap of Banishment",
 		["iconFileDataID"] = 1107428,
@@ -19703,7 +19722,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1023]
+	}, -- [1024]
 	{
 		["itemName"] = "Demonbuckle Sash of Argus",
 		["iconFileDataID"] = 1096988,
@@ -19722,7 +19741,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1024]
+	}, -- [1025]
 	{
 		["itemName"] = "Belt of Misconceived Loyalty",
 		["iconFileDataID"] = 1086106,
@@ -19741,7 +19760,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1025]
+	}, -- [1026]
 	{
 		["itemName"] = "Ravenous Girdle",
 		["iconFileDataID"] = 1100036,
@@ -19760,7 +19779,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1026]
+	}, -- [1027]
 	{
 		["itemName"] = "Girdle of the Legion General",
 		["iconFileDataID"] = 1089141,
@@ -19779,7 +19798,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1027]
+	}, -- [1028]
 	{
 		["itemName"] = "Sash of Unending Anguish",
 		["iconFileDataID"] = 1095285,
@@ -19798,7 +19817,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1028]
+	}, -- [1029]
 	{
 		["itemName"] = "Annihilan's Waistplate",
 		["iconFileDataID"] = 1085002,
@@ -19817,7 +19836,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1029]
+	}, -- [1030]
 	{
 		["itemName"] = "Insulated Wirer's Gloves",
 		["iconFileDataID"] = 1086110,
@@ -19836,7 +19855,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1030]
+	}, -- [1031]
 	{
 		["itemName"] = "Craggy Gloves of Grasping",
 		["iconFileDataID"] = 1083042,
@@ -19855,7 +19874,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1031]
+	}, -- [1032]
 	{
 		["itemName"] = "Gloves of the Savage Hunt",
 		["iconFileDataID"] = 1089145,
@@ -19865,17 +19884,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124292,
 		["itemSetID"] = 1253,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1032]
+	}, -- [1033]
 	{
 		["itemName"] = "Gauntlets of Iron Wrath",
 		["iconFileDataID"] = 1085006,
@@ -19885,17 +19904,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124329,
 		["itemSetID"] = 1258,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1033]
+	}, -- [1034]
 	{
 		["itemName"] = "Fistwraps of the Hurricane's Eye",
 		["iconFileDataID"] = 1107436,
@@ -19905,17 +19924,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124256,
 		["itemSetID"] = 1252,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1034]
+	}, -- [1035]
 	{
 		["itemName"] = "Oathclaw Gauntlets",
 		["iconFileDataID"] = 1086110,
@@ -19925,17 +19944,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124255,
 		["itemSetID"] = 1250,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1035]
+	}, -- [1036]
 	{
 		["itemName"] = "Pious Handwraps",
 		["iconFileDataID"] = 1091549,
@@ -19945,17 +19964,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124155,
 		["itemSetID"] = 1255,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1036]
+	}, -- [1037]
 	{
 		["itemName"] = "Velvet Bloodweaver Gloves",
 		["iconFileDataID"] = 1095293,
@@ -19974,7 +19993,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1037]
+	}, -- [1038]
 	{
 		["itemName"] = "Eredar Fel-Chain Gloves",
 		["iconFileDataID"] = 1089145,
@@ -19993,7 +20012,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1038]
+	}, -- [1039]
 	{
 		["itemName"] = "Felfinger Runegloves",
 		["iconFileDataID"] = 1107436,
@@ -20012,7 +20031,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1039]
+	}, -- [1040]
 	{
 		["itemName"] = "Demongaze Gauntlets",
 		["iconFileDataID"] = 1100040,
@@ -20022,17 +20041,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124327,
 		["itemSetID"] = 1249,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1040]
+	}, -- [1041]
 	{
 		["itemName"] = "Mitts of Eternal Famishment",
 		["iconFileDataID"] = 1096103,
@@ -20051,7 +20070,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1041]
+	}, -- [1042]
 	{
 		["itemName"] = "Gauntlets of Derision",
 		["iconFileDataID"] = 1100040,
@@ -20070,7 +20089,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1042]
+	}, -- [1043]
 	{
 		["itemName"] = "Satin Gloves of Injustice",
 		["iconFileDataID"] = 1091549,
@@ -20089,7 +20108,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1043]
+	}, -- [1044]
 	{
 		["itemName"] = "Crimson Throatgrabbers",
 		["iconFileDataID"] = 1088729,
@@ -20108,7 +20127,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1044]
+	}, -- [1045]
 	{
 		["itemName"] = "Gauntlets of the Ceaseless Vigil",
 		["iconFileDataID"] = 1088729,
@@ -20118,17 +20137,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124328,
 		["itemSetID"] = 1254,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1045]
+	}, -- [1046]
 	{
 		["itemName"] = "Flamebelcher's Insulated Mitts",
 		["iconFileDataID"] = 1085006,
@@ -20147,7 +20166,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1046]
+	}, -- [1047]
 	{
 		["itemName"] = "Hand Loader Gauntlets",
 		["iconFileDataID"] = 1089145,
@@ -20166,7 +20185,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1047]
+	}, -- [1048]
 	{
 		["itemName"] = "Gauntlets of the Living Mountain",
 		["iconFileDataID"] = 1096103,
@@ -20176,17 +20195,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124293,
 		["itemSetID"] = 1257,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1048]
+	}, -- [1049]
 	{
 		["itemName"] = "Gloves of the Arcanic Conclave",
 		["iconFileDataID"] = 1083042,
@@ -20196,17 +20215,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124154,
 		["itemSetID"] = 1251,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1049]
+	}, -- [1050]
 	{
 		["itemName"] = "Deathrattle Gloves",
 		["iconFileDataID"] = 1095293,
@@ -20216,17 +20235,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124156,
 		["itemSetID"] = 1259,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1050]
+	}, -- [1051]
 	{
 		["itemName"] = "Felblade Gloves",
 		["iconFileDataID"] = 1090247,
@@ -20236,17 +20255,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124257,
 		["itemSetID"] = 1256,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1051]
+	}, -- [1052]
 	{
 		["itemName"] = "Ferroleather Gloves",
 		["iconFileDataID"] = 1095669,
@@ -20265,7 +20284,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1052]
+	}, -- [1053]
 	{
 		["itemName"] = "Hot-Rolled Iron Bracers",
 		["iconFileDataID"] = 1085004,
@@ -20284,7 +20303,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1053]
+	}, -- [1054]
 	{
 		["itemName"] = "Gorebound Wristguards",
 		["iconFileDataID"] = 1090245,
@@ -20303,7 +20322,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1054]
+	}, -- [1055]
 	{
 		["itemName"] = "Powder-Singed Bracers",
 		["iconFileDataID"] = 1091547,
@@ -20322,7 +20341,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1055]
+	}, -- [1056]
 	{
 		["itemName"] = "Bloody Berserker's Bracers",
 		["iconFileDataID"] = 1089143,
@@ -20341,7 +20360,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1056]
+	}, -- [1057]
 	{
 		["itemName"] = "Cursed Blood Bracers",
 		["iconFileDataID"] = 1095289,
@@ -20360,7 +20379,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1057]
+	}, -- [1058]
 	{
 		["itemName"] = "Manacles of the Multitudes",
 		["iconFileDataID"] = 1086108,
@@ -20379,7 +20398,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1058]
+	}, -- [1059]
 	{
 		["itemName"] = "Bloodcult Bracers",
 		["iconFileDataID"] = 1107432,
@@ -20398,7 +20417,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1059]
+	}, -- [1060]
 	{
 		["itemName"] = "Wristplate of the Wretched",
 		["iconFileDataID"] = 1100038,
@@ -20417,7 +20436,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1060]
+	}, -- [1061]
 	{
 		["itemName"] = "Chain Wristguards of the Stricken",
 		["iconFileDataID"] = 1096101,
@@ -20436,7 +20455,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1061]
+	}, -- [1062]
 	{
 		["itemName"] = "Contemptuous Wristguards",
 		["iconFileDataID"] = 1083041,
@@ -20455,7 +20474,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1062]
+	}, -- [1063]
 	{
 		["itemName"] = "Breach-Scarred Wristplates",
 		["iconFileDataID"] = 1088726,
@@ -20474,7 +20493,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1063]
+	}, -- [1064]
 	{
 		["itemName"] = "Pristine Man'ari Cuffs",
 		["iconFileDataID"] = 1091547,
@@ -20493,7 +20512,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1064]
+	}, -- [1065]
 	{
 		["itemName"] = "Bracers of Fel Empowerment",
 		["iconFileDataID"] = 1089143,
@@ -20512,7 +20531,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1065]
+	}, -- [1066]
 	{
 		["itemName"] = "Stamped Felsteel Chestplate",
 		["iconFileDataID"] = 1085005,
@@ -20531,7 +20550,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1066]
+	}, -- [1067]
 	{
 		["itemName"] = "Felgrease-Smudged Robes",
 		["iconFileDataID"] = 1083044,
@@ -20550,7 +20569,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1067]
+	}, -- [1068]
 	{
 		["itemName"] = "Ancient Gorestained Wrap",
 		["iconFileDataID"] = 1095299,
@@ -20569,7 +20588,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1068]
+	}, -- [1069]
 	{
 		["itemName"] = "Jungle Flayer's Chestguard",
 		["iconFileDataID"] = 1089144,
@@ -20588,7 +20607,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1069]
+	}, -- [1070]
 	{
 		["itemName"] = "Tunic of Reformative Runes",
 		["iconFileDataID"] = 1107434,
@@ -20607,7 +20626,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1070]
+	}, -- [1071]
 	{
 		["itemName"] = "Breastplate of Iron Wrath",
 		["iconFileDataID"] = 1085005,
@@ -20617,17 +20636,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124319,
 		["itemSetID"] = 1258,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1071]
+	}, -- [1072]
 	{
 		["itemName"] = "Pious Raiment",
 		["iconFileDataID"] = 1091552,
@@ -20637,17 +20656,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124172,
 		["itemSetID"] = 1255,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1072]
+	}, -- [1073]
 	{
 		["itemName"] = "Ringmail of Madness Accordant",
 		["iconFileDataID"] = 1096102,
@@ -20666,7 +20685,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1073]
+	}, -- [1074]
 	{
 		["itemName"] = "Tunic of the Soulbinder",
 		["iconFileDataID"] = 1086109,
@@ -20685,7 +20704,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1074]
+	}, -- [1075]
 	{
 		["itemName"] = "Raiment of Divine Clarity",
 		["iconFileDataID"] = 1091552,
@@ -20704,7 +20723,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1075]
+	}, -- [1076]
 	{
 		["itemName"] = "Chestguard of Ill Fate",
 		["iconFileDataID"] = 1100039,
@@ -20723,7 +20742,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1076]
+	}, -- [1077]
 	{
 		["itemName"] = "Vestment of Illusory Might",
 		["iconFileDataID"] = 1096106,
@@ -20742,7 +20761,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1077]
+	}, -- [1078]
 	{
 		["itemName"] = "Chestguard of Gnawing Desire",
 		["iconFileDataID"] = 1090246,
@@ -20761,7 +20780,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1078]
+	}, -- [1079]
 	{
 		["itemName"] = "Felblade Chestguard",
 		["iconFileDataID"] = 1090246,
@@ -20771,17 +20790,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124248,
 		["itemSetID"] = 1256,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1079]
+	}, -- [1080]
 	{
 		["itemName"] = "Robe of the Hurricane's Eye",
 		["iconFileDataID"] = 1107442,
@@ -20791,17 +20810,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124247,
 		["itemSetID"] = 1252,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1080]
+	}, -- [1081]
 	{
 		["itemName"] = "Demongaze Chestplate",
 		["iconFileDataID"] = 1100039,
@@ -20811,17 +20830,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124317,
 		["itemSetID"] = 1249,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1081]
+	}, -- [1082]
 	{
 		["itemName"] = "Cuirass of the Ceaseless Vigil",
 		["iconFileDataID"] = 1088728,
@@ -20831,17 +20850,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124318,
 		["itemSetID"] = 1254,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1082]
+	}, -- [1083]
 	{
 		["itemName"] = "Deathrattle Robe",
 		["iconFileDataID"] = 1095299,
@@ -20851,17 +20870,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124173,
 		["itemSetID"] = 1259,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1083]
+	}, -- [1084]
 	{
 		["itemName"] = "Ferroleather Chestguard",
 		["iconFileDataID"] = 1095668,
@@ -20880,7 +20899,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1084]
+	}, -- [1085]
 	{
 		["itemName"] = "Hauberk of the Savage Hunt",
 		["iconFileDataID"] = 1089144,
@@ -20890,17 +20909,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124284,
 		["itemSetID"] = 1253,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1085]
+	}, -- [1086]
 	{
 		["itemName"] = "Oathclaw Vestment",
 		["iconFileDataID"] = 1086113,
@@ -20910,17 +20929,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124246,
 		["itemSetID"] = 1250,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1086]
+	}, -- [1087]
 	{
 		["itemName"] = "Robe of the Arcanic Conclave",
 		["iconFileDataID"] = 1083044,
@@ -20930,17 +20949,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124171,
 		["itemSetID"] = 1251,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1087]
+	}, -- [1088]
 	{
 		["itemName"] = "Robe of the Living Mountain",
 		["iconFileDataID"] = 1096106,
@@ -20950,17 +20969,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124303,
 		["itemSetID"] = 1257,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1088]
+	}, -- [1089]
 	{
 		["itemName"] = "Ironthread Greatcloak",
 		["iconFileDataID"] = 1109408,
@@ -20979,7 +20998,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1089]
+	}, -- [1090]
 	{
 		["itemName"] = "Shawl of Sanguinary Ritual",
 		["iconFileDataID"] = 1096902,
@@ -20998,7 +21017,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1090]
+	}, -- [1091]
 	{
 		["itemName"] = "Polymorphic Cloak of Absorption",
 		["iconFileDataID"] = 1096628,
@@ -21017,7 +21036,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1091]
+	}, -- [1092]
 	{
 		["itemName"] = "Windswept Wanderer's Drape",
 		["iconFileDataID"] = 1109214,
@@ -21036,7 +21055,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1092]
+	}, -- [1093]
 	{
 		["itemName"] = "Rugged Bloodcaked Drape",
 		["iconFileDataID"] = 1109214,
@@ -21055,7 +21074,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1093]
+	}, -- [1094]
 	{
 		["itemName"] = "Cloak of Hideous Unity",
 		["iconFileDataID"] = 1096902,
@@ -21074,7 +21093,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1094]
+	}, -- [1095]
 	{
 		["itemName"] = "Cloak of Incendiary Wrath",
 		["iconFileDataID"] = 1109214,
@@ -21093,7 +21112,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1095]
+	}, -- [1096]
 	{
 		["itemName"] = "Cloak of Desperate Temerity",
 		["iconFileDataID"] = 1109214,
@@ -21112,7 +21131,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1096]
+	}, -- [1097]
 	{
 		["itemName"] = "Cloak of Insatiable Greed",
 		["iconFileDataID"] = 1096628,
@@ -21131,7 +21150,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1097]
+	}, -- [1098]
 	{
 		["itemName"] = "Drape of Gluttony",
 		["iconFileDataID"] = 1109408,
@@ -21150,7 +21169,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1098]
+	}, -- [1099]
 	{
 		["itemName"] = "Drape of Beckoned Souls",
 		["iconFileDataID"] = 1096628,
@@ -21169,7 +21188,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1099]
+	}, -- [1100]
 	{
 		["itemName"] = "Void Lord's Wizened Cloak",
 		["iconFileDataID"] = 1109408,
@@ -21188,7 +21207,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1100]
+	}, -- [1101]
 	{
 		["itemName"] = "Forward Observer's Camouflage Cloak",
 		["iconFileDataID"] = 1109214,
@@ -21207,7 +21226,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1101]
+	}, -- [1102]
 	{
 		["itemName"] = "Sparkburnt Welder's Cloak",
 		["iconFileDataID"] = 1096902,
@@ -21226,7 +21245,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1102]
+	}, -- [1103]
 	{
 		["itemName"] = "Soulbinder's Greatcloak",
 		["iconFileDataID"] = 1109214,
@@ -21245,7 +21264,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1103]
+	}, -- [1104]
 	{
 		["itemName"] = "Cloak of Tangible Dread",
 		["iconFileDataID"] = 1109214,
@@ -21264,7 +21283,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1104]
+	}, -- [1105]
 	{
 		["itemName"] = "Pilot's Pauldrons",
 		["iconFileDataID"] = 1083038,
@@ -21283,7 +21302,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1105]
+	}, -- [1106]
 	{
 		["itemName"] = "Rugged Stoneshaped Pauldrons",
 		["iconFileDataID"] = 1096107,
@@ -21302,7 +21321,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1106]
+	}, -- [1107]
 	{
 		["itemName"] = "Blood-Tanned Pauldrons",
 		["iconFileDataID"] = 1090250,
@@ -21321,7 +21340,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1107]
+	}, -- [1108]
 	{
 		["itemName"] = "Fel-Inscribed Shoulderplates",
 		["iconFileDataID"] = 1085009,
@@ -21340,7 +21359,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1108]
+	}, -- [1109]
 	{
 		["itemName"] = "Mantle of the Eredar Lord",
 		["iconFileDataID"] = 1096990,
@@ -21359,7 +21378,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1109]
+	}, -- [1110]
 	{
 		["itemName"] = "Doomcrier's Shoulderplates",
 		["iconFileDataID"] = 1088732,
@@ -21378,7 +21397,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1110]
+	}, -- [1111]
 	{
 		["itemName"] = "Amice of Phantasmal Power",
 		["iconFileDataID"] = 1091553,
@@ -21397,7 +21416,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1111]
+	}, -- [1112]
 	{
 		["itemName"] = "Pauldrons of Contempt",
 		["iconFileDataID"] = 1089148,
@@ -21416,7 +21435,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1112]
+	}, -- [1113]
 	{
 		["itemName"] = "Soulgorged Pauldrons",
 		["iconFileDataID"] = 1100043,
@@ -21435,7 +21454,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1113]
+	}, -- [1114]
 	{
 		["itemName"] = "Pauldrons of Rapid Coagulation",
 		["iconFileDataID"] = 1096107,
@@ -21454,7 +21473,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1114]
+	}, -- [1115]
 	{
 		["itemName"] = "Pauldrons of Iron Wrath",
 		["iconFileDataID"] = 1085009,
@@ -21464,17 +21483,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124346,
 		["itemSetID"] = 1258,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1115]
+	}, -- [1116]
 	{
 		["itemName"] = "Pauldrons of the Savage Hunt",
 		["iconFileDataID"] = 1089148,
@@ -21484,17 +21503,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124307,
 		["itemSetID"] = 1253,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1116]
+	}, -- [1117]
 	{
 		["itemName"] = "Mantle of the Hurricane's Eye",
 		["iconFileDataID"] = 1003604,
@@ -21504,17 +21523,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124273,
 		["itemSetID"] = 1252,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1117]
+	}, -- [1118]
 	{
 		["itemName"] = "Ferroleather Spaulders",
 		["iconFileDataID"] = 1095672,
@@ -21533,7 +21552,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1118]
+	}, -- [1119]
 	{
 		["itemName"] = "Mantle of the Arcanic Conclave",
 		["iconFileDataID"] = 1083038,
@@ -21543,17 +21562,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124177,
 		["itemSetID"] = 1251,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1119]
+	}, -- [1120]
 	{
 		["itemName"] = "Shoulderplates of the Ceaseless Vigil",
 		["iconFileDataID"] = 1088732,
@@ -21563,17 +21582,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124345,
 		["itemSetID"] = 1254,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1120]
+	}, -- [1121]
 	{
 		["itemName"] = "Demongaze Pauldrons",
 		["iconFileDataID"] = 1100043,
@@ -21583,17 +21602,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124344,
 		["itemSetID"] = 1249,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1121]
+	}, -- [1122]
 	{
 		["itemName"] = "Pious Mantle",
 		["iconFileDataID"] = 1091553,
@@ -21603,17 +21622,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124178,
 		["itemSetID"] = 1255,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1122]
+	}, -- [1123]
 	{
 		["itemName"] = "Felblade Spaulders",
 		["iconFileDataID"] = 1090250,
@@ -21623,17 +21642,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124274,
 		["itemSetID"] = 1256,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1123]
+	}, -- [1124]
 	{
 		["itemName"] = "Pauldrons of the Living Mountain",
 		["iconFileDataID"] = 1096107,
@@ -21643,17 +21662,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124308,
 		["itemSetID"] = 1257,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1124]
+	}, -- [1125]
 	{
 		["itemName"] = "Deathrattle Shoulderpads",
 		["iconFileDataID"] = 1095301,
@@ -21663,17 +21682,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124179,
 		["itemSetID"] = 1259,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1125]
+	}, -- [1126]
 	{
 		["itemName"] = "Oathclaw Mantle",
 		["iconFileDataID"] = 1086114,
@@ -21683,17 +21702,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124272,
 		["itemSetID"] = 1250,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1126]
+	}, -- [1127]
 	{
 		["itemName"] = "Rangefinder's Spaulders",
 		["iconFileDataID"] = 1003604,
@@ -21712,7 +21731,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1127]
+	}, -- [1128]
 	{
 		["itemName"] = "Voltage Regulation Diode",
 		["iconFileDataID"] = 1112946,
@@ -21731,7 +21750,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1128]
+	}, -- [1129]
 	{
 		["itemName"] = "Bolt-Latched Felsteel Gorget",
 		["iconFileDataID"] = 1112945,
@@ -21750,7 +21769,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1129]
+	}, -- [1130]
 	{
 		["itemName"] = "Glowing Firestone",
 		["iconFileDataID"] = 1112947,
@@ -21769,7 +21788,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1130]
+	}, -- [1131]
 	{
 		["itemName"] = "Shadowgorged Iron Choker",
 		["iconFileDataID"] = 1112955,
@@ -21788,7 +21807,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1131]
+	}, -- [1132]
 	{
 		["itemName"] = "Spiked Bloodstone Pendant",
 		["iconFileDataID"] = 1083387,
@@ -21807,7 +21826,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1132]
+	}, -- [1133]
 	{
 		["itemName"] = "Locket of Unholy Reconstitution",
 		["iconFileDataID"] = 1112950,
@@ -21826,7 +21845,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1133]
+	}, -- [1134]
 	{
 		["itemName"] = "Heartseeking Skull Pendant",
 		["iconFileDataID"] = 1112949,
@@ -21845,7 +21864,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1134]
+	}, -- [1135]
 	{
 		["itemName"] = "Chain of Lidless Eyes",
 		["iconFileDataID"] = 1112958,
@@ -21864,7 +21883,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1135]
+	}, -- [1136]
 	{
 		["itemName"] = "Choker of the Great Betrayer",
 		["iconFileDataID"] = 1112952,
@@ -21883,7 +21902,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1136]
+	}, -- [1137]
 	{
 		["itemName"] = "World Ender's Gorget",
 		["iconFileDataID"] = 1083375,
@@ -21902,7 +21921,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1137]
+	}, -- [1138]
 	{
 		["itemName"] = "Corrupted Talonguard Pendant",
 		["iconFileDataID"] = 1112957,
@@ -21921,7 +21940,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1138]
+	}, -- [1139]
 	{
 		["itemName"] = "Choker of Sneering Superiority",
 		["iconFileDataID"] = 1112951,
@@ -21940,7 +21959,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1139]
+	}, -- [1140]
 	{
 		["itemName"] = "Choker of Forbidden Indulgence",
 		["iconFileDataID"] = 1112960,
@@ -21959,7 +21978,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1140]
+	}, -- [1141]
 	{
 		["itemName"] = "Contained Fel Orb Locket",
 		["iconFileDataID"] = 1083378,
@@ -21978,7 +21997,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1141]
+	}, -- [1142]
 	{
 		["itemName"] = "Vial of Immiscible Liquid",
 		["iconFileDataID"] = 1112956,
@@ -21997,7 +22016,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1142]
+	}, -- [1143]
 	{
 		["itemName"] = "Choker of Whispered Promises",
 		["iconFileDataID"] = 1112957,
@@ -22016,7 +22035,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1143]
+	}, -- [1144]
 	{
 		["itemName"] = "Faulty Detonator Cord",
 		["iconFileDataID"] = 1112948,
@@ -22035,7 +22054,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1144]
+	}, -- [1145]
 	{
 		["itemName"] = "Cowl of the Arcanic Conclave",
 		["iconFileDataID"] = 1083039,
@@ -22045,17 +22064,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124160,
 		["itemSetID"] = 1251,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1145]
+	}, -- [1146]
 	{
 		["itemName"] = "Mask of the Hurricane's Eye",
 		["iconFileDataID"] = 1107438,
@@ -22065,17 +22084,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124262,
 		["itemSetID"] = 1252,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1146]
+	}, -- [1147]
 	{
 		["itemName"] = "Hood of the Savage Hunt",
 		["iconFileDataID"] = 1089146,
@@ -22085,17 +22104,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124296,
 		["itemSetID"] = 1253,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1147]
+	}, -- [1148]
 	{
 		["itemName"] = "Crown of the Living Mountain",
 		["iconFileDataID"] = 1096104,
@@ -22105,17 +22124,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124297,
 		["itemSetID"] = 1257,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1148]
+	}, -- [1149]
 	{
 		["itemName"] = "Ferroleather Hood",
 		["iconFileDataID"] = 1095670,
@@ -22134,7 +22153,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1149]
+	}, -- [1150]
 	{
 		["itemName"] = "Demongaze Helm",
 		["iconFileDataID"] = 1100041,
@@ -22144,17 +22163,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124332,
 		["itemSetID"] = 1249,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1150]
+	}, -- [1151]
 	{
 		["itemName"] = "Pious Cowl",
 		["iconFileDataID"] = 1091550,
@@ -22164,17 +22183,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124161,
 		["itemSetID"] = 1255,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1151]
+	}, -- [1152]
 	{
 		["itemName"] = "Helm of the Ceaseless Vigil",
 		["iconFileDataID"] = 1088730,
@@ -22184,17 +22203,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124333,
 		["itemSetID"] = 1254,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1152]
+	}, -- [1153]
 	{
 		["itemName"] = "Deathrattle Mask",
 		["iconFileDataID"] = 1095295,
@@ -22204,17 +22223,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124162,
 		["itemSetID"] = 1259,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1153]
+	}, -- [1154]
 	{
 		["itemName"] = "Faceguard of Iron Wrath",
 		["iconFileDataID"] = 1085007,
@@ -22224,17 +22243,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124334,
 		["itemSetID"] = 1258,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1154]
+	}, -- [1155]
 	{
 		["itemName"] = "Felblade Hood",
 		["iconFileDataID"] = 1090248,
@@ -22244,17 +22263,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124263,
 		["itemSetID"] = 1256,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1155]
+	}, -- [1156]
 	{
 		["itemName"] = "Helm of Precognition",
 		["iconFileDataID"] = 1085007,
@@ -22273,7 +22292,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1156]
+	}, -- [1157]
 	{
 		["itemName"] = "Gurtogg's Discarded Hood",
 		["iconFileDataID"] = 1090248,
@@ -22292,7 +22311,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1157]
+	}, -- [1158]
 	{
 		["itemName"] = "Oathclaw Helm",
 		["iconFileDataID"] = 1086111,
@@ -22302,17 +22321,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 45,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 124261,
 		["itemSetID"] = 1250,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1158]
+	}, -- [1159]
 	{
 		["itemName"] = "Casque of Foul Concentration",
 		["iconFileDataID"] = 1088730,
@@ -22331,7 +22350,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1159]
+	}, -- [1160]
 	{
 		["itemName"] = "Demon Prince's Ascendant Crown",
 		["iconFileDataID"] = 1096989,
@@ -22350,7 +22369,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1160]
+	}, -- [1161]
 	{
 		["itemName"] = "Coif of Untrue Sight",
 		["iconFileDataID"] = 1089146,
@@ -22369,7 +22388,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1161]
+	}, -- [1162]
 	{
 		["itemName"] = "Helm of Imagined Horrors",
 		["iconFileDataID"] = 1107438,
@@ -22388,7 +22407,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1162]
+	}, -- [1163]
 	{
 		["itemName"] = "Cowl of a Thousand Hungers",
 		["iconFileDataID"] = 1095295,
@@ -22407,7 +22426,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1163]
+	}, -- [1164]
 	{
 		["itemName"] = "Sinister Felborne Helmet",
 		["iconFileDataID"] = 1096104,
@@ -22426,7 +22445,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1164]
+	}, -- [1165]
 	{
 		["itemName"] = "Countenance of the Revenant",
 		["iconFileDataID"] = 1083039,
@@ -22445,7 +22464,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1165]
+	}, -- [1166]
 	{
 		["itemName"] = "Hood of Unknowable Secrets",
 		["iconFileDataID"] = 1086111,
@@ -22464,7 +22483,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1166]
+	}, -- [1167]
 	{
 		["itemName"] = "Thumping Demonheart Fetish",
 		["iconFileDataID"] = 1103333,
@@ -22483,7 +22502,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HOLDABLE",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1167]
+	}, -- [1168]
 	{
 		["itemName"] = "Gibbering Madness",
 		["iconFileDataID"] = 1102453,
@@ -22502,7 +22521,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HOLDABLE",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1168]
+	}, -- [1169]
 	{
 		["itemName"] = "Felforged Aegis",
 		["iconFileDataID"] = 1109077,
@@ -22521,7 +22540,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHIELD",
 		["itemSubType"] = "Shields",
 		["itemType"] = "Armor",
-	}, -- [1169]
+	}, -- [1170]
 	{
 		["itemName"] = "Fallen Defender of Argus",
 		["iconFileDataID"] = 1107167,
@@ -22540,7 +22559,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHIELD",
 		["itemSubType"] = "Shields",
 		["itemType"] = "Armor",
-	}, -- [1170]
+	}, -- [1171]
 	{
 		["itemName"] = "Smoldercore Bulwark",
 		["iconFileDataID"] = 1109077,
@@ -22559,7 +22578,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHIELD",
 		["itemSubType"] = "Shields",
 		["itemType"] = "Armor",
-	}, -- [1171]
+	}, -- [1172]
 	{
 		["itemName"] = "Soulwarped Tower Shield",
 		["iconFileDataID"] = 1114908,
@@ -22578,7 +22597,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHIELD",
 		["itemSubType"] = "Shields",
 		["itemType"] = "Armor",
-	}, -- [1172]
+	}, -- [1173]
 	{
 		["itemName"] = "Felfire Munitions Launcher",
 		["iconFileDataID"] = 1093191,
@@ -22597,7 +22616,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [1173]
+	}, -- [1174]
 	{
 		["itemName"] = "Felcrystal Impaler",
 		["iconFileDataID"] = 1104343,
@@ -22616,7 +22635,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [1174]
+	}, -- [1175]
 	{
 		["itemName"] = "Deceiver's Felbeak Wand",
 		["iconFileDataID"] = 1113709,
@@ -22635,7 +22654,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Wands",
 		["itemType"] = "Weapon",
-	}, -- [1175]
+	}, -- [1176]
 	{
 		["itemName"] = "Cursed Demonbone Longbow",
 		["iconFileDataID"] = 1097667,
@@ -22654,7 +22673,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [1176]
+	}, -- [1177]
 	{
 		["itemName"] = "Iron Skullcrusher",
 		["iconFileDataID"] = 1093450,
@@ -22673,7 +22692,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1177]
+	}, -- [1178]
 	{
 		["itemName"] = "Blackfuse Company Utility Knife",
 		["iconFileDataID"] = 1096201,
@@ -22692,7 +22711,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [1178]
+	}, -- [1179]
 	{
 		["itemName"] = "Runeaxe of the Breaker",
 		["iconFileDataID"] = 1093862,
@@ -22711,7 +22730,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Axes",
 		["itemType"] = "Weapon",
-	}, -- [1179]
+	}, -- [1180]
 	{
 		["itemName"] = "Runic Magnaron Tooth",
 		["iconFileDataID"] = 1100026,
@@ -22730,7 +22749,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [1180]
+	}, -- [1181]
 	{
 		["itemName"] = "Fallen Warlord's Mindcarver",
 		["iconFileDataID"] = 1099868,
@@ -22749,7 +22768,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [1181]
+	}, -- [1182]
 	{
 		["itemName"] = "Blazing Demonhilt Sword",
 		["iconFileDataID"] = 1112519,
@@ -22768,7 +22787,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1182]
+	}, -- [1183]
 	{
 		["itemName"] = "Mindbender's Flameblade",
 		["iconFileDataID"] = 1112519,
@@ -22787,7 +22806,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1183]
+	}, -- [1184]
 	{
 		["itemName"] = "Ruinous Gutripper",
 		["iconFileDataID"] = 1099868,
@@ -22806,7 +22825,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [1184]
+	}, -- [1185]
 	{
 		["itemName"] = "Demonblade Eviscerator",
 		["iconFileDataID"] = 1092403,
@@ -22825,7 +22844,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Fist Weapons",
 		["itemType"] = "Weapon",
-	}, -- [1185]
+	}, -- [1186]
 	{
 		["itemName"] = "Gavel of the Eredar",
 		["iconFileDataID"] = 1113523,
@@ -22844,7 +22863,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1186]
+	}, -- [1187]
 	{
 		["itemName"] = "Shadowrend Talonblade",
 		["iconFileDataID"] = 1108919,
@@ -22863,7 +22882,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1187]
+	}, -- [1188]
 	{
 		["itemName"] = "Voracious Souleater",
 		["iconFileDataID"] = 1115688,
@@ -22882,7 +22901,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Axes",
 		["itemType"] = "Weapon",
-	}, -- [1188]
+	}, -- [1189]
 	{
 		["itemName"] = "Fiendsbreath Warmace",
 		["iconFileDataID"] = 1101583,
@@ -22901,7 +22920,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1189]
+	}, -- [1190]
 	{
 		["itemName"] = "Hammer of Wicked Infusion",
 		["iconFileDataID"] = 1101583,
@@ -22920,7 +22939,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1190]
+	}, -- [1191]
 	{
 		["itemName"] = "Mindscythe of the Legion",
 		["iconFileDataID"] = 1092403,
@@ -22939,7 +22958,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Fist Weapons",
 		["itemType"] = "Weapon",
-	}, -- [1191]
+	}, -- [1192]
 	{
 		["itemName"] = "Saber of Twisted Virtue",
 		["iconFileDataID"] = 1112734,
@@ -22958,7 +22977,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1192]
+	}, -- [1193]
 	{
 		["itemName"] = "Felstricken Sha'tari Crystalsword",
 		["iconFileDataID"] = 1112734,
@@ -22977,7 +22996,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1193]
+	}, -- [1194]
 	{
 		["itemName"] = "Fang of the Pit",
 		["iconFileDataID"] = 1109902,
@@ -22996,7 +23015,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [1194]
+	}, -- [1195]
 	{
 		["itemName"] = "Rune Infused Spear",
 		["iconFileDataID"] = 1097922,
@@ -23015,7 +23034,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [1195]
+	}, -- [1196]
 	{
 		["itemName"] = "Fel-Burning Blade",
 		["iconFileDataID"] = 1115730,
@@ -23034,7 +23053,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Two-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1196]
+	}, -- [1197]
 	{
 		["itemName"] = "Xu'tenash, Glaive of Ruin",
 		["iconFileDataID"] = 1108795,
@@ -23053,7 +23072,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [1197]
+	}, -- [1198]
 	{
 		["itemName"] = "Bite of the Bleeding Hollow",
 		["iconFileDataID"] = 1110246,
@@ -23072,7 +23091,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1198]
+	}, -- [1199]
 	{
 		["itemName"] = "Edict of Argus",
 		["iconFileDataID"] = 1109960,
@@ -23091,7 +23110,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1199]
+	}, -- [1200]
 	{
 		["itemName"] = "Calamity's Edge",
 		["iconFileDataID"] = 1094536,
@@ -23110,7 +23129,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Two-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1200]
+	}, -- [1201]
 	{
 		["itemName"] = "Spur of the Great Devourer",
 		["iconFileDataID"] = 1114250,
@@ -23129,7 +23148,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1201]
+	}, -- [1202]
 	{
 		["itemName"] = "Hellrender",
 		["iconFileDataID"] = 1109118,
@@ -23148,7 +23167,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Two-Handed Axes",
 		["itemType"] = "Weapon",
-	}, -- [1202]
+	}, -- [1203]
 	{
 		["itemName"] = "Warhammer of Arrogance",
 		["iconFileDataID"] = 1093847,
@@ -23167,7 +23186,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Two-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1203]
+	}, -- [1204]
 	{
 		["itemName"] = "Maul of Tyranny",
 		["iconFileDataID"] = 1093847,
@@ -23186,7 +23205,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Two-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1204]
+	}, -- [1205]
 	{
 		["itemName"] = "Voidcore Greatstaff",
 		["iconFileDataID"] = 1101630,
@@ -23205,7 +23224,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1205]
+	}, -- [1206]
 	{
 		["itemName"] = "Illusion: Mark of the Bleeding Hollow",
 		["iconFileDataID"] = 237174,
@@ -23224,7 +23243,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [1206]
+	}, -- [1207]
 	{
 		["itemName"] = "Darmac's Unstable Talisman",
 		["iconFileDataID"] = 971288,
@@ -23243,7 +23262,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1207]
+	}, -- [1208]
 	{
 		["itemName"] = "Tablet of Turnbuckle Teamwork",
 		["iconFileDataID"] = 971290,
@@ -23262,7 +23281,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1208]
+	}, -- [1209]
 	{
 		["itemName"] = "Blast Furnace Door",
 		["iconFileDataID"] = 971279,
@@ -23281,7 +23300,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1209]
+	}, -- [1210]
 	{
 		["itemName"] = "Elementalist's Shielding Talisman",
 		["iconFileDataID"] = 971280,
@@ -23300,7 +23319,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1210]
+	}, -- [1211]
 	{
 		["itemName"] = "Meaty Dragonspine Trophy",
 		["iconFileDataID"] = 133720,
@@ -23319,7 +23338,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1211]
+	}, -- [1212]
 	{
 		["itemName"] = "Ironspike Chew Toy",
 		["iconFileDataID"] = 971291,
@@ -23338,7 +23357,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1212]
+	}, -- [1213]
 	{
 		["itemName"] = "Vial of Convulsive Shadows",
 		["iconFileDataID"] = 971277,
@@ -23357,7 +23376,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1213]
+	}, -- [1214]
 	{
 		["itemName"] = "Horn of Screaming Spirits",
 		["iconFileDataID"] = 971277,
@@ -23376,7 +23395,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1214]
+	}, -- [1215]
 	{
 		["itemName"] = "Beating Heart of the Mountain",
 		["iconFileDataID"] = 971286,
@@ -23395,7 +23414,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1215]
+	}, -- [1216]
 	{
 		["itemName"] = "Auto-Repairing Autoclave",
 		["iconFileDataID"] = 971289,
@@ -23414,7 +23433,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1216]
+	}, -- [1217]
 	{
 		["itemName"] = "Battering Talisman",
 		["iconFileDataID"] = 971284,
@@ -23433,7 +23452,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1217]
+	}, -- [1218]
 	{
 		["itemName"] = "Forgemaster's Insignia",
 		["iconFileDataID"] = 133044,
@@ -23452,7 +23471,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1218]
+	}, -- [1219]
 	{
 		["itemName"] = "Humming Blackiron Trigger",
 		["iconFileDataID"] = 971276,
@@ -23471,7 +23490,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1219]
+	}, -- [1220]
 	{
 		["itemName"] = "Blackiron Micro Crucible",
 		["iconFileDataID"] = 971287,
@@ -23490,7 +23509,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1220]
+	}, -- [1221]
 	{
 		["itemName"] = "Goren Soul Repository",
 		["iconFileDataID"] = 971282,
@@ -23509,7 +23528,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1221]
+	}, -- [1222]
 	{
 		["itemName"] = "Epicenter Loop",
 		["iconFileDataID"] = 1028567,
@@ -23528,7 +23547,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1222]
+	}, -- [1223]
 	{
 		["itemName"] = "Razoredge Blade Ring",
 		["iconFileDataID"] = 1028565,
@@ -23547,7 +23566,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1223]
+	}, -- [1224]
 	{
 		["itemName"] = "Six-Eyed Band",
 		["iconFileDataID"] = 1028562,
@@ -23566,7 +23585,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1224]
+	}, -- [1225]
 	{
 		["itemName"] = "Cinderwolf Signet",
 		["iconFileDataID"] = 1029468,
@@ -23585,7 +23604,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1225]
+	}, -- [1226]
 	{
 		["itemName"] = "Siege Bomber's Band",
 		["iconFileDataID"] = 1029020,
@@ -23604,7 +23623,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1226]
+	}, -- [1227]
 	{
 		["itemName"] = "Firemender's Smoldering Signet",
 		["iconFileDataID"] = 1029467,
@@ -23623,7 +23642,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1227]
+	}, -- [1228]
 	{
 		["itemName"] = "Phosphorescent Seal",
 		["iconFileDataID"] = 1028971,
@@ -23642,7 +23661,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1228]
+	}, -- [1229]
 	{
 		["itemName"] = "Seal of the Savage Howl",
 		["iconFileDataID"] = 1028565,
@@ -23661,7 +23680,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1229]
+	}, -- [1230]
 	{
 		["itemName"] = "Uk'urogg's Corrupted Seal",
 		["iconFileDataID"] = 1029021,
@@ -23680,7 +23699,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1230]
+	}, -- [1231]
 	{
 		["itemName"] = "Seal of Unquenchable Flame",
 		["iconFileDataID"] = 1029466,
@@ -23699,7 +23718,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1231]
+	}, -- [1232]
 	{
 		["itemName"] = "Stonefist Band",
 		["iconFileDataID"] = 1028561,
@@ -23718,7 +23737,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1232]
+	}, -- [1233]
 	{
 		["itemName"] = "Unexploded Explosive Shard",
 		["iconFileDataID"] = 1028568,
@@ -23737,7 +23756,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1233]
+	}, -- [1234]
 	{
 		["itemName"] = "Railwalker's Ratcheted Boots",
 		["iconFileDataID"] = 995667,
@@ -23756,7 +23775,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1234]
+	}, -- [1235]
 	{
 		["itemName"] = "Treads of Rekindled Flames",
 		["iconFileDataID"] = 1017345,
@@ -23775,7 +23794,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1235]
+	}, -- [1236]
 	{
 		["itemName"] = "Furnace Tender's Treads",
 		["iconFileDataID"] = 998961,
@@ -23794,7 +23813,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1236]
+	}, -- [1237]
 	{
 		["itemName"] = "Slagstomper Treads",
 		["iconFileDataID"] = 1017345,
@@ -23813,7 +23832,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1237]
+	}, -- [1238]
 	{
 		["itemName"] = "Iron Bellow Sabatons",
 		["iconFileDataID"] = 982077,
@@ -23832,7 +23851,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1238]
+	}, -- [1239]
 	{
 		["itemName"] = "Cavedweller's Climbers",
 		["iconFileDataID"] = 1017823,
@@ -23851,7 +23870,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1239]
+	}, -- [1240]
 	{
 		["itemName"] = "Inferno Breath Sandals",
 		["iconFileDataID"] = 998422,
@@ -23870,7 +23889,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1240]
+	}, -- [1241]
 	{
 		["itemName"] = "Treads of the Dark Hunt",
 		["iconFileDataID"] = 983523,
@@ -23889,7 +23908,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1241]
+	}, -- [1242]
 	{
 		["itemName"] = "Sabatons of Fractal Earth",
 		["iconFileDataID"] = 1027838,
@@ -23908,7 +23927,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1242]
+	}, -- [1243]
 	{
 		["itemName"] = "Legguards of the Stampede",
 		["iconFileDataID"] = 995672,
@@ -23927,7 +23946,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1243]
+	}, -- [1244]
 	{
 		["itemName"] = "Rylakstalker's Legguards",
 		["iconFileDataID"] = 1017350,
@@ -23937,17 +23956,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115546,
 		["itemSetID"] = 1236,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1244]
+	}, -- [1245]
 	{
 		["itemName"] = "Blackhand's Legguards",
 		["iconFileDataID"] = 982082,
@@ -23957,17 +23976,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115580,
 		["itemSetID"] = 1242,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1245]
+	}, -- [1246]
 	{
 		["itemName"] = "Windspeaker's Legwraps",
 		["iconFileDataID"] = 995672,
@@ -23977,17 +23996,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115575,
 		["itemSetID"] = 1241,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1246]
+	}, -- [1247]
 	{
 		["itemName"] = "Ogreskull Boneplate Greaves",
 		["iconFileDataID"] = 1021240,
@@ -23997,17 +24016,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115535,
 		["itemSetID"] = 1234,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1247]
+	}, -- [1248]
 	{
 		["itemName"] = "Arcanoshatter Leggings",
 		["iconFileDataID"] = 998427,
@@ -24017,17 +24036,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115554,
 		["itemSetID"] = 1235,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1248]
+	}, -- [1249]
 	{
 		["itemName"] = "Legwraps of the Somber Gaze",
 		["iconFileDataID"] = 998966,
@@ -24037,17 +24056,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115557,
 		["itemSetID"] = 1237,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1249]
+	}, -- [1250]
 	{
 		["itemName"] = "Turret Mechanic's Legwraps",
 		["iconFileDataID"] = 1024874,
@@ -24066,7 +24085,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1250]
+	}, -- [1251]
 	{
 		["itemName"] = "Firestorm Legplates",
 		["iconFileDataID"] = 982082,
@@ -24085,7 +24104,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1251]
+	}, -- [1252]
 	{
 		["itemName"] = "Leggings of the Molten Torrent",
 		["iconFileDataID"] = 998427,
@@ -24104,7 +24123,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1252]
+	}, -- [1253]
 	{
 		["itemName"] = "Poisoner's Legguards",
 		["iconFileDataID"] = 983529,
@@ -24114,17 +24133,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115573,
 		["itemSetID"] = 1240,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1253]
+	}, -- [1254]
 	{
 		["itemName"] = "Soul Priest's Leggings",
 		["iconFileDataID"] = 1017828,
@@ -24134,17 +24153,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115564,
 		["itemSetID"] = 1239,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1254]
+	}, -- [1255]
 	{
 		["itemName"] = "Shadow Council's Leggings",
 		["iconFileDataID"] = 1024874,
@@ -24154,17 +24173,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115587,
 		["itemSetID"] = 1243,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1255]
+	}, -- [1256]
 	{
 		["itemName"] = "Legplates of Guiding Light",
 		["iconFileDataID"] = 978686,
@@ -24174,17 +24193,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115569,
 		["itemSetID"] = 1238,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1256]
+	}, -- [1257]
 	{
 		["itemName"] = "Living Wood Legguards",
 		["iconFileDataID"] = 1004905,
@@ -24194,17 +24213,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115543,
 		["itemSetID"] = 1233,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1257]
+	}, -- [1258]
 	{
 		["itemName"] = "Shattering Smash Leggings",
 		["iconFileDataID"] = 998966,
@@ -24223,7 +24242,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1258]
+	}, -- [1259]
 	{
 		["itemName"] = "Corrosion-Proof Legguards",
 		["iconFileDataID"] = 1017350,
@@ -24242,7 +24261,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1259]
+	}, -- [1260]
 	{
 		["itemName"] = "Grenadier's Belt",
 		["iconFileDataID"] = 1017344,
@@ -24261,7 +24280,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1260]
+	}, -- [1261]
 	{
 		["itemName"] = "Ironcrusher's Collar",
 		["iconFileDataID"] = 1021243,
@@ -24280,7 +24299,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1261]
+	}, -- [1262]
 	{
 		["itemName"] = "Girdle of Unconquered Glory",
 		["iconFileDataID"] = 998960,
@@ -24299,7 +24318,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1262]
+	}, -- [1263]
 	{
 		["itemName"] = "Conductor's Multi-Pocket Girdle",
 		["iconFileDataID"] = 983525,
@@ -24318,7 +24337,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1263]
+	}, -- [1264]
 	{
 		["itemName"] = "Seeking Ember Girdle",
 		["iconFileDataID"] = 1024868,
@@ -24337,7 +24356,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1264]
+	}, -- [1265]
 	{
 		["itemName"] = "Uktar's Belt of Chiming Rings",
 		["iconFileDataID"] = 978681,
@@ -24356,7 +24375,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1265]
+	}, -- [1266]
 	{
 		["itemName"] = "Deckhand's Rope Belt",
 		["iconFileDataID"] = 998421,
@@ -24375,7 +24394,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1266]
+	}, -- [1267]
 	{
 		["itemName"] = "Earthgrasp Girdle",
 		["iconFileDataID"] = 995666,
@@ -24394,7 +24413,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1267]
+	}, -- [1268]
 	{
 		["itemName"] = "Cannonball Loader's Grips",
 		["iconFileDataID"] = 998964,
@@ -24413,7 +24432,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1268]
+	}, -- [1269]
 	{
 		["itemName"] = "Gauntlets of Dramatic Blows",
 		["iconFileDataID"] = 1021239,
@@ -24432,7 +24451,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1269]
+	}, -- [1270]
 	{
 		["itemName"] = "Windspeaker's Handwraps",
 		["iconFileDataID"] = 995670,
@@ -24442,17 +24461,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115578,
 		["itemSetID"] = 1241,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1270]
+	}, -- [1271]
 	{
 		["itemName"] = "Ogreskull Boneplate Gauntlets",
 		["iconFileDataID"] = 1021239,
@@ -24462,17 +24481,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115538,
 		["itemSetID"] = 1234,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1271]
+	}, -- [1272]
 	{
 		["itemName"] = "Arcanoshatter Gloves",
 		["iconFileDataID"] = 998425,
@@ -24482,17 +24501,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115552,
 		["itemSetID"] = 1235,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1272]
+	}, -- [1273]
 	{
 		["itemName"] = "Poisoner's Gloves",
 		["iconFileDataID"] = 983527,
@@ -24502,17 +24521,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115571,
 		["itemSetID"] = 1240,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1273]
+	}, -- [1274]
 	{
 		["itemName"] = "Gauntlets of Guiding Light",
 		["iconFileDataID"] = 978684,
@@ -24522,17 +24541,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115567,
 		["itemSetID"] = 1238,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1274]
+	}, -- [1275]
 	{
 		["itemName"] = "Shadow Council's Gloves",
 		["iconFileDataID"] = 1024872,
@@ -24542,17 +24561,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115585,
 		["itemSetID"] = 1243,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1275]
+	}, -- [1276]
 	{
 		["itemName"] = "Living Wood Grips",
 		["iconFileDataID"] = 1004903,
@@ -24562,17 +24581,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115541,
 		["itemSetID"] = 1233,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1276]
+	}, -- [1277]
 	{
 		["itemName"] = "Handwraps of the Somber Gaze",
 		["iconFileDataID"] = 998964,
@@ -24582,17 +24601,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115555,
 		["itemSetID"] = 1237,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1277]
+	}, -- [1278]
 	{
 		["itemName"] = "Rylakstalker's Gloves",
 		["iconFileDataID"] = 1017348,
@@ -24602,17 +24621,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115549,
 		["itemSetID"] = 1236,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1278]
+	}, -- [1279]
 	{
 		["itemName"] = "Blackhand's Handguards",
 		["iconFileDataID"] = 982080,
@@ -24622,17 +24641,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115583,
 		["itemSetID"] = 1242,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1279]
+	}, -- [1280]
 	{
 		["itemName"] = "Soul Priest's Gloves",
 		["iconFileDataID"] = 1017826,
@@ -24642,17 +24661,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115562,
 		["itemSetID"] = 1239,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1280]
+	}, -- [1281]
 	{
 		["itemName"] = "Grips of Rekindling",
 		["iconFileDataID"] = 995670,
@@ -24671,7 +24690,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1281]
+	}, -- [1282]
 	{
 		["itemName"] = "Stonewarper Wraps",
 		["iconFileDataID"] = 998425,
@@ -24690,7 +24709,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1282]
+	}, -- [1283]
 	{
 		["itemName"] = "Flamefury Gauntlets",
 		["iconFileDataID"] = 982080,
@@ -24709,7 +24728,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1283]
+	}, -- [1284]
 	{
 		["itemName"] = "Toothbreaker Grips",
 		["iconFileDataID"] = 1017826,
@@ -24728,7 +24747,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1284]
+	}, -- [1285]
 	{
 		["itemName"] = "Bracers of Enkindled Power",
 		["iconFileDataID"] = 1024870,
@@ -24747,7 +24766,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1285]
+	}, -- [1286]
 	{
 		["itemName"] = "Bracers of Spattered Steel",
 		["iconFileDataID"] = 1017824,
@@ -24766,7 +24785,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1286]
+	}, -- [1287]
 	{
 		["itemName"] = "Fleshmelter Bracers",
 		["iconFileDataID"] = 1021237,
@@ -24785,7 +24804,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1287]
+	}, -- [1288]
 	{
 		["itemName"] = "Squire's Electroplated Bracers",
 		["iconFileDataID"] = 1004901,
@@ -24804,7 +24823,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1288]
+	}, -- [1289]
 	{
 		["itemName"] = "Bracers of Martial Perfection",
 		["iconFileDataID"] = 986228,
@@ -24823,7 +24842,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1289]
+	}, -- [1290]
 	{
 		["itemName"] = "Bracers of the Wolf's Cunning",
 		["iconFileDataID"] = 1017346,
@@ -24842,7 +24861,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1290]
+	}, -- [1291]
 	{
 		["itemName"] = "Bloodwhirl Bracers",
 		["iconFileDataID"] = 995668,
@@ -24861,7 +24880,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1291]
+	}, -- [1292]
 	{
 		["itemName"] = "Bracers of Shattered Stalactites",
 		["iconFileDataID"] = 998962,
@@ -24880,7 +24899,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1292]
+	}, -- [1293]
 	{
 		["itemName"] = "Living Wood Raiment",
 		["iconFileDataID"] = 1004906,
@@ -24890,17 +24909,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115540,
 		["itemSetID"] = 1233,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1293]
+	}, -- [1294]
 	{
 		["itemName"] = "Rylakstalker's Tunic",
 		["iconFileDataID"] = 1017347,
@@ -24910,17 +24929,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115548,
 		["itemSetID"] = 1236,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1294]
+	}, -- [1295]
 	{
 		["itemName"] = "Blackhand's Chestguard",
 		["iconFileDataID"] = 982079,
@@ -24930,17 +24949,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115582,
 		["itemSetID"] = 1242,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1295]
+	}, -- [1296]
 	{
 		["itemName"] = "Vest of the Somber Gaze",
 		["iconFileDataID"] = 998963,
@@ -24950,17 +24969,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115558,
 		["itemSetID"] = 1237,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1296]
+	}, -- [1297]
 	{
 		["itemName"] = "Arcanoshatter Robes",
 		["iconFileDataID"] = 998428,
@@ -24970,17 +24989,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115550,
 		["itemSetID"] = 1235,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1297]
+	}, -- [1298]
 	{
 		["itemName"] = "Shadow Council's Robes",
 		["iconFileDataID"] = 1024875,
@@ -24990,17 +25009,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115588,
 		["itemSetID"] = 1243,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1298]
+	}, -- [1299]
 	{
 		["itemName"] = "Ogreskull Boneplate Breastplate",
 		["iconFileDataID"] = 1021238,
@@ -25010,17 +25029,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115537,
 		["itemSetID"] = 1234,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1299]
+	}, -- [1300]
 	{
 		["itemName"] = "Poisoner's Tunic",
 		["iconFileDataID"] = 983526,
@@ -25030,17 +25049,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115570,
 		["itemSetID"] = 1240,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1300]
+	}, -- [1301]
 	{
 		["itemName"] = "Windspeaker's Tunic",
 		["iconFileDataID"] = 995673,
@@ -25050,17 +25069,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115577,
 		["itemSetID"] = 1241,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1301]
+	}, -- [1302]
 	{
 		["itemName"] = "Unrendable Wolfhide Robes",
 		["iconFileDataID"] = 983526,
@@ -25079,7 +25098,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1302]
+	}, -- [1303]
 	{
 		["itemName"] = "Eye-Catching Gilded Robe",
 		["iconFileDataID"] = 998428,
@@ -25098,7 +25117,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1303]
+	}, -- [1304]
 	{
 		["itemName"] = "Chestguard of Unending Roars",
 		["iconFileDataID"] = 1017347,
@@ -25117,7 +25136,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1304]
+	}, -- [1305]
 	{
 		["itemName"] = "Woundsear Robes",
 		["iconFileDataID"] = 1017829,
@@ -25136,7 +25155,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1305]
+	}, -- [1306]
 	{
 		["itemName"] = "Vest of Forceful Fury",
 		["iconFileDataID"] = 1007073,
@@ -25155,7 +25174,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1306]
+	}, -- [1307]
 	{
 		["itemName"] = "Bloodsoaked Heart Protector",
 		["iconFileDataID"] = 982079,
@@ -25174,7 +25193,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1307]
+	}, -- [1308]
 	{
 		["itemName"] = "Battleplate of Guiding Light",
 		["iconFileDataID"] = 978683,
@@ -25184,17 +25203,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115566,
 		["itemSetID"] = 1238,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1308]
+	}, -- [1309]
 	{
 		["itemName"] = "Soul Priest's Raiment",
 		["iconFileDataID"] = 1017829,
@@ -25204,17 +25223,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115560,
 		["itemSetID"] = 1239,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1309]
+	}, -- [1310]
 	{
 		["itemName"] = "Chestguard of the Siegemaker",
 		["iconFileDataID"] = 995669,
@@ -25233,7 +25252,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1310]
+	}, -- [1311]
 	{
 		["itemName"] = "Chestplate of Rolling Fury",
 		["iconFileDataID"] = 1021238,
@@ -25252,7 +25271,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1311]
+	}, -- [1312]
 	{
 		["itemName"] = "Flame Infusion Drape",
 		["iconFileDataID"] = 1035871,
@@ -25271,7 +25290,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1312]
+	}, -- [1313]
 	{
 		["itemName"] = "Runescribed Gronncloak",
 		["iconFileDataID"] = 1031664,
@@ -25290,7 +25309,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1313]
+	}, -- [1314]
 	{
 		["itemName"] = "Gronn-Stitched Greatcloak",
 		["iconFileDataID"] = 1052546,
@@ -25309,7 +25328,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1314]
+	}, -- [1315]
 	{
 		["itemName"] = "Cloak of Sanguine Terror",
 		["iconFileDataID"] = 1052546,
@@ -25328,7 +25347,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1315]
+	}, -- [1316]
 	{
 		["itemName"] = "Drape of the Dark Hunt",
 		["iconFileDataID"] = 1035021,
@@ -25347,7 +25366,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1316]
+	}, -- [1317]
 	{
 		["itemName"] = "Charbreath Firecloak",
 		["iconFileDataID"] = 1052548,
@@ -25366,7 +25385,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1317]
+	}, -- [1318]
 	{
 		["itemName"] = "Cloak of Delving Secrets",
 		["iconFileDataID"] = 1035872,
@@ -25385,7 +25404,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1318]
+	}, -- [1319]
 	{
 		["itemName"] = "Runefrenzy Greatcloak",
 		["iconFileDataID"] = 1031664,
@@ -25404,7 +25423,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1319]
+	}, -- [1320]
 	{
 		["itemName"] = "Ravenous Greatcloak",
 		["iconFileDataID"] = 1052548,
@@ -25423,7 +25442,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1320]
+	}, -- [1321]
 	{
 		["itemName"] = "Barrage Dodger Cloak",
 		["iconFileDataID"] = 1031665,
@@ -25442,7 +25461,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1321]
+	}, -- [1322]
 	{
 		["itemName"] = "Pauldrons of Guiding Light",
 		["iconFileDataID"] = 978687,
@@ -25452,17 +25471,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115565,
 		["itemSetID"] = 1238,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1322]
+	}, -- [1323]
 	{
 		["itemName"] = "Soul Priest's Shoulderguards",
 		["iconFileDataID"] = 1017830,
@@ -25472,17 +25491,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115561,
 		["itemSetID"] = 1239,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1323]
+	}, -- [1324]
 	{
 		["itemName"] = "Ogreskull Boneplate Pauldrons",
 		["iconFileDataID"] = 1021242,
@@ -25492,17 +25511,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115536,
 		["itemSetID"] = 1234,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1324]
+	}, -- [1325]
 	{
 		["itemName"] = "Mantle of the Somber Gaze",
 		["iconFileDataID"] = 998967,
@@ -25512,17 +25531,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115559,
 		["itemSetID"] = 1237,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1325]
+	}, -- [1326]
 	{
 		["itemName"] = "Poisoner's Spaulders",
 		["iconFileDataID"] = 983530,
@@ -25532,17 +25551,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115574,
 		["itemSetID"] = 1240,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1326]
+	}, -- [1327]
 	{
 		["itemName"] = "Windspeaker's Mantle",
 		["iconFileDataID"] = 995674,
@@ -25552,17 +25571,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115576,
 		["itemSetID"] = 1241,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1327]
+	}, -- [1328]
 	{
 		["itemName"] = "Blackhand's Shoulderguards",
 		["iconFileDataID"] = 982083,
@@ -25572,17 +25591,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115581,
 		["itemSetID"] = 1242,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1328]
+	}, -- [1329]
 	{
 		["itemName"] = "Rylakstalker's Spaulders",
 		["iconFileDataID"] = 1017351,
@@ -25592,17 +25611,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115547,
 		["itemSetID"] = 1236,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1329]
+	}, -- [1330]
 	{
 		["itemName"] = "Arcanoshatter Mantle",
 		["iconFileDataID"] = 998429,
@@ -25612,17 +25631,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115551,
 		["itemSetID"] = 1235,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1330]
+	}, -- [1331]
 	{
 		["itemName"] = "Shadow Council's Mantle",
 		["iconFileDataID"] = 1024876,
@@ -25632,17 +25651,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115589,
 		["itemSetID"] = 1243,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1331]
+	}, -- [1332]
 	{
 		["itemName"] = "Living Wood Spaulders",
 		["iconFileDataID"] = 1004907,
@@ -25652,17 +25671,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115544,
 		["itemSetID"] = 1233,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1332]
+	}, -- [1333]
 	{
 		["itemName"] = "Neckbreaker Shoulderguards",
 		["iconFileDataID"] = 995674,
@@ -25681,7 +25700,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1333]
+	}, -- [1334]
 	{
 		["itemName"] = "Giant Pumpers",
 		["iconFileDataID"] = 1017830,
@@ -25700,7 +25719,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1334]
+	}, -- [1335]
 	{
 		["itemName"] = "Spaulders of Reflected Stone",
 		["iconFileDataID"] = 1017351,
@@ -25719,7 +25738,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1335]
+	}, -- [1336]
 	{
 		["itemName"] = "Flamebender's Shoulderguards",
 		["iconFileDataID"] = 998967,
@@ -25738,7 +25757,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1336]
+	}, -- [1337]
 	{
 		["itemName"] = "Earthripple Shoulderpads",
 		["iconFileDataID"] = 1024876,
@@ -25757,7 +25776,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1337]
+	}, -- [1338]
 	{
 		["itemName"] = "Unstable Slag Shoulderplates",
 		["iconFileDataID"] = 982083,
@@ -25776,7 +25795,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1338]
+	}, -- [1339]
 	{
 		["itemName"] = "Overdriven Spaulders",
 		["iconFileDataID"] = 978687,
@@ -25795,7 +25814,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1339]
+	}, -- [1340]
 	{
 		["itemName"] = "Vertebrae Protector",
 		["iconFileDataID"] = 1083381,
@@ -25814,7 +25833,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1340]
+	}, -- [1341]
 	{
 		["itemName"] = "Feldspar's Control Choker",
 		["iconFileDataID"] = 1083379,
@@ -25833,7 +25852,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1341]
+	}, -- [1342]
 	{
 		["itemName"] = "Engineer's Grounded Gorget",
 		["iconFileDataID"] = 1083376,
@@ -25852,7 +25871,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1342]
+	}, -- [1343]
 	{
 		["itemName"] = "Thogar's Serrated Chain",
 		["iconFileDataID"] = 1083388,
@@ -25871,7 +25890,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1343]
+	}, -- [1344]
 	{
 		["itemName"] = "Darklight Necklace",
 		["iconFileDataID"] = 1083389,
@@ -25890,7 +25909,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1344]
+	}, -- [1345]
 	{
 		["itemName"] = "Gruul's Lip Ring",
 		["iconFileDataID"] = 1083377,
@@ -25909,7 +25928,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1345]
+	}, -- [1346]
 	{
 		["itemName"] = "Choker of Bestial Force",
 		["iconFileDataID"] = 1083381,
@@ -25928,7 +25947,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1346]
+	}, -- [1347]
 	{
 		["itemName"] = "Choker of Bloody Flame",
 		["iconFileDataID"] = 1083377,
@@ -25947,7 +25966,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1347]
+	}, -- [1348]
 	{
 		["itemName"] = "Fiery Links of Courage",
 		["iconFileDataID"] = 1083382,
@@ -25966,7 +25985,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1348]
+	}, -- [1349]
 	{
 		["itemName"] = "Talisman of the Fomor",
 		["iconFileDataID"] = 1083374,
@@ -25985,7 +26004,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1349]
+	}, -- [1350]
 	{
 		["itemName"] = "Glutton's Kerchief",
 		["iconFileDataID"] = 1083375,
@@ -26004,7 +26023,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1350]
+	}, -- [1351]
 	{
 		["itemName"] = "Hardened Greathelm",
 		["iconFileDataID"] = 978685,
@@ -26023,7 +26042,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1351]
+	}, -- [1352]
 	{
 		["itemName"] = "Lava-Dipped Greathelm",
 		["iconFileDataID"] = 982081,
@@ -26042,7 +26061,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1352]
+	}, -- [1353]
 	{
 		["itemName"] = "Blast-Proof Cowl",
 		["iconFileDataID"] = 995671,
@@ -26061,7 +26080,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1353]
+	}, -- [1354]
 	{
 		["itemName"] = "Gronn-Skin Crown",
 		["iconFileDataID"] = 995671,
@@ -26080,7 +26099,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1354]
+	}, -- [1355]
 	{
 		["itemName"] = "Flare-Eyed Hood",
 		["iconFileDataID"] = 998426,
@@ -26099,7 +26118,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1355]
+	}, -- [1356]
 	{
 		["itemName"] = "Sorka's Nightshade Cowl",
 		["iconFileDataID"] = 1004904,
@@ -26118,7 +26137,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1356]
+	}, -- [1357]
 	{
 		["itemName"] = "Shadow Council's Hood",
 		["iconFileDataID"] = 1024873,
@@ -26128,17 +26147,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115586,
 		["itemSetID"] = 1243,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1357]
+	}, -- [1358]
 	{
 		["itemName"] = "Helm of the Somber Gaze",
 		["iconFileDataID"] = 998965,
@@ -26148,17 +26167,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115556,
 		["itemSetID"] = 1237,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1358]
+	}, -- [1359]
 	{
 		["itemName"] = "Poisoner's Helmet",
 		["iconFileDataID"] = 983528,
@@ -26168,17 +26187,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115572,
 		["itemSetID"] = 1240,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1359]
+	}, -- [1360]
 	{
 		["itemName"] = "Blackhand's Faceguard",
 		["iconFileDataID"] = 982081,
@@ -26188,17 +26207,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115584,
 		["itemSetID"] = 1242,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1360]
+	}, -- [1361]
 	{
 		["itemName"] = "Ogreskull Boneplate Greathelm",
 		["iconFileDataID"] = 1021241,
@@ -26208,17 +26227,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115539,
 		["itemSetID"] = 1234,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1361]
+	}, -- [1362]
 	{
 		["itemName"] = "Soul Priest's Hood",
 		["iconFileDataID"] = 1017827,
@@ -26228,17 +26247,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115563,
 		["itemSetID"] = 1239,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1362]
+	}, -- [1363]
 	{
 		["itemName"] = "Windspeaker's Faceguard",
 		["iconFileDataID"] = 995671,
@@ -26248,17 +26267,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115579,
 		["itemSetID"] = 1241,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1363]
+	}, -- [1364]
 	{
 		["itemName"] = "Living Wood Headpiece",
 		["iconFileDataID"] = 1004904,
@@ -26268,17 +26287,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115542,
 		["itemSetID"] = 1233,
 		["itemSubClassID"] = 2,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1364]
+	}, -- [1365]
 	{
 		["itemName"] = "Arcanoshatter Hood",
 		["iconFileDataID"] = 998426,
@@ -26288,17 +26307,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115553,
 		["itemSetID"] = 1235,
 		["itemSubClassID"] = 1,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1365]
+	}, -- [1366]
 	{
 		["itemName"] = "Helmet of Guiding Light",
 		["iconFileDataID"] = 978685,
@@ -26308,17 +26327,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115568,
 		["itemSetID"] = 1238,
 		["itemSubClassID"] = 4,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1366]
+	}, -- [1367]
 	{
 		["itemName"] = "Rylakstalker's Headguard",
 		["iconFileDataID"] = 1017349,
@@ -26328,17 +26347,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 44,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 40,
 		["expacID"] = 5,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 40,
+		["isCraftingReagent"] = false,
 		["itemID"] = 115545,
 		["itemSetID"] = 1236,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1367]
+	}, -- [1368]
 	{
 		["itemName"] = "Slagbomber's Hood",
 		["iconFileDataID"] = 1024873,
@@ -26357,7 +26376,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1368]
+	}, -- [1369]
 	{
 		["itemName"] = "Acidic Jaws",
 		["iconFileDataID"] = 983528,
@@ -26376,7 +26395,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1369]
+	}, -- [1370]
 	{
 		["itemName"] = "Caged Living Ooze",
 		["iconFileDataID"] = 1035721,
@@ -26395,7 +26414,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HOLDABLE",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1370]
+	}, -- [1371]
 	{
 		["itemName"] = "Engine-Stoker's Lantern",
 		["iconFileDataID"] = 1033073,
@@ -26414,7 +26433,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HOLDABLE",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1371]
+	}, -- [1372]
 	{
 		["itemName"] = "Heart of the Clefthoof",
 		["iconFileDataID"] = 1002602,
@@ -26433,7 +26452,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHIELD",
 		["itemSubType"] = "Shields",
 		["itemType"] = "Armor",
-	}, -- [1372]
+	}, -- [1373]
 	{
 		["itemName"] = "Kromog's Protecting Palm",
 		["iconFileDataID"] = 1036316,
@@ -26452,7 +26471,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHIELD",
 		["itemSubType"] = "Shields",
 		["itemType"] = "Armor",
-	}, -- [1373]
+	}, -- [1374]
 	{
 		["itemName"] = "Mouth of The Fury",
 		["iconFileDataID"] = 984349,
@@ -26471,7 +26490,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [1374]
+	}, -- [1375]
 	{
 		["itemName"] = "Gar'an's Brutal Spearlauncher",
 		["iconFileDataID"] = 985703,
@@ -26490,7 +26509,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [1375]
+	}, -- [1376]
 	{
 		["itemName"] = "Hans'gar's Forgehammer",
 		["iconFileDataID"] = 986926,
@@ -26509,7 +26528,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1376]
+	}, -- [1377]
 	{
 		["itemName"] = "Franzok's Headsmasher",
 		["iconFileDataID"] = 1038844,
@@ -26528,7 +26547,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1377]
+	}, -- [1378]
 	{
 		["itemName"] = "Molten Edge Eviscerator",
 		["iconFileDataID"] = 1030109,
@@ -26547,7 +26566,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [1378]
+	}, -- [1379]
 	{
 		["itemName"] = "Taner's Terrible Spine",
 		["iconFileDataID"] = 1036054,
@@ -26566,7 +26585,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1379]
+	}, -- [1380]
 	{
 		["itemName"] = "Koloch Na, the Blood Feast",
 		["iconFileDataID"] = 1017820,
@@ -26585,7 +26604,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Axes",
 		["itemType"] = "Weapon",
-	}, -- [1380]
+	}, -- [1381]
 	{
 		["itemName"] = "Sorka's Chainfist",
 		["iconFileDataID"] = 1044151,
@@ -26604,7 +26623,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Fist Weapons",
 		["itemType"] = "Weapon",
-	}, -- [1381]
+	}, -- [1382]
 	{
 		["itemName"] = "Dagger of Blazing Radiance",
 		["iconFileDataID"] = 1030109,
@@ -26623,7 +26642,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [1382]
+	}, -- [1383]
 	{
 		["itemName"] = "Kromog's Brutal Fist",
 		["iconFileDataID"] = 1041167,
@@ -26642,7 +26661,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1383]
+	}, -- [1384]
 	{
 		["itemName"] = "Fang of the Earth",
 		["iconFileDataID"] = 1031329,
@@ -26661,7 +26680,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1384]
+	}, -- [1385]
 	{
 		["itemName"] = "Iron Soldier's Saber",
 		["iconFileDataID"] = 986825,
@@ -26680,7 +26699,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1385]
+	}, -- [1386]
 	{
 		["itemName"] = "Oregorger's Acid-Etched Gutripper",
 		["iconFileDataID"] = 999955,
@@ -26699,7 +26718,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [1386]
+	}, -- [1387]
 	{
 		["itemName"] = "Thogar's Control Rod",
 		["iconFileDataID"] = 1032381,
@@ -26718,7 +26737,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [1387]
+	}, -- [1388]
 	{
 		["itemName"] = "Head-Lopper Skullscythe",
 		["iconFileDataID"] = 1044817,
@@ -26737,7 +26756,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1388]
+	}, -- [1389]
 	{
 		["itemName"] = "Crescent of Living Magma",
 		["iconFileDataID"] = 1001981,
@@ -26756,7 +26775,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Two-Handed Axes",
 		["itemType"] = "Weapon",
-	}, -- [1389]
+	}, -- [1390]
 	{
 		["itemName"] = "Inferno-Flame Staff",
 		["iconFileDataID"] = 1033044,
@@ -26775,7 +26794,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1390]
+	}, -- [1391]
 	{
 		["itemName"] = "Tal'rak, Bloody Skull of the Thunderlords",
 		["iconFileDataID"] = 975499,
@@ -26794,7 +26813,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [1391]
+	}, -- [1392]
 	{
 		["itemName"] = "Blackhand Doomstaff",
 		["iconFileDataID"] = 1042881,
@@ -26813,7 +26832,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1392]
+	}, -- [1393]
 	{
 		["itemName"] = "Ka'graz's Burning Blade",
 		["iconFileDataID"] = 982468,
@@ -26832,7 +26851,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Two-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1393]
+	}, -- [1394]
 	{
 		["itemName"] = "The Black Hand",
 		["iconFileDataID"] = 996660,
@@ -26851,7 +26870,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Two-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1394]
+	}, -- [1395]
 	{
 		["itemName"] = "Chest of the Iron Vanquisher",
 		["iconFileDataID"] = 132632,
@@ -26870,7 +26889,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1395]
+	}, -- [1396]
 	{
 		["itemName"] = "Chest of the Iron Protector",
 		["iconFileDataID"] = 132632,
@@ -26889,7 +26908,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1396]
+	}, -- [1397]
 	{
 		["itemName"] = "Leggings of the Iron Vanquisher",
 		["iconFileDataID"] = 133834,
@@ -26908,7 +26927,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1397]
+	}, -- [1398]
 	{
 		["itemName"] = "Leggings of the Iron Protector",
 		["iconFileDataID"] = 133834,
@@ -26927,7 +26946,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1398]
+	}, -- [1399]
 	{
 		["itemName"] = "Leggings of the Iron Conqueror",
 		["iconFileDataID"] = 133834,
@@ -26946,7 +26965,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1399]
+	}, -- [1400]
 	{
 		["itemName"] = "Shoulders of the Iron Protector",
 		["iconFileDataID"] = 135053,
@@ -26965,7 +26984,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1400]
+	}, -- [1401]
 	{
 		["itemName"] = "Shoulders of the Iron Vanquisher",
 		["iconFileDataID"] = 135053,
@@ -26984,7 +27003,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1401]
+	}, -- [1402]
 	{
 		["itemName"] = "Shoulders of the Iron Conqueror",
 		["iconFileDataID"] = 135053,
@@ -27003,7 +27022,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1402]
+	}, -- [1403]
 	{
 		["itemName"] = "Essence of the Iron Conqueror",
 		["iconFileDataID"] = 237275,
@@ -27022,7 +27041,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1403]
+	}, -- [1404]
 	{
 		["itemName"] = "Essence of the Iron Vanquisher",
 		["iconFileDataID"] = 237273,
@@ -27041,7 +27060,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1404]
+	}, -- [1405]
 	{
 		["itemName"] = "Essence of the Iron Protector",
 		["iconFileDataID"] = 237274,
@@ -27060,7 +27079,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1405]
+	}, -- [1406]
 	{
 		["itemName"] = "Gauntlets of the Iron Protector",
 		["iconFileDataID"] = 132963,
@@ -27079,7 +27098,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1406]
+	}, -- [1407]
 	{
 		["itemName"] = "Gauntlets of the Iron Vanquisher",
 		["iconFileDataID"] = 132963,
@@ -27098,7 +27117,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1407]
+	}, -- [1408]
 	{
 		["itemName"] = "Gauntlets of the Iron Conqueror",
 		["iconFileDataID"] = 132963,
@@ -27117,7 +27136,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1408]
+	}, -- [1409]
 	{
 		["itemName"] = "Helm of the Iron Conqueror",
 		["iconFileDataID"] = 133126,
@@ -27136,7 +27155,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1409]
+	}, -- [1410]
 	{
 		["itemName"] = "Helm of the Iron Vanquisher",
 		["iconFileDataID"] = 133126,
@@ -27155,7 +27174,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1410]
+	}, -- [1411]
 	{
 		["itemName"] = "Helm of the Iron Protector",
 		["iconFileDataID"] = 133126,
@@ -27174,7 +27193,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1411]
+	}, -- [1412]
 	{
 		["itemName"] = "Chest of the Iron Conqueror",
 		["iconFileDataID"] = 132632,
@@ -27193,7 +27212,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1412]
+	}, -- [1413]
 	{
 		["itemName"] = "Illusion: Mark of Blackrock",
 		["iconFileDataID"] = 237174,
@@ -27212,7 +27231,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [1413]
+	}, -- [1414]
 	{
 		["itemName"] = "Mark of Rapid Replication",
 		["iconFileDataID"] = 973899,
@@ -27231,7 +27250,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1414]
+	}, -- [1415]
 	{
 		["itemName"] = "Captive Micro-Aberration",
 		["iconFileDataID"] = 973913,
@@ -27250,7 +27269,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1415]
+	}, -- [1416]
 	{
 		["itemName"] = "Evergaze Arcane Eidolon",
 		["iconFileDataID"] = 973908,
@@ -27269,7 +27288,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1416]
+	}, -- [1417]
 	{
 		["itemName"] = "Quiescent Runestone",
 		["iconFileDataID"] = 973925,
@@ -27288,7 +27307,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1417]
+	}, -- [1418]
 	{
 		["itemName"] = "Emblem of Caustic Healing",
 		["iconFileDataID"] = 973900,
@@ -27307,7 +27326,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1418]
+	}, -- [1419]
 	{
 		["itemName"] = "Pol's Blinded Eye",
 		["iconFileDataID"] = 973901,
@@ -27326,7 +27345,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1419]
+	}, -- [1420]
 	{
 		["itemName"] = "Shards of Nothing",
 		["iconFileDataID"] = 973914,
@@ -27345,7 +27364,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1420]
+	}, -- [1421]
 	{
 		["itemName"] = "Bottle of Infesting Spores",
 		["iconFileDataID"] = 133007,
@@ -27364,7 +27383,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1421]
+	}, -- [1422]
 	{
 		["itemName"] = "Tectus' Beating Heart",
 		["iconFileDataID"] = 973920,
@@ -27383,7 +27402,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1422]
+	}, -- [1423]
 	{
 		["itemName"] = "Pillar of the Earth",
 		["iconFileDataID"] = 973919,
@@ -27402,7 +27421,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1423]
+	}, -- [1424]
 	{
 		["itemName"] = "Scales of Doom",
 		["iconFileDataID"] = 973924,
@@ -27421,7 +27440,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1424]
+	}, -- [1425]
 	{
 		["itemName"] = "Shockwave Signet",
 		["iconFileDataID"] = 1028564,
@@ -27440,7 +27459,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1425]
+	}, -- [1426]
 	{
 		["itemName"] = "Seal of Unbound Frost",
 		["iconFileDataID"] = 1029466,
@@ -27459,7 +27478,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1426]
+	}, -- [1427]
 	{
 		["itemName"] = "Spell-Sink Signet",
 		["iconFileDataID"] = 1028973,
@@ -27478,7 +27497,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1427]
+	}, -- [1428]
 	{
 		["itemName"] = "Golden-Tongued Seal",
 		["iconFileDataID"] = 1028566,
@@ -27497,7 +27516,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1428]
+	}, -- [1429]
 	{
 		["itemName"] = "Eye of Tectus",
 		["iconFileDataID"] = 1029023,
@@ -27516,7 +27535,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1429]
+	}, -- [1430]
 	{
 		["itemName"] = "Earthfury Band",
 		["iconFileDataID"] = 1029466,
@@ -27535,7 +27554,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1430]
+	}, -- [1431]
 	{
 		["itemName"] = "Ring of Infinite Accretion",
 		["iconFileDataID"] = 1028972,
@@ -27554,7 +27573,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1431]
+	}, -- [1432]
 	{
 		["itemName"] = "Signet of Crystalline Barrage",
 		["iconFileDataID"] = 1029469,
@@ -27573,7 +27592,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1432]
+	}, -- [1433]
 	{
 		["itemName"] = "Flenser's Hookring",
 		["iconFileDataID"] = 1029022,
@@ -27592,7 +27611,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1433]
+	}, -- [1434]
 	{
 		["itemName"] = "Gutwrench Ring",
 		["iconFileDataID"] = 1028971,
@@ -27611,7 +27630,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1434]
+	}, -- [1435]
 	{
 		["itemName"] = "Kargath's Last Link",
 		["iconFileDataID"] = 1028974,
@@ -27630,7 +27649,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1435]
+	}, -- [1436]
 	{
 		["itemName"] = "Grunt's Solid Signet",
 		["iconFileDataID"] = 1028564,
@@ -27649,7 +27668,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1436]
+	}, -- [1437]
 	{
 		["itemName"] = "Face Kickers",
 		["iconFileDataID"] = 1017345,
@@ -27668,7 +27687,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1437]
+	}, -- [1438]
 	{
 		["itemName"] = "Destablized Sandals",
 		["iconFileDataID"] = 1024869,
@@ -27687,7 +27706,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1438]
+	}, -- [1439]
 	{
 		["itemName"] = "Mosscrusher Sabatons",
 		["iconFileDataID"] = 978682,
@@ -27706,7 +27725,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1439]
+	}, -- [1440]
 	{
 		["itemName"] = "Sandals of Mycoid Musing",
 		["iconFileDataID"] = 1004900,
@@ -27725,7 +27744,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1440]
+	}, -- [1441]
 	{
 		["itemName"] = "Mountainwalker's Boots",
 		["iconFileDataID"] = 1004900,
@@ -27744,7 +27763,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1441]
+	}, -- [1442]
 	{
 		["itemName"] = "Entrail Squishers",
 		["iconFileDataID"] = 1027838,
@@ -27763,7 +27782,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1442]
+	}, -- [1443]
 	{
 		["itemName"] = "Treads of Sand and Blood",
 		["iconFileDataID"] = 995667,
@@ -27782,7 +27801,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1443]
+	}, -- [1444]
 	{
 		["itemName"] = "Nether Blast Leggings",
 		["iconFileDataID"] = 1004905,
@@ -27801,7 +27820,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1444]
+	}, -- [1445]
 	{
 		["itemName"] = "Leggings of Broken Magic",
 		["iconFileDataID"] = 995672,
@@ -27820,7 +27839,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1445]
+	}, -- [1446]
 	{
 		["itemName"] = "Sea-Cursed Leggings",
 		["iconFileDataID"] = 1017828,
@@ -27839,7 +27858,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1446]
+	}, -- [1447]
 	{
 		["itemName"] = "Legplates of Fractured Crystal",
 		["iconFileDataID"] = 978686,
@@ -27858,7 +27877,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1447]
+	}, -- [1448]
 	{
 		["itemName"] = "Belt of Imminent Lies",
 		["iconFileDataID"] = 1017344,
@@ -27877,7 +27896,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1448]
+	}, -- [1449]
 	{
 		["itemName"] = "Fleshchewer Greatbelt",
 		["iconFileDataID"] = 982076,
@@ -27896,7 +27915,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1449]
+	}, -- [1450]
 	{
 		["itemName"] = "Girdle of the Infected Mind",
 		["iconFileDataID"] = 1017822,
@@ -27915,7 +27934,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1450]
+	}, -- [1451]
 	{
 		["itemName"] = "Belt of Bloody Guts",
 		["iconFileDataID"] = 1004902,
@@ -27934,7 +27953,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1451]
+	}, -- [1452]
 	{
 		["itemName"] = "Treacherous Palms",
 		["iconFileDataID"] = 1004903,
@@ -27953,7 +27972,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1452]
+	}, -- [1453]
 	{
 		["itemName"] = "Meatmonger's Gory Grips",
 		["iconFileDataID"] = 1024872,
@@ -27972,7 +27991,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1453]
+	}, -- [1454]
 	{
 		["itemName"] = "Throat-Ripper Gauntlets",
 		["iconFileDataID"] = 983527,
@@ -27991,7 +28010,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1454]
+	}, -- [1455]
 	{
 		["itemName"] = "Gauntlets of the Heavy Hand",
 		["iconFileDataID"] = 978684,
@@ -28010,7 +28029,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1455]
+	}, -- [1456]
 	{
 		["itemName"] = "Grips of Vicious Mauling",
 		["iconFileDataID"] = 1017348,
@@ -28029,7 +28048,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1456]
+	}, -- [1457]
 	{
 		["itemName"] = "Bracers of Mirrored Flame",
 		["iconFileDataID"] = 982078,
@@ -28048,7 +28067,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1457]
+	}, -- [1458]
 	{
 		["itemName"] = "Bracers of the Crying Chorus",
 		["iconFileDataID"] = 995668,
@@ -28067,7 +28086,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1458]
+	}, -- [1459]
 	{
 		["itemName"] = "Crystal-Woven Bracers",
 		["iconFileDataID"] = 998423,
@@ -28086,7 +28105,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1459]
+	}, -- [1460]
 	{
 		["itemName"] = "Bracers of Spare Skin",
 		["iconFileDataID"] = 983524,
@@ -28105,7 +28124,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1460]
+	}, -- [1461]
 	{
 		["itemName"] = "Robes of the Arcane Ultimatum",
 		["iconFileDataID"] = 998428,
@@ -28124,7 +28143,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1461]
+	}, -- [1462]
 	{
 		["itemName"] = "Chestplate of Arcane Volatility",
 		["iconFileDataID"] = 978683,
@@ -28143,7 +28162,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1462]
+	}, -- [1463]
 	{
 		["itemName"] = "Moss-Woven Mailshirt",
 		["iconFileDataID"] = 995669,
@@ -28162,7 +28181,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1463]
+	}, -- [1464]
 	{
 		["itemName"] = "Robes of Necrotic Whispers",
 		["iconFileDataID"] = 1024875,
@@ -28181,7 +28200,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1464]
+	}, -- [1465]
 	{
 		["itemName"] = "Chestguard of the Roaring Crowd",
 		["iconFileDataID"] = 998963,
@@ -28200,7 +28219,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1465]
+	}, -- [1466]
 	{
 		["itemName"] = "Force Nova Cloak",
 		["iconFileDataID"] = 1035870,
@@ -28219,7 +28238,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1466]
+	}, -- [1467]
 	{
 		["itemName"] = "Cloak of Searing Shadows",
 		["iconFileDataID"] = 1031664,
@@ -28238,7 +28257,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1467]
+	}, -- [1468]
 	{
 		["itemName"] = "Cloak of Ruminant Deception",
 		["iconFileDataID"] = 1052547,
@@ -28257,7 +28276,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1468]
+	}, -- [1469]
 	{
 		["itemName"] = "Cloak of Creeping Necrosis",
 		["iconFileDataID"] = 1035023,
@@ -28276,7 +28295,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1469]
+	}, -- [1470]
 	{
 		["itemName"] = "Cloak of Frenzied Rage",
 		["iconFileDataID"] = 1035870,
@@ -28295,7 +28314,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1470]
+	}, -- [1471]
 	{
 		["itemName"] = "Fireproof Greatcloak",
 		["iconFileDataID"] = 1052547,
@@ -28314,7 +28333,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1471]
+	}, -- [1472]
 	{
 		["itemName"] = "Uncrushable Shoulderplates",
 		["iconFileDataID"] = 1021242,
@@ -28333,7 +28352,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1472]
+	}, -- [1473]
 	{
 		["itemName"] = "Deep Walker Paulders",
 		["iconFileDataID"] = 983530,
@@ -28352,7 +28371,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1473]
+	}, -- [1474]
 	{
 		["itemName"] = "Living Mountain Shoulderguards",
 		["iconFileDataID"] = 1017351,
@@ -28371,7 +28390,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1474]
+	}, -- [1475]
 	{
 		["itemName"] = "Slaughterhouse Spaulders",
 		["iconFileDataID"] = 998429,
@@ -28390,7 +28409,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1475]
+	}, -- [1476]
 	{
 		["itemName"] = "Reaver's Nose Ring",
 		["iconFileDataID"] = 1083385,
@@ -28409,7 +28428,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1476]
+	}, -- [1477]
 	{
 		["itemName"] = "Choker of Violent Displacement",
 		["iconFileDataID"] = 1083378,
@@ -28428,7 +28447,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1477]
+	}, -- [1478]
 	{
 		["itemName"] = "Ko'ragh's Family Locket",
 		["iconFileDataID"] = 1083382,
@@ -28447,7 +28466,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1478]
+	}, -- [1479]
 	{
 		["itemName"] = "Odyssian Choker",
 		["iconFileDataID"] = 1083383,
@@ -28466,7 +28485,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1479]
+	}, -- [1480]
 	{
 		["itemName"] = "Collar of Wailing Mouths",
 		["iconFileDataID"] = 1083387,
@@ -28485,7 +28504,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1480]
+	}, -- [1481]
 	{
 		["itemName"] = "Flechette-Riddled Chain",
 		["iconFileDataID"] = 1083380,
@@ -28504,7 +28523,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1481]
+	}, -- [1482]
 	{
 		["itemName"] = "Champion's Medallion",
 		["iconFileDataID"] = 1083386,
@@ -28523,7 +28542,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1482]
+	}, -- [1483]
 	{
 		["itemName"] = "Rune-Enscribed Hood",
 		["iconFileDataID"] = 998965,
@@ -28542,7 +28561,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Leather",
 		["itemType"] = "Armor",
-	}, -- [1483]
+	}, -- [1484]
 	{
 		["itemName"] = "Hood of Dispassionate Execution",
 		["iconFileDataID"] = 1017349,
@@ -28561,7 +28580,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1484]
+	}, -- [1485]
 	{
 		["itemName"] = "Casque of the Iron Bomber",
 		["iconFileDataID"] = 1021241,
@@ -28580,7 +28599,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Plate",
 		["itemType"] = "Armor",
-	}, -- [1485]
+	}, -- [1486]
 	{
 		["itemName"] = "Vilebreath Mask",
 		["iconFileDataID"] = 1017827,
@@ -28599,10 +28618,10 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1486]
+	}, -- [1487]
 	{
 		["itemID"] = 113592,
-	}, -- [1487]
+	}, -- [1488]
 	{
 		["itemName"] = "Absalom's Bloody Bulwark",
 		["iconFileDataID"] = 1042850,
@@ -28621,7 +28640,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHIELD",
 		["itemSubType"] = "Shields",
 		["itemType"] = "Armor",
-	}, -- [1488]
+	}, -- [1489]
 	{
 		["itemName"] = "Maw of Souls",
 		["iconFileDataID"] = 1027788,
@@ -28640,7 +28659,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHIELD",
 		["itemSubType"] = "Shields",
 		["itemType"] = "Armor",
-	}, -- [1489]
+	}, -- [1490]
 	{
 		["itemName"] = "Rod of Fel Nullification",
 		["iconFileDataID"] = 1046117,
@@ -28659,7 +28678,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Wands",
 		["itemType"] = "Weapon",
-	}, -- [1490]
+	}, -- [1491]
 	{
 		["itemName"] = "Crystalline Branch of the Brackenspore",
 		["iconFileDataID"] = 1021482,
@@ -28678,7 +28697,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [1491]
+	}, -- [1492]
 	{
 		["itemName"] = "Ko'ragh's Boot Knife",
 		["iconFileDataID"] = 1020597,
@@ -28697,7 +28716,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [1492]
+	}, -- [1493]
 	{
 		["itemName"] = "Phemos' Double Slasher",
 		["iconFileDataID"] = 1003744,
@@ -28716,7 +28735,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Axes",
 		["itemType"] = "Weapon",
-	}, -- [1493]
+	}, -- [1494]
 	{
 		["itemName"] = "Butcher's Terrible Tenderizer",
 		["iconFileDataID"] = 1027161,
@@ -28735,7 +28754,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1494]
+	}, -- [1495]
 	{
 		["itemName"] = "Butcher's Bloody Cleaver",
 		["iconFileDataID"] = 1016937,
@@ -28754,7 +28773,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Axes",
 		["itemType"] = "Weapon",
-	}, -- [1495]
+	}, -- [1496]
 	{
 		["itemName"] = "The Bladefist",
 		["iconFileDataID"] = 999953,
@@ -28773,7 +28792,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Fist Weapons",
 		["itemType"] = "Weapon",
-	}, -- [1496]
+	}, -- [1497]
 	{
 		["itemName"] = "Staff of the Grand Imperator",
 		["iconFileDataID"] = 1027942,
@@ -28792,7 +28811,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1497]
+	}, -- [1498]
 	{
 		["itemName"] = "Gor'gah, High Blade of the Gorians",
 		["iconFileDataID"] = 1006583,
@@ -28811,7 +28830,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Two-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1498]
+	}, -- [1499]
 	{
 		["itemName"] = "Gar'tash, Hammer of the Breakers",
 		["iconFileDataID"] = 1030156,
@@ -28830,7 +28849,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Two-Handed Maces",
 		["itemType"] = "Weapon",
-	}, -- [1499]
+	}, -- [1500]
 	{
 		["itemName"] = "Spire of Tectus",
 		["iconFileDataID"] = 1048290,
@@ -28849,7 +28868,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1500]
+	}, -- [1501]
 	{
 		["itemName"] = "Earthwarped Bladestaff",
 		["iconFileDataID"] = 988000,
@@ -28868,7 +28887,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1501]
+	}, -- [1502]
 	{
 		["itemName"] = "Illusion: Rockbiter",
 		["iconFileDataID"] = 237174,
@@ -28887,7 +28906,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [1502]
+	}, -- [1503]
 	{
 		["itemName"] = "Illusion: Mark of the Shattered Hand",
 		["iconFileDataID"] = 237174,
@@ -28906,7 +28925,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [1503]
+	}, -- [1504]
 	{
 		["itemName"] = "Ticking Ebon Detonator",
 		["iconFileDataID"] = 897089,
@@ -28925,7 +28944,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1504]
+	}, -- [1505]
 	{
 		["itemName"] = "Sigil of Rampage",
 		["iconFileDataID"] = 896910,
@@ -28944,7 +28963,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1505]
+	}, -- [1506]
 	{
 		["itemName"] = "Haromm's Talisman",
 		["iconFileDataID"] = 897033,
@@ -28963,7 +28982,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1506]
+	}, -- [1507]
 	{
 		["itemName"] = "Assurance of Consequence",
 		["iconFileDataID"] = 897084,
@@ -28982,7 +29001,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1507]
+	}, -- [1508]
 	{
 		["itemName"] = "Swift Serpent Signet",
 		["iconFileDataID"] = 896629,
@@ -29001,7 +29020,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1508]
+	}, -- [1509]
 	{
 		["itemName"] = "Ring of Restless Energy",
 		["iconFileDataID"] = 895882,
@@ -29020,7 +29039,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1509]
+	}, -- [1510]
 	{
 		["itemName"] = "Reality Ripper Ring",
 		["iconFileDataID"] = 896770,
@@ -29039,7 +29058,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1510]
+	}, -- [1511]
 	{
 		["itemName"] = "Kil'ruk's Band of Ascendancy",
 		["iconFileDataID"] = 897038,
@@ -29058,7 +29077,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1511]
+	}, -- [1512]
 	{
 		["itemName"] = "Treads of Autonomic Motion",
 		["iconFileDataID"] = 901176,
@@ -29077,7 +29096,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1512]
+	}, -- [1513]
 	{
 		["itemName"] = "Sabatons of Defilement",
 		["iconFileDataID"] = 901176,
@@ -29096,7 +29115,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1513]
+	}, -- [1514]
 	{
 		["itemName"] = "Ravager's Pathwalkers",
 		["iconFileDataID"] = 876283,
@@ -29115,7 +29134,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1514]
+	}, -- [1515]
 	{
 		["itemName"] = "Puddle Punishers",
 		["iconFileDataID"] = 901176,
@@ -29134,7 +29153,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1515]
+	}, -- [1516]
 	{
 		["itemName"] = "Powder-Stained Totemic Treads",
 		["iconFileDataID"] = 901176,
@@ -29153,7 +29172,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1516]
+	}, -- [1517]
 	{
 		["itemName"] = "Minelayer's Padded Boots",
 		["iconFileDataID"] = 876283,
@@ -29172,7 +29191,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1517]
+	}, -- [1518]
 	{
 		["itemName"] = "Shadow-Binder's Kilt",
 		["iconFileDataID"] = 901181,
@@ -29191,7 +29210,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1518]
+	}, -- [1519]
 	{
 		["itemName"] = "Leggings of Unabashed Anger",
 		["iconFileDataID"] = 876288,
@@ -29210,7 +29229,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1519]
+	}, -- [1520]
 	{
 		["itemName"] = "Chitin-Link Chain Belt",
 		["iconFileDataID"] = 901175,
@@ -29229,7 +29248,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1520]
+	}, -- [1521]
 	{
 		["itemName"] = "Cannoneer's Multipocket Gunbelt",
 		["iconFileDataID"] = 876282,
@@ -29248,7 +29267,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1521]
+	}, -- [1522]
 	{
 		["itemName"] = "Belt of the Iron Prison",
 		["iconFileDataID"] = 901175,
@@ -29267,7 +29286,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1522]
+	}, -- [1523]
 	{
 		["itemName"] = "Arrowflight Girdle",
 		["iconFileDataID"] = 876282,
@@ -29286,7 +29305,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1523]
+	}, -- [1524]
 	{
 		["itemName"] = "Soul-Soaked Gloves",
 		["iconFileDataID"] = 901179,
@@ -29305,7 +29324,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1524]
+	}, -- [1525]
 	{
 		["itemName"] = "Precision Cutters",
 		["iconFileDataID"] = 901179,
@@ -29324,7 +29343,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1525]
+	}, -- [1526]
 	{
 		["itemName"] = "Grips of Unending Anguish",
 		["iconFileDataID"] = 876286,
@@ -29343,7 +29362,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1526]
+	}, -- [1527]
 	{
 		["itemName"] = "Grips of Tidal Force",
 		["iconFileDataID"] = 901179,
@@ -29362,7 +29381,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1527]
+	}, -- [1528]
 	{
 		["itemName"] = "Wristguards of Ruination",
 		["iconFileDataID"] = 901177,
@@ -29381,7 +29400,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1528]
+	}, -- [1529]
 	{
 		["itemName"] = "Dagryn's Fuselight Bracers",
 		["iconFileDataID"] = 876284,
@@ -29400,7 +29419,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1529]
+	}, -- [1530]
 	{
 		["itemName"] = "Cavemaker Wristguards",
 		["iconFileDataID"] = 901177,
@@ -29419,7 +29438,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1530]
+	}, -- [1531]
 	{
 		["itemName"] = "Bracers of the Pristine Purifier",
 		["iconFileDataID"] = 901177,
@@ -29438,7 +29457,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1531]
+	}, -- [1532]
 	{
 		["itemName"] = "Bracers of Infinite Pipes",
 		["iconFileDataID"] = 876284,
@@ -29457,7 +29476,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1532]
+	}, -- [1533]
 	{
 		["itemName"] = "Bracers of Final Serenity",
 		["iconFileDataID"] = 901177,
@@ -29476,7 +29495,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1533]
+	}, -- [1534]
 	{
 		["itemName"] = "Ebon Blood Chestguard",
 		["iconFileDataID"] = 901178,
@@ -29495,7 +29514,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1534]
+	}, -- [1535]
 	{
 		["itemName"] = "Chestguard of Toxic Injections",
 		["iconFileDataID"] = 901178,
@@ -29514,7 +29533,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1535]
+	}, -- [1536]
 	{
 		["itemName"] = "Chestguard of Relentless Tyranny",
 		["iconFileDataID"] = 876285,
@@ -29533,7 +29552,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1536]
+	}, -- [1537]
 	{
 		["itemName"] = "Ancient Archer's Chestguard",
 		["iconFileDataID"] = 876285,
@@ -29552,7 +29571,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1537]
+	}, -- [1538]
 	{
 		["itemName"] = "Poisonmist Nightcloak",
 		["iconFileDataID"] = 628676,
@@ -29571,7 +29590,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1538]
+	}, -- [1539]
 	{
 		["itemName"] = "Shoulderguards of Intended Power",
 		["iconFileDataID"] = 876289,
@@ -29590,7 +29609,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1539]
+	}, -- [1540]
 	{
 		["itemName"] = "Shoulderguards of Foul Streams",
 		["iconFileDataID"] = 901182,
@@ -29609,7 +29628,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1540]
+	}, -- [1541]
 	{
 		["itemName"] = "Shoulderguards of Dark Meditations",
 		["iconFileDataID"] = 901182,
@@ -29628,7 +29647,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1541]
+	}, -- [1542]
 	{
 		["itemName"] = "Quarantine Shoulderguards",
 		["iconFileDataID"] = 876289,
@@ -29647,7 +29666,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1542]
+	}, -- [1543]
 	{
 		["itemName"] = "Immerseus' Crystalline Eye",
 		["iconFileDataID"] = 895878,
@@ -29666,7 +29685,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1543]
+	}, -- [1544]
 	{
 		["itemName"] = "Gleaming Eye of the Devilsaur",
 		["iconFileDataID"] = 895589,
@@ -29685,7 +29704,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1544]
+	}, -- [1545]
 	{
 		["itemName"] = "Penetrating Gaze of Y'Shaarj",
 		["iconFileDataID"] = 876287,
@@ -29704,7 +29723,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1545]
+	}, -- [1546]
 	{
 		["itemName"] = "Haromm's Horrifying Helm",
 		["iconFileDataID"] = 876287,
@@ -29723,7 +29742,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1546]
+	}, -- [1547]
 	{
 		["itemName"] = "Crown of Tragic Truth",
 		["iconFileDataID"] = 901180,
@@ -29742,7 +29761,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1547]
+	}, -- [1548]
 	{
 		["itemName"] = "Cowl of Smoking Dreams",
 		["iconFileDataID"] = 901180,
@@ -29761,7 +29780,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1548]
+	}, -- [1549]
 	{
 		["itemName"] = "Kor'kron Hand Cannon",
 		["iconFileDataID"] = 877409,
@@ -29780,7 +29799,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [1549]
+	}, -- [1550]
 	{
 		["itemName"] = "Hisek's Reserve Longbow",
 		["iconFileDataID"] = 875876,
@@ -29799,7 +29818,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [1550]
+	}, -- [1551]
 	{
 		["itemName"] = "Death Lotus Crossbow",
 		["iconFileDataID"] = 876223,
@@ -29818,7 +29837,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [1551]
+	}, -- [1552]
 	{
 		["itemName"] = "Dagryn's Discarded Longbow",
 		["iconFileDataID"] = 877175,
@@ -29837,7 +29856,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [1552]
+	}, -- [1553]
 	{
 		["itemName"] = "Trident of Corrupted Waters",
 		["iconFileDataID"] = 896772,
@@ -29856,7 +29875,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1553]
+	}, -- [1554]
 	{
 		["itemName"] = "Kor'kron Spire of Supremacy",
 		["iconFileDataID"] = 895554,
@@ -29875,7 +29894,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1554]
+	}, -- [1555]
 	{
 		["itemName"] = "Halberd of Inner Shadows",
 		["iconFileDataID"] = 892835,
@@ -29894,7 +29913,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [1555]
+	}, -- [1556]
 	{
 		["itemName"] = "Shoulders of the Cursed Protector",
 		["iconFileDataID"] = 135053,
@@ -29913,7 +29932,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1556]
+	}, -- [1557]
 	{
 		["itemName"] = "Leggings of the Cursed Protector",
 		["iconFileDataID"] = 133834,
@@ -29932,7 +29951,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1557]
+	}, -- [1558]
 	{
 		["itemName"] = "Helm of the Cursed Protector",
 		["iconFileDataID"] = 133126,
@@ -29951,7 +29970,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1558]
+	}, -- [1559]
 	{
 		["itemName"] = "Gauntlets of the Cursed Protector",
 		["iconFileDataID"] = 132963,
@@ -29970,7 +29989,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1559]
+	}, -- [1560]
 	{
 		["itemName"] = "Essence of the Cursed Protector",
 		["iconFileDataID"] = 237274,
@@ -29989,7 +30008,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1560]
+	}, -- [1561]
 	{
 		["itemName"] = "Chest of the Cursed Protector",
 		["iconFileDataID"] = 132632,
@@ -30008,7 +30027,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1561]
+	}, -- [1562]
 	{
 		["itemName"] = "Talisman of Bloodlust",
 		["iconFileDataID"] = 132334,
@@ -30027,7 +30046,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1562]
+	}, -- [1563]
 	{
 		["itemName"] = "Rune of Re-Origination",
 		["iconFileDataID"] = 237432,
@@ -30046,7 +30065,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1563]
+	}, -- [1564]
 	{
 		["itemName"] = "Renataki's Soul Charm",
 		["iconFileDataID"] = 236303,
@@ -30065,7 +30084,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1564]
+	}, -- [1565]
 	{
 		["itemName"] = "Bad Juju",
 		["iconFileDataID"] = 458256,
@@ -30084,7 +30103,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1565]
+	}, -- [1566]
 	{
 		["itemName"] = "Sign of the Bloodied God",
 		["iconFileDataID"] = 803858,
@@ -30103,7 +30122,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1566]
+	}, -- [1567]
 	{
 		["itemName"] = "Gore-Soaked Gear",
 		["iconFileDataID"] = 804964,
@@ -30122,7 +30141,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1567]
+	}, -- [1568]
 	{
 		["itemName"] = "Quakestompers",
 		["iconFileDataID"] = 660749,
@@ -30141,7 +30160,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1568]
+	}, -- [1569]
 	{
 		["itemName"] = "Ghostbinder Greatboots",
 		["iconFileDataID"] = 801134,
@@ -30160,7 +30179,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1569]
+	}, -- [1570]
 	{
 		["itemName"] = "Spearman's Jingling Leggings",
 		["iconFileDataID"] = 660753,
@@ -30179,7 +30198,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1570]
+	}, -- [1571]
 	{
 		["itemName"] = "Legguards of Scintillating Scales",
 		["iconFileDataID"] = 801140,
@@ -30198,7 +30217,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1571]
+	}, -- [1572]
 	{
 		["itemName"] = "Leggings of the Violent Gale",
 		["iconFileDataID"] = 801140,
@@ -30217,7 +30236,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1572]
+	}, -- [1573]
 	{
 		["itemName"] = "Conduit-Breaker Chain Leggings",
 		["iconFileDataID"] = 801140,
@@ -30236,7 +30255,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1573]
+	}, -- [1574]
 	{
 		["itemName"] = "Links of the Disintegrator",
 		["iconFileDataID"] = 801133,
@@ -30255,7 +30274,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1574]
+	}, -- [1575]
 	{
 		["itemName"] = "Links of the Bifurcated Tongue",
 		["iconFileDataID"] = 801133,
@@ -30274,7 +30293,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1575]
+	}, -- [1576]
 	{
 		["itemName"] = "Synapse-String Handguards",
 		["iconFileDataID"] = 773175,
@@ -30293,7 +30312,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1576]
+	}, -- [1577]
 	{
 		["itemName"] = "Grips of Cinderflesh",
 		["iconFileDataID"] = 801137,
@@ -30312,7 +30331,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1577]
+	}, -- [1578]
 	{
 		["itemName"] = "Grasp of the Ruthless Mother",
 		["iconFileDataID"] = 801137,
@@ -30331,7 +30350,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1578]
+	}, -- [1579]
 	{
 		["itemName"] = "Fingers of the Night",
 		["iconFileDataID"] = 801137,
@@ -30350,7 +30369,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1579]
+	}, -- [1580]
 	{
 		["itemName"] = "Vein-Cover Bracers",
 		["iconFileDataID"] = 801135,
@@ -30369,7 +30388,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1580]
+	}, -- [1581]
 	{
 		["itemName"] = "Loa-Ridden Bracers",
 		["iconFileDataID"] = 801135,
@@ -30388,7 +30407,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1581]
+	}, -- [1582]
 	{
 		["itemName"] = "Bracers of Mutagenic Fervor",
 		["iconFileDataID"] = 660750,
@@ -30407,7 +30426,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1582]
+	}, -- [1583]
 	{
 		["itemName"] = "Beady-Eye Bracers",
 		["iconFileDataID"] = 660750,
@@ -30426,7 +30445,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1583]
+	}, -- [1584]
 	{
 		["itemName"] = "Sul'lithuz Sandmail",
 		["iconFileDataID"] = 801136,
@@ -30445,7 +30464,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1584]
+	}, -- [1585]
 	{
 		["itemName"] = "Ro'shak's Molten Chain",
 		["iconFileDataID"] = 801136,
@@ -30464,7 +30483,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1585]
+	}, -- [1586]
 	{
 		["itemName"] = "Chain of Consuming Magic",
 		["iconFileDataID"] = 801136,
@@ -30483,7 +30502,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1586]
+	}, -- [1587]
 	{
 		["itemName"] = "Aberrant Chestguard of Torment",
 		["iconFileDataID"] = 660751,
@@ -30502,7 +30521,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1587]
+	}, -- [1588]
 	{
 		["itemName"] = "Wastewalker's Sandblasted Drape",
 		["iconFileDataID"] = 628676,
@@ -30521,7 +30540,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1588]
+	}, -- [1589]
 	{
 		["itemName"] = "Pinionfeather Greatcloak",
 		["iconFileDataID"] = 628676,
@@ -30540,7 +30559,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1589]
+	}, -- [1590]
 	{
 		["itemName"] = "Static-Shot Shoulderguards",
 		["iconFileDataID"] = 660754,
@@ -30559,7 +30578,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1590]
+	}, -- [1591]
 	{
 		["itemName"] = "Spaulders of Quaking Fear",
 		["iconFileDataID"] = 801141,
@@ -30578,7 +30597,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1591]
+	}, -- [1592]
 	{
 		["itemName"] = "Talisman of Living Poison",
 		["iconFileDataID"] = 803406,
@@ -30597,7 +30616,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1592]
+	}, -- [1593]
 	{
 		["itemName"] = "Quadra-Head Brooch",
 		["iconFileDataID"] = 804958,
@@ -30616,7 +30635,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1593]
+	}, -- [1594]
 	{
 		["itemName"] = "Gaze of Gara'jal",
 		["iconFileDataID"] = 660752,
@@ -30635,7 +30654,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1594]
+	}, -- [1595]
 	{
 		["itemName"] = "Clear-Mind Helm",
 		["iconFileDataID"] = 801138,
@@ -30654,7 +30673,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1595]
+	}, -- [1596]
 	{
 		["itemName"] = "Voice of the Quilen",
 		["iconFileDataID"] = 775199,
@@ -30673,7 +30692,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [1596]
+	}, -- [1597]
 	{
 		["itemName"] = "Shattered Tortoiseshell Longbow",
 		["iconFileDataID"] = 775504,
@@ -30692,7 +30711,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [1597]
+	}, -- [1598]
 	{
 		["itemName"] = "Durumu's Baleful Gaze",
 		["iconFileDataID"] = 792562,
@@ -30711,7 +30730,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [1598]
+	}, -- [1599]
 	{
 		["itemName"] = "Shan-Dun, Breaker of Hope",
 		["iconFileDataID"] = 667697,
@@ -30730,7 +30749,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [1599]
+	}, -- [1600]
 	{
 		["itemName"] = "Jalak's Maelstrom Staff",
 		["iconFileDataID"] = 768650,
@@ -30749,7 +30768,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1600]
+	}, -- [1601]
 	{
 		["itemName"] = "Son of Animus",
 		["iconFileDataID"] = 838812,
@@ -30768,7 +30787,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Companion Pets",
 		["itemType"] = "Miscellaneous",
-	}, -- [1601]
+	}, -- [1602]
 	{
 		["itemName"] = "Shoulders of the Crackling Protector",
 		["iconFileDataID"] = 135053,
@@ -30787,7 +30806,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1602]
+	}, -- [1603]
 	{
 		["itemName"] = "Pygmy Direhorn",
 		["iconFileDataID"] = 840540,
@@ -30806,7 +30825,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Companion Pets",
 		["itemType"] = "Miscellaneous",
-	}, -- [1603]
+	}, -- [1604]
 	{
 		["itemName"] = "Leggings of the Crackling Protector",
 		["iconFileDataID"] = 133834,
@@ -30825,7 +30844,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1604]
+	}, -- [1605]
 	{
 		["itemName"] = "Ji-Kun Hatchling",
 		["iconFileDataID"] = 838694,
@@ -30844,7 +30863,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Companion Pets",
 		["itemType"] = "Miscellaneous",
-	}, -- [1605]
+	}, -- [1606]
 	{
 		["itemName"] = "Helm of the Crackling Protector",
 		["iconFileDataID"] = 133126,
@@ -30863,7 +30882,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1606]
+	}, -- [1607]
 	{
 		["itemName"] = "Gauntlets of the Crackling Protector",
 		["iconFileDataID"] = 132963,
@@ -30882,7 +30901,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1607]
+	}, -- [1608]
 	{
 		["itemName"] = "Chest of the Crackling Protector",
 		["iconFileDataID"] = 132632,
@@ -30901,7 +30920,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1608]
+	}, -- [1609]
 	{
 		["itemName"] = "Terror in the Mists",
 		["iconFileDataID"] = 652955,
@@ -30920,7 +30939,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1609]
+	}, -- [1610]
 	{
 		["itemName"] = "Regail's Band of the Endless",
 		["iconFileDataID"] = 644432,
@@ -30939,7 +30958,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1610]
+	}, -- [1611]
 	{
 		["itemName"] = "Regail's Band of the Endless",
 		["iconFileDataID"] = 644432,
@@ -30958,7 +30977,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1611]
+	}, -- [1612]
 	{
 		["itemName"] = "Lightning Prisoner's Boots",
 		["iconFileDataID"] = 638594,
@@ -30977,7 +30996,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1612]
+	}, -- [1613]
 	{
 		["itemName"] = "Lightning Prisoner's Boots",
 		["iconFileDataID"] = 638594,
@@ -30996,7 +31015,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1613]
+	}, -- [1614]
 	{
 		["itemName"] = "Shadowgrip Girdle",
 		["iconFileDataID"] = 631297,
@@ -31015,7 +31034,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1614]
+	}, -- [1615]
 	{
 		["itemName"] = "Ranger's Chain of Unending Summer",
 		["iconFileDataID"] = 631297,
@@ -31034,7 +31053,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1615]
+	}, -- [1616]
 	{
 		["itemName"] = "Binder's Chain of Unending Summer",
 		["iconFileDataID"] = 638593,
@@ -31053,7 +31072,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1616]
+	}, -- [1617]
 	{
 		["itemName"] = "Sunwrought Mail Hauberk",
 		["iconFileDataID"] = 631300,
@@ -31072,7 +31091,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1617]
+	}, -- [1618]
 	{
 		["itemName"] = "Waterborne Shoulderguards",
 		["iconFileDataID"] = 638600,
@@ -31091,7 +31110,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1618]
+	}, -- [1619]
 	{
 		["itemName"] = "Waterborne Shoulderguards",
 		["iconFileDataID"] = 638600,
@@ -31110,7 +31129,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1619]
+	}, -- [1620]
 	{
 		["itemName"] = "Taoren, the Soul Burner",
 		["iconFileDataID"] = 635351,
@@ -31129,7 +31148,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [1620]
+	}, -- [1621]
 	{
 		["itemName"] = "Gao-Rei, Staff of the Legendary Protector",
 		["iconFileDataID"] = 631697,
@@ -31148,7 +31167,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1621]
+	}, -- [1622]
 	{
 		["itemName"] = "Shoulders of the Shadowy Protector",
 		["iconFileDataID"] = 135053,
@@ -31167,7 +31186,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1622]
+	}, -- [1623]
 	{
 		["itemName"] = "Illusion: Jade Spirit",
 		["iconFileDataID"] = 237174,
@@ -31186,7 +31205,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [1623]
+	}, -- [1624]
 	{
 		["itemName"] = "Helm of the Shadowy Protector",
 		["iconFileDataID"] = 133126,
@@ -31205,7 +31224,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1624]
+	}, -- [1625]
 	{
 		["itemName"] = "Painful Thorned Ring",
 		["iconFileDataID"] = 645164,
@@ -31224,7 +31243,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1625]
+	}, -- [1626]
 	{
 		["itemName"] = "Monstrous Stompers",
 		["iconFileDataID"] = 631298,
@@ -31243,7 +31262,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1626]
+	}, -- [1627]
 	{
 		["itemName"] = "Sword Dancer's Leggings",
 		["iconFileDataID"] = 631303,
@@ -31262,7 +31281,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1627]
+	}, -- [1628]
 	{
 		["itemName"] = "Kaz'tik's Stormseizer Gauntlets",
 		["iconFileDataID"] = 638597,
@@ -31281,7 +31300,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1628]
+	}, -- [1629]
 	{
 		["itemName"] = "Grips of the Leviathan",
 		["iconFileDataID"] = 631301,
@@ -31300,7 +31319,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1629]
+	}, -- [1630]
 	{
 		["itemName"] = "Bracers of Tempestuous Fury",
 		["iconFileDataID"] = 638595,
@@ -31319,7 +31338,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1630]
+	}, -- [1631]
 	{
 		["itemName"] = "Zor'lok's Fizzing Chestguard",
 		["iconFileDataID"] = 631300,
@@ -31338,7 +31357,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1631]
+	}, -- [1632]
 	{
 		["itemName"] = "Vestments of Steaming Ichor",
 		["iconFileDataID"] = 638599,
@@ -31357,7 +31376,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1632]
+	}, -- [1633]
 	{
 		["itemName"] = "Mail of Screaming Secrets",
 		["iconFileDataID"] = 638596,
@@ -31376,7 +31395,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1633]
+	}, -- [1634]
 	{
 		["itemName"] = "Legbreaker Greatcloak",
 		["iconFileDataID"] = 628676,
@@ -31395,7 +31414,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1634]
+	}, -- [1635]
 	{
 		["itemName"] = "Wingslasher Pauldrons",
 		["iconFileDataID"] = 631304,
@@ -31414,7 +31433,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1635]
+	}, -- [1636]
 	{
 		["itemName"] = "Pheromone-Coated Choker",
 		["iconFileDataID"] = 648534,
@@ -31433,7 +31452,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1636]
+	}, -- [1637]
 	{
 		["itemName"] = "Choker of the Unleashed Storm",
 		["iconFileDataID"] = 648546,
@@ -31452,7 +31471,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1637]
+	}, -- [1638]
 	{
 		["itemName"] = "Hood of Dark Dreams",
 		["iconFileDataID"] = 638598,
@@ -31471,7 +31490,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1638]
+	}, -- [1639]
 	{
 		["itemName"] = "Crown of the Doomed Empress",
 		["iconFileDataID"] = 631302,
@@ -31490,7 +31509,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1639]
+	}, -- [1640]
 	{
 		["itemName"] = "Leggings of the Shadowy Protector",
 		["iconFileDataID"] = 133834,
@@ -31509,7 +31528,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1640]
+	}, -- [1641]
 	{
 		["itemName"] = "Gauntlets of the Shadowy Protector",
 		["iconFileDataID"] = 132963,
@@ -31528,7 +31547,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1641]
+	}, -- [1642]
 	{
 		["itemName"] = "Chest of the Shadowy Protector",
 		["iconFileDataID"] = 132632,
@@ -31547,7 +31566,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1642]
+	}, -- [1643]
 	{
 		["itemName"] = "Bottle of Infinite Stars",
 		["iconFileDataID"] = 645891,
@@ -31566,7 +31585,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1643]
+	}, -- [1644]
 	{
 		["itemName"] = "Feng's Seal of Binding",
 		["iconFileDataID"] = 644433,
@@ -31585,7 +31604,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1644]
+	}, -- [1645]
 	{
 		["itemName"] = "Wildfire Worldwalkers",
 		["iconFileDataID"] = 590795,
@@ -31604,7 +31623,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1645]
+	}, -- [1646]
 	{
 		["itemName"] = "Meng's Treads of Insanity",
 		["iconFileDataID"] = 590795,
@@ -31623,7 +31642,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1646]
+	}, -- [1647]
 	{
 		["itemName"] = "Subetai's Pillaging Leggings",
 		["iconFileDataID"] = 590800,
@@ -31642,7 +31661,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1647]
+	}, -- [1648]
 	{
 		["itemName"] = "Leggings of Imprisoned Will",
 		["iconFileDataID"] = 590800,
@@ -31661,7 +31680,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1648]
+	}, -- [1649]
 	{
 		["itemName"] = "Fetters of Death",
 		["iconFileDataID"] = 590794,
@@ -31680,7 +31699,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1649]
+	}, -- [1650]
 	{
 		["itemName"] = "Chain of Shadow",
 		["iconFileDataID"] = 590794,
@@ -31699,7 +31718,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1650]
+	}, -- [1651]
 	{
 		["itemName"] = "Grips of Terra Cotta",
 		["iconFileDataID"] = 590798,
@@ -31718,7 +31737,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1651]
+	}, -- [1652]
 	{
 		["itemName"] = "Enameled Grips of Solemnity",
 		["iconFileDataID"] = 590798,
@@ -31737,7 +31756,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1652]
+	}, -- [1653]
 	{
 		["itemName"] = "Stonemaw Armguards",
 		["iconFileDataID"] = 590796,
@@ -31756,7 +31775,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1653]
+	}, -- [1654]
 	{
 		["itemName"] = "Stonefang Chestguard",
 		["iconFileDataID"] = 590797,
@@ -31775,7 +31794,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1654]
+	}, -- [1655]
 	{
 		["itemName"] = "Arrow Breaking Windcloak",
 		["iconFileDataID"] = 628676,
@@ -31794,7 +31813,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1655]
+	}, -- [1656]
 	{
 		["itemName"] = "Shoulders of Empyreal Focus",
 		["iconFileDataID"] = 590801,
@@ -31813,7 +31832,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1656]
+	}, -- [1657]
 	{
 		["itemName"] = "Amulet of the Hidden Kings",
 		["iconFileDataID"] = 648533,
@@ -31832,7 +31851,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1657]
+	}, -- [1658]
 	{
 		["itemName"] = "Sixteen-Fanged Crown",
 		["iconFileDataID"] = 590799,
@@ -31851,7 +31870,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1658]
+	}, -- [1659]
 	{
 		["itemName"] = "Dreadeye Gaze",
 		["iconFileDataID"] = 590799,
@@ -31870,7 +31889,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1659]
+	}, -- [1660]
 	{
 		["itemName"] = "Fang Kung, Spark of Titans",
 		["iconFileDataID"] = 644431,
@@ -31889,7 +31908,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [1660]
+	}, -- [1661]
 	{
 		["itemName"] = "Screaming Tiger, Qiang's Unbreakable Polearm",
 		["iconFileDataID"] = 628722,
@@ -31908,7 +31927,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [1661]
+	}, -- [1662]
 	{
 		["itemName"] = "Illusion: Colossus",
 		["iconFileDataID"] = 237174,
@@ -31927,7 +31946,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [1662]
+	}, -- [1663]
 	{
 		["itemName"] = "Tyrannical Gladiator's Ring of Cruelty",
 		["iconFileDataID"] = 656125,
@@ -31946,7 +31965,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1663]
+	}, -- [1664]
 	{
 		["itemName"] = "Tyrannical Gladiator's Ring of Cruelty",
 		["iconFileDataID"] = 656125,
@@ -31965,7 +31984,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1664]
+	}, -- [1665]
 	{
 		["itemName"] = "Tyrannical Gladiator's Ring of Accuracy",
 		["iconFileDataID"] = 656125,
@@ -31984,7 +32003,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1665]
+	}, -- [1666]
 	{
 		["itemName"] = "Tyrannical Gladiator's Ring of Accuracy",
 		["iconFileDataID"] = 656125,
@@ -32003,7 +32022,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1666]
+	}, -- [1667]
 	{
 		["itemName"] = "Prideful Gladiator's Ring of Cruelty",
 		["iconFileDataID"] = 656125,
@@ -32022,7 +32041,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1667]
+	}, -- [1668]
 	{
 		["itemName"] = "Prideful Gladiator's Ring of Cruelty",
 		["iconFileDataID"] = 656125,
@@ -32041,7 +32060,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1668]
+	}, -- [1669]
 	{
 		["itemName"] = "Prideful Gladiator's Ring of Accuracy",
 		["iconFileDataID"] = 656125,
@@ -32060,7 +32079,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1669]
+	}, -- [1670]
 	{
 		["itemName"] = "Prideful Gladiator's Ring of Accuracy",
 		["iconFileDataID"] = 656125,
@@ -32079,7 +32098,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1670]
+	}, -- [1671]
 	{
 		["itemName"] = "Malevolent Gladiator's Ring of Cruelty",
 		["iconFileDataID"] = 656125,
@@ -32098,7 +32117,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1671]
+	}, -- [1672]
 	{
 		["itemName"] = "Malevolent Gladiator's Ring of Accuracy",
 		["iconFileDataID"] = 656125,
@@ -32117,7 +32136,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1672]
+	}, -- [1673]
 	{
 		["itemName"] = "Hereditary Saurok Loop",
 		["iconFileDataID"] = 644434,
@@ -32136,7 +32155,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1673]
+	}, -- [1674]
 	{
 		["itemName"] = "Forzarra's Last Meal",
 		["iconFileDataID"] = 804963,
@@ -32155,7 +32174,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1674]
+	}, -- [1675]
 	{
 		["itemName"] = "Tyrannical Gladiator's Sabatons of Cruelty",
 		["iconFileDataID"] = 658996,
@@ -32174,7 +32193,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1675]
+	}, -- [1676]
 	{
 		["itemName"] = "Tyrannical Gladiator's Sabatons of Cruelty",
 		["iconFileDataID"] = 658996,
@@ -32193,7 +32212,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1676]
+	}, -- [1677]
 	{
 		["itemName"] = "Tyrannical Gladiator's Sabatons of Alacrity",
 		["iconFileDataID"] = 658996,
@@ -32212,7 +32231,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1677]
+	}, -- [1678]
 	{
 		["itemName"] = "Tyrannical Gladiator's Sabatons of Alacrity",
 		["iconFileDataID"] = 658996,
@@ -32231,7 +32250,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1678]
+	}, -- [1679]
 	{
 		["itemName"] = "Treads of Gentle Nudges",
 		["iconFileDataID"] = 631298,
@@ -32250,7 +32269,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1679]
+	}, -- [1680]
 	{
 		["itemName"] = "Prideful Gladiator's Sabatons of Cruelty",
 		["iconFileDataID"] = 850376,
@@ -32269,7 +32288,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1680]
+	}, -- [1681]
 	{
 		["itemName"] = "Prideful Gladiator's Sabatons of Cruelty",
 		["iconFileDataID"] = 850376,
@@ -32288,7 +32307,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1681]
+	}, -- [1682]
 	{
 		["itemName"] = "Prideful Gladiator's Sabatons of Alacrity",
 		["iconFileDataID"] = 850376,
@@ -32307,7 +32326,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1682]
+	}, -- [1683]
 	{
 		["itemName"] = "Prideful Gladiator's Sabatons of Alacrity",
 		["iconFileDataID"] = 850376,
@@ -32326,7 +32345,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1683]
+	}, -- [1684]
 	{
 		["itemName"] = "Malevolent Gladiator's Sabatons of Cruelty",
 		["iconFileDataID"] = 588748,
@@ -32345,7 +32364,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1684]
+	}, -- [1685]
 	{
 		["itemName"] = "Malevolent Gladiator's Sabatons of Alacrity",
 		["iconFileDataID"] = 588748,
@@ -32364,7 +32383,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1685]
+	}, -- [1686]
 	{
 		["itemName"] = "Burnmender Boots",
 		["iconFileDataID"] = 638594,
@@ -32383,7 +32402,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1686]
+	}, -- [1687]
 	{
 		["itemName"] = "Yaungol Slayer's Legguards",
 		["iconFileDataID"] = 631303,
@@ -32393,32 +32412,12 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 39,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 35,
 		["expacID"] = 4,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
+		["isCraftingReagent"] = false,
 		["itemID"] = 85295,
 		["itemSetID"] = 1129,
-		["itemSubClassID"] = 3,
-		["itemEquipLoc"] = "INVTYPE_LEGS",
-		["itemSubType"] = "Mail",
-		["itemType"] = "Armor",
-	}, -- [1687]
-	{
-		["itemName"] = "Tyrannical Gladiator's Chain Leggings",
-		["iconFileDataID"] = 659000,
-		["bindType"] = 1,
-		["itemSellPrice"] = 32476,
-		["itemLink"] = "|cffa335ee|Hitem:91228::::::::60:253:::::::::|h[Tyrannical Gladiator's Chain Leggings]|h|r",
-		["itemClassID"] = 4,
-		["itemLevel"] = 39,
-		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
-		["expacID"] = 4,
-		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
-		["itemID"] = 91228,
-		["itemSetID"] = 1108,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
@@ -32429,21 +32428,41 @@ AVKGlobalSellTable = {
 		["iconFileDataID"] = 659000,
 		["bindType"] = 1,
 		["itemSellPrice"] = 32476,
-		["itemLink"] = "|cffa335ee|Hitem:94384::::::::60:253:::::::::|h[Tyrannical Gladiator's Chain Leggings]|h|r",
+		["itemLink"] = "|cffa335ee|Hitem:91228::::::::60:253:::::::::|h[Tyrannical Gladiator's Chain Leggings]|h|r",
 		["itemClassID"] = 4,
 		["itemLevel"] = 39,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 35,
 		["expacID"] = 4,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
-		["itemID"] = 94384,
+		["isCraftingReagent"] = false,
+		["itemID"] = 91228,
 		["itemSetID"] = 1108,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
 	}, -- [1689]
+	{
+		["itemName"] = "Tyrannical Gladiator's Chain Leggings",
+		["iconFileDataID"] = 659000,
+		["bindType"] = 1,
+		["itemSellPrice"] = 32476,
+		["itemLink"] = "|cffa335ee|Hitem:94384::::::::60:253:::::::::|h[Tyrannical Gladiator's Chain Leggings]|h|r",
+		["itemClassID"] = 4,
+		["itemLevel"] = 39,
+		["itemStackCount"] = 1,
+		["itemMinLevel"] = 35,
+		["expacID"] = 4,
+		["itemRarity"] = 4,
+		["isCraftingReagent"] = false,
+		["itemID"] = 94384,
+		["itemSetID"] = 1108,
+		["itemSubClassID"] = 3,
+		["itemEquipLoc"] = "INVTYPE_LEGS",
+		["itemSubType"] = "Mail",
+		["itemType"] = "Armor",
+	}, -- [1690]
 	{
 		["itemName"] = "Saurok Stalker's Legguards",
 		["iconFileDataID"] = 660753,
@@ -32453,32 +32472,12 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 40,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 35,
 		["expacID"] = 4,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
+		["isCraftingReagent"] = false,
 		["itemID"] = 95258,
 		["itemSetID"] = 1157,
-		["itemSubClassID"] = 3,
-		["itemEquipLoc"] = "INVTYPE_LEGS",
-		["itemSubType"] = "Mail",
-		["itemType"] = "Armor",
-	}, -- [1690]
-	{
-		["itemName"] = "Prideful Gladiator's Chain Leggings",
-		["iconFileDataID"] = 850381,
-		["bindType"] = 1,
-		["itemSellPrice"] = 44447,
-		["itemLink"] = "|cffa335ee|Hitem:103419::::::::60:253:::::::::|h[Prideful Gladiator's Chain Leggings]|h|r",
-		["itemClassID"] = 4,
-		["itemLevel"] = 42,
-		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
-		["expacID"] = 4,
-		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
-		["itemID"] = 103419,
-		["itemSetID"] = 1108,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
@@ -32489,21 +32488,41 @@ AVKGlobalSellTable = {
 		["iconFileDataID"] = 850381,
 		["bindType"] = 1,
 		["itemSellPrice"] = 44447,
-		["itemLink"] = "|cffa335ee|Hitem:102670::::::::60:253:::::::::|h[Prideful Gladiator's Chain Leggings]|h|r",
+		["itemLink"] = "|cffa335ee|Hitem:103419::::::::60:253:::::::::|h[Prideful Gladiator's Chain Leggings]|h|r",
 		["itemClassID"] = 4,
 		["itemLevel"] = 42,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 35,
 		["expacID"] = 4,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
-		["itemID"] = 102670,
+		["isCraftingReagent"] = false,
+		["itemID"] = 103419,
 		["itemSetID"] = 1108,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
 	}, -- [1692]
+	{
+		["itemName"] = "Prideful Gladiator's Chain Leggings",
+		["iconFileDataID"] = 850381,
+		["bindType"] = 1,
+		["itemSellPrice"] = 44447,
+		["itemLink"] = "|cffa335ee|Hitem:102670::::::::60:253:::::::::|h[Prideful Gladiator's Chain Leggings]|h|r",
+		["itemClassID"] = 4,
+		["itemLevel"] = 42,
+		["itemStackCount"] = 1,
+		["itemMinLevel"] = 35,
+		["expacID"] = 4,
+		["itemRarity"] = 4,
+		["isCraftingReagent"] = false,
+		["itemID"] = 102670,
+		["itemSetID"] = 1108,
+		["itemSubClassID"] = 3,
+		["itemEquipLoc"] = "INVTYPE_LEGS",
+		["itemSubType"] = "Mail",
+		["itemType"] = "Armor",
+	}, -- [1693]
 	{
 		["itemName"] = "Moshne's Keen Kilt",
 		["iconFileDataID"] = 901181,
@@ -32522,7 +32541,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1693]
+	}, -- [1694]
 	{
 		["itemName"] = "Legguards of the Unblinking Vigil",
 		["iconFileDataID"] = 876288,
@@ -32532,17 +32551,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 42,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 35,
 		["expacID"] = 4,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
+		["isCraftingReagent"] = false,
 		["itemID"] = 99158,
 		["itemSetID"] = 1195,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1694]
+	}, -- [1695]
 	{
 		["itemName"] = "Desirae's Dashing Leggings",
 		["iconFileDataID"] = 876288,
@@ -32561,7 +32580,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1695]
+	}, -- [1696]
 	{
 		["itemName"] = "Tyrannical Gladiator's Links of Cruelty",
 		["iconFileDataID"] = 658994,
@@ -32580,7 +32599,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1696]
+	}, -- [1697]
 	{
 		["itemName"] = "Tyrannical Gladiator's Links of Cruelty",
 		["iconFileDataID"] = 658994,
@@ -32599,7 +32618,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1697]
+	}, -- [1698]
 	{
 		["itemName"] = "Tyrannical Gladiator's Links of Accuracy",
 		["iconFileDataID"] = 658994,
@@ -32618,7 +32637,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1698]
+	}, -- [1699]
 	{
 		["itemName"] = "Tyrannical Gladiator's Links of Accuracy",
 		["iconFileDataID"] = 658994,
@@ -32637,7 +32656,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1699]
+	}, -- [1700]
 	{
 		["itemName"] = "Sparkmaker Girdle",
 		["iconFileDataID"] = 638593,
@@ -32656,7 +32675,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1700]
+	}, -- [1701]
 	{
 		["itemName"] = "Prideful Gladiator's Links of Cruelty",
 		["iconFileDataID"] = 850375,
@@ -32675,7 +32694,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1701]
+	}, -- [1702]
 	{
 		["itemName"] = "Prideful Gladiator's Links of Cruelty",
 		["iconFileDataID"] = 850375,
@@ -32694,7 +32713,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1702]
+	}, -- [1703]
 	{
 		["itemName"] = "Prideful Gladiator's Links of Accuracy",
 		["iconFileDataID"] = 850375,
@@ -32713,7 +32732,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1703]
+	}, -- [1704]
 	{
 		["itemName"] = "Prideful Gladiator's Links of Accuracy",
 		["iconFileDataID"] = 850375,
@@ -32732,7 +32751,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1704]
+	}, -- [1705]
 	{
 		["itemName"] = "Malevolent Gladiator's Links of Cruelty",
 		["iconFileDataID"] = 588747,
@@ -32751,7 +32770,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1705]
+	}, -- [1706]
 	{
 		["itemName"] = "Malevolent Gladiator's Links of Accuracy",
 		["iconFileDataID"] = 588747,
@@ -32770,7 +32789,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1706]
+	}, -- [1707]
 	{
 		["itemName"] = "Light Kindler Waistguard",
 		["iconFileDataID"] = 876282,
@@ -32789,7 +32808,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1707]
+	}, -- [1708]
 	{
 		["itemName"] = "Girdle of the Raging Rider",
 		["iconFileDataID"] = 631297,
@@ -32808,7 +32827,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1708]
+	}, -- [1709]
 	{
 		["itemName"] = "Binkenstein's Burnished Belt",
 		["iconFileDataID"] = 901175,
@@ -32827,7 +32846,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1709]
+	}, -- [1710]
 	{
 		["itemName"] = "Belt of the Dying Diemetradon",
 		["iconFileDataID"] = 660748,
@@ -32846,7 +32865,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1710]
+	}, -- [1711]
 	{
 		["itemName"] = "Belt of the Arch Avimimus",
 		["iconFileDataID"] = 801133,
@@ -32865,7 +32884,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1711]
+	}, -- [1712]
 	{
 		["itemName"] = "Yaungol Slayer's Gloves",
 		["iconFileDataID"] = 631301,
@@ -32875,32 +32894,12 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 39,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 35,
 		["expacID"] = 4,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
+		["isCraftingReagent"] = false,
 		["itemID"] = 85297,
 		["itemSetID"] = 1129,
-		["itemSubClassID"] = 3,
-		["itemEquipLoc"] = "INVTYPE_HAND",
-		["itemSubType"] = "Mail",
-		["itemType"] = "Armor",
-	}, -- [1712]
-	{
-		["itemName"] = "Tyrannical Gladiator's Chain Gauntlets",
-		["iconFileDataID"] = 658999,
-		["bindType"] = 1,
-		["itemSellPrice"] = 16208,
-		["itemLink"] = "|cffa335ee|Hitem:94453::::::::60:253:::::::::|h[Tyrannical Gladiator's Chain Gauntlets]|h|r",
-		["itemClassID"] = 4,
-		["itemLevel"] = 39,
-		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
-		["expacID"] = 4,
-		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
-		["itemID"] = 94453,
-		["itemSetID"] = 1108,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
@@ -32911,21 +32910,41 @@ AVKGlobalSellTable = {
 		["iconFileDataID"] = 658999,
 		["bindType"] = 1,
 		["itemSellPrice"] = 16208,
-		["itemLink"] = "|cffa335ee|Hitem:91224::::::::60:253:::::::::|h[Tyrannical Gladiator's Chain Gauntlets]|h|r",
+		["itemLink"] = "|cffa335ee|Hitem:94453::::::::60:253:::::::::|h[Tyrannical Gladiator's Chain Gauntlets]|h|r",
 		["itemClassID"] = 4,
 		["itemLevel"] = 39,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 35,
 		["expacID"] = 4,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
-		["itemID"] = 91224,
+		["isCraftingReagent"] = false,
+		["itemID"] = 94453,
 		["itemSetID"] = 1108,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
 	}, -- [1714]
+	{
+		["itemName"] = "Tyrannical Gladiator's Chain Gauntlets",
+		["iconFileDataID"] = 658999,
+		["bindType"] = 1,
+		["itemSellPrice"] = 16208,
+		["itemLink"] = "|cffa335ee|Hitem:91224::::::::60:253:::::::::|h[Tyrannical Gladiator's Chain Gauntlets]|h|r",
+		["itemClassID"] = 4,
+		["itemLevel"] = 39,
+		["itemStackCount"] = 1,
+		["itemMinLevel"] = 35,
+		["expacID"] = 4,
+		["itemRarity"] = 4,
+		["isCraftingReagent"] = false,
+		["itemID"] = 91224,
+		["itemSetID"] = 1108,
+		["itemSubClassID"] = 3,
+		["itemEquipLoc"] = "INVTYPE_HAND",
+		["itemSubType"] = "Mail",
+		["itemType"] = "Armor",
+	}, -- [1715]
 	{
 		["itemName"] = "Therapsid Scale Gloves",
 		["iconFileDataID"] = 773175,
@@ -32944,7 +32963,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1715]
+	}, -- [1716]
 	{
 		["itemName"] = "Saurok Stalker's Gloves",
 		["iconFileDataID"] = 773175,
@@ -32954,32 +32973,12 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 40,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 35,
 		["expacID"] = 4,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
+		["isCraftingReagent"] = false,
 		["itemID"] = 95256,
 		["itemSetID"] = 1157,
-		["itemSubClassID"] = 3,
-		["itemEquipLoc"] = "INVTYPE_HAND",
-		["itemSubType"] = "Mail",
-		["itemType"] = "Armor",
-	}, -- [1716]
-	{
-		["itemName"] = "Prideful Gladiator's Chain Gauntlets",
-		["iconFileDataID"] = 850379,
-		["bindType"] = 1,
-		["itemSellPrice"] = 22182,
-		["itemLink"] = "|cffa335ee|Hitem:103417::::::::60:253:::::::::|h[Prideful Gladiator's Chain Gauntlets]|h|r",
-		["itemClassID"] = 4,
-		["itemLevel"] = 42,
-		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
-		["expacID"] = 4,
-		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
-		["itemID"] = 103417,
-		["itemSetID"] = 1108,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
@@ -32990,21 +32989,41 @@ AVKGlobalSellTable = {
 		["iconFileDataID"] = 850379,
 		["bindType"] = 1,
 		["itemSellPrice"] = 22182,
-		["itemLink"] = "|cffa335ee|Hitem:102737::::::::60:253:::::::::|h[Prideful Gladiator's Chain Gauntlets]|h|r",
+		["itemLink"] = "|cffa335ee|Hitem:103417::::::::60:253:::::::::|h[Prideful Gladiator's Chain Gauntlets]|h|r",
 		["itemClassID"] = 4,
 		["itemLevel"] = 42,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 35,
 		["expacID"] = 4,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
-		["itemID"] = 102737,
+		["isCraftingReagent"] = false,
+		["itemID"] = 103417,
 		["itemSetID"] = 1108,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
 	}, -- [1718]
+	{
+		["itemName"] = "Prideful Gladiator's Chain Gauntlets",
+		["iconFileDataID"] = 850379,
+		["bindType"] = 1,
+		["itemSellPrice"] = 22182,
+		["itemLink"] = "|cffa335ee|Hitem:102737::::::::60:253:::::::::|h[Prideful Gladiator's Chain Gauntlets]|h|r",
+		["itemClassID"] = 4,
+		["itemLevel"] = 42,
+		["itemStackCount"] = 1,
+		["itemMinLevel"] = 35,
+		["expacID"] = 4,
+		["itemRarity"] = 4,
+		["isCraftingReagent"] = false,
+		["itemID"] = 102737,
+		["itemSetID"] = 1108,
+		["itemSubClassID"] = 3,
+		["itemEquipLoc"] = "INVTYPE_HAND",
+		["itemSubType"] = "Mail",
+		["itemType"] = "Armor",
+	}, -- [1719]
 	{
 		["itemName"] = "Orndo Mando's Gloves",
 		["iconFileDataID"] = 801137,
@@ -33023,7 +33042,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1719]
+	}, -- [1720]
 	{
 		["itemName"] = "Malevolent Gladiator's Chain Gauntlets",
 		["iconFileDataID"] = 588751,
@@ -33033,17 +33052,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 39,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 35,
 		["expacID"] = 4,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
+		["isCraftingReagent"] = false,
 		["itemID"] = 84841,
 		["itemSetID"] = 1108,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1720]
+	}, -- [1721]
 	{
 		["itemName"] = "Gloves of the Unblinking Vigil",
 		["iconFileDataID"] = 876286,
@@ -33053,17 +33072,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 42,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 35,
 		["expacID"] = 4,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 35,
+		["isCraftingReagent"] = false,
 		["itemID"] = 99168,
 		["itemSetID"] = 1195,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1721]
+	}, -- [1722]
 	{
 		["itemName"] = "Tyrannical Gladiator's Wristguards of Alacrity",
 		["iconFileDataID"] = 658997,
@@ -33082,7 +33101,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1722]
+	}, -- [1723]
 	{
 		["itemName"] = "Tyrannical Gladiator's Wristguards of Alacrity",
 		["iconFileDataID"] = 658997,
@@ -33101,7 +33120,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1723]
+	}, -- [1724]
 	{
 		["itemName"] = "Tyrannical Gladiator's Wristguards of Accuracy",
 		["iconFileDataID"] = 658997,
@@ -33120,7 +33139,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1724]
+	}, -- [1725]
 	{
 		["itemName"] = "Tyrannical Gladiator's Wristguards of Accuracy",
 		["iconFileDataID"] = 658997,
@@ -33139,7 +33158,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1725]
+	}, -- [1726]
 	{
 		["itemName"] = "Prideful Gladiator's Wristguards of Alacrity",
 		["iconFileDataID"] = 850377,
@@ -33158,7 +33177,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1726]
+	}, -- [1727]
 	{
 		["itemName"] = "Prideful Gladiator's Wristguards of Alacrity",
 		["iconFileDataID"] = 850377,
@@ -33177,7 +33196,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1727]
+	}, -- [1728]
 	{
 		["itemName"] = "Prideful Gladiator's Wristguards of Accuracy",
 		["iconFileDataID"] = 850377,
@@ -33196,7 +33215,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1728]
+	}, -- [1729]
 	{
 		["itemName"] = "Prideful Gladiator's Wristguards of Accuracy",
 		["iconFileDataID"] = 850377,
@@ -33215,7 +33234,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1729]
+	}, -- [1730]
 	{
 		["itemName"] = "Malevolent Gladiator's Wristguards of Alacrity",
 		["iconFileDataID"] = 588749,
@@ -33234,7 +33253,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1730]
+	}, -- [1731]
 	{
 		["itemName"] = "Malevolent Gladiator's Wristguards of Accuracy",
 		["iconFileDataID"] = 588749,
@@ -33253,7 +33272,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1731]
+	}, -- [1732]
 	{
 		["itemName"] = "Firetotem Bracers",
 		["iconFileDataID"] = 901177,
@@ -33272,7 +33291,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1732]
+	}, -- [1733]
 	{
 		["itemName"] = "Bowflight Wristguard",
 		["iconFileDataID"] = 876284,
@@ -33291,7 +33310,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1733]
+	}, -- [1734]
 	{
 		["itemName"] = "Moonhee's Mean Vest",
 		["iconFileDataID"] = 876285,
@@ -33310,7 +33329,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1734]
+	}, -- [1735]
 	{
 		["itemName"] = "Mail of the Mosschopper",
 		["iconFileDataID"] = 801136,
@@ -33329,7 +33348,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1735]
+	}, -- [1736]
 	{
 		["itemName"] = "Gorgoraptor Scale Chest",
 		["iconFileDataID"] = 660751,
@@ -33348,7 +33367,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1736]
+	}, -- [1737]
 	{
 		["itemName"] = "Chestguard of Pyrrhic Immolation",
 		["iconFileDataID"] = 901178,
@@ -33367,7 +33386,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1737]
+	}, -- [1738]
 	{
 		["itemName"] = "Chain of Unseized Skies",
 		["iconFileDataID"] = 631300,
@@ -33386,7 +33405,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1738]
+	}, -- [1739]
 	{
 		["itemName"] = "Armor of the Single Cloud",
 		["iconFileDataID"] = 638596,
@@ -33405,7 +33424,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1739]
+	}, -- [1740]
 	{
 		["itemName"] = "Tyrannical Gladiator's Cape of Prowess",
 		["iconFileDataID"] = 625794,
@@ -33424,7 +33443,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1740]
+	}, -- [1741]
 	{
 		["itemName"] = "Tyrannical Gladiator's Cape of Prowess",
 		["iconFileDataID"] = 625794,
@@ -33443,7 +33462,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1741]
+	}, -- [1742]
 	{
 		["itemName"] = "Tyrannical Gladiator's Cape of Cruelty",
 		["iconFileDataID"] = 625794,
@@ -33462,7 +33481,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1742]
+	}, -- [1743]
 	{
 		["itemName"] = "Tyrannical Gladiator's Cape of Cruelty",
 		["iconFileDataID"] = 625794,
@@ -33481,7 +33500,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1743]
+	}, -- [1744]
 	{
 		["itemName"] = "Prideful Gladiator's Cape of Prowess",
 		["iconFileDataID"] = 625794,
@@ -33500,7 +33519,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1744]
+	}, -- [1745]
 	{
 		["itemName"] = "Prideful Gladiator's Cape of Prowess",
 		["iconFileDataID"] = 625794,
@@ -33519,7 +33538,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1745]
+	}, -- [1746]
 	{
 		["itemName"] = "Prideful Gladiator's Cape of Cruelty",
 		["iconFileDataID"] = 625794,
@@ -33538,7 +33557,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1746]
+	}, -- [1747]
 	{
 		["itemName"] = "Prideful Gladiator's Cape of Cruelty",
 		["iconFileDataID"] = 625794,
@@ -33557,7 +33576,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1747]
+	}, -- [1748]
 	{
 		["itemName"] = "Malevolent Gladiator's Cape of Prowess",
 		["iconFileDataID"] = 625794,
@@ -33576,7 +33595,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1748]
+	}, -- [1749]
 	{
 		["itemName"] = "Malevolent Gladiator's Cape of Cruelty",
 		["iconFileDataID"] = 625794,
@@ -33595,7 +33614,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1749]
+	}, -- [1750]
 	{
 		["itemName"] = "Fleshsmoke Chain Shoulders",
 		["iconFileDataID"] = 901182,
@@ -33614,7 +33633,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1750]
+	}, -- [1751]
 	{
 		["itemName"] = "Firearrow Shoulderpads",
 		["iconFileDataID"] = 876289,
@@ -33633,7 +33652,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1751]
+	}, -- [1752]
 	{
 		["itemName"] = "Tyrannical Gladiator's Necklace of Prowess",
 		["iconFileDataID"] = 652818,
@@ -33652,7 +33671,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1752]
+	}, -- [1753]
 	{
 		["itemName"] = "Tyrannical Gladiator's Necklace of Prowess",
 		["iconFileDataID"] = 652818,
@@ -33671,7 +33690,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1753]
+	}, -- [1754]
 	{
 		["itemName"] = "Tyrannical Gladiator's Necklace of Proficiency",
 		["iconFileDataID"] = 652818,
@@ -33690,7 +33709,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1754]
+	}, -- [1755]
 	{
 		["itemName"] = "Tyrannical Gladiator's Necklace of Proficiency",
 		["iconFileDataID"] = 652818,
@@ -33709,7 +33728,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1755]
+	}, -- [1756]
 	{
 		["itemName"] = "Smoldering Eye",
 		["iconFileDataID"] = 895878,
@@ -33728,7 +33747,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1756]
+	}, -- [1757]
 	{
 		["itemName"] = "Prideful Gladiator's Necklace of Prowess",
 		["iconFileDataID"] = 652818,
@@ -33747,7 +33766,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1757]
+	}, -- [1758]
 	{
 		["itemName"] = "Prideful Gladiator's Necklace of Prowess",
 		["iconFileDataID"] = 652818,
@@ -33766,7 +33785,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1758]
+	}, -- [1759]
 	{
 		["itemName"] = "Prideful Gladiator's Necklace of Proficiency",
 		["iconFileDataID"] = 652818,
@@ -33785,7 +33804,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1759]
+	}, -- [1760]
 	{
 		["itemName"] = "Prideful Gladiator's Necklace of Proficiency",
 		["iconFileDataID"] = 652818,
@@ -33804,7 +33823,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1760]
+	}, -- [1761]
 	{
 		["itemName"] = "Necklace of the Hazillosaurus",
 		["iconFileDataID"] = 804086,
@@ -33823,7 +33842,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1761]
+	}, -- [1762]
 	{
 		["itemName"] = "Malevolent Gladiator's Necklace of Prowess",
 		["iconFileDataID"] = 652818,
@@ -33842,7 +33861,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1762]
+	}, -- [1763]
 	{
 		["itemName"] = "Malevolent Gladiator's Necklace of Proficiency",
 		["iconFileDataID"] = 652818,
@@ -33861,7 +33880,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1763]
+	}, -- [1764]
 	{
 		["itemName"] = "Hellrider's Choker",
 		["iconFileDataID"] = 648531,
@@ -33880,7 +33899,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1764]
+	}, -- [1765]
 	{
 		["itemName"] = "Olivia's Graceful Gaze",
 		["iconFileDataID"] = 849749,
@@ -33899,7 +33918,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1765]
+	}, -- [1766]
 	{
 		["itemName"] = "Helm of Restoring Wind",
 		["iconFileDataID"] = 638598,
@@ -33918,7 +33937,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1766]
+	}, -- [1767]
 	{
 		["itemName"] = "Crest of the Grand Warband",
 		["iconFileDataID"] = 537536,
@@ -33937,7 +33956,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1767]
+	}, -- [1768]
 	{
 		["itemName"] = "Crest of Burning Deeds",
 		["iconFileDataID"] = 876287,
@@ -33956,7 +33975,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1768]
+	}, -- [1769]
 	{
 		["itemName"] = "Reins of the Cobalt Primordial Direhorn",
 		["iconFileDataID"] = 838685,
@@ -33975,7 +33994,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Mount",
 		["itemType"] = "Miscellaneous",
-	}, -- [1769]
+	}, -- [1770]
 	{
 		["itemName"] = "Marauder's Gleaming Sack of Gold",
 		["iconFileDataID"] = 133646,
@@ -33994,7 +34013,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1770]
+	}, -- [1771]
 	{
 		["itemName"] = "Cache of Sha-Touched Gold",
 		["iconFileDataID"] = 644388,
@@ -34013,7 +34032,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1771]
+	}, -- [1772]
 	{
 		["itemName"] = "Wrath of Unchaining",
 		["iconFileDataID"] = 133796,
@@ -34032,7 +34051,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1772]
+	}, -- [1773]
 	{
 		["itemName"] = "Vial of Shadows",
 		["iconFileDataID"] = 134865,
@@ -34051,7 +34070,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1773]
+	}, -- [1774]
 	{
 		["itemName"] = "Starcatcher Compass",
 		["iconFileDataID"] = 531324,
@@ -34070,7 +34089,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1774]
+	}, -- [1775]
 	{
 		["itemName"] = "Signet of Grasping Mouths",
 		["iconFileDataID"] = 529425,
@@ -34089,7 +34108,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1775]
+	}, -- [1776]
 	{
 		["itemName"] = "Seal of Primordial Shadow",
 		["iconFileDataID"] = 534271,
@@ -34108,7 +34127,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1776]
+	}, -- [1777]
 	{
 		["itemName"] = "Treads of Dormant Dreams",
 		["iconFileDataID"] = 535819,
@@ -34127,7 +34146,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1777]
+	}, -- [1778]
 	{
 		["itemName"] = "Mindstrainer Treads",
 		["iconFileDataID"] = 534452,
@@ -34146,7 +34165,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1778]
+	}, -- [1779]
 	{
 		["itemName"] = "Girdle of Shattered Stone",
 		["iconFileDataID"] = 534450,
@@ -34165,7 +34184,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1779]
+	}, -- [1780]
 	{
 		["itemName"] = "Belt of the Beloved Companion",
 		["iconFileDataID"] = 535818,
@@ -34184,7 +34203,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1780]
+	}, -- [1781]
 	{
 		["itemName"] = "Belt of Shattered Elementium",
 		["iconFileDataID"] = 534450,
@@ -34203,7 +34222,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1781]
+	}, -- [1782]
 	{
 		["itemName"] = "Sporebeard Gauntlets",
 		["iconFileDataID"] = 535826,
@@ -34222,7 +34241,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1782]
+	}, -- [1783]
 	{
 		["itemName"] = "Grotesquely Writhing Bracers",
 		["iconFileDataID"] = 534454,
@@ -34241,7 +34260,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1783]
+	}, -- [1784]
 	{
 		["itemName"] = "Bracers of Looming Darkness",
 		["iconFileDataID"] = 535822,
@@ -34260,7 +34279,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1784]
+	}, -- [1785]
 	{
 		["itemName"] = "Imperfect Specimens 27 and 28",
 		["iconFileDataID"] = 534464,
@@ -34279,7 +34298,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1785]
+	}, -- [1786]
 	{
 		["itemName"] = "Vishanka, Jaws of the Earth",
 		["iconFileDataID"] = 529424,
@@ -34298,7 +34317,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [1786]
+	}, -- [1787]
 	{
 		["itemName"] = "Horrifying Horn Arbalest",
 		["iconFileDataID"] = 530332,
@@ -34317,7 +34336,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [1787]
+	}, -- [1788]
 	{
 		["itemName"] = "Spire of Coagulated Globules",
 		["iconFileDataID"] = 533862,
@@ -34336,7 +34355,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1788]
+	}, -- [1789]
 	{
 		["itemName"] = "Kiril, Fury of Beasts",
 		["iconFileDataID"] = 529781,
@@ -34355,7 +34374,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [1789]
+	}, -- [1790]
 	{
 		["itemName"] = "Shoulders of the Corrupted Protector",
 		["iconFileDataID"] = 135053,
@@ -34374,7 +34393,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1790]
+	}, -- [1791]
 	{
 		["itemName"] = "Leggings of the Corrupted Protector",
 		["iconFileDataID"] = 133834,
@@ -34393,7 +34412,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1791]
+	}, -- [1792]
 	{
 		["itemName"] = "Gauntlets of the Corrupted Protector",
 		["iconFileDataID"] = 132963,
@@ -34412,7 +34431,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1792]
+	}, -- [1793]
 	{
 		["itemName"] = "Essence of Destruction",
 		["iconFileDataID"] = 135795,
@@ -34431,7 +34450,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Tradeskill",
-	}, -- [1793]
+	}, -- [1794]
 	{
 		["itemName"] = "Crown of the Corrupted Protector",
 		["iconFileDataID"] = 133126,
@@ -34450,7 +34469,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1794]
+	}, -- [1795]
 	{
 		["itemName"] = "Chest of the Corrupted Protector",
 		["iconFileDataID"] = 132632,
@@ -34469,7 +34488,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1795]
+	}, -- [1796]
 	{
 		["itemName"] = "The Hungerer",
 		["iconFileDataID"] = 237524,
@@ -34488,7 +34507,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1796]
+	}, -- [1797]
 	{
 		["itemName"] = "Matrix Restabilizer",
 		["iconFileDataID"] = 465875,
@@ -34507,7 +34526,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1797]
+	}, -- [1798]
 	{
 		["itemName"] = "Widow's Kiss",
 		["iconFileDataID"] = 515954,
@@ -34526,7 +34545,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1798]
+	}, -- [1799]
 	{
 		["itemName"] = "Treads of Implicit Obedience",
 		["iconFileDataID"] = 526166,
@@ -34545,7 +34564,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1799]
+	}, -- [1800]
 	{
 		["itemName"] = "Decimation Treads",
 		["iconFileDataID"] = 519396,
@@ -34564,7 +34583,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1800]
+	}, -- [1801]
 	{
 		["itemName"] = "Thoracic Flame Kilt",
 		["iconFileDataID"] = 526175,
@@ -34583,7 +34602,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1801]
+	}, -- [1802]
 	{
 		["itemName"] = "Moltenfeather Leggings",
 		["iconFileDataID"] = 519401,
@@ -34602,7 +34621,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1802]
+	}, -- [1803]
 	{
 		["itemName"] = "Grips of Unerring Precision",
 		["iconFileDataID"] = 519399,
@@ -34621,7 +34640,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1803]
+	}, -- [1804]
 	{
 		["itemName"] = "Clawshaper Gauntlets",
 		["iconFileDataID"] = 526171,
@@ -34640,7 +34659,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1804]
+	}, -- [1805]
 	{
 		["itemName"] = "Lava Line Wristbands",
 		["iconFileDataID"] = 468711,
@@ -34659,7 +34678,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1805]
+	}, -- [1806]
 	{
 		["itemName"] = "Gatekeeper's Embrace",
 		["iconFileDataID"] = 526169,
@@ -34678,7 +34697,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_ROBE",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1806]
+	}, -- [1807]
 	{
 		["itemName"] = "Flaming Core Chestguard",
 		["iconFileDataID"] = 519398,
@@ -34697,7 +34716,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1807]
+	}, -- [1808]
 	{
 		["itemName"] = "Dreadfire Drape",
 		["iconFileDataID"] = 516313,
@@ -34716,7 +34735,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1808]
+	}, -- [1809]
 	{
 		["itemName"] = "Flickering Shoulders",
 		["iconFileDataID"] = 519403,
@@ -34735,7 +34754,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1809]
+	}, -- [1810]
 	{
 		["itemName"] = "Craterflame Spaulders",
 		["iconFileDataID"] = 526178,
@@ -34754,7 +34773,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1810]
+	}, -- [1811]
 	{
 		["itemName"] = "Choker of the Vanquished Lord",
 		["iconFileDataID"] = 512473,
@@ -34773,7 +34792,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1811]
+	}, -- [1812]
 	{
 		["itemName"] = "Scalp of the Bandit Prince",
 		["iconFileDataID"] = 519400,
@@ -34792,7 +34811,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1812]
+	}, -- [1813]
 	{
 		["itemName"] = "Crown of Flame",
 		["iconFileDataID"] = 519830,
@@ -34811,7 +34830,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1813]
+	}, -- [1814]
 	{
 		["itemName"] = "Arbalest of Erupting Fury",
 		["iconFileDataID"] = 512963,
@@ -34830,7 +34849,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [1814]
+	}, -- [1815]
 	{
 		["itemName"] = "Arathar, the Eye of Flame",
 		["iconFileDataID"] = 510037,
@@ -34849,7 +34868,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [1815]
+	}, -- [1816]
 	{
 		["itemName"] = "Fandral's Flamescythe",
 		["iconFileDataID"] = 304287,
@@ -34868,7 +34887,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1816]
+	}, -- [1817]
 	{
 		["itemName"] = "Mantle of the Fiery Protector",
 		["iconFileDataID"] = 135053,
@@ -34887,7 +34906,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1817]
+	}, -- [1818]
 	{
 		["itemName"] = "Living Ember",
 		["iconFileDataID"] = 451164,
@@ -34906,7 +34925,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Tradeskill",
-	}, -- [1818]
+	}, -- [1819]
 	{
 		["itemName"] = "Helm of the Fiery Protector",
 		["iconFileDataID"] = 133126,
@@ -34925,7 +34944,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1819]
+	}, -- [1820]
 	{
 		["itemName"] = "Mistral Circle",
 		["iconFileDataID"] = 414298,
@@ -34944,7 +34963,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1820]
+	}, -- [1821]
 	{
 		["itemName"] = "Star Chaser Legguards",
 		["iconFileDataID"] = 466285,
@@ -34963,7 +34982,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1821]
+	}, -- [1822]
 	{
 		["itemName"] = "Lightning Well Legguards",
 		["iconFileDataID"] = 467105,
@@ -34982,7 +35001,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1822]
+	}, -- [1823]
 	{
 		["itemName"] = "Star Chaser Belt",
 		["iconFileDataID"] = 466265,
@@ -35001,7 +35020,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1823]
+	}, -- [1824]
 	{
 		["itemName"] = "Lightning Well Belt",
 		["iconFileDataID"] = 467092,
@@ -35020,7 +35039,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1824]
+	}, -- [1825]
 	{
 		["itemName"] = "Mistral Drape",
 		["iconFileDataID"] = 463833,
@@ -35039,7 +35058,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1825]
+	}, -- [1826]
 	{
 		["itemName"] = "Mistral Pendant",
 		["iconFileDataID"] = 348282,
@@ -35058,7 +35077,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1826]
+	}, -- [1827]
 	{
 		["itemName"] = "Illusion: Windfury",
 		["iconFileDataID"] = 237174,
@@ -35077,7 +35096,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [1827]
+	}, -- [1828]
 	{
 		["itemName"] = "Vial of Stolen Memories",
 		["iconFileDataID"] = 443371,
@@ -35096,7 +35115,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1828]
+	}, -- [1829]
 	{
 		["itemName"] = "Heart of Ignacious",
 		["iconFileDataID"] = 443377,
@@ -35115,7 +35134,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1829]
+	}, -- [1830]
 	{
 		["itemName"] = "Essence of the Cyclone",
 		["iconFileDataID"] = 443370,
@@ -35134,7 +35153,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1830]
+	}, -- [1831]
 	{
 		["itemName"] = "Kilt of the Forgotten Battle",
 		["iconFileDataID"] = 467105,
@@ -35153,7 +35172,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1831]
+	}, -- [1832]
 	{
 		["itemName"] = "Waistguard of Hatred",
 		["iconFileDataID"] = 467092,
@@ -35172,7 +35191,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1832]
+	}, -- [1833]
 	{
 		["itemName"] = "Coil of Ten-Thousand Screams",
 		["iconFileDataID"] = 466265,
@@ -35191,7 +35210,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1833]
+	}, -- [1834]
 	{
 		["itemName"] = "Proto-Handler's Gauntlets",
 		["iconFileDataID"] = 466274,
@@ -35210,7 +35229,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1834]
+	}, -- [1835]
 	{
 		["itemName"] = "Feludius' Mantle",
 		["iconFileDataID"] = 467106,
@@ -35229,7 +35248,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1835]
+	}, -- [1836]
 	{
 		["itemName"] = "Necklace of Strife",
 		["iconFileDataID"] = 466975,
@@ -35248,7 +35267,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1836]
+	}, -- [1837]
 	{
 		["itemName"] = "Helm of the Nether Scion",
 		["iconFileDataID"] = 467103,
@@ -35267,7 +35286,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1837]
+	}, -- [1838]
 	{
 		["itemName"] = "Arion's Crown",
 		["iconFileDataID"] = 466276,
@@ -35286,7 +35305,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1838]
+	}, -- [1839]
 	{
 		["itemName"] = "Dragonheart Piercer",
 		["iconFileDataID"] = 372094,
@@ -35305,7 +35324,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [1839]
+	}, -- [1840]
 	{
 		["itemName"] = "Malevolence",
 		["iconFileDataID"] = 370252,
@@ -35324,7 +35343,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1840]
+	}, -- [1841]
 	{
 		["itemName"] = "Mantle of the Forlorn Protector",
 		["iconFileDataID"] = 135053,
@@ -35343,7 +35362,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1841]
+	}, -- [1842]
 	{
 		["itemName"] = "Prestor's Talisman of Machination",
 		["iconFileDataID"] = 133304,
@@ -35362,7 +35381,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1842]
+	}, -- [1843]
 	{
 		["itemName"] = "Bell of Enraging Resonance",
 		["iconFileDataID"] = 133706,
@@ -35381,7 +35400,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1843]
+	}, -- [1844]
 	{
 		["itemName"] = "Lightning Conductor Band",
 		["iconFileDataID"] = 414288,
@@ -35400,7 +35419,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1844]
+	}, -- [1845]
 	{
 		["itemName"] = "Treads of Flawless Creation",
 		["iconFileDataID"] = 467095,
@@ -35419,7 +35438,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1845]
+	}, -- [1846]
 	{
 		["itemName"] = "Boots of Vertigo",
 		["iconFileDataID"] = 466267,
@@ -35438,7 +35457,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1846]
+	}, -- [1847]
 	{
 		["itemName"] = "Leggings of Lethal Force",
 		["iconFileDataID"] = 466285,
@@ -35457,7 +35476,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1847]
+	}, -- [1848]
 	{
 		["itemName"] = "Lifecycle Waistguard",
 		["iconFileDataID"] = 467092,
@@ -35476,7 +35495,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1848]
+	}, -- [1849]
 	{
 		["itemName"] = "Gloves of Cacophony",
 		["iconFileDataID"] = 467101,
@@ -35495,7 +35514,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1849]
+	}, -- [1850]
 	{
 		["itemName"] = "Chimaeron Armguards",
 		["iconFileDataID"] = 466269,
@@ -35514,7 +35533,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1850]
+	}, -- [1851]
 	{
 		["itemName"] = "Chaos Beast Bracers",
 		["iconFileDataID"] = 467097,
@@ -35533,7 +35552,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1851]
+	}, -- [1852]
 	{
 		["itemName"] = "Voltage Source Chestguard",
 		["iconFileDataID"] = 466271,
@@ -35552,7 +35571,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1852]
+	}, -- [1853]
 	{
 		["itemName"] = "Tunic of Failed Experiments",
 		["iconFileDataID"] = 466271,
@@ -35571,7 +35590,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1853]
+	}, -- [1854]
 	{
 		["itemName"] = "Circuit Design Breastplate",
 		["iconFileDataID"] = 467099,
@@ -35590,7 +35609,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1854]
+	}, -- [1855]
 	{
 		["itemName"] = "Cloak of Biting Chill",
 		["iconFileDataID"] = 463833,
@@ -35609,7 +35628,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1855]
+	}, -- [1856]
 	{
 		["itemName"] = "Spaulders of the Scarred Lady",
 		["iconFileDataID"] = 466287,
@@ -35628,7 +35647,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1856]
+	}, -- [1857]
 	{
 		["itemName"] = "Themios the Darkbringer",
 		["iconFileDataID"] = 375467,
@@ -35647,7 +35666,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [1857]
+	}, -- [1858]
 	{
 		["itemName"] = "Illusion: Power Torrent",
 		["iconFileDataID"] = 237174,
@@ -35666,7 +35685,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [1858]
+	}, -- [1859]
 	{
 		["itemName"] = "Helm of the Forlorn Protector",
 		["iconFileDataID"] = 133126,
@@ -35685,7 +35704,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [1859]
+	}, -- [1860]
 	{
 		["itemName"] = "Vicious Gladiator's Medallion of Tenacity",
 		["iconFileDataID"] = 133452,
@@ -35704,7 +35723,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1860]
+	}, -- [1861]
 	{
 		["itemName"] = "Vicious Gladiator's Medallion of Meditation",
 		["iconFileDataID"] = 133452,
@@ -35723,7 +35742,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1861]
+	}, -- [1862]
 	{
 		["itemName"] = "Vicious Gladiator's Medallion of Cruelty",
 		["iconFileDataID"] = 133452,
@@ -35742,7 +35761,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1862]
+	}, -- [1863]
 	{
 		["itemName"] = "Ruthless Gladiator's Medallion of Tenacity",
 		["iconFileDataID"] = 133452,
@@ -35761,7 +35780,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1863]
+	}, -- [1864]
 	{
 		["itemName"] = "Ruthless Gladiator's Medallion of Meditation",
 		["iconFileDataID"] = 133452,
@@ -35780,7 +35799,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1864]
+	}, -- [1865]
 	{
 		["itemName"] = "Ruthless Gladiator's Medallion of Cruelty",
 		["iconFileDataID"] = 133452,
@@ -35799,7 +35818,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1865]
+	}, -- [1866]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Medallion of Tenacity",
 		["iconFileDataID"] = 133452,
@@ -35818,7 +35837,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1866]
+	}, -- [1867]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Medallion of Meditation",
 		["iconFileDataID"] = 133452,
@@ -35837,7 +35856,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1867]
+	}, -- [1868]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Medallion of Cruelty",
 		["iconFileDataID"] = 133452,
@@ -35856,7 +35875,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1868]
+	}, -- [1869]
 	{
 		["itemName"] = "Vicious Gladiator's Ring of Cruelty",
 		["iconFileDataID"] = 133422,
@@ -35875,7 +35894,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1869]
+	}, -- [1870]
 	{
 		["itemName"] = "Vicious Gladiator's Ring of Accuracy",
 		["iconFileDataID"] = 133422,
@@ -35894,7 +35913,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1870]
+	}, -- [1871]
 	{
 		["itemName"] = "Ruthless Gladiator's Ring of Cruelty",
 		["iconFileDataID"] = 133422,
@@ -35913,7 +35932,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1871]
+	}, -- [1872]
 	{
 		["itemName"] = "Ruthless Gladiator's Ring of Accuracy",
 		["iconFileDataID"] = 133422,
@@ -35932,7 +35951,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1872]
+	}, -- [1873]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Ring of Cruelty",
 		["iconFileDataID"] = 133422,
@@ -35951,7 +35970,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1873]
+	}, -- [1874]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Ring of Accuracy",
 		["iconFileDataID"] = 133422,
@@ -35970,7 +35989,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1874]
+	}, -- [1875]
 	{
 		["itemName"] = "Vicious Gladiator's Sabatons of Cruelty",
 		["iconFileDataID"] = 462999,
@@ -35989,7 +36008,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1875]
+	}, -- [1876]
 	{
 		["itemName"] = "Vicious Gladiator's Sabatons of Alacrity",
 		["iconFileDataID"] = 462999,
@@ -36008,7 +36027,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1876]
+	}, -- [1877]
 	{
 		["itemName"] = "Ruthless Gladiator's Sabatons of Cruelty",
 		["iconFileDataID"] = 468710,
@@ -36027,7 +36046,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1877]
+	}, -- [1878]
 	{
 		["itemName"] = "Ruthless Gladiator's Sabatons of Alacrity",
 		["iconFileDataID"] = 468710,
@@ -36046,7 +36065,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1878]
+	}, -- [1879]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Sabatons of Cruelty",
 		["iconFileDataID"] = 531760,
@@ -36065,7 +36084,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1879]
+	}, -- [1880]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Sabatons of Alacrity",
 		["iconFileDataID"] = 531760,
@@ -36084,7 +36103,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1880]
+	}, -- [1881]
 	{
 		["itemName"] = "Wyrmstalker's Legguards",
 		["iconFileDataID"] = 535830,
@@ -36094,17 +36113,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 77031,
 		["itemSetID"] = 1061,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1881]
+	}, -- [1882]
 	{
 		["itemName"] = "Vicious Gladiator's Chain Leggings",
 		["iconFileDataID"] = 463010,
@@ -36114,17 +36133,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 60426,
 		["itemSetID"] = 920,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1882]
+	}, -- [1883]
 	{
 		["itemName"] = "Ruthless Gladiator's Chain Leggings",
 		["iconFileDataID"] = 468715,
@@ -36134,17 +36153,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 70262,
 		["itemSetID"] = 920,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1883]
+	}, -- [1884]
 	{
 		["itemName"] = "Lightning-Charged Legguards",
 		["iconFileDataID"] = 466285,
@@ -36154,17 +36173,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 60305,
 		["itemSetID"] = 930,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1884]
+	}, -- [1885]
 	{
 		["itemName"] = "Flamewaker's Legguards",
 		["iconFileDataID"] = 519401,
@@ -36174,17 +36193,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 71052,
 		["itemSetID"] = 1005,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1885]
+	}, -- [1886]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Chain Leggings",
 		["iconFileDataID"] = 531783,
@@ -36194,17 +36213,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 73581,
 		["itemSetID"] = 920,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1886]
+	}, -- [1887]
 	{
 		["itemName"] = "Vicious Gladiator's Links of Cruelty",
 		["iconFileDataID"] = 462997,
@@ -36223,7 +36242,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1887]
+	}, -- [1888]
 	{
 		["itemName"] = "Vicious Gladiator's Links of Accuracy",
 		["iconFileDataID"] = 462997,
@@ -36242,7 +36261,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1888]
+	}, -- [1889]
 	{
 		["itemName"] = "Ruthless Gladiator's Links of Cruelty",
 		["iconFileDataID"] = 468709,
@@ -36261,7 +36280,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1889]
+	}, -- [1890]
 	{
 		["itemName"] = "Ruthless Gladiator's Links of Accuracy",
 		["iconFileDataID"] = 468709,
@@ -36280,7 +36299,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1890]
+	}, -- [1891]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Links of Cruelty",
 		["iconFileDataID"] = 531758,
@@ -36299,7 +36318,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1891]
+	}, -- [1892]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Links of Accuracy",
 		["iconFileDataID"] = 531758,
@@ -36318,7 +36337,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1892]
+	}, -- [1893]
 	{
 		["itemName"] = "Wyrmstalker's Gloves",
 		["iconFileDataID"] = 535826,
@@ -36328,17 +36347,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 77029,
 		["itemSetID"] = 1061,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1893]
+	}, -- [1894]
 	{
 		["itemName"] = "Vicious Gladiator's Chain Gauntlets",
 		["iconFileDataID"] = 463005,
@@ -36348,17 +36367,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 60424,
 		["itemSetID"] = 920,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1894]
+	}, -- [1895]
 	{
 		["itemName"] = "Ruthless Gladiator's Chain Gauntlets",
 		["iconFileDataID"] = 468713,
@@ -36368,17 +36387,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 70260,
 		["itemSetID"] = 920,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1895]
+	}, -- [1896]
 	{
 		["itemName"] = "Lightning-Charged Gloves",
 		["iconFileDataID"] = 466274,
@@ -36388,17 +36407,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 60307,
 		["itemSetID"] = 930,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1896]
+	}, -- [1897]
 	{
 		["itemName"] = "Flamewaker's Gloves",
 		["iconFileDataID"] = 519399,
@@ -36408,17 +36427,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 71050,
 		["itemSetID"] = 1005,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1897]
+	}, -- [1898]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Chain Gauntlets",
 		["iconFileDataID"] = 531766,
@@ -36428,17 +36447,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 37,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 32,
 		["expacID"] = 3,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 32,
+		["isCraftingReagent"] = false,
 		["itemID"] = 73583,
 		["itemSetID"] = 920,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1898]
+	}, -- [1899]
 	{
 		["itemName"] = "Ruthless Gladiator's Wristguards of Alacrity",
 		["iconFileDataID"] = 468711,
@@ -36457,7 +36476,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1899]
+	}, -- [1900]
 	{
 		["itemName"] = "Ruthless Gladiator's Wristguards of Accuracy",
 		["iconFileDataID"] = 468711,
@@ -36476,7 +36495,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1900]
+	}, -- [1901]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Wristguards of Alacrity",
 		["iconFileDataID"] = 531762,
@@ -36495,7 +36514,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1901]
+	}, -- [1902]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Wristguards of Accuracy",
 		["iconFileDataID"] = 531762,
@@ -36514,7 +36533,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1902]
+	}, -- [1903]
 	{
 		["itemName"] = "Vicious Gladiator's Cape of Prowess",
 		["iconFileDataID"] = 133770,
@@ -36533,7 +36552,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1903]
+	}, -- [1904]
 	{
 		["itemName"] = "Vicious Gladiator's Cape of Cruelty",
 		["iconFileDataID"] = 133770,
@@ -36552,7 +36571,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1904]
+	}, -- [1905]
 	{
 		["itemName"] = "Ruthless Gladiator's Cape of Prowess",
 		["iconFileDataID"] = 133770,
@@ -36571,7 +36590,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1905]
+	}, -- [1906]
 	{
 		["itemName"] = "Ruthless Gladiator's Cape of Cruelty",
 		["iconFileDataID"] = 133770,
@@ -36590,7 +36609,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1906]
+	}, -- [1907]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Cape of Prowess",
 		["iconFileDataID"] = 133770,
@@ -36609,7 +36628,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1907]
+	}, -- [1908]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Cape of Cruelty",
 		["iconFileDataID"] = 133770,
@@ -36628,7 +36647,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1908]
+	}, -- [1909]
 	{
 		["itemName"] = "Vicious Gladiator's Necklace of Prowess",
 		["iconFileDataID"] = 133336,
@@ -36647,7 +36666,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1909]
+	}, -- [1910]
 	{
 		["itemName"] = "Vicious Gladiator's Necklace of Proficiency",
 		["iconFileDataID"] = 133336,
@@ -36666,7 +36685,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1910]
+	}, -- [1911]
 	{
 		["itemName"] = "Ruthless Gladiator's Necklace of Prowess",
 		["iconFileDataID"] = 133336,
@@ -36685,7 +36704,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1911]
+	}, -- [1912]
 	{
 		["itemName"] = "Ruthless Gladiator's Necklace of Proficiency",
 		["iconFileDataID"] = 133336,
@@ -36704,7 +36723,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1912]
+	}, -- [1913]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Necklace of Prowess",
 		["iconFileDataID"] = 133336,
@@ -36723,7 +36742,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1913]
+	}, -- [1914]
 	{
 		["itemName"] = "Cataclysmic Gladiator's Necklace of Proficiency",
 		["iconFileDataID"] = 133336,
@@ -36742,7 +36761,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1914]
+	}, -- [1915]
 	{
 		["itemName"] = "Boots of Divided Being",
 		["iconFileDataID"] = 351059,
@@ -36761,7 +36780,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1915]
+	}, -- [1916]
 	{
 		["itemName"] = "Twilight Scale Shoulders",
 		["iconFileDataID"] = 336790,
@@ -36780,7 +36799,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1916]
+	}, -- [1917]
 	{
 		["itemName"] = "Baltharus' Gift",
 		["iconFileDataID"] = 133281,
@@ -36799,7 +36818,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1917]
+	}, -- [1918]
 	{
 		["itemName"] = "Whispering Fanged Skull",
 		["iconFileDataID"] = 237274,
@@ -36818,7 +36837,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1918]
+	}, -- [1919]
 	{
 		["itemName"] = "Unidentifiable Organ",
 		["iconFileDataID"] = 134570,
@@ -36837,7 +36856,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1919]
+	}, -- [1920]
 	{
 		["itemName"] = "Muradin's Spyglass",
 		["iconFileDataID"] = 134441,
@@ -36856,7 +36875,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1920]
+	}, -- [1921]
 	{
 		["itemName"] = "Seal of the Twilight Queen",
 		["iconFileDataID"] = 133412,
@@ -36875,7 +36894,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1921]
+	}, -- [1922]
 	{
 		["itemName"] = "Saurfang's Cold-Forged Band",
 		["iconFileDataID"] = 335910,
@@ -36894,7 +36913,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1922]
+	}, -- [1923]
 	{
 		["itemName"] = "Wyrmwing Treads",
 		["iconFileDataID"] = 336774,
@@ -36913,7 +36932,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1923]
+	}, -- [1924]
 	{
 		["itemName"] = "Taldron's Long Neglected Boots",
 		["iconFileDataID"] = 336774,
@@ -36932,7 +36951,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1924]
+	}, -- [1925]
 	{
 		["itemName"] = "Shuffling Shoes",
 		["iconFileDataID"] = 351059,
@@ -36951,7 +36970,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1925]
+	}, -- [1926]
 	{
 		["itemName"] = "Rippling Flesh Kilt",
 		["iconFileDataID"] = 351064,
@@ -36970,7 +36989,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1926]
+	}, -- [1927]
 	{
 		["itemName"] = "Legguards of the Twisted Dream",
 		["iconFileDataID"] = 336788,
@@ -36989,7 +37008,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1927]
+	}, -- [1928]
 	{
 		["itemName"] = "Linked Scourge Vertebrae",
 		["iconFileDataID"] = 336771,
@@ -37008,7 +37027,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1928]
+	}, -- [1929]
 	{
 		["itemName"] = "Deathspeaker Disciple's Belt",
 		["iconFileDataID"] = 351058,
@@ -37027,7 +37046,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1929]
+	}, -- [1930]
 	{
 		["itemName"] = "Blood-Drinker's Girdle",
 		["iconFileDataID"] = 336771,
@@ -37046,7 +37065,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1930]
+	}, -- [1931]
 	{
 		["itemName"] = "Stormbringer Gloves",
 		["iconFileDataID"] = 351062,
@@ -37065,7 +37084,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1931]
+	}, -- [1932]
 	{
 		["itemName"] = "Handgrips of Frost and Sleet",
 		["iconFileDataID"] = 336779,
@@ -37084,7 +37103,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1932]
+	}, -- [1933]
 	{
 		["itemName"] = "Icecrown Rampart Bracers",
 		["iconFileDataID"] = 336775,
@@ -37103,7 +37122,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1933]
+	}, -- [1934]
 	{
 		["itemName"] = "Coldwraith Bracers",
 		["iconFileDataID"] = 351060,
@@ -37122,7 +37141,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1934]
+	}, -- [1935]
 	{
 		["itemName"] = "Hauberk of a Thousand Cuts",
 		["iconFileDataID"] = 309661,
@@ -37141,7 +37160,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1935]
+	}, -- [1936]
 	{
 		["itemName"] = "Chestguard of Siphoned Elements",
 		["iconFileDataID"] = 351061,
@@ -37160,7 +37179,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1936]
+	}, -- [1937]
 	{
 		["itemName"] = "Shawl of Nerubian Silk",
 		["iconFileDataID"] = 133768,
@@ -37179,7 +37198,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [1937]
+	}, -- [1938]
 	{
 		["itemName"] = "Shoulderpads of the Morbid Ritual",
 		["iconFileDataID"] = 336790,
@@ -37198,7 +37217,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1938]
+	}, -- [1939]
 	{
 		["itemName"] = "Shoulderguards of Crystalline Bone",
 		["iconFileDataID"] = 351066,
@@ -37217,7 +37236,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1939]
+	}, -- [1940]
 	{
 		["itemName"] = "Pauldrons of Lost Hope",
 		["iconFileDataID"] = 336790,
@@ -37236,7 +37255,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1940]
+	}, -- [1941]
 	{
 		["itemName"] = "Rimetooth Pendant",
 		["iconFileDataID"] = 133281,
@@ -37255,7 +37274,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1941]
+	}, -- [1942]
 	{
 		["itemName"] = "Precious' Putrid Collar",
 		["iconFileDataID"] = 133420,
@@ -37274,7 +37293,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1942]
+	}, -- [1943]
 	{
 		["itemName"] = "Taldron's Short-Sighted Helm",
 		["iconFileDataID"] = 343667,
@@ -37293,7 +37312,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1943]
+	}, -- [1944]
 	{
 		["itemName"] = "Ice-Reinforced Vrykul Helm",
 		["iconFileDataID"] = 351063,
@@ -37312,7 +37331,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1944]
+	}, -- [1945]
 	{
 		["itemName"] = "Windrunner's Heartseeker",
 		["iconFileDataID"] = 326445,
@@ -37331,7 +37350,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [1945]
+	}, -- [1946]
 	{
 		["itemName"] = "Stakethrower",
 		["iconFileDataID"] = 327738,
@@ -37350,7 +37369,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [1946]
+	}, -- [1947]
 	{
 		["itemName"] = "Njorndar Bone Bow",
 		["iconFileDataID"] = 310107,
@@ -37369,7 +37388,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [1947]
+	}, -- [1948]
 	{
 		["itemName"] = "Dreamhunter's Carbine",
 		["iconFileDataID"] = 327738,
@@ -37388,7 +37407,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [1948]
+	}, -- [1949]
 	{
 		["itemName"] = "Tainted Twig of Nordrassil",
 		["iconFileDataID"] = 309671,
@@ -37407,7 +37426,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1949]
+	}, -- [1950]
 	{
 		["itemName"] = "Shaft of Glacial Ice",
 		["iconFileDataID"] = 308643,
@@ -37426,7 +37445,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [1950]
+	}, -- [1951]
 	{
 		["itemName"] = "Hersir's Greatspear",
 		["iconFileDataID"] = 313448,
@@ -37445,7 +37464,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [1951]
+	}, -- [1952]
 	{
 		["itemName"] = "Illusion: Rune of Razorice",
 		["iconFileDataID"] = 237174,
@@ -37464,7 +37483,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [1952]
+	}, -- [1953]
 	{
 		["itemName"] = "Purified Shard of the Scale",
 		["iconFileDataID"] = 134317,
@@ -37474,17 +37493,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 0,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 49310,
 		["itemSetID"] = 881,
 		["itemSubClassID"] = 0,
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1953]
+	}, -- [1954]
 	{
 		["itemName"] = "Purified Shard of the Flame",
 		["iconFileDataID"] = 134317,
@@ -37494,17 +37513,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 0,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 49463,
 		["itemSetID"] = 881,
 		["itemSubClassID"] = 0,
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1954]
+	}, -- [1955]
 	{
 		["itemName"] = "Runed Ring of Binding",
 		["iconFileDataID"] = 133355,
@@ -37523,7 +37542,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1955]
+	}, -- [1956]
 	{
 		["itemName"] = "Dragonstalker's Helmet",
 		["iconFileDataID"] = 133073,
@@ -37542,7 +37561,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1956]
+	}, -- [1957]
 	{
 		["itemName"] = "Snub-Nose Blastershot Launcher",
 		["iconFileDataID"] = 135618,
@@ -37561,7 +37580,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [1957]
+	}, -- [1958]
 	{
 		["itemName"] = "Singed Vis'kag the Bloodletter",
 		["iconFileDataID"] = 135316,
@@ -37580,7 +37599,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1958]
+	}, -- [1959]
 	{
 		["itemName"] = "Rusted Gutgore Ripper",
 		["iconFileDataID"] = 135654,
@@ -37599,7 +37618,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [1959]
+	}, -- [1960]
 	{
 		["itemName"] = "Gleaming Quel'Serrar",
 		["iconFileDataID"] = 135271,
@@ -37618,7 +37637,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Swords",
 		["itemType"] = "Weapon",
-	}, -- [1960]
+	}, -- [1961]
 	{
 		["itemName"] = "Empowered Deathbringer",
 		["iconFileDataID"] = 132400,
@@ -37637,7 +37656,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "One-Handed Axes",
 		["itemType"] = "Weapon",
-	}, -- [1961]
+	}, -- [1962]
 	{
 		["itemName"] = "Reclaimed Shadowstrike",
 		["iconFileDataID"] = 135131,
@@ -37656,7 +37675,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [1962]
+	}, -- [1963]
 	{
 		["itemName"] = "Enlarged Onyxia Hide Backpack",
 		["iconFileDataID"] = 133655,
@@ -37675,7 +37694,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_BAG",
 		["itemSubType"] = "Bag",
 		["itemType"] = "Container",
-	}, -- [1963]
+	}, -- [1964]
 	{
 		["itemName"] = "Victor's Call",
 		["iconFileDataID"] = 237377,
@@ -37694,7 +37713,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1964]
+	}, -- [1965]
 	{
 		["itemName"] = "Talisman of Volatile Power",
 		["iconFileDataID"] = 133314,
@@ -37713,7 +37732,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1965]
+	}, -- [1966]
 	{
 		["itemName"] = "Fervor of the Frostborn",
 		["iconFileDataID"] = 133435,
@@ -37732,7 +37751,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1966]
+	}, -- [1967]
 	{
 		["itemName"] = "Binding Light",
 		["iconFileDataID"] = 134424,
@@ -37751,7 +37770,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1967]
+	}, -- [1968]
 	{
 		["itemName"] = "Planestalker Signet",
 		["iconFileDataID"] = 133403,
@@ -37770,7 +37789,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1968]
+	}, -- [1969]
 	{
 		["itemName"] = "Sentinel Scouting Greaves",
 		["iconFileDataID"] = 132550,
@@ -37789,7 +37808,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1969]
+	}, -- [1970]
 	{
 		["itemName"] = "Boots of Tortured Space",
 		["iconFileDataID"] = 132549,
@@ -37808,7 +37827,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1970]
+	}, -- [1971]
 	{
 		["itemName"] = "Girdle of the Farseer",
 		["iconFileDataID"] = 236935,
@@ -37827,7 +37846,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1971]
+	}, -- [1972]
 	{
 		["itemName"] = "Gloves of the Azure Prophet",
 		["iconFileDataID"] = 237028,
@@ -37846,7 +37865,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1972]
+	}, -- [1973]
 	{
 		["itemName"] = "Armbands of the Northern Stalker",
 		["iconFileDataID"] = 236990,
@@ -37865,7 +37884,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1973]
+	}, -- [1974]
 	{
 		["itemName"] = "Shoulderguards of the Spirit Walker",
 		["iconFileDataID"] = 309664,
@@ -37884,7 +37903,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1974]
+	}, -- [1975]
 	{
 		["itemName"] = "Pauldrons of the Timeless Hunter",
 		["iconFileDataID"] = 309664,
@@ -37903,7 +37922,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1975]
+	}, -- [1976]
 	{
 		["itemName"] = "Collar of Ceaseless Torment",
 		["iconFileDataID"] = 133340,
@@ -37922,7 +37941,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1976]
+	}, -- [1977]
 	{
 		["itemName"] = "Helmet of the Crypt Lord",
 		["iconFileDataID"] = 133191,
@@ -37941,7 +37960,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1977]
+	}, -- [1978]
 	{
 		["itemName"] = "Helm of the Silver Ranger",
 		["iconFileDataID"] = 133191,
@@ -37960,7 +37979,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1978]
+	}, -- [1979]
 	{
 		["itemName"] = "The Diplomat",
 		["iconFileDataID"] = 304104,
@@ -37979,7 +37998,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [1979]
+	}, -- [1980]
 	{
 		["itemName"] = "Baelgun's Heavy Crossbow",
 		["iconFileDataID"] = 304582,
@@ -37998,7 +38017,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [1980]
+	}, -- [1981]
 	{
 		["itemName"] = "Fordragon Blades",
 		["iconFileDataID"] = 305362,
@@ -38017,7 +38036,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [1981]
+	}, -- [1982]
 	{
 		["itemName"] = "Wrathstone",
 		["iconFileDataID"] = 294481,
@@ -38036,7 +38055,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1982]
+	}, -- [1983]
 	{
 		["itemName"] = "Vanquished Clutches of Yogg-Saron",
 		["iconFileDataID"] = 133574,
@@ -38055,7 +38074,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1983]
+	}, -- [1984]
 	{
 		["itemName"] = "Pyrite Infuser",
 		["iconFileDataID"] = 135839,
@@ -38074,7 +38093,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1984]
+	}, -- [1985]
 	{
 		["itemName"] = "Mjolnir Runestone",
 		["iconFileDataID"] = 134424,
@@ -38093,7 +38112,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1985]
+	}, -- [1986]
 	{
 		["itemName"] = "Dark Matter",
 		["iconFileDataID"] = 136193,
@@ -38112,7 +38131,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1986]
+	}, -- [1987]
 	{
 		["itemName"] = "Comet's Trail",
 		["iconFileDataID"] = 135753,
@@ -38131,7 +38150,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1987]
+	}, -- [1988]
 	{
 		["itemName"] = "Blood of the Old God",
 		["iconFileDataID"] = 134086,
@@ -38150,7 +38169,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1988]
+	}, -- [1989]
 	{
 		["itemName"] = "Metallic Loop of the Sufferer",
 		["iconFileDataID"] = 133377,
@@ -38169,7 +38188,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1989]
+	}, -- [1990]
 	{
 		["itemName"] = "Loop of the Agile",
 		["iconFileDataID"] = 133413,
@@ -38188,7 +38207,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1990]
+	}, -- [1991]
 	{
 		["itemName"] = "Godbane Signet",
 		["iconFileDataID"] = 133396,
@@ -38207,7 +38226,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1991]
+	}, -- [1992]
 	{
 		["itemName"] = "Cindershard Ring",
 		["iconFileDataID"] = 133423,
@@ -38226,7 +38245,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1992]
+	}, -- [1993]
 	{
 		["itemName"] = "Band of Lights",
 		["iconFileDataID"] = 133410,
@@ -38245,7 +38264,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1993]
+	}, -- [1994]
 	{
 		["itemName"] = "Band of Draconic Guile",
 		["iconFileDataID"] = 133346,
@@ -38264,7 +38283,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [1994]
+	}, -- [1995]
 	{
 		["itemName"] = "Tempered Mercury Greaves",
 		["iconFileDataID"] = 132546,
@@ -38283,7 +38302,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1995]
+	}, -- [1996]
 	{
 		["itemName"] = "Planewalker Treads",
 		["iconFileDataID"] = 132551,
@@ -38302,7 +38321,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1996]
+	}, -- [1997]
 	{
 		["itemName"] = "Greaves of the Earthbinder",
 		["iconFileDataID"] = 132550,
@@ -38321,7 +38340,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1997]
+	}, -- [1998]
 	{
 		["itemName"] = "Greaves of Swift Vengeance",
 		["iconFileDataID"] = 132550,
@@ -38340,7 +38359,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1998]
+	}, -- [1999]
 	{
 		["itemName"] = "Brass-Lined Boots",
 		["iconFileDataID"] = 132550,
@@ -38359,7 +38378,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [1999]
+	}, -- [2000]
 	{
 		["itemName"] = "Boots of the Forgotten Depths",
 		["iconFileDataID"] = 132549,
@@ -38378,7 +38397,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2000]
+	}, -- [2001]
 	{
 		["itemName"] = "Saronite Mesh Legguards",
 		["iconFileDataID"] = 134701,
@@ -38397,7 +38416,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2001]
+	}, -- [2002]
 	{
 		["itemName"] = "Leggings of the Stoneweaver",
 		["iconFileDataID"] = 134673,
@@ -38416,7 +38435,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2002]
+	}, -- [2003]
 	{
 		["itemName"] = "Leggings of the Insatiable",
 		["iconFileDataID"] = 134667,
@@ -38435,7 +38454,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2003]
+	}, -- [2004]
 	{
 		["itemName"] = "Ironscale Leggings",
 		["iconFileDataID"] = 134664,
@@ -38454,7 +38473,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2004]
+	}, -- [2005]
 	{
 		["itemName"] = "Darkcore Leggings",
 		["iconFileDataID"] = 134661,
@@ -38473,7 +38492,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2005]
+	}, -- [2006]
 	{
 		["itemName"] = "Belt of the Iron Servant",
 		["iconFileDataID"] = 236931,
@@ -38492,7 +38511,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2006]
+	}, -- [2007]
 	{
 		["itemName"] = "Belt of the Fallen Wyrm",
 		["iconFileDataID"] = 236935,
@@ -38511,7 +38530,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2007]
+	}, -- [2008]
 	{
 		["itemName"] = "Belt of the Blood Pit",
 		["iconFileDataID"] = 132503,
@@ -38530,7 +38549,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2008]
+	}, -- [2009]
 	{
 		["itemName"] = "Belt of the Betrayed",
 		["iconFileDataID"] = 236927,
@@ -38549,7 +38568,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2009]
+	}, -- [2010]
 	{
 		["itemName"] = "Runeshaper's Gloves",
 		["iconFileDataID"] = 132973,
@@ -38568,7 +38587,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2010]
+	}, -- [2011]
 	{
 		["itemName"] = "Gloves of Whispering Winds",
 		["iconFileDataID"] = 132984,
@@ -38587,7 +38606,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2011]
+	}, -- [2012]
 	{
 		["itemName"] = "Gloves of the Steady Hand",
 		["iconFileDataID"] = 132971,
@@ -38606,7 +38625,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2012]
+	}, -- [2013]
 	{
 		["itemName"] = "Gloves of the Fiery Behemoth",
 		["iconFileDataID"] = 132974,
@@ -38625,7 +38644,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2013]
+	}, -- [2014]
 	{
 		["itemName"] = "Gloves of Taut Grip",
 		["iconFileDataID"] = 132977,
@@ -38644,7 +38663,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2014]
+	}, -- [2015]
 	{
 		["itemName"] = "Wristguards of the Firetender",
 		["iconFileDataID"] = 236964,
@@ -38663,7 +38682,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2015]
+	}, -- [2016]
 	{
 		["itemName"] = "Frost-Bound Chain Bracers",
 		["iconFileDataID"] = 236967,
@@ -38682,7 +38701,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2016]
+	}, -- [2017]
 	{
 		["itemName"] = "Bracers of the Smothering Inferno",
 		["iconFileDataID"] = 236975,
@@ -38701,7 +38720,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2017]
+	}, -- [2018]
 	{
 		["itemName"] = "Bindings of Winter Gale",
 		["iconFileDataID"] = 236979,
@@ -38720,7 +38739,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2018]
+	}, -- [2019]
 	{
 		["itemName"] = "Armbraces of the Vibrant Flame",
 		["iconFileDataID"] = 236990,
@@ -38739,7 +38758,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2019]
+	}, -- [2020]
 	{
 		["itemName"] = "Quartz-Studded Harness",
 		["iconFileDataID"] = 132753,
@@ -38758,7 +38777,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2020]
+	}, -- [2021]
 	{
 		["itemName"] = "Firestrider Chestguard",
 		["iconFileDataID"] = 236992,
@@ -38777,7 +38796,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2021]
+	}, -- [2022]
 	{
 		["itemName"] = "Chestguard of the Lasher",
 		["iconFileDataID"] = 132730,
@@ -38796,7 +38815,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2022]
+	}, -- [2023]
 	{
 		["itemName"] = "Chestguard of the Fallen God",
 		["iconFileDataID"] = 132728,
@@ -38815,7 +38834,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2023]
+	}, -- [2024]
 	{
 		["itemName"] = "Chestguard of Insidious Intent",
 		["iconFileDataID"] = 132733,
@@ -38834,7 +38853,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2024]
+	}, -- [2025]
 	{
 		["itemName"] = "Breastplate of the Stoneshaper",
 		["iconFileDataID"] = 132734,
@@ -38853,7 +38872,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2025]
+	}, -- [2026]
 	{
 		["itemName"] = "Winter's Frigid Embrace",
 		["iconFileDataID"] = 133765,
@@ -38872,7 +38891,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2026]
+	}, -- [2027]
 	{
 		["itemName"] = "Shawl of the Shattered Giant",
 		["iconFileDataID"] = 133770,
@@ -38891,7 +38910,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2027]
+	}, -- [2028]
 	{
 		["itemName"] = "Drape of the Lithe",
 		["iconFileDataID"] = 133754,
@@ -38910,7 +38929,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2028]
+	}, -- [2029]
 	{
 		["itemName"] = "Drape of the Faceless General",
 		["iconFileDataID"] = 133766,
@@ -38929,7 +38948,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2029]
+	}, -- [2030]
 	{
 		["itemName"] = "Drape of Icy Intent",
 		["iconFileDataID"] = 133757,
@@ -38948,7 +38967,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2030]
+	}, -- [2031]
 	{
 		["itemName"] = "Pauldrons of the Combatant",
 		["iconFileDataID"] = 135032,
@@ -38967,7 +38986,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2031]
+	}, -- [2032]
 	{
 		["itemName"] = "Observer's Mantle",
 		["iconFileDataID"] = 135062,
@@ -38986,7 +39005,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2032]
+	}, -- [2033]
 	{
 		["itemName"] = "Mantle of Fiery Vengeance",
 		["iconFileDataID"] = 135098,
@@ -39005,7 +39024,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2033]
+	}, -- [2034]
 	{
 		["itemName"] = "Ironaya's Discarded Mantle",
 		["iconFileDataID"] = 237460,
@@ -39024,7 +39043,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2034]
+	}, -- [2035]
 	{
 		["itemName"] = "Iron-Studded Mantle",
 		["iconFileDataID"] = 135092,
@@ -39043,7 +39062,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2035]
+	}, -- [2036]
 	{
 		["itemName"] = "Amice of the Stoic Watch",
 		["iconFileDataID"] = 135084,
@@ -39062,7 +39081,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2036]
+	}, -- [2037]
 	{
 		["itemName"] = "Seed of Budding Carnage",
 		["iconFileDataID"] = 237556,
@@ -39081,7 +39100,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2037]
+	}, -- [2038]
 	{
 		["itemName"] = "Pendulum of Infinity",
 		["iconFileDataID"] = 133336,
@@ -39100,7 +39119,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2038]
+	}, -- [2039]
 	{
 		["itemName"] = "Nymph Heart Charm",
 		["iconFileDataID"] = 133297,
@@ -39119,7 +39138,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2039]
+	}, -- [2040]
 	{
 		["itemName"] = "Choker of the Abyss",
 		["iconFileDataID"] = 133309,
@@ -39138,7 +39157,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2040]
+	}, -- [2041]
 	{
 		["itemName"] = "Steamworker's Goggles",
 		["iconFileDataID"] = 133149,
@@ -39157,7 +39176,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2041]
+	}, -- [2042]
 	{
 		["itemName"] = "Helm of Veiled Energies",
 		["iconFileDataID"] = 133193,
@@ -39176,7 +39195,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2042]
+	}, -- [2043]
 	{
 		["itemName"] = "Helm of the Furnace Master",
 		["iconFileDataID"] = 133191,
@@ -39195,7 +39214,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2043]
+	}, -- [2044]
 	{
 		["itemName"] = "Circlet of True Sight",
 		["iconFileDataID"] = 133415,
@@ -39214,7 +39233,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2044]
+	}, -- [2045]
 	{
 		["itemName"] = "Boundless Gaze",
 		["iconFileDataID"] = 133188,
@@ -39233,7 +39252,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2045]
+	}, -- [2046]
 	{
 		["itemName"] = "Veranus' Bane",
 		["iconFileDataID"] = 237503,
@@ -39252,7 +39271,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [2046]
+	}, -- [2047]
 	{
 		["itemName"] = "Skyforge Crossbow",
 		["iconFileDataID"] = 249181,
@@ -39271,7 +39290,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [2047]
+	}, -- [2048]
 	{
 		["itemName"] = "Siren's Cry",
 		["iconFileDataID"] = 237492,
@@ -39290,7 +39309,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2048]
+	}, -- [2049]
 	{
 		["itemName"] = "Rifle of the Platinum Guard",
 		["iconFileDataID"] = 249182,
@@ -39309,7 +39328,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [2049]
+	}, -- [2050]
 	{
 		["itemName"] = "Magnetized Projectile Emitter",
 		["iconFileDataID"] = 249182,
@@ -39328,7 +39347,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [2050]
+	}, -- [2051]
 	{
 		["itemName"] = "Giant's Bane",
 		["iconFileDataID"] = 249182,
@@ -39347,7 +39366,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [2051]
+	}, -- [2052]
 	{
 		["itemName"] = "Deliverance",
 		["iconFileDataID"] = 249181,
@@ -39366,7 +39385,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [2052]
+	}, -- [2053]
 	{
 		["itemName"] = "Avalanche",
 		["iconFileDataID"] = 237492,
@@ -39385,7 +39404,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2053]
+	}, -- [2054]
 	{
 		["itemName"] = "Twisted Visage",
 		["iconFileDataID"] = 249180,
@@ -39404,7 +39423,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [2054]
+	}, -- [2055]
 	{
 		["itemName"] = "Tortured Earth",
 		["iconFileDataID"] = 237476,
@@ -39423,7 +39442,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [2055]
+	}, -- [2056]
 	{
 		["itemName"] = "Spire of Withering Dreams",
 		["iconFileDataID"] = 237475,
@@ -39442,7 +39461,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [2056]
+	}, -- [2057]
 	{
 		["itemName"] = "Relentless Edge",
 		["iconFileDataID"] = 237496,
@@ -39461,7 +39480,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [2057]
+	}, -- [2058]
 	{
 		["itemName"] = "Lotrafen, Spear of the Damned",
 		["iconFileDataID"] = 237496,
@@ -39480,7 +39499,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [2058]
+	}, -- [2059]
 	{
 		["itemName"] = "Dreambinder",
 		["iconFileDataID"] = 237475,
@@ -39499,7 +39518,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [2059]
+	}, -- [2060]
 	{
 		["itemName"] = "Dark Edge of Depravity",
 		["iconFileDataID"] = 237496,
@@ -39518,7 +39537,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [2060]
+	}, -- [2061]
 	{
 		["itemName"] = "Spaulders of the Wayward Protector",
 		["iconFileDataID"] = 135053,
@@ -39537,7 +39556,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2061]
+	}, -- [2062]
 	{
 		["itemName"] = "Runed Orb",
 		["iconFileDataID"] = 254118,
@@ -39556,7 +39575,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Tradeskill",
-	}, -- [2062]
+	}, -- [2063]
 	{
 		["itemName"] = "Mantle of the Wayward Protector",
 		["iconFileDataID"] = 135053,
@@ -39575,7 +39594,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2063]
+	}, -- [2064]
 	{
 		["itemName"] = "Legplates of the Wayward Protector",
 		["iconFileDataID"] = 134693,
@@ -39594,7 +39613,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2064]
+	}, -- [2065]
 	{
 		["itemName"] = "Leggings of the Wayward Protector",
 		["iconFileDataID"] = 134693,
@@ -39613,7 +39632,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2065]
+	}, -- [2066]
 	{
 		["itemName"] = "Illusion: Blood Draining",
 		["iconFileDataID"] = 237174,
@@ -39632,7 +39651,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [2066]
+	}, -- [2067]
 	{
 		["itemName"] = "Illusion: Blade Ward",
 		["iconFileDataID"] = 237174,
@@ -39651,7 +39670,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [2067]
+	}, -- [2068]
 	{
 		["itemName"] = "Helm of the Wayward Protector",
 		["iconFileDataID"] = 133126,
@@ -39670,7 +39689,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2068]
+	}, -- [2069]
 	{
 		["itemName"] = "Gloves of the Wayward Protector",
 		["iconFileDataID"] = 132961,
@@ -39689,7 +39708,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2069]
+	}, -- [2070]
 	{
 		["itemName"] = "Gauntlets of the Wayward Protector",
 		["iconFileDataID"] = 132961,
@@ -39708,7 +39727,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2070]
+	}, -- [2071]
 	{
 		["itemName"] = "Crown of the Wayward Protector",
 		["iconFileDataID"] = 133126,
@@ -39727,7 +39746,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2071]
+	}, -- [2072]
 	{
 		["itemName"] = "Chestguard of the Wayward Protector",
 		["iconFileDataID"] = 132625,
@@ -39746,7 +39765,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2072]
+	}, -- [2073]
 	{
 		["itemName"] = "Breastplate of the Wayward Protector",
 		["iconFileDataID"] = 132625,
@@ -39765,7 +39784,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2073]
+	}, -- [2074]
 	{
 		["itemName"] = "Surge Needle Ring",
 		["iconFileDataID"] = 133420,
@@ -39784,7 +39803,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2074]
+	}, -- [2075]
 	{
 		["itemName"] = "Black Ice",
 		["iconFileDataID"] = 135567,
@@ -39803,7 +39822,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [2075]
+	}, -- [2076]
 	{
 		["itemName"] = "Majestic Dragon Figurine",
 		["iconFileDataID"] = 134157,
@@ -39822,7 +39841,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2076]
+	}, -- [2077]
 	{
 		["itemName"] = "Greatring of Collision",
 		["iconFileDataID"] = 133408,
@@ -39841,7 +39860,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2077]
+	}, -- [2078]
 	{
 		["itemName"] = "Sabatons of Firmament",
 		["iconFileDataID"] = 132555,
@@ -39860,7 +39879,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2078]
+	}, -- [2079]
 	{
 		["itemName"] = "Chestguard of Flagrant Prowess",
 		["iconFileDataID"] = 132735,
@@ -39879,7 +39898,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2079]
+	}, -- [2080]
 	{
 		["itemName"] = "Gloves of the Lost Vanquisher",
 		["iconFileDataID"] = 132961,
@@ -39898,7 +39917,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2080]
+	}, -- [2081]
 	{
 		["itemName"] = "Gloves of the Lost Protector",
 		["iconFileDataID"] = 132961,
@@ -39917,7 +39936,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2081]
+	}, -- [2082]
 	{
 		["itemName"] = "Gloves of the Lost Conqueror",
 		["iconFileDataID"] = 132961,
@@ -39936,7 +39955,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2082]
+	}, -- [2083]
 	{
 		["itemName"] = "Dragon Hide Bag",
 		["iconFileDataID"] = 133659,
@@ -39955,7 +39974,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_BAG",
 		["itemSubType"] = "Bag",
 		["itemType"] = "Container",
-	}, -- [2083]
+	}, -- [2084]
 	{
 		["itemName"] = "Spirit-World Glass",
 		["iconFileDataID"] = 135444,
@@ -39974,7 +39993,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2084]
+	}, -- [2085]
 	{
 		["itemName"] = "Repelling Charge",
 		["iconFileDataID"] = 135443,
@@ -39993,7 +40012,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2085]
+	}, -- [2086]
 	{
 		["itemName"] = "Loatheb's Shadow",
 		["iconFileDataID"] = 135441,
@@ -40012,7 +40031,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2086]
+	}, -- [2087]
 	{
 		["itemName"] = "Sealing Ring of Grobbulus",
 		["iconFileDataID"] = 133395,
@@ -40031,7 +40050,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2087]
+	}, -- [2088]
 	{
 		["itemName"] = "Trespasser's Boots",
 		["iconFileDataID"] = 132544,
@@ -40050,7 +40069,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2088]
+	}, -- [2089]
 	{
 		["itemName"] = "Boots of Persistence",
 		["iconFileDataID"] = 132555,
@@ -40069,7 +40088,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2089]
+	}, -- [2090]
 	{
 		["itemName"] = "Dissevered Leggings",
 		["iconFileDataID"] = 134654,
@@ -40088,7 +40107,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2090]
+	}, -- [2091]
 	{
 		["itemName"] = "Avenging Combat Leggings",
 		["iconFileDataID"] = 134669,
@@ -40107,7 +40126,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2091]
+	}, -- [2092]
 	{
 		["itemName"] = "Spectral Rider's Girdle",
 		["iconFileDataID"] = 132508,
@@ -40126,7 +40145,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2092]
+	}, -- [2093]
 	{
 		["itemName"] = "Necrogenic Belt",
 		["iconFileDataID"] = 132504,
@@ -40145,7 +40164,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2093]
+	}, -- [2094]
 	{
 		["itemName"] = "Rusted-Link Spiked Gauntlets",
 		["iconFileDataID"] = 132982,
@@ -40164,7 +40183,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2094]
+	}, -- [2095]
 	{
 		["itemName"] = "Handgrips of the Foredoomed",
 		["iconFileDataID"] = 132961,
@@ -40183,7 +40202,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2095]
+	}, -- [2096]
 	{
 		["itemName"] = "Iron Rings of Endurance",
 		["iconFileDataID"] = 132606,
@@ -40202,7 +40221,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2096]
+	}, -- [2097]
 	{
 		["itemName"] = "Bands of Anxiety",
 		["iconFileDataID"] = 132601,
@@ -40221,7 +40240,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2097]
+	}, -- [2098]
 	{
 		["itemName"] = "Tunic of the Lost Pack",
 		["iconFileDataID"] = 132717,
@@ -40240,7 +40259,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2098]
+	}, -- [2099]
 	{
 		["itemName"] = "Heinous Mail Chestguard",
 		["iconFileDataID"] = 132638,
@@ -40259,7 +40278,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2099]
+	}, -- [2100]
 	{
 		["itemName"] = "Cloak of Mastery",
 		["iconFileDataID"] = 133777,
@@ -40278,7 +40297,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2100]
+	}, -- [2101]
 	{
 		["itemName"] = "Cloak of Darkening",
 		["iconFileDataID"] = 133776,
@@ -40297,7 +40316,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2101]
+	}, -- [2102]
 	{
 		["itemName"] = "Retcher's Shoulderpads",
 		["iconFileDataID"] = 135098,
@@ -40316,7 +40335,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2102]
+	}, -- [2103]
 	{
 		["itemName"] = "Pauldrons of Havoc",
 		["iconFileDataID"] = 135098,
@@ -40335,7 +40354,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2103]
+	}, -- [2104]
 	{
 		["itemName"] = "Gem of Imprisoned Vassals",
 		["iconFileDataID"] = 133315,
@@ -40354,7 +40373,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2104]
+	}, -- [2105]
 	{
 		["itemName"] = "Collar of Dissolution",
 		["iconFileDataID"] = 133315,
@@ -40373,7 +40392,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2105]
+	}, -- [2106]
 	{
 		["itemName"] = "Helmet of the Inner Sanctum",
 		["iconFileDataID"] = 133087,
@@ -40392,7 +40411,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2106]
+	}, -- [2107]
 	{
 		["itemName"] = "Arc-Scorched Helmet",
 		["iconFileDataID"] = 133068,
@@ -40411,7 +40430,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2107]
+	}, -- [2108]
 	{
 		["itemName"] = "Nerubian Conqueror",
 		["iconFileDataID"] = 135629,
@@ -40430,7 +40449,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [2108]
+	}, -- [2109]
 	{
 		["itemName"] = "Accursed Bow of the Elite",
 		["iconFileDataID"] = 135501,
@@ -40449,7 +40468,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2109]
+	}, -- [2110]
 	{
 		["itemName"] = "Wraith Spear",
 		["iconFileDataID"] = 135574,
@@ -40468,7 +40487,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [2110]
+	}, -- [2111]
 	{
 		["itemName"] = "Staff of the Plaguehound",
 		["iconFileDataID"] = 135215,
@@ -40487,7 +40506,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [2111]
+	}, -- [2112]
 	{
 		["itemName"] = "Staff of the Plague Beast",
 		["iconFileDataID"] = 135212,
@@ -40506,7 +40525,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [2112]
+	}, -- [2113]
 	{
 		["itemName"] = "Spaulders of the Lost Vanquisher",
 		["iconFileDataID"] = 135053,
@@ -40525,7 +40544,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2113]
+	}, -- [2114]
 	{
 		["itemName"] = "Spaulders of the Lost Protector",
 		["iconFileDataID"] = 135053,
@@ -40544,7 +40563,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2114]
+	}, -- [2115]
 	{
 		["itemName"] = "Spaulders of the Lost Conqueror",
 		["iconFileDataID"] = 135053,
@@ -40563,7 +40582,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2115]
+	}, -- [2116]
 	{
 		["itemName"] = "Leggings of the Lost Vanquisher",
 		["iconFileDataID"] = 134693,
@@ -40582,7 +40601,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2116]
+	}, -- [2117]
 	{
 		["itemName"] = "Leggings of the Lost Protector",
 		["iconFileDataID"] = 134693,
@@ -40601,7 +40620,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2117]
+	}, -- [2118]
 	{
 		["itemName"] = "Leggings of the Lost Conqueror",
 		["iconFileDataID"] = 134693,
@@ -40620,7 +40639,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2118]
+	}, -- [2119]
 	{
 		["itemName"] = "Helm of the Lost Vanquisher",
 		["iconFileDataID"] = 133126,
@@ -40639,7 +40658,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2119]
+	}, -- [2120]
 	{
 		["itemName"] = "Helm of the Lost Protector",
 		["iconFileDataID"] = 133126,
@@ -40658,7 +40677,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2120]
+	}, -- [2121]
 	{
 		["itemName"] = "Helm of the Lost Conqueror",
 		["iconFileDataID"] = 133126,
@@ -40677,7 +40696,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2121]
+	}, -- [2122]
 	{
 		["itemName"] = "Chestguard of the Lost Vanquisher",
 		["iconFileDataID"] = 132625,
@@ -40696,7 +40715,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2122]
+	}, -- [2123]
 	{
 		["itemName"] = "Chestguard of the Lost Protector",
 		["iconFileDataID"] = 132625,
@@ -40715,7 +40734,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2123]
+	}, -- [2124]
 	{
 		["itemName"] = "Chestguard of the Lost Conqueror",
 		["iconFileDataID"] = 132625,
@@ -40734,7 +40753,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2124]
+	}, -- [2125]
 	{
 		["itemName"] = "Relentless Gladiator's Band of Victory",
 		["iconFileDataID"] = 133402,
@@ -40753,7 +40772,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2125]
+	}, -- [2126]
 	{
 		["itemName"] = "Furious Gladiator's Band of Triumph",
 		["iconFileDataID"] = 133402,
@@ -40772,7 +40791,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2126]
+	}, -- [2127]
 	{
 		["itemName"] = "Deadly Gladiator's Band of Victory",
 		["iconFileDataID"] = 133402,
@@ -40791,7 +40810,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2127]
+	}, -- [2128]
 	{
 		["itemName"] = "Relentless Gladiator's Sabatons of Triumph",
 		["iconFileDataID"] = 236948,
@@ -40810,7 +40829,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2128]
+	}, -- [2129]
 	{
 		["itemName"] = "Relentless Gladiator's Sabatons of Salvation",
 		["iconFileDataID"] = 132550,
@@ -40829,7 +40848,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2129]
+	}, -- [2130]
 	{
 		["itemName"] = "Relentless Gladiator's Sabatons of Dominance",
 		["iconFileDataID"] = 132550,
@@ -40848,7 +40867,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2130]
+	}, -- [2131]
 	{
 		["itemName"] = "Furious Gladiator's Sabatons of Triumph",
 		["iconFileDataID"] = 132590,
@@ -40867,7 +40886,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2131]
+	}, -- [2132]
 	{
 		["itemName"] = "Furious Gladiator's Sabatons of Salvation",
 		["iconFileDataID"] = 132590,
@@ -40886,7 +40905,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2132]
+	}, -- [2133]
 	{
 		["itemName"] = "Furious Gladiator's Sabatons of Dominance",
 		["iconFileDataID"] = 132590,
@@ -40905,7 +40924,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2133]
+	}, -- [2134]
 	{
 		["itemName"] = "Deadly Gladiator's Sabatons of Triumph",
 		["iconFileDataID"] = 132590,
@@ -40924,7 +40943,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2134]
+	}, -- [2135]
 	{
 		["itemName"] = "Deadly Gladiator's Sabatons of Salvation",
 		["iconFileDataID"] = 132590,
@@ -40943,7 +40962,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2135]
+	}, -- [2136]
 	{
 		["itemName"] = "Deadly Gladiator's Sabatons of Dominance",
 		["iconFileDataID"] = 132590,
@@ -40962,7 +40981,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2136]
+	}, -- [2137]
 	{
 		["itemName"] = "Windrunner's Legguards of Conquest",
 		["iconFileDataID"] = 134675,
@@ -40972,17 +40991,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 48252,
 		["itemSetID"] = 859,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2137]
+	}, -- [2138]
 	{
 		["itemName"] = "Valorous Scourgestalker Legguards",
 		["iconFileDataID"] = 134667,
@@ -40992,17 +41011,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 45362,
 		["itemSetID"] = 838,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2138]
+	}, -- [2139]
 	{
 		["itemName"] = "Relentless Gladiator's Chain Leggings",
 		["iconFileDataID"] = 134668,
@@ -41012,17 +41031,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 41206,
 		["itemSetID"] = 772,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2139]
+	}, -- [2140]
 	{
 		["itemName"] = "Heroes' Cryptstalker Legguards",
 		["iconFileDataID"] = 134667,
@@ -41032,17 +41051,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 39580,
 		["itemSetID"] = 794,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2140]
+	}, -- [2141]
 	{
 		["itemName"] = "Hateful Gladiator's Chain Leggings",
 		["iconFileDataID"] = 134676,
@@ -41052,17 +41071,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 41203,
 		["itemSetID"] = 772,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2141]
+	}, -- [2142]
 	{
 		["itemName"] = "Furious Gladiator's Chain Leggings",
 		["iconFileDataID"] = 134668,
@@ -41072,17 +41091,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 41205,
 		["itemSetID"] = 772,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2142]
+	}, -- [2143]
 	{
 		["itemName"] = "Deadly Gladiator's Chain Leggings",
 		["iconFileDataID"] = 134676,
@@ -41092,17 +41111,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 41204,
 		["itemSetID"] = 772,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2143]
+	}, -- [2144]
 	{
 		["itemName"] = "Ahn'Kahar Blood Hunter's Legguards",
 		["iconFileDataID"] = 336788,
@@ -41112,17 +41131,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 50116,
 		["itemSetID"] = 891,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2144]
+	}, -- [2145]
 	{
 		["itemName"] = "Relentless Gladiator's Waistguard of Triumph",
 		["iconFileDataID"] = 236942,
@@ -41141,7 +41160,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2145]
+	}, -- [2146]
 	{
 		["itemName"] = "Relentless Gladiator's Waistguard of Salvation",
 		["iconFileDataID"] = 236930,
@@ -41160,7 +41179,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2146]
+	}, -- [2147]
 	{
 		["itemName"] = "Relentless Gladiator's Waistguard of Dominance",
 		["iconFileDataID"] = 236930,
@@ -41179,7 +41198,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2147]
+	}, -- [2148]
 	{
 		["itemName"] = "Furious Gladiator's Waistguard of Triumph",
 		["iconFileDataID"] = 132502,
@@ -41198,7 +41217,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2148]
+	}, -- [2149]
 	{
 		["itemName"] = "Furious Gladiator's Waistguard of Salvation",
 		["iconFileDataID"] = 132502,
@@ -41217,7 +41236,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2149]
+	}, -- [2150]
 	{
 		["itemName"] = "Furious Gladiator's Waistguard of Dominance",
 		["iconFileDataID"] = 132502,
@@ -41236,7 +41255,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2150]
+	}, -- [2151]
 	{
 		["itemName"] = "Deadly Gladiator's Waistguard of Triumph",
 		["iconFileDataID"] = 132502,
@@ -41255,7 +41274,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2151]
+	}, -- [2152]
 	{
 		["itemName"] = "Deadly Gladiator's Waistguard of Salvation",
 		["iconFileDataID"] = 132502,
@@ -41274,7 +41293,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2152]
+	}, -- [2153]
 	{
 		["itemName"] = "Deadly Gladiator's Waistguard of Dominance",
 		["iconFileDataID"] = 132502,
@@ -41293,7 +41312,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2153]
+	}, -- [2154]
 	{
 		["itemName"] = "Windrunner's Handguards of Conquest",
 		["iconFileDataID"] = 132979,
@@ -41303,17 +41322,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 48254,
 		["itemSetID"] = 859,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2154]
+	}, -- [2155]
 	{
 		["itemName"] = "Valorous Scourgestalker Handguards",
 		["iconFileDataID"] = 132959,
@@ -41323,17 +41342,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 45360,
 		["itemSetID"] = 838,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2155]
+	}, -- [2156]
 	{
 		["itemName"] = "Relentless Gladiator's Chain Gauntlets",
 		["iconFileDataID"] = 237029,
@@ -41343,17 +41362,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 41144,
 		["itemSetID"] = 772,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2156]
+	}, -- [2157]
 	{
 		["itemName"] = "Heroes' Cryptstalker Handguards",
 		["iconFileDataID"] = 132959,
@@ -41363,17 +41382,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 39582,
 		["itemSetID"] = 794,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2157]
+	}, -- [2158]
 	{
 		["itemName"] = "Hateful Gladiator's Chain Gauntlets",
 		["iconFileDataID"] = 132988,
@@ -41383,17 +41402,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 41141,
 		["itemSetID"] = 772,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2158]
+	}, -- [2159]
 	{
 		["itemName"] = "Furious Gladiator's Chain Gauntlets",
 		["iconFileDataID"] = 237028,
@@ -41403,17 +41422,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 41143,
 		["itemSetID"] = 772,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2159]
+	}, -- [2160]
 	{
 		["itemName"] = "Deadly Gladiator's Chain Gauntlets",
 		["iconFileDataID"] = 132988,
@@ -41423,17 +41442,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 41142,
 		["itemSetID"] = 772,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2160]
+	}, -- [2161]
 	{
 		["itemName"] = "Ahn'Kahar Blood Hunter's Handguards",
 		["iconFileDataID"] = 336779,
@@ -41443,17 +41462,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 50114,
 		["itemSetID"] = 891,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2161]
+	}, -- [2162]
 	{
 		["itemName"] = "Relentless Gladiator's Wristguards of Triumph",
 		["iconFileDataID"] = 236976,
@@ -41472,7 +41491,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2162]
+	}, -- [2163]
 	{
 		["itemName"] = "Relentless Gladiator's Wristguards of Salvation",
 		["iconFileDataID"] = 236991,
@@ -41491,7 +41510,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2163]
+	}, -- [2164]
 	{
 		["itemName"] = "Relentless Gladiator's Wristguards of Dominance",
 		["iconFileDataID"] = 236991,
@@ -41510,7 +41529,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2164]
+	}, -- [2165]
 	{
 		["itemName"] = "Furious Gladiator's Wristguards of Triumph",
 		["iconFileDataID"] = 132617,
@@ -41529,7 +41548,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2165]
+	}, -- [2166]
 	{
 		["itemName"] = "Furious Gladiator's Wristguards of Salvation",
 		["iconFileDataID"] = 132617,
@@ -41548,7 +41567,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2166]
+	}, -- [2167]
 	{
 		["itemName"] = "Furious Gladiator's Wristguards of Dominance",
 		["iconFileDataID"] = 132617,
@@ -41567,7 +41586,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2167]
+	}, -- [2168]
 	{
 		["itemName"] = "Deadly Gladiator's Wristguards of Triumph",
 		["iconFileDataID"] = 132617,
@@ -41586,7 +41605,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2168]
+	}, -- [2169]
 	{
 		["itemName"] = "Deadly Gladiator's Wristguards of Salvation",
 		["iconFileDataID"] = 132617,
@@ -41605,7 +41624,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2169]
+	}, -- [2170]
 	{
 		["itemName"] = "Deadly Gladiator's Wristguards of Dominance",
 		["iconFileDataID"] = 132617,
@@ -41624,7 +41643,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2170]
+	}, -- [2171]
 	{
 		["itemName"] = "Heroes' Cryptstalker Tunic",
 		["iconFileDataID"] = 132637,
@@ -41634,17 +41653,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 39579,
 		["itemSetID"] = 794,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2171]
+	}, -- [2172]
 	{
 		["itemName"] = "Hateful Gladiator's Chain Armor",
 		["iconFileDataID"] = 132732,
@@ -41654,17 +41673,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 35,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 30,
 		["expacID"] = 2,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 30,
+		["isCraftingReagent"] = false,
 		["itemID"] = 41085,
 		["itemSetID"] = 772,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2172]
+	}, -- [2173]
 	{
 		["itemName"] = "Relentless Gladiator's Cloak of Victory",
 		["iconFileDataID"] = 133768,
@@ -41683,7 +41702,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2173]
+	}, -- [2174]
 	{
 		["itemName"] = "Relentless Gladiator's Cloak of Triumph",
 		["iconFileDataID"] = 133770,
@@ -41702,7 +41721,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2174]
+	}, -- [2175]
 	{
 		["itemName"] = "Furious Gladiator's Cloak of Victory",
 		["iconFileDataID"] = 133771,
@@ -41721,7 +41740,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2175]
+	}, -- [2176]
 	{
 		["itemName"] = "Furious Gladiator's Cloak of Triumph",
 		["iconFileDataID"] = 133771,
@@ -41740,7 +41759,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2176]
+	}, -- [2177]
 	{
 		["itemName"] = "Deadly Gladiator's Cloak of Victory",
 		["iconFileDataID"] = 133771,
@@ -41759,7 +41778,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2177]
+	}, -- [2178]
 	{
 		["itemName"] = "Deadly Gladiator's Cloak of Triumph",
 		["iconFileDataID"] = 133771,
@@ -41778,7 +41797,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2178]
+	}, -- [2179]
 	{
 		["itemName"] = "Relentless Gladiator's Pendant of Victory",
 		["iconFileDataID"] = 133327,
@@ -41797,7 +41816,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2179]
+	}, -- [2180]
 	{
 		["itemName"] = "Relentless Gladiator's Pendant of Triumph",
 		["iconFileDataID"] = 133327,
@@ -41816,7 +41835,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2180]
+	}, -- [2181]
 	{
 		["itemName"] = "Relentless Gladiator's Pendant of Sundering",
 		["iconFileDataID"] = 133327,
@@ -41835,7 +41854,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2181]
+	}, -- [2182]
 	{
 		["itemName"] = "Furious Gladiator's Pendant of Victory",
 		["iconFileDataID"] = 133327,
@@ -41854,7 +41873,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2182]
+	}, -- [2183]
 	{
 		["itemName"] = "Furious Gladiator's Pendant of Triumph",
 		["iconFileDataID"] = 133327,
@@ -41873,7 +41892,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2183]
+	}, -- [2184]
 	{
 		["itemName"] = "Furious Gladiator's Pendant of Sundering",
 		["iconFileDataID"] = 133327,
@@ -41892,7 +41911,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2184]
+	}, -- [2185]
 	{
 		["itemName"] = "Deadly Gladiator's Pendant of Victory",
 		["iconFileDataID"] = 133327,
@@ -41911,7 +41930,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2185]
+	}, -- [2186]
 	{
 		["itemName"] = "Deadly Gladiator's Pendant of Triumph",
 		["iconFileDataID"] = 133327,
@@ -41930,7 +41949,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2186]
+	}, -- [2187]
 	{
 		["itemName"] = "Steely Naaru Sliver",
 		["iconFileDataID"] = 133451,
@@ -41949,7 +41968,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2187]
+	}, -- [2188]
 	{
 		["itemName"] = "Shifting Naaru Sliver",
 		["iconFileDataID"] = 133448,
@@ -41968,7 +41987,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2188]
+	}, -- [2189]
 	{
 		["itemName"] = "Blackened Naaru Sliver",
 		["iconFileDataID"] = 133449,
@@ -41987,7 +42006,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2189]
+	}, -- [2190]
 	{
 		["itemName"] = "Sin'dorei Band of Triumph",
 		["iconFileDataID"] = 133402,
@@ -42006,7 +42025,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2190]
+	}, -- [2191]
 	{
 		["itemName"] = "Ring of Hardened Resolve",
 		["iconFileDataID"] = 133414,
@@ -42025,7 +42044,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2191]
+	}, -- [2192]
 	{
 		["itemName"] = "Band of Ruinous Delight",
 		["iconFileDataID"] = 133378,
@@ -42044,7 +42063,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2192]
+	}, -- [2193]
 	{
 		["itemName"] = "Starstalker Legguards",
 		["iconFileDataID"] = 134668,
@@ -42063,7 +42082,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2193]
+	}, -- [2194]
 	{
 		["itemName"] = "Chain Links of the Tumultuous Storm",
 		["iconFileDataID"] = 134667,
@@ -42082,7 +42101,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2194]
+	}, -- [2195]
 	{
 		["itemName"] = "Thalassian Ranger Gauntlets",
 		["iconFileDataID"] = 132974,
@@ -42101,7 +42120,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2195]
+	}, -- [2196]
 	{
 		["itemName"] = "Vicious Hawkstrider Hauberk",
 		["iconFileDataID"] = 132639,
@@ -42120,7 +42139,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2196]
+	}, -- [2197]
 	{
 		["itemName"] = "Garments of Serene Shores",
 		["iconFileDataID"] = 132633,
@@ -42139,7 +42158,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2197]
+	}, -- [2198]
 	{
 		["itemName"] = "Crimson Paragon's Cover",
 		["iconFileDataID"] = 133770,
@@ -42158,7 +42177,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2198]
+	}, -- [2199]
 	{
 		["itemName"] = "Cloak of Unforgivable Sin",
 		["iconFileDataID"] = 133776,
@@ -42177,7 +42196,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2199]
+	}, -- [2200]
 	{
 		["itemName"] = "Mantle of the Golden Forest",
 		["iconFileDataID"] = 135115,
@@ -42196,7 +42215,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2200]
+	}, -- [2201]
 	{
 		["itemName"] = "Equilibrium Epaulets",
 		["iconFileDataID"] = 135115,
@@ -42215,7 +42234,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2201]
+	}, -- [2202]
 	{
 		["itemName"] = "Sin'dorei Pendant of Triumph",
 		["iconFileDataID"] = 133327,
@@ -42234,7 +42253,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2202]
+	}, -- [2203]
 	{
 		["itemName"] = "Collar of the Pit Lord",
 		["iconFileDataID"] = 133338,
@@ -42253,7 +42272,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2203]
+	}, -- [2204]
 	{
 		["itemName"] = "Clutch of Demise",
 		["iconFileDataID"] = 133334,
@@ -42272,7 +42291,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2204]
+	}, -- [2205]
 	{
 		["itemName"] = "Cowl of Gul'dan",
 		["iconFileDataID"] = 133068,
@@ -42291,7 +42310,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2205]
+	}, -- [2206]
 	{
 		["itemName"] = "Coif of Alleria",
 		["iconFileDataID"] = 133068,
@@ -42310,7 +42329,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2206]
+	}, -- [2207]
 	{
 		["itemName"] = "Thori'dal, the Stars' Fury",
 		["iconFileDataID"] = 135519,
@@ -42329,7 +42348,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2207]
+	}, -- [2208]
 	{
 		["itemName"] = "Golden Bow of Quel'Thalas",
 		["iconFileDataID"] = 135518,
@@ -42348,7 +42367,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2208]
+	}, -- [2209]
 	{
 		["itemName"] = "Stanchion of Primal Instinct",
 		["iconFileDataID"] = 135149,
@@ -42367,7 +42386,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [2209]
+	}, -- [2210]
 	{
 		["itemName"] = "Sunmote",
 		["iconFileDataID"] = 136030,
@@ -42386,7 +42405,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Tradeskill",
-	}, -- [2210]
+	}, -- [2211]
 	{
 		["itemName"] = "Bracers of the Forgotten Protector",
 		["iconFileDataID"] = 132616,
@@ -42405,7 +42424,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2211]
+	}, -- [2212]
 	{
 		["itemName"] = "Boots of the Forgotten Protector",
 		["iconFileDataID"] = 132585,
@@ -42424,7 +42443,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2212]
+	}, -- [2213]
 	{
 		["itemName"] = "Belt of the Forgotten Protector",
 		["iconFileDataID"] = 132522,
@@ -42443,7 +42462,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2213]
+	}, -- [2214]
 	{
 		["itemName"] = "Shadowmoon Insignia",
 		["iconFileDataID"] = 133265,
@@ -42462,7 +42481,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2214]
+	}, -- [2215]
 	{
 		["itemName"] = "Madness of the Betrayer",
 		["iconFileDataID"] = 136129,
@@ -42481,7 +42500,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2215]
+	}, -- [2216]
 	{
 		["itemName"] = "Stormrage Signet Ring",
 		["iconFileDataID"] = 133409,
@@ -42500,7 +42519,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2216]
+	}, -- [2217]
 	{
 		["itemName"] = "Ring of Deceitful Intent",
 		["iconFileDataID"] = 133410,
@@ -42519,7 +42538,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2217]
+	}, -- [2218]
 	{
 		["itemName"] = "Band of the Abyssal Lord",
 		["iconFileDataID"] = 133412,
@@ -42538,7 +42557,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2218]
+	}, -- [2219]
 	{
 		["itemName"] = "Softstep Boots of Tracking",
 		["iconFileDataID"] = 132544,
@@ -42557,7 +42576,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2219]
+	}, -- [2220]
 	{
 		["itemName"] = "Boots of Oceanic Fury",
 		["iconFileDataID"] = 132555,
@@ -42576,7 +42595,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2220]
+	}, -- [2221]
 	{
 		["itemName"] = "Naturalist's Preserving Cinch",
 		["iconFileDataID"] = 132511,
@@ -42595,7 +42614,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2221]
+	}, -- [2222]
 	{
 		["itemName"] = "Flashfire Girdle",
 		["iconFileDataID"] = 132502,
@@ -42614,7 +42633,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2222]
+	}, -- [2223]
 	{
 		["itemName"] = "Boneweave Girdle",
 		["iconFileDataID"] = 132503,
@@ -42633,7 +42652,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2223]
+	}, -- [2224]
 	{
 		["itemName"] = "Spiritwalker Gauntlets",
 		["iconFileDataID"] = 132984,
@@ -42652,7 +42671,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2224]
+	}, -- [2225]
 	{
 		["itemName"] = "Fists of Mukoa",
 		["iconFileDataID"] = 132982,
@@ -42671,7 +42690,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2225]
+	}, -- [2226]
 	{
 		["itemName"] = "Wraps of Precise Flight",
 		["iconFileDataID"] = 132605,
@@ -42690,7 +42709,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2226]
+	}, -- [2227]
 	{
 		["itemName"] = "Bands of the Coming Storm",
 		["iconFileDataID"] = 132601,
@@ -42709,7 +42728,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2227]
+	}, -- [2228]
 	{
 		["itemName"] = "Vest of Mounting Assault",
 		["iconFileDataID"] = 132759,
@@ -42728,7 +42747,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2228]
+	}, -- [2229]
 	{
 		["itemName"] = "Shadowmoon Destroyer's Drape",
 		["iconFileDataID"] = 133776,
@@ -42747,7 +42766,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2229]
+	}, -- [2230]
 	{
 		["itemName"] = "The Wavemender's Mantle",
 		["iconFileDataID"] = 135086,
@@ -42766,7 +42785,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2230]
+	}, -- [2231]
 	{
 		["itemName"] = "Shoulders of the Hidden Predator",
 		["iconFileDataID"] = 135084,
@@ -42785,7 +42804,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2231]
+	}, -- [2232]
 	{
 		["itemName"] = "Pendant of Titans",
 		["iconFileDataID"] = 133278,
@@ -42804,7 +42823,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2232]
+	}, -- [2233]
 	{
 		["itemName"] = "Choker of Endless Nightmares",
 		["iconFileDataID"] = 133326,
@@ -42823,7 +42842,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2233]
+	}, -- [2234]
 	{
 		["itemName"] = "Helm of Soothing Currents",
 		["iconFileDataID"] = 133193,
@@ -42842,7 +42861,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2234]
+	}, -- [2235]
 	{
 		["itemName"] = "Forest Prowler's Helm",
 		["iconFileDataID"] = 133191,
@@ -42861,7 +42880,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2235]
+	}, -- [2236]
 	{
 		["itemName"] = "Rifle of the Stoic Guardian",
 		["iconFileDataID"] = 135629,
@@ -42880,7 +42899,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [2236]
+	}, -- [2237]
 	{
 		["itemName"] = "Legionkiller",
 		["iconFileDataID"] = 135549,
@@ -42899,7 +42918,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [2237]
+	}, -- [2238]
 	{
 		["itemName"] = "Black Bow of the Betrayer",
 		["iconFileDataID"] = 135511,
@@ -42918,7 +42937,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2238]
+	}, -- [2239]
 	{
 		["itemName"] = "Halberd of Desolation",
 		["iconFileDataID"] = 135583,
@@ -42937,7 +42956,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [2239]
+	}, -- [2240]
 	{
 		["itemName"] = "Pauldrons of the Forgotten Protector",
 		["iconFileDataID"] = 135053,
@@ -42956,7 +42975,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2240]
+	}, -- [2241]
 	{
 		["itemName"] = "Leggings of the Forgotten Protector",
 		["iconFileDataID"] = 134693,
@@ -42975,7 +42994,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2241]
+	}, -- [2242]
 	{
 		["itemName"] = "Chestguard of the Forgotten Protector",
 		["iconFileDataID"] = 132625,
@@ -42994,7 +43013,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2242]
+	}, -- [2243]
 	{
 		["itemName"] = "Stillwater Boots",
 		["iconFileDataID"] = 132551,
@@ -43013,7 +43032,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2243]
+	}, -- [2244]
 	{
 		["itemName"] = "Quickstrider Moccasins",
 		["iconFileDataID"] = 132552,
@@ -43032,7 +43051,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2244]
+	}, -- [2245]
 	{
 		["itemName"] = "Sun-Touched Chain Leggings",
 		["iconFileDataID"] = 134669,
@@ -43051,7 +43070,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2245]
+	}, -- [2246]
 	{
 		["itemName"] = "Bow-Stitched Leggings",
 		["iconFileDataID"] = 134667,
@@ -43070,7 +43089,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2246]
+	}, -- [2247]
 	{
 		["itemName"] = "Valestalker Girdle",
 		["iconFileDataID"] = 132511,
@@ -43089,7 +43108,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2247]
+	}, -- [2248]
 	{
 		["itemName"] = "Howling Wind Bracers",
 		["iconFileDataID"] = 132602,
@@ -43108,7 +43127,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2248]
+	}, -- [2249]
 	{
 		["itemName"] = "Bracers of the Pathfinder",
 		["iconFileDataID"] = 132601,
@@ -43127,7 +43146,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2249]
+	}, -- [2250]
 	{
 		["itemName"] = "Mail of Fevered Pursuit",
 		["iconFileDataID"] = 132639,
@@ -43146,7 +43165,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2250]
+	}, -- [2251]
 	{
 		["itemName"] = "Golden Links of Restoration",
 		["iconFileDataID"] = 132734,
@@ -43165,7 +43184,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2251]
+	}, -- [2252]
 	{
 		["itemName"] = "Beast-Tamer's Shoulders",
 		["iconFileDataID"] = 135084,
@@ -43184,7 +43203,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2252]
+	}, -- [2253]
 	{
 		["itemName"] = "Bristleblitz Striker",
 		["iconFileDataID"] = 135510,
@@ -43203,7 +43222,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2253]
+	}, -- [2254]
 	{
 		["itemName"] = "Pillar of Ferocity",
 		["iconFileDataID"] = 135196,
@@ -43222,7 +43241,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [2254]
+	}, -- [2255]
 	{
 		["itemName"] = "Helm of the Forgotten Protector",
 		["iconFileDataID"] = 133126,
@@ -43241,7 +43260,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2255]
+	}, -- [2256]
 	{
 		["itemName"] = "Gloves of the Forgotten Protector",
 		["iconFileDataID"] = 132961,
@@ -43260,7 +43279,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2256]
+	}, -- [2257]
 	{
 		["itemName"] = "Warp-Spring Coil",
 		["iconFileDataID"] = 133016,
@@ -43279,7 +43298,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2257]
+	}, -- [2258]
 	{
 		["itemName"] = "Void Star Talisman",
 		["iconFileDataID"] = 134101,
@@ -43298,7 +43317,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2258]
+	}, -- [2259]
 	{
 		["itemName"] = "Tome of Fiery Redemption",
 		["iconFileDataID"] = 133739,
@@ -43317,7 +43336,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2259]
+	}, -- [2260]
 	{
 		["itemName"] = "Talon of Al'ar",
 		["iconFileDataID"] = 135827,
@@ -43336,7 +43355,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2260]
+	}, -- [2261]
 	{
 		["itemName"] = "Solarian's Sapphire",
 		["iconFileDataID"] = 134131,
@@ -43355,7 +43374,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2261]
+	}, -- [2262]
 	{
 		["itemName"] = "Fel Reaver's Piston",
 		["iconFileDataID"] = 133872,
@@ -43374,7 +43393,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2262]
+	}, -- [2263]
 	{
 		["itemName"] = "Band of the Ranger-General",
 		["iconFileDataID"] = 133397,
@@ -43393,7 +43412,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2263]
+	}, -- [2264]
 	{
 		["itemName"] = "Star-Strider Boots",
 		["iconFileDataID"] = 132547,
@@ -43412,7 +43431,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2264]
+	}, -- [2265]
 	{
 		["itemName"] = "Void Reaver Greaves",
 		["iconFileDataID"] = 134667,
@@ -43431,7 +43450,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2265]
+	}, -- [2266]
 	{
 		["itemName"] = "Sunhawk Leggings",
 		["iconFileDataID"] = 134683,
@@ -43450,7 +43469,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2266]
+	}, -- [2267]
 	{
 		["itemName"] = "Worldstorm Gauntlets",
 		["iconFileDataID"] = 132960,
@@ -43469,7 +43488,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2267]
+	}, -- [2268]
 	{
 		["itemName"] = "Fire Crest Breastplate",
 		["iconFileDataID"] = 132738,
@@ -43488,7 +43507,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2268]
+	}, -- [2269]
 	{
 		["itemName"] = "Thalassian Wildercloak",
 		["iconFileDataID"] = 133767,
@@ -43507,7 +43526,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2269]
+	}, -- [2270]
 	{
 		["itemName"] = "Phoenix-Wing Cloak",
 		["iconFileDataID"] = 133760,
@@ -43526,7 +43545,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2270]
+	}, -- [2271]
 	{
 		["itemName"] = "Arcanite Steam-Pistol",
 		["iconFileDataID"] = 135626,
@@ -43545,7 +43564,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [2271]
+	}, -- [2272]
 	{
 		["itemName"] = "Pauldrons of the Vanquished Hero",
 		["iconFileDataID"] = 135053,
@@ -43564,7 +43583,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2272]
+	}, -- [2273]
 	{
 		["itemName"] = "Chestguard of the Vanquished Hero",
 		["iconFileDataID"] = 132625,
@@ -43583,7 +43602,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2273]
+	}, -- [2274]
 	{
 		["itemName"] = "Tsunami Talisman",
 		["iconFileDataID"] = 136111,
@@ -43602,7 +43621,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2274]
+	}, -- [2275]
 	{
 		["itemName"] = "Sextant of Unstable Currents",
 		["iconFileDataID"] = 133003,
@@ -43621,7 +43640,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2275]
+	}, -- [2276]
 	{
 		["itemName"] = "Serpent-Coil Braid",
 		["iconFileDataID"] = 136070,
@@ -43640,7 +43659,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2276]
+	}, -- [2277]
 	{
 		["itemName"] = "Scarab of Displacement",
 		["iconFileDataID"] = 135443,
@@ -43659,7 +43678,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2277]
+	}, -- [2278]
 	{
 		["itemName"] = "Prism of Inner Calm",
 		["iconFileDataID"] = 134100,
@@ -43678,7 +43697,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2278]
+	}, -- [2279]
 	{
 		["itemName"] = "Living Root of the Wildheart",
 		["iconFileDataID"] = 134218,
@@ -43697,7 +43716,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2279]
+	}, -- [2280]
 	{
 		["itemName"] = "Fathom-Brooch of the Tidewalker",
 		["iconFileDataID"] = 134398,
@@ -43716,7 +43735,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2280]
+	}, -- [2281]
 	{
 		["itemName"] = "Ring of Sundered Souls",
 		["iconFileDataID"] = 133373,
@@ -43735,7 +43754,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2281]
+	}, -- [2282]
 	{
 		["itemName"] = "Ring of Lethality",
 		["iconFileDataID"] = 133393,
@@ -43754,7 +43773,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2282]
+	}, -- [2283]
 	{
 		["itemName"] = "Band of Vile Aggression",
 		["iconFileDataID"] = 133413,
@@ -43773,7 +43792,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2283]
+	}, -- [2284]
 	{
 		["itemName"] = "Ancestral Ring of Conquest",
 		["iconFileDataID"] = 133383,
@@ -43792,7 +43811,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2284]
+	}, -- [2285]
 	{
 		["itemName"] = "Tempest-Strider Boots",
 		["iconFileDataID"] = 132548,
@@ -43811,7 +43830,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2285]
+	}, -- [2286]
 	{
 		["itemName"] = "Cobra-Lash Boots",
 		["iconFileDataID"] = 132555,
@@ -43830,7 +43849,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2286]
+	}, -- [2287]
 	{
 		["itemName"] = "Girdle of the Tidal Call",
 		["iconFileDataID"] = 132508,
@@ -43849,7 +43868,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2287]
+	}, -- [2288]
 	{
 		["itemName"] = "True-Aim Stalker Bands",
 		["iconFileDataID"] = 132614,
@@ -43868,7 +43887,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2288]
+	}, -- [2289]
 	{
 		["itemName"] = "Blackfathom Warbands",
 		["iconFileDataID"] = 132601,
@@ -43887,7 +43906,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2289]
+	}, -- [2290]
 	{
 		["itemName"] = "Ranger-General's Chestguard",
 		["iconFileDataID"] = 132744,
@@ -43906,7 +43925,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2290]
+	}, -- [2291]
 	{
 		["itemName"] = "Razor-Scale Battlecloak",
 		["iconFileDataID"] = 133772,
@@ -43925,7 +43944,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2291]
+	}, -- [2292]
 	{
 		["itemName"] = "Mantle of the Tireless Tracker",
 		["iconFileDataID"] = 135058,
@@ -43944,7 +43963,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2292]
+	}, -- [2293]
 	{
 		["itemName"] = "Coral-Barbed Shoulderpads",
 		["iconFileDataID"] = 135050,
@@ -43963,7 +43982,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2293]
+	}, -- [2294]
 	{
 		["itemName"] = "Frayed Tether of the Drowned",
 		["iconFileDataID"] = 134326,
@@ -43982,7 +44001,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2294]
+	}, -- [2295]
 	{
 		["itemName"] = "Choker of Animalistic Fury",
 		["iconFileDataID"] = 133341,
@@ -44001,7 +44020,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2295]
+	}, -- [2296]
 	{
 		["itemName"] = "Serpent Spine Longbow",
 		["iconFileDataID"] = 135496,
@@ -44020,7 +44039,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2296]
+	}, -- [2297]
 	{
 		["itemName"] = "Nether Vortex",
 		["iconFileDataID"] = 132842,
@@ -44039,7 +44058,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Elemental",
 		["itemType"] = "Tradeskill",
-	}, -- [2297]
+	}, -- [2298]
 	{
 		["itemName"] = "Leggings of the Vanquished Hero",
 		["iconFileDataID"] = 134693,
@@ -44058,7 +44077,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2298]
+	}, -- [2299]
 	{
 		["itemName"] = "Illusion: Frostbrand",
 		["iconFileDataID"] = 237174,
@@ -44077,7 +44096,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [2299]
+	}, -- [2300]
 	{
 		["itemName"] = "Helm of the Vanquished Hero",
 		["iconFileDataID"] = 133126,
@@ -44096,7 +44115,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2300]
+	}, -- [2301]
 	{
 		["itemName"] = "Gloves of the Vanquished Hero",
 		["iconFileDataID"] = 132961,
@@ -44115,7 +44134,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2301]
+	}, -- [2302]
 	{
 		["itemName"] = "Terror Pit Girdle",
 		["iconFileDataID"] = 132509,
@@ -44134,7 +44153,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2302]
+	}, -- [2303]
 	{
 		["itemName"] = "Cloak of the Pit Stalker",
 		["iconFileDataID"] = 133766,
@@ -44153,7 +44172,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2303]
+	}, -- [2304]
 	{
 		["itemName"] = "Glaive of the Pit",
 		["iconFileDataID"] = 135566,
@@ -44172,7 +44191,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [2304]
+	}, -- [2305]
 	{
 		["itemName"] = "Pit Lord's Satchel",
 		["iconFileDataID"] = 133666,
@@ -44191,7 +44210,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_BAG",
 		["itemSubType"] = "Bag",
 		["itemType"] = "Container",
-	}, -- [2305]
+	}, -- [2306]
 	{
 		["itemName"] = "Chestguard of the Fallen Hero",
 		["iconFileDataID"] = 132625,
@@ -44210,7 +44229,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2306]
+	}, -- [2307]
 	{
 		["itemName"] = "Dragonspine Trophy",
 		["iconFileDataID"] = 133720,
@@ -44229,7 +44248,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2307]
+	}, -- [2308]
 	{
 		["itemName"] = "Windshear Boots",
 		["iconFileDataID"] = 132548,
@@ -44248,7 +44267,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2308]
+	}, -- [2309]
 	{
 		["itemName"] = "Gauntlets of the Dragonslayer",
 		["iconFileDataID"] = 132959,
@@ -44267,7 +44286,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2309]
+	}, -- [2310]
 	{
 		["itemName"] = "Maulgar's Warhelm",
 		["iconFileDataID"] = 133125,
@@ -44286,7 +44305,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2310]
+	}, -- [2311]
 	{
 		["itemName"] = "Pauldrons of the Fallen Hero",
 		["iconFileDataID"] = 135053,
@@ -44305,7 +44324,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2311]
+	}, -- [2312]
 	{
 		["itemName"] = "Leggings of the Fallen Hero",
 		["iconFileDataID"] = 134693,
@@ -44324,7 +44343,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2312]
+	}, -- [2313]
 	{
 		["itemName"] = "The Lightning Capacitor",
 		["iconFileDataID"] = 135444,
@@ -44343,7 +44362,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2313]
+	}, -- [2314]
 	{
 		["itemName"] = "Romulo's Poison Vial",
 		["iconFileDataID"] = 134711,
@@ -44362,7 +44381,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2314]
+	}, -- [2315]
 	{
 		["itemName"] = "Moroes' Lucky Pocket Watch",
 		["iconFileDataID"] = 134377,
@@ -44381,7 +44400,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2315]
+	}, -- [2316]
 	{
 		["itemName"] = "Shermanar Great-Ring",
 		["iconFileDataID"] = 133361,
@@ -44400,7 +44419,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2316]
+	}, -- [2317]
 	{
 		["itemName"] = "Ring of a Thousand Marks",
 		["iconFileDataID"] = 133427,
@@ -44419,7 +44438,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2317]
+	}, -- [2318]
 	{
 		["itemName"] = "Garona's Signet Ring",
 		["iconFileDataID"] = 133389,
@@ -44438,7 +44457,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2318]
+	}, -- [2319]
 	{
 		["itemName"] = "Glider's Sabatons",
 		["iconFileDataID"] = 132548,
@@ -44457,7 +44476,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2319]
+	}, -- [2320]
 	{
 		["itemName"] = "Fiend Slayer Boots",
 		["iconFileDataID"] = 132548,
@@ -44476,7 +44495,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2320]
+	}, -- [2321]
 	{
 		["itemName"] = "Rip-Flayer Leggings",
 		["iconFileDataID"] = 134678,
@@ -44495,7 +44514,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2321]
+	}, -- [2322]
 	{
 		["itemName"] = "Heart-Flame Leggings",
 		["iconFileDataID"] = 134667,
@@ -44514,7 +44533,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2322]
+	}, -- [2323]
 	{
 		["itemName"] = "Lurker's Belt",
 		["iconFileDataID"] = 132492,
@@ -44533,7 +44552,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2323]
+	}, -- [2324]
 	{
 		["itemName"] = "Girdle of the Prowler",
 		["iconFileDataID"] = 132511,
@@ -44552,7 +44571,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2324]
+	}, -- [2325]
 	{
 		["itemName"] = "Belt of Gale Force",
 		["iconFileDataID"] = 132511,
@@ -44571,7 +44590,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2325]
+	}, -- [2326]
 	{
 		["itemName"] = "Gloves of Quickening",
 		["iconFileDataID"] = 132959,
@@ -44590,7 +44609,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2326]
+	}, -- [2327]
 	{
 		["itemName"] = "Gloves of Centering",
 		["iconFileDataID"] = 132959,
@@ -44609,7 +44628,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2327]
+	}, -- [2328]
 	{
 		["itemName"] = "Whirlwind Bracers",
 		["iconFileDataID"] = 132601,
@@ -44628,7 +44647,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2328]
+	}, -- [2329]
 	{
 		["itemName"] = "Stalker's War Bands",
 		["iconFileDataID"] = 132601,
@@ -44647,7 +44666,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2329]
+	}, -- [2330]
 	{
 		["itemName"] = "Ravager's Bands",
 		["iconFileDataID"] = 132601,
@@ -44666,7 +44685,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2330]
+	}, -- [2331]
 	{
 		["itemName"] = "Earthblood Chestguard",
 		["iconFileDataID"] = 132743,
@@ -44685,7 +44704,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2331]
+	}, -- [2332]
 	{
 		["itemName"] = "Gilded Thorium Cloak",
 		["iconFileDataID"] = 133772,
@@ -44704,7 +44723,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2332]
+	}, -- [2333]
 	{
 		["itemName"] = "Farstrider Wildercloak",
 		["iconFileDataID"] = 133769,
@@ -44723,7 +44742,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2333]
+	}, -- [2334]
 	{
 		["itemName"] = "Drape of the Dark Reavers",
 		["iconFileDataID"] = 133762,
@@ -44742,7 +44761,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2334]
+	}, -- [2335]
 	{
 		["itemName"] = "Dragon-Quake Shoulderguards",
 		["iconFileDataID"] = 135045,
@@ -44761,7 +44780,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2335]
+	}, -- [2336]
 	{
 		["itemName"] = "Beastmaw Pauldrons",
 		["iconFileDataID"] = 135067,
@@ -44780,7 +44799,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2336]
+	}, -- [2337]
 	{
 		["itemName"] = "Worgen Claw Necklace",
 		["iconFileDataID"] = 133309,
@@ -44799,7 +44818,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2337]
+	}, -- [2338]
 	{
 		["itemName"] = "Saberclaw Talisman",
 		["iconFileDataID"] = 133325,
@@ -44818,7 +44837,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2338]
+	}, -- [2339]
 	{
 		["itemName"] = "Mithril Chain of Heroism",
 		["iconFileDataID"] = 133293,
@@ -44837,7 +44856,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2339]
+	}, -- [2340]
 	{
 		["itemName"] = "Barbed Choker of Discipline",
 		["iconFileDataID"] = 133340,
@@ -44856,7 +44875,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2340]
+	}, -- [2341]
 	{
 		["itemName"] = "Steelspine Faceguard",
 		["iconFileDataID"] = 133073,
@@ -44875,7 +44894,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2341]
+	}, -- [2342]
 	{
 		["itemName"] = "Big Bad Wolf's Head",
 		["iconFileDataID"] = 133072,
@@ -44894,7 +44913,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2342]
+	}, -- [2343]
 	{
 		["itemName"] = "Wolfslayer Sniper Rifle",
 		["iconFileDataID"] = 135631,
@@ -44913,7 +44932,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [2343]
+	}, -- [2344]
 	{
 		["itemName"] = "Sunfury Bow of the Phoenix",
 		["iconFileDataID"] = 135506,
@@ -44932,7 +44951,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2344]
+	}, -- [2345]
 	{
 		["itemName"] = "Steelhawk Crossbow",
 		["iconFileDataID"] = 135547,
@@ -44951,7 +44970,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [2345]
+	}, -- [2346]
 	{
 		["itemName"] = "Terestian's Stranglestaff",
 		["iconFileDataID"] = 135191,
@@ -44970,7 +44989,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Staves",
 		["itemType"] = "Weapon",
-	}, -- [2346]
+	}, -- [2347]
 	{
 		["itemName"] = "Illusion: Sunfire",
 		["iconFileDataID"] = 237174,
@@ -44989,7 +45008,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [2347]
+	}, -- [2348]
 	{
 		["itemName"] = "Illusion: Soulfrost",
 		["iconFileDataID"] = 237174,
@@ -45008,7 +45027,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [2348]
+	}, -- [2349]
 	{
 		["itemName"] = "Illusion: Mongoose",
 		["iconFileDataID"] = 237174,
@@ -45027,7 +45046,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Other",
 		["itemType"] = "Consumable",
-	}, -- [2349]
+	}, -- [2350]
 	{
 		["itemName"] = "Helm of the Fallen Hero",
 		["iconFileDataID"] = 133126,
@@ -45046,7 +45065,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2350]
+	}, -- [2351]
 	{
 		["itemName"] = "Helm of the Fallen Defender",
 		["iconFileDataID"] = 133126,
@@ -45065,7 +45084,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2351]
+	}, -- [2352]
 	{
 		["itemName"] = "Helm of the Fallen Champion",
 		["iconFileDataID"] = 133126,
@@ -45084,7 +45103,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2352]
+	}, -- [2353]
 	{
 		["itemName"] = "Gloves of the Fallen Hero",
 		["iconFileDataID"] = 132961,
@@ -45103,7 +45122,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2353]
+	}, -- [2354]
 	{
 		["itemName"] = "Gloves of the Fallen Defender",
 		["iconFileDataID"] = 132961,
@@ -45122,7 +45141,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2354]
+	}, -- [2355]
 	{
 		["itemName"] = "Gloves of the Fallen Champion",
 		["iconFileDataID"] = 132961,
@@ -45141,7 +45160,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2355]
+	}, -- [2356]
 	{
 		["itemName"] = "Formula: Enchant Weapon - Sunfire",
 		["iconFileDataID"] = 134327,
@@ -45160,7 +45179,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Enchanting",
 		["itemType"] = "Recipe",
-	}, -- [2356]
+	}, -- [2357]
 	{
 		["itemName"] = "Formula: Enchant Weapon - Soulfrost",
 		["iconFileDataID"] = 134327,
@@ -45179,7 +45198,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Enchanting",
 		["itemType"] = "Recipe",
-	}, -- [2357]
+	}, -- [2358]
 	{
 		["itemName"] = "Formula: Enchant Weapon - Mongoose",
 		["iconFileDataID"] = 134327,
@@ -45198,7 +45217,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Enchanting",
 		["itemType"] = "Recipe",
-	}, -- [2358]
+	}, -- [2359]
 	{
 		["itemName"] = "Vanquished Tentacle of C'Thun",
 		["iconFileDataID"] = 133574,
@@ -45217,7 +45236,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2359]
+	}, -- [2360]
 	{
 		["itemName"] = "The Burrower's Shell",
 		["iconFileDataID"] = 134969,
@@ -45236,7 +45255,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2360]
+	}, -- [2361]
 	{
 		["itemName"] = "Scarab Brooch",
 		["iconFileDataID"] = 133575,
@@ -45255,7 +45274,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2361]
+	}, -- [2362]
 	{
 		["itemName"] = "Petrified Scarab",
 		["iconFileDataID"] = 133570,
@@ -45274,7 +45293,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2362]
+	}, -- [2363]
 	{
 		["itemName"] = "Jom Gabbar",
 		["iconFileDataID"] = 133877,
@@ -45293,7 +45312,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2363]
+	}, -- [2364]
 	{
 		["itemName"] = "Fetish of the Sand Reaver",
 		["iconFileDataID"] = 133572,
@@ -45312,7 +45331,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2364]
+	}, -- [2365]
 	{
 		["itemName"] = "Badge of the Swarmguard",
 		["iconFileDataID"] = 133573,
@@ -45331,7 +45350,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2365]
+	}, -- [2366]
 	{
 		["itemName"] = "Ukko's Ring of Darkness",
 		["iconFileDataID"] = 133366,
@@ -45350,7 +45369,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2366]
+	}, -- [2367]
 	{
 		["itemName"] = "Ring of the Qiraji Fury",
 		["iconFileDataID"] = 133423,
@@ -45369,7 +45388,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2367]
+	}, -- [2368]
 	{
 		["itemName"] = "Ring of the Godslayer",
 		["iconFileDataID"] = 133428,
@@ -45388,7 +45407,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2368]
+	}, -- [2369]
 	{
 		["itemName"] = "Ring of Emperor Vek'lor",
 		["iconFileDataID"] = 133423,
@@ -45407,7 +45426,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2369]
+	}, -- [2370]
 	{
 		["itemName"] = "Boots of the Fallen Prophet",
 		["iconFileDataID"] = 132549,
@@ -45426,7 +45445,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2370]
+	}, -- [2371]
 	{
 		["itemName"] = "Slime-Coated Leggings",
 		["iconFileDataID"] = 134663,
@@ -45445,7 +45464,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2371]
+	}, -- [2372]
 	{
 		["itemName"] = "Scaled Sand Reaver Leggings",
 		["iconFileDataID"] = 134662,
@@ -45464,7 +45483,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2372]
+	}, -- [2373]
 	{
 		["itemName"] = "Scaled Leggings of Qiraji Fury",
 		["iconFileDataID"] = 134667,
@@ -45483,7 +45502,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2373]
+	}, -- [2374]
 	{
 		["itemName"] = "Grasp of the Fallen Emperor",
 		["iconFileDataID"] = 132521,
@@ -45502,7 +45521,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2374]
+	}, -- [2375]
 	{
 		["itemName"] = "Vek'lor's Gloves of Devastation",
 		["iconFileDataID"] = 132962,
@@ -45521,7 +45540,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2375]
+	}, -- [2376]
 	{
 		["itemName"] = "Gauntlets of Kalimdor",
 		["iconFileDataID"] = 132960,
@@ -45540,7 +45559,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2376]
+	}, -- [2377]
 	{
 		["itemName"] = "Cloak of Untold Secrets",
 		["iconFileDataID"] = 133772,
@@ -45559,7 +45578,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2377]
+	}, -- [2378]
 	{
 		["itemName"] = "Cloak of the Golden Hive",
 		["iconFileDataID"] = 133753,
@@ -45578,7 +45597,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2378]
+	}, -- [2379]
 	{
 		["itemName"] = "Cloak of Concentrated Hatred",
 		["iconFileDataID"] = 133754,
@@ -45597,7 +45616,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2379]
+	}, -- [2380]
 	{
 		["itemName"] = "Mantle of the Desert's Fury",
 		["iconFileDataID"] = 135059,
@@ -45616,7 +45635,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2380]
+	}, -- [2381]
 	{
 		["itemName"] = "Barrage Shoulders",
 		["iconFileDataID"] = 135045,
@@ -45635,7 +45654,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2381]
+	}, -- [2382]
 	{
 		["itemName"] = "Pendant of the Qiraji Guardian",
 		["iconFileDataID"] = 133339,
@@ -45654,7 +45673,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2382]
+	}, -- [2383]
 	{
 		["itemName"] = "Mark of C'Thun",
 		["iconFileDataID"] = 133342,
@@ -45673,7 +45692,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2383]
+	}, -- [2384]
 	{
 		["itemName"] = "Barbed Choker",
 		["iconFileDataID"] = 133340,
@@ -45692,7 +45711,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2384]
+	}, -- [2385]
 	{
 		["itemName"] = "Amulet of Foul Warding",
 		["iconFileDataID"] = 133299,
@@ -45711,7 +45730,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2385]
+	}, -- [2386]
 	{
 		["itemName"] = "Larvae of the Great Worm",
 		["iconFileDataID"] = 135619,
@@ -45730,7 +45749,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [2386]
+	}, -- [2387]
 	{
 		["itemName"] = "Huhuran's Stinger",
 		["iconFileDataID"] = 135502,
@@ -45749,7 +45768,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2387]
+	}, -- [2388]
 	{
 		["itemName"] = "Barb of the Sand Reaver",
 		["iconFileDataID"] = 135591,
@@ -45768,7 +45787,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [2388]
+	}, -- [2389]
 	{
 		["itemName"] = "Vek'lor's Diadem",
 		["iconFileDataID"] = 132617,
@@ -45787,7 +45806,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2389]
+	}, -- [2390]
 	{
 		["itemName"] = "Skin of the Great Sandworm",
 		["iconFileDataID"] = 134895,
@@ -45806,7 +45825,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2390]
+	}, -- [2391]
 	{
 		["itemName"] = "Qiraji Bindings of Command",
 		["iconFileDataID"] = 134880,
@@ -45825,7 +45844,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2391]
+	}, -- [2392]
 	{
 		["itemName"] = "Plans: Thick Obsidian Breastplate",
 		["iconFileDataID"] = 134941,
@@ -45844,7 +45863,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Blacksmithing",
 		["itemType"] = "Recipe",
-	}, -- [2392]
+	}, -- [2393]
 	{
 		["itemName"] = "Formula: Enchant Gloves - Threat",
 		["iconFileDataID"] = 134327,
@@ -45863,7 +45882,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Enchanting",
 		["itemType"] = "Recipe",
-	}, -- [2393]
+	}, -- [2394]
 	{
 		["itemName"] = "Formula: Enchant Cloak - Subtlety",
 		["iconFileDataID"] = 134327,
@@ -45882,7 +45901,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Enchanting",
 		["itemType"] = "Recipe",
-	}, -- [2394]
+	}, -- [2395]
 	{
 		["itemName"] = "Carapace of the Old God",
 		["iconFileDataID"] = 134882,
@@ -45901,7 +45920,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Junk",
 		["itemType"] = "Miscellaneous",
-	}, -- [2395]
+	}, -- [2396]
 	{
 		["itemName"] = "Fetish of Chitinous Spikes",
 		["iconFileDataID"] = 133571,
@@ -45920,7 +45939,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2396]
+	}, -- [2397]
 	{
 		["itemName"] = "Eye of Moam",
 		["iconFileDataID"] = 133884,
@@ -45939,7 +45958,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2397]
+	}, -- [2398]
 	{
 		["itemName"] = "Ring of Fury",
 		["iconFileDataID"] = 133426,
@@ -45958,7 +45977,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2398]
+	}, -- [2399]
 	{
 		["itemName"] = "Boots of the Qiraji General",
 		["iconFileDataID"] = 132554,
@@ -45977,7 +45996,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2399]
+	}, -- [2400]
 	{
 		["itemName"] = "Obsidian Scaled Leggings",
 		["iconFileDataID"] = 134667,
@@ -45996,7 +46015,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2400]
+	}, -- [2401]
 	{
 		["itemName"] = "Ossirian's Binding",
 		["iconFileDataID"] = 132507,
@@ -46015,7 +46034,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2401]
+	}, -- [2402]
 	{
 		["itemName"] = "Slimy Scaled Gauntlets",
 		["iconFileDataID"] = 132946,
@@ -46034,7 +46053,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2402]
+	}, -- [2403]
 	{
 		["itemName"] = "Scaled Silithid Gauntlets",
 		["iconFileDataID"] = 132944,
@@ -46053,7 +46072,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2403]
+	}, -- [2404]
 	{
 		["itemName"] = "Sand Reaver Wristguards",
 		["iconFileDataID"] = 132618,
@@ -46072,7 +46091,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2404]
+	}, -- [2405]
 	{
 		["itemName"] = "Runic Stone Shoulders",
 		["iconFileDataID"] = 135049,
@@ -46091,7 +46110,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2405]
+	}, -- [2406]
 	{
 		["itemName"] = "Crossbow of Imminent Doom",
 		["iconFileDataID"] = 135535,
@@ -46110,7 +46129,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [2406]
+	}, -- [2407]
 	{
 		["itemName"] = "Bow of Taut Sinew",
 		["iconFileDataID"] = 135501,
@@ -46129,7 +46148,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2407]
+	}, -- [2408]
 	{
 		["itemName"] = "Qiraji Spiked Hilt",
 		["iconFileDataID"] = 134886,
@@ -46148,7 +46167,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Quest",
 		["itemType"] = "Quest",
-	}, -- [2408]
+	}, -- [2409]
 	{
 		["itemName"] = "Qiraji Regal Drape",
 		["iconFileDataID"] = 132617,
@@ -46167,7 +46186,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Quest",
 		["itemType"] = "Quest",
-	}, -- [2409]
+	}, -- [2410]
 	{
 		["itemName"] = "Qiraji Ceremonial Ring",
 		["iconFileDataID"] = 134893,
@@ -46186,7 +46205,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Quest",
 		["itemType"] = "Quest",
-	}, -- [2410]
+	}, -- [2411]
 	{
 		["itemName"] = "Plans: Black Grasp of the Destroyer",
 		["iconFileDataID"] = 134941,
@@ -46205,7 +46224,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Blacksmithing",
 		["itemType"] = "Recipe",
-	}, -- [2411]
+	}, -- [2412]
 	{
 		["itemName"] = "Venomous Totem",
 		["iconFileDataID"] = 134232,
@@ -46224,7 +46243,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2412]
+	}, -- [2413]
 	{
 		["itemName"] = "The Black Book",
 		["iconFileDataID"] = 133738,
@@ -46243,7 +46262,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2413]
+	}, -- [2414]
 	{
 		["itemName"] = "Styleen's Impeding Scarab",
 		["iconFileDataID"] = 133605,
@@ -46262,7 +46281,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2414]
+	}, -- [2415]
 	{
 		["itemName"] = "Scrolls of Blinding Light",
 		["iconFileDataID"] = 134944,
@@ -46281,7 +46300,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2415]
+	}, -- [2416]
 	{
 		["itemName"] = "Rune of Metamorphosis",
 		["iconFileDataID"] = 134419,
@@ -46300,7 +46319,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2416]
+	}, -- [2417]
 	{
 		["itemName"] = "Natural Alignment Crystal",
 		["iconFileDataID"] = 134073,
@@ -46319,7 +46338,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2417]
+	}, -- [2418]
 	{
 		["itemName"] = "Mind Quickening Gem",
 		["iconFileDataID"] = 136115,
@@ -46338,7 +46357,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2418]
+	}, -- [2419]
 	{
 		["itemName"] = "Lifegiving Gem",
 		["iconFileDataID"] = 134124,
@@ -46357,7 +46376,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2419]
+	}, -- [2420]
 	{
 		["itemName"] = "Drake Fang Talisman",
 		["iconFileDataID"] = 133723,
@@ -46376,7 +46395,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2420]
+	}, -- [2421]
 	{
 		["itemName"] = "Arcane Infused Gem",
 		["iconFileDataID"] = 136116,
@@ -46395,7 +46414,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2421]
+	}, -- [2422]
 	{
 		["itemName"] = "Aegis of Preservation",
 		["iconFileDataID"] = 135880,
@@ -46414,7 +46433,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_TRINKET",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2422]
+	}, -- [2423]
 	{
 		["itemName"] = "Circle of Applied Force",
 		["iconFileDataID"] = 133379,
@@ -46433,7 +46452,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2423]
+	}, -- [2424]
 	{
 		["itemName"] = "Archimtiros' Ring of Reckoning",
 		["iconFileDataID"] = 133382,
@@ -46452,7 +46471,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_FINGER",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2424]
+	}, -- [2425]
 	{
 		["itemName"] = "Dragonstalker's Greaves",
 		["iconFileDataID"] = 132588,
@@ -46462,17 +46481,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 29,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 25,
 		["expacID"] = 0,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 25,
+		["isCraftingReagent"] = false,
 		["itemID"] = 16941,
 		["itemSetID"] = 215,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_FEET",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2425]
+	}, -- [2426]
 	{
 		["itemName"] = "Primalist's Linked Legguards",
 		["iconFileDataID"] = 134671,
@@ -46491,7 +46510,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2426]
+	}, -- [2427]
 	{
 		["itemName"] = "Emberweave Leggings",
 		["iconFileDataID"] = 134669,
@@ -46510,7 +46529,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_LEGS",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2427]
+	}, -- [2428]
 	{
 		["itemName"] = "Therazane's Link",
 		["iconFileDataID"] = 132507,
@@ -46529,7 +46548,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2428]
+	}, -- [2429]
 	{
 		["itemName"] = "Primalist's Linked Waistguard",
 		["iconFileDataID"] = 132510,
@@ -46548,7 +46567,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2429]
+	}, -- [2430]
 	{
 		["itemName"] = "Dragonstalker's Belt",
 		["iconFileDataID"] = 132517,
@@ -46558,17 +46577,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 29,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 25,
 		["expacID"] = 0,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 25,
+		["isCraftingReagent"] = false,
 		["itemID"] = 16936,
 		["itemSetID"] = 215,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_WAIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2430]
+	}, -- [2431]
 	{
 		["itemName"] = "Dragonstalker's Gauntlets",
 		["iconFileDataID"] = 132944,
@@ -46578,17 +46597,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 29,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 25,
 		["expacID"] = 0,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 25,
+		["isCraftingReagent"] = false,
 		["itemID"] = 16940,
 		["itemSetID"] = 215,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HAND",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2431]
+	}, -- [2432]
 	{
 		["itemName"] = "Dragonstalker's Bracers",
 		["iconFileDataID"] = 132616,
@@ -46598,17 +46617,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 29,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 25,
 		["expacID"] = 0,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 25,
+		["isCraftingReagent"] = false,
 		["itemID"] = 16935,
 		["itemSetID"] = 215,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_WRIST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2432]
+	}, -- [2433]
 	{
 		["itemName"] = "Dragonstalker's Breastplate",
 		["iconFileDataID"] = 132625,
@@ -46618,17 +46637,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 29,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 25,
 		["expacID"] = 0,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 25,
+		["isCraftingReagent"] = false,
 		["itemID"] = 16942,
 		["itemSetID"] = 215,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_CHEST",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2433]
+	}, -- [2434]
 	{
 		["itemName"] = "Elementium Threaded Cloak",
 		["iconFileDataID"] = 133753,
@@ -46647,7 +46666,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2434]
+	}, -- [2435]
 	{
 		["itemName"] = "Cloak of Firemaw",
 		["iconFileDataID"] = 133770,
@@ -46666,7 +46685,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_CLOAK",
 		["itemSubType"] = "Cloth",
 		["itemType"] = "Armor",
-	}, -- [2435]
+	}, -- [2436]
 	{
 		["itemName"] = "Dragonstalker's Spaulders",
 		["iconFileDataID"] = 135041,
@@ -46676,17 +46695,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 29,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 25,
 		["expacID"] = 0,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 25,
+		["isCraftingReagent"] = false,
 		["itemID"] = 16937,
 		["itemSetID"] = 215,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2436]
+	}, -- [2437]
 	{
 		["itemName"] = "Black Brood Pauldrons",
 		["iconFileDataID"] = 135045,
@@ -46705,7 +46724,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2437]
+	}, -- [2438]
 	{
 		["itemName"] = "Prestor's Talisman of Connivery",
 		["iconFileDataID"] = 133304,
@@ -46724,7 +46743,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_NECK",
 		["itemSubType"] = "Miscellaneous",
 		["itemType"] = "Armor",
-	}, -- [2438]
+	}, -- [2439]
 	{
 		["itemName"] = "Dragonstalker's Helm",
 		["iconFileDataID"] = 133073,
@@ -46734,17 +46753,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 29,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 25,
 		["expacID"] = 0,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 25,
+		["isCraftingReagent"] = false,
 		["itemID"] = 16939,
 		["itemSetID"] = 215,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2439]
+	}, -- [2440]
 	{
 		["itemName"] = "Heartstriker",
 		["iconFileDataID"] = 135497,
@@ -46763,7 +46782,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2440]
+	}, -- [2441]
 	{
 		["itemName"] = "Dragonbreath Hand Cannon",
 		["iconFileDataID"] = 135611,
@@ -46782,7 +46801,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [2441]
+	}, -- [2442]
 	{
 		["itemName"] = "Ashjre'thul, Crossbow of Smiting",
 		["iconFileDataID"] = 135538,
@@ -46801,10 +46820,10 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Crossbows",
 		["itemType"] = "Weapon",
-	}, -- [2442]
+	}, -- [2443]
 	{
 		["itemID"] = 17102,
-	}, -- [2443]
+	}, -- [2444]
 	{
 		["itemName"] = "Deep Earth Spaulders",
 		["iconFileDataID"] = 135035,
@@ -46823,7 +46842,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2444]
+	}, -- [2445]
 	{
 		["itemName"] = "Giantstalker's Epaulets",
 		["iconFileDataID"] = 135041,
@@ -46833,17 +46852,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 29,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 25,
 		["expacID"] = 0,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 25,
+		["isCraftingReagent"] = false,
 		["itemID"] = 16848,
 		["itemSetID"] = 206,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_SHOULDER",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2445]
+	}, -- [2446]
 	{
 		["itemName"] = "Crown of Destruction",
 		["iconFileDataID"] = 132768,
@@ -46862,7 +46881,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2446]
+	}, -- [2447]
 	{
 		["itemName"] = "Giantstalker's Helmet",
 		["iconFileDataID"] = 133073,
@@ -46872,17 +46891,17 @@ AVKGlobalSellTable = {
 		["itemClassID"] = 4,
 		["itemLevel"] = 29,
 		["itemStackCount"] = 1,
-		["isCraftingReagent"] = false,
+		["itemMinLevel"] = 25,
 		["expacID"] = 0,
 		["itemRarity"] = 4,
-		["itemMinLevel"] = 25,
+		["isCraftingReagent"] = false,
 		["itemID"] = 16846,
 		["itemSetID"] = 206,
 		["itemSubClassID"] = 3,
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2447]
+	}, -- [2448]
 	{
 		["itemName"] = "Helm of the Lifegiver",
 		["iconFileDataID"] = 133120,
@@ -46901,7 +46920,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_HEAD",
 		["itemSubType"] = "Mail",
 		["itemType"] = "Armor",
-	}, -- [2448]
+	}, -- [2449]
 	{
 		["itemName"] = "Striker's Mark",
 		["iconFileDataID"] = 135496,
@@ -46920,7 +46939,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGED",
 		["itemSubType"] = "Bows",
 		["itemType"] = "Weapon",
-	}, -- [2449]
+	}, -- [2450]
 	{
 		["itemName"] = "Blastershot Launcher",
 		["iconFileDataID"] = 135618,
@@ -46939,7 +46958,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_RANGEDRIGHT",
 		["itemSubType"] = "Guns",
 		["itemType"] = "Weapon",
-	}, -- [2450]
+	}, -- [2451]
 	{
 		["itemName"] = "Gutgore Ripper",
 		["iconFileDataID"] = 135654,
@@ -46958,7 +46977,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [2451]
+	}, -- [2452]
 	{
 		["itemName"] = "Perdition's Blade",
 		["iconFileDataID"] = 135358,
@@ -46977,7 +46996,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_WEAPON",
 		["itemSubType"] = "Daggers",
 		["itemType"] = "Weapon",
-	}, -- [2452]
+	}, -- [2453]
 	{
 		["itemName"] = "Shadowstrike",
 		["iconFileDataID"] = 135131,
@@ -46996,7 +47015,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "INVTYPE_2HWEAPON",
 		["itemSubType"] = "Polearms",
 		["itemType"] = "Weapon",
-	}, -- [2453]
+	}, -- [2454]
 	{
 		["itemName"] = "Sulfuron Ingot",
 		["iconFileDataID"] = 135824,
@@ -47015,7 +47034,7 @@ AVKGlobalSellTable = {
 		["itemEquipLoc"] = "",
 		["itemSubType"] = "Metal & Stone",
 		["itemType"] = "Tradeskill",
-	}, -- [2454]
+	}, -- [2455]
 }
 AVKGlobalDestroyTable = {
 }

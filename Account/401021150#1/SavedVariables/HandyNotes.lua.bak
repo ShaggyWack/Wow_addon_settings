@@ -2,6 +2,7 @@
 HandyNotesDB = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "MASTER UI",
+		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 		["Shirang - Mazrigos"] = "MASTER UI",
 		["Dannidan - Mazrigos"] = "MASTER UI",
 		["Dehlicia - Mazrigos"] = "MASTER UI",
@@ -15,10 +16,12 @@ HandyNotesDB = {
 		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+		["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 	},
 	["profiles"] = {
-		["Ellarah - Mazrigos"] = {
+		["Phuhrbe - Mazrigos"] = {
+		},
+		["Lyriah - Mazrigos"] = {
 		},
 		["Shirang - Mazrigos"] = {
 		},
@@ -26,19 +29,19 @@ HandyNotesDB = {
 		},
 		["Dehlicia - Mazrigos"] = {
 		},
-		["Merwarr - Mazrigos"] = {
+		["Ellarah - Mazrigos"] = {
 		},
 		["Elryniana - Mazrigos"] = {
 		},
-		["Lyriah - Mazrigos"] = {
+		["Merwarr - Mazrigos"] = {
 		},
 		["Nohva - Mazrigos"] = {
+		},
+		["Ytoh - Mazrigos"] = {
 		},
 		["MASTER UI"] = {
 			["icon_scale"] = 1.5,
 			["icon_scale_minimap"] = 1.5,
-		},
-		["Ytoh - Mazrigos"] = {
 		},
 		["Fartnipplebo - Lightbringer"] = {
 		},
@@ -48,13 +51,14 @@ HandyNotesDB = {
 		},
 		["Arthees - Mazrigos"] = {
 		},
-		["Phuhrbe - Mazrigos"] = {
+		["Toeboe - Tarren Mill"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
 		["Damnuspoop - Mazrigos"] = "Damnuspoop - Mazrigos",
+		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
 		["Shirang - Mazrigos"] = "Shirang - Mazrigos",
 		["Dannidan - Mazrigos"] = "Dannidan - Mazrigos",
 		["Dehlicia - Mazrigos"] = "Dehlicia - Mazrigos",
@@ -68,10 +72,12 @@ HandyNotes_HandyNotesDB = {
 		["Lyriah - Mazrigos"] = "Lyriah - Mazrigos",
 		["Yato - Mazrigos"] = "Yato - Mazrigos",
 		["Arthees - Mazrigos"] = "Arthees - Mazrigos",
-		["Phuhrbe - Mazrigos"] = "Phuhrbe - Mazrigos",
+		["Toeboe - Tarren Mill"] = "Toeboe - Tarren Mill",
 	},
 	["profiles"] = {
 		["Damnuspoop - Mazrigos"] = {
+		},
+		["Phuhrbe - Mazrigos"] = {
 		},
 		["Shirang - Mazrigos"] = {
 		},
@@ -99,7 +105,7 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Arthees - Mazrigos"] = {
 		},
-		["Phuhrbe - Mazrigos"] = {
+		["Toeboe - Tarren Mill"] = {
 		},
 	},
 }
